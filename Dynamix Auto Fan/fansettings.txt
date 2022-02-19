@@ -8,3 +8,5 @@ Minimum PWM value=
 PWM controller=
 PWM fan=
 Refresh interval=
+
+; Note: February 19, 2022 - 10 missing translations

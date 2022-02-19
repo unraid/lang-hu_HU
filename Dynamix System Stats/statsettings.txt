@@ -83,3 +83,5 @@ Viewable system graphs=
 >
 > This setting sets the initial duration of the sliding window, it can be changed on the system stats page itself.
 :end
+
+; Note: February 19, 2022 - 39 missing translations

@@ -115,3 +115,5 @@ Yes, exclude Cache=
 :s3sleep_debug_plug:
 > By default debug is OFF. Use this setting only in case of troubleshooting, it will generate additional messages to report the various stages within the s3_sleep script.
 :end
+
+; Note: February 19, 2022 - 34 missing translations

@@ -18,3 +18,5 @@ Only enable this when advised to from the author of Community Applications=
 Enable developer mode=
 This unlocks some extra features within CA generally only used by developers Not recommended to enable=
 Support Thread=
+
+; Note: February 19, 2022 - 20 missing translations

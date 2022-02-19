@@ -40,3 +40,5 @@ Unload drivers=
 :temp_rescan_plug:
 > 'Rescan' refreshes the selection list and can be used when new probes are available, e.g. a new fan probe has been installed.
 :end
+
+; Note: February 19, 2022 - 13 missing translations

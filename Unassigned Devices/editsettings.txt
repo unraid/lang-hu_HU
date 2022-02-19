@@ -61,3 +61,5 @@ will be using this device. This field will only be enabled when a Device Script 
 > Click the **Default** button to initialize the edit box with a Default Device Script.
 > You still need to click **Save** in order to commit the change.
 :end
+
+; Note: February 19, 2022 - 24 missing translations
