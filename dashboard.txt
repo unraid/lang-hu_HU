@@ -110,3 +110,5 @@ User count %s with %s unprotected=User count: %s with %s unprotected
 utilization warning=
 View Running Processes=
 Virtual Machines=
+
+; Note: February 21, 2022 - 100 missing translations

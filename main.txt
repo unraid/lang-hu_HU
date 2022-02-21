@@ -306,10 +306,10 @@ will resume the paused Clearing=
 will resume the paused Parity-Check=
 will resume the paused Parity-SyncData-Rebuild=will resume the paused Parity-Sync/Data-Rebuild
 will resume the paused Read-Check=
-will resume Data-Rebuild
+will resume Data-Rebuild=
 will resume Disk-Clear=
 will resume Parity-Check=
-will resume Parity-Sync
+will resume Parity-Sync=
 will resume Read-Check=
 will start Clearing new data disks=will start **Clearing** new data disk(s)
 will start Parity-Sync andor Data-Rebuild=will start **Parity-Sync** and/or **Data-Rebuild**
@@ -345,3 +345,5 @@ Sleeping=
 System in sleep mode=
 This will put the system in sleep mode=
 wiki entry=
+
+; Note: February 21, 2022 - 275 missing translations

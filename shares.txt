@@ -62,3 +62,5 @@ Use cache pool for new filesdirectories=Use cache pool (for new files/directorie
 User Shares=
 Write=
 You cannot use the following within share names=
+
+; Note: February 21, 2022 - 59 missing translations
