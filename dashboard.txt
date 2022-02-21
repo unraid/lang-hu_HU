@@ -92,8 +92,6 @@ SMART error=SMART hiba
 SMART health-check failed=SMART állapotellenőrzés sikertelen
 SMART=SMART
 sn=s/n
-
-; Note: February 21, 2022 - 100 missing translations
 Start the array=Indítsa el a tömböt
 Started only=Csak indult
 Stop the array=Állítsa le a tömböt
