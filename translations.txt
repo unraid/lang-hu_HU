@@ -70,7 +70,7 @@ Close=Bezár
 close=bezár
 Comment=megjegyzés
 complete=teljes
-Confirm Password=Jelszó megerősítése
+Confirm Password=
 Contact Email Address=Kapcsolatfelvételi e-mail cím
 Contact Support=Kapcsolatfelvétel az ügyfélszolgálattal
 containing your key file URL=amely tartalmazza az URL kulcsfájlt
@@ -790,4 +790,4 @@ Updating=
 year=
 years=
 
-; Note: February 21, 2022 - 628 missing translations
+; Note: February 25, 2022 - 628 missing translations

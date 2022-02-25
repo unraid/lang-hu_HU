@@ -23,4 +23,4 @@ Workgroup=
 > Shows in real-time the current elected local master browser.
 :end
 
-; Note: February 19, 2022 - 6 missing translations
+; Note: February 25, 2022 - 6 missing translations
