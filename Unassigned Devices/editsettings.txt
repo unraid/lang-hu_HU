@@ -62,4 +62,4 @@ will be using this device. This field will only be enabled when a Device Script 
 > You still need to click **Save** in order to commit the change.
 :end
 
-; Note: February 25, 2022 - 24 missing translations
+; Note: February 27, 2022 - 24 missing translations
