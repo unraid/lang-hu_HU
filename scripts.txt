@@ -1,7 +1,7 @@
-A new version of %s is available=
-Docker=
-Language=
-Notice %s - Version update %s=Notice [%s] - Version update %s
-Plugin=
+A new version of %s is available=Elérhető a %s új verziója
+Docker=Docker
+Language=Nyelv
+Notice %s - Version update %s=Megjegyzés [%s] - Verziófrissítés %s
+Plugin=Plugin
 
 ; Note: March 1, 2022 - 4 missing translations
