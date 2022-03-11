@@ -36,5 +36,3 @@ Update All Plugins=	Az összes beépülő modul frissítése
 Update Plugin=	Plugin frissítése
 Upgrade=	Frissítés
 View Release Notes=	Kiadási megjegyzések megtekintése
-
-; Note: March 1, 2022 - 37 missing translations

@@ -139,7 +139,7 @@ FOLDER=MAPPA
 folder=mappa
 Force lower=Force lower
 Format=Formatálás
-Formatting devices=Eszköz/ök formázása
+Formatting devices=Formázási eszköz(k)
 Forum=Fórum
 GB=GB
 Go to Registration page=Menjen a Regisztrációs oldalra
@@ -274,6 +274,7 @@ Plugins=Pluginek
 Plus=Plus
 prefix_IEC=Ki Mi Gi Ti Pi Ei Zi Yi
 prefix_SI=K M G T P E Z Y
+Press ANY KEY to close this window=
 Private=Pirvát
 Pro=Pro
 Proceed=Folytassa
@@ -318,7 +319,7 @@ Self-Test=Önteszt
 Server=Szerver
 Set Password=Jelszóbeállítás
 Settings=Beállítások
-Share name=Név megosztása
+Share name=Név
 Share=Megosztás
 Shares List=Megosztások
 Shares=Megosztások
@@ -482,7 +483,7 @@ Best of all all SSL certificates are verified by Lets Encrypt so no browser secu
 beta=béta
 BLACKLISTED=FEKETELISTÁS
 Browser will self destruct in %s=A böngésző önmegsemmisítése itt: %s
-viszlát 👋=viszlát 👋
+bye bye 👋=
 Cannot access your USB Flash boot device=Nem lehet hozzáférni az USB Flash rendszerindító eszközhöz
 Cannot validate Unraid Trial key=A Unraid Trial kulcs nem érvényesíthető
 Click a button and your flash is automatically backed up to Unraidnet enabling easy recovery in the event of a device failure=Kattintson a gombra, és a flash automatikusan mentésre kerül az Unraid.net webhelyre, amely lehetővé teszi a könnyű helyreállítást eszközhiba esetén
@@ -790,4 +791,4 @@ Updating=Frissítés
 year=év
 years=év
 
-; Note: February 27, 2022 - 628 missing translations
+; Note: March 11, 2022 - 2 missing translations

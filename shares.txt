@@ -62,5 +62,3 @@ Use cache pool for new filesdirectories=Gyorsítótár használata (új fájlokh
 User Shares=Felhasználói megosztások
 Write=Ír
 You cannot use the following within share names=Nem használhatja a következőt a Megosztási nevek-ben
-
-; Note: March 1, 2022 - 59 missing translations

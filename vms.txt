@@ -111,7 +111,7 @@ Toggle VM autostart=Kapcsolja be a VM automatikus indítását
 type of storage image=a tárolási kép típusa
 Unknown action=Ismeretlen művelet
 Unknown version=Ismeretlen verzió
-Unraid tag=Unraid felcsatolási címke
+Unraid Mount tag=
 Unraid Share=Unraid megosztás
 Updating=Frissítés
 USB Controller=USB vezérlő
@@ -137,4 +137,4 @@ Windows 7XP=Windows 7/XP
 Windows 82012, newer Linux distros=Windows 8/2012, újabb Linux disztribúciók
 XML View=XML nézet (Haladó)
 
-; Note: March 1, 2022 - 125 missing translations
+; Note: March 11, 2022 - 1 missing translations
