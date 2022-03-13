@@ -46,6 +46,7 @@ Basic=Alap
 BIOS=BIOS
 Black=Fekete
 Blacklisted USB Flash GUID=Feketelistán szereplő USB Flash GUID-ek
+bond down=
 Browse=Tallózás
 Browser cookie support required for Unraid OS webgui=Az Unraid OS webgui használatához, engedélyezze a böngészőben a sütikek
 Browser error=Böngésző hiba
@@ -673,11 +674,23 @@ Your trial will expire in 30 days=A próbaidőszak 30 napon belül lejár
 Your Unraid registration key is ineligible for replacement as it has been replaced within the last 12 months=Az Unraid regisztrációs kulcsa nem cserélhető, mivel az elmúlt 12 hónapban lecserélték
 Your USB Flash GUID and other relevant server data will also be sent=A rendszer elküldi az USB Flash GUID azonosítóját és más releváns szerveradatokat is
 
-; My Servers Wan IP Check - 2021-06-30
+; My Servers - 2022-03-13
 Remark your WAN IPv4 is %s=Megjegyzés: az Ön WAN IPv4-je **%s**
 Remark Unraids WAN IPv4 %1s does not match your clients WAN IPv4 %2s=Megjegyzés: Az Unraid WAN IPv4 **%1s** nem egyezik az Ön kliense WAN IPv4-ével **%2s**
 This may indicate a complex network that will not work with this Remote Access solution=Ez összetett hálózatra utalhat, amely nem működik ezzel a távelérési megoldással
 Ignore this message if you are currently connected via Remote Access or VPN=Hagyja figyelmen kívül ezt az üzenetet, ha jelenleg távelérésen vagy VPN-en keresztül csatlakozik
+
+Automated flash backups will be disabled until you sign in again=
+Click to copy LAN IP %s=
+DNS issue, unable to resolve wanip4unraidnet=DNS issue, unable to resolve wanip4.unraid.net
+Download latest backup from My Servers Dashboard=
+Have the code now Go Back=Have the code now? Go Back
+LAN IP Copied=
+Remote access will be disabled=
+Resend Code=
+Resend Email Verification Code=
+We have sent a verifcation email to %s=
+You will no longer have access to this server using this url=You will no longer have access to this server using <abbr title="%s" class="italic">this url</abbr>
 
 ; Dynamix File Manager - 2022-02-21
 %s year ago=%s éve
@@ -709,6 +722,7 @@ DEVICE=ESZKÖZ
 Device name=Eszköz neve
 Download File=Fájl letöltése
 Enter a valid target=Adjon meg egy érvényes célt
+File Manager=
 File name=Fájl név
 file type=fájl tipus
 Folder name=Mappa név
@@ -791,4 +805,4 @@ Updating=Frissítés
 year=év
 years=év
 
-; Note: March 11, 2022 - 2 missing translations
+; Note: March 13, 2022 - 15 missing translations

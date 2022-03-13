@@ -43,6 +43,7 @@ Hyper-V=Hyper-V
 i440fx will work for most=Az i440fx a legtöbben működik
 Icon=Ikon
 Initial=Kezdeti
+Invalid storage path=
 Invalid VM to edit=Érvénytelen szerkeszthető virtuális gép
 ISO storage path doesnt exist=Az ISO tárolási elérési út nem létezik
 ISO storage path doesnt exist, please create the user share or empty folder first=Az ISO tárhely elérési útja nem létezik, kérjük, először hozza létre a felhasználói megosztást (vagy üres mappát)
@@ -137,4 +138,4 @@ Windows 7XP=Windows 7/XP
 Windows 82012, newer Linux distros=Windows 8/2012, újabb Linux disztribúciók
 XML View=XML nézet (Haladó)
 
-; Note: March 11, 2022 - 1 missing translations
+; Note: March 13, 2022 - 2 missing translations
