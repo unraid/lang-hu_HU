@@ -138,4 +138,4 @@ Windows 7XP=Windows 7/XP
 Windows 82012, newer Linux distros=Windows 8/2012, újabb Linux disztribúciók
 XML View=XML nézet (Haladó)
 
-; Note: March 13, 2022 - 2 missing translations
+; Note: March 18, 2022 - 2 missing translations

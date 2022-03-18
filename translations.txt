@@ -765,6 +765,7 @@ Rename Folder=Mappa átnevezése
 rename to=átnevezés a/z
 Renaming=Átnevezés
 Restricted access=Korlátozott hozzáférés
+Save=
 Share name=Név
 SHARE=MEGOSZTÁS
 Source device=Az eszköz forrása
@@ -805,4 +806,4 @@ Updating=Frissítés
 year=év
 years=év
 
-; Note: March 13, 2022 - 15 missing translations
+; Note: March 18, 2022 - 13 missing translations
