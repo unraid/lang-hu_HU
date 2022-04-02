@@ -21,4 +21,4 @@ Cannot get list of open files=
 > Click on **Process**, **Process ID**, **Files That May Prevent Shutdown**, or **File Name and Path** to change the sort order.
 :end
 
-; Note: March 18, 2022 - 13 missing translations
+; Note: April 2, 2022 - 13 missing translations

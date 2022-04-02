@@ -643,7 +643,7 @@ tunnel is inactive=Alagút inaktív
 Turn off UPS after shutdown=Kapcsolja ki az UPS-t leállítás után
 UDP=UDP
 Unable to register this Unraid Server=Nem lehet regisztrálni ezt az Unraid Server-t
-; Tartsa meg az eredeti beépülő modul nevét a beállításokban
+; Keep the original plugin name in settings
 Unassigned Devices=Hozzá nem rendelt eszközök
 Unraid OS update notification=Unraid OS frissítési értesítés
 Unraid OS update=Unraid OS frissítés
@@ -722,4 +722,4 @@ Your server has been registered=A szerver regisztrálva lett
 Your Unraid Server is reachable from the internet=Az Unraid szervered elérhető az internetről
 YYYY-MM-DD=ÉÉÉÉ-HH-NN
 
-; Note: March 18, 2022 - 469 missing translations
+; Note: April 2, 2022 - 4 missing translations

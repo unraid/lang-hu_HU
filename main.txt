@@ -339,8 +339,8 @@ Wrong key=Rossz kulcs
 xfs_repair status=xfs_repair status
 You may not add new disks and also remove existing disks=Nem adhat hozzá új lemez(eke)t, és nem távolíthat el meglévő lemez(eke)t
 your server=a Szervered
-	
-; Alvó Plugin fordítások
+
+; Sleep plugin translations
 Check this=Ellenőrizze ezt
 for more information=további információkért
 Make sure your server supports S3 sleep=Győződjön meg arról, hogy a szervere támogatja az S3 alvási funkciót
@@ -349,5 +349,3 @@ Sleeping=Alvás
 System in sleep mode=A rendszer alvó üzemmódban
 This will put the system in sleep mode=Ezzel a rendszer alvó módba kerül
 wiki entry=wiki bejegyzés
-
-; Note: March 18, 2022 - 277 missing translations

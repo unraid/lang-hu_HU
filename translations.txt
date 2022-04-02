@@ -806,4 +806,4 @@ Updating=Frissítés
 year=év
 years=év
 
-; Note: March 18, 2022 - 13 missing translations
+; Note: April 2, 2022 - 13 missing translations

@@ -45,8 +45,8 @@ WebUI=WebUI
 Yes, delete it=Igen, töröld!
 Yes, update it=Igen, frissítse!
 Yes=Igen
-	
-; lábléc üzenetek
+
+; footer messages
 Array Copying=Tömb másolása
 Array Clearing=Tömb törlése
 Array Starting=Tömb indítása
@@ -59,12 +59,10 @@ Unmounting disks=Lemezek leválasztása
 Autostart disabled=Automatikus indítás letiltva
 Missing encryption key=Hiányzik a titkosítási kulcs
 Opening encrypted volumes=Titkosított kötetek megnyitása
-	
-; docker változók
+
+; docker variables
 Container Path=Konténer útvonala
 Container Port=Konténer Port
 Container Variable=Konténerváltozó
 Container Label=Konténercímke
 Container Device=Konténer eszközök
-
-; Note: March 18, 2022 - 60 missing translations

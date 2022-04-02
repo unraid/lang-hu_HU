@@ -40,4 +40,4 @@ Use NTP=
 > Enter the current time-of-day.  Use format YYYY-MM-DD HH:MM:SS. Greyed out when using NTP.
 :end
 
-; Note: March 18, 2022 - 7 missing translations
+; Note: April 2, 2022 - 7 missing translations
