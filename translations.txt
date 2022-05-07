@@ -692,18 +692,19 @@ Resend Email Verification Code=
 We have sent a verifcation email to %s=
 You will no longer have access to this server using this url=You will no longer have access to this server using <abbr title="%s" class="italic">this url</abbr>
 
-; Dynamix File Manager - 2022-02-21
+; Dynamix File Manager - 2022-05-07
 %s year ago=%s éve
 %s years ago=%s éve
-Advanced Mode=Haladó mód
-Basic Mode=Alap mód
+Action=
 Calculate Occupied Space=Számítsa ki az elfoglalt területet
 Calculate=Számítás
 change owner=gazdát váltani
 Change Owner=Gazdát váltani
 change permission=engedély módosítása
 Change Permission=Engedély módosítása
+Common=
 Completed=Befejezve
+Compress=
 Copy Device=Eszköz másolása
 Copy File=Fájl másolása
 Copy Folder=Mapap másolása
@@ -722,6 +723,7 @@ DEVICE=ESZKÖZ
 Device name=Eszköz neve
 Download File=Fájl letöltése
 Enter a valid target=Adjon meg egy érvényes célt
+Expand=
 File Manager=
 File name=Fájl név
 file type=fájl tipus
@@ -742,7 +744,6 @@ Move Folder=Mappa áthelyezése
 Move Share=Megosztás áthelyezése
 move to=áthelyezés a/z
 Moving=Áthelyezés
-Nchan communication error=Nchan kommunikációs hiba
 New file name=Új fájl név
 New folder name=Új mappa név
 New owner=Új tulajdonos
@@ -764,7 +765,6 @@ Rename File=Fájl átnevezése
 Rename Folder=Mappa átnevezése
 rename to=átnevezés a/z
 Renaming=Átnevezés
-Restricted access=Korlátozott hozzáférés
 Save=
 Share name=Név
 SHARE=MEGOSZTÁS
@@ -801,9 +801,63 @@ This renames the selected file=Ez átnevezi a kiválasztott fájlt
 This renames the selected source=Ez átnevezi a kiválasztott forrást
 Toggle TimeAge display=Idő/életkor kijelzés váltása
 Total occupied space=Teljes elfoglalt terület
-Unrestricted access=Korlátlan hozzáférés
 Updating=Frissítés
 year=év
 years=év
 
-; Note: April 2, 2022 - 13 missing translations
+; My Servers refactor - 2022-05-07
+ =
+A Trial key provides all the functionality of a Pro Registration key=
+All you need is an active internet connection, an Unraidnet account, and the <span>My Servers<span> plugin=All you need is an active internet connection, an Unraid.net account, and the <span class="inline-block">My Servers</span> plugin
+All you need is an active internet connection, an Unraidnet account, and the My Servers plugin=All you need is an active internet connection, an Unraid.net account, and the <span>My Servers</span> plugin
+Checkout the My Servers docs=
+Close My Servers details and continue to webGUI=
+Confirm My Servers plugin removal=
+Connect to My Servers by signing in to Unraid.net=
+Connect your Unraidnet account to get started=Connect your Unraid.net account to get started
+Continue using My Servers=
+DNS issue, unable to resolve wanip4unraidnet=DNS issue, unable to resolve wanip4.unraid.net
+Enhance your experience with My Servers=
+Enhance your Unraid experience with these My Servers BETA features=Enhance your Unraid experience with these<br> My Servers (BETA) features
+Enhance your Unraid experience with these<br> My Servers BETA features=Enhance your Unraid experience with these<br class=\"hidden sm:block\"/> My Servers (BETA) features
+Executes `unraid-api start`; no terminal needed=
+Get started by installing the plugin=
+Go to My Servers Dashboard=
+Important=
+Install Plugin=
+Installing My Servers beta=Installing My Servers (beta)
+Invalid 2FA token=
+Invalid username or password=
+Key management is done via the dropdown in the top right of the webGUI on every page=
+No 2FA token detected=
+No thanks=
+Not ready to purchase=Not ready to purchase?
+Note USB memory card readers are generally not supported because most do not present unique serial numbers=Note: USB memory card readers are generally not supported because most do not present unique serial numbers
+Open Dropdown=
+Password confirmation must match=
+Please access this server via the My Servers Dashboard=
+Please make sure there is a DNS server specified=
+Please make sure your server time is accurate to within 5 minutes=
+Please use a high quality name brand device at least 1GB in size=
+Plus more on the way=
+Receive an additional 15 days for your trial=
+Redeem Activation Code=
+Registration keys are bound to your USB Flash boot device serial number GUID=Registration keys are bound to your USB Flash boot device serial number (GUID)
+Remove My Servers plugin=
+Removing My Servers plugin=
+Restart unraid-api=
+Restarting=
+Sign In Up=Sign In / Up
+Start Trial=
+Stop unraid-api=
+Thank you for choosing Unraid OS and My Servers=
+Thank you installing My Servers=
+This will connect your server to My Servers <sup>BETA</sup>=
+To support more storage devices as your server grows click the Open Dropdown button=
+To support more storage devices as your server grows click the Open Dropdown button=To support more storage devices as your server grows click the *Open Dropdown* button
+To support more storage devices as your server grows click Upgrade Key=Ha a szerver növekedésével több tárolóeszközt szeretne támogatni, kattintson a Frissítési kulcs lehetőségre
+Transparent 2FA Token timed out=
+Your server will not be usable until you purchase a Registration key or install a free 30-day Trial key=
+Your Unraid registration key is ineligible for replacement as it is blacklisted=
+
+; Note: May 7, 2022 - 68 missing translations

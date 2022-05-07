@@ -63,4 +63,4 @@ will be using this device. This field will only be enabled when a Device Script 
 > You still need to click **Save** in order to commit the change.
 :end
 
-; Note: April 2, 2022 - 25 missing translations
+; Note: May 7, 2022 - 25 missing translations

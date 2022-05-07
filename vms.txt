@@ -37,14 +37,17 @@ free=ingyenes
 Graphics Card=Grafikus kártya
 Graphics ROM BIOS=Grafikus ROM BIOS
 Graphics=Grafika
+Guest not running or guest agent not installed=
 Host Passthrough=Host Passthrough
 Hyperv tweaks for Windows=Hyperv módosítások Windowshoz
 Hyper-V=Hyper-V
 i440fx will work for most=Az i440fx a legtöbben működik
 Icon=Ikon
 Initial=Kezdeti
+Interfaces=
 Invalid storage path=
 Invalid VM to edit=Érvénytelen szerkeszthető virtuális gép
+IP Address=
 ISO storage path doesnt exist=Az ISO tárolási elérési út nem létezik
 ISO storage path doesnt exist, please create the user share or empty folder first=Az ISO tárhely elérési útja nem létezik, kérjük, először hozza létre a felhasználói megosztást (vagy üres mappát)
 ISO storage path was empty=Az ISO tárolási útvonal üres volt
@@ -84,6 +87,7 @@ Path to ROM BIOS file=A ROM BIOS-fájl elérési útja
 Please choose a folder the LibreELEC image will download to=Kérjük, válasszon mappát, ahová a LibreELEC képet letölti
 Please choose a folder the OpenELEC image will download to=Kérjük, válassza ki azt a mappát, amelybe az OpenELEC-kép letöltődik
 Pop-up Blocker is enabled Please add this site to your exception list=A felugró ablak blokkolva van! Kérjük, adja hozzá ezt a webhelyet a kivételek listájához
+Prefix=
 Primary=Elsődleges
 Q35 for a newer machine model with PCIE=Q35 egy újabb PCIE-s gépmodellhez
 QEMU64=QEMU64
@@ -138,4 +142,4 @@ Windows 7XP=Windows 7/XP
 Windows 82012, newer Linux distros=Windows 8/2012, újabb Linux disztribúciók
 XML View=XML nézet (Haladó)
 
-; Note: April 2, 2022 - 2 missing translations
+; Note: May 7, 2022 - 6 missing translations
