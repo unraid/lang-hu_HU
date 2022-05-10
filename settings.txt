@@ -2,7 +2,7 @@
 %s is out of range minimum 1 maximum 65535=%s kívül esik a tartományon (minimum 1 maximum 65535)
 12 hours=12 óra
 24 hours=24 óra
-8023ad=	802.3ad
+8023ad=802.3ad
 Accumulation duration=Felhalmozási időtartam
 Accumulation frequency=Akkumulációs gyakoriság
 Activate=Aktiválás
@@ -193,14 +193,14 @@ Docker LOG maximum file size=Docker LOG maximális fájlméret
 Docker LOG number of files=Docker LOG fájlok száma
 Docker LOG rotation=Docker LOG forgás
 Docker only=Csak Docker
-Docker service=	ocker szolgáltatás
+Docker service=ocker szolgáltatás
 Docker Stop Timeout=Docker leállítási késleltetés
 Docker update notification=Docker frissítési értesítés
 Docker update=Docker frissítés
 Docker vDisk location=Docker vDisk helye
 Docker vDisk size=Docker vDisk méret
 Docker version=Docker verzió
-Docker VMs=	Docker VMs =Docker + virtuális gépek
+Docker VMs=Docker VMs =Docker + virtuális gépek
 Docker volume info=Docker kötet info
 Docker will be available after Array is Started=A Docker a tömb elindítása után lesz elérhető
 Docker=Docker
@@ -632,7 +632,7 @@ Toggle view=Nézet átváltása
 top-left=bal felső
 top-right=jobb felső
 Tunable enable Direct IO=Hangolható (Direct IO engedélyezése)
-Tunable enable NCQ=	Hangolható (NCQ engedélyezése)
+Tunable enable NCQ=Hangolható (NCQ engedélyezése)
 Tunable fuse_remember=Hangolható (fuse_remember)
 Tunable md_num_stripes=Hangolható (md_num_stripes)
 Tunable md_queue_limit=Hangolható (md_sorban_limit)
