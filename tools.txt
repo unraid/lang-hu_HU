@@ -145,7 +145,7 @@ Function Level Reset FLR supported=Funkciószint visszaállítás (FLR) support
 In use by Unraid=Használja az Unraid
 Kernel driver in use vfio-pci=Használt kernel-illesztőprogram: vfio-pci
 No changes=Nincs változás
-PCI Devices and IOMMU Groups=	CI-eszközök és IOMMU-csoportok=
+PCI Devices and IOMMU Groups=CI-eszközök és IOMMU-csoportok=
 PCI Devices No IOMMU Groups Available=PCI-eszközök (Nincs elérhető IOMMU-csoport)
 Reboot to take effect=Indítsa újra az érvénybe lépéshez
 SCSI Devices=SCSI-eszközök
