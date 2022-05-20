@@ -40,4 +40,4 @@ Time of the day=
 :end
 
 
-; Note: May 7, 2022 - 18 missing translations
+; Note: May 20, 2022 - 18 missing translations
