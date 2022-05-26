@@ -9,4 +9,4 @@ PWM controller=
 PWM fan=
 Refresh interval=
 
-; Note: May 20, 2022 - 10 missing translations
+; Note: May 26, 2022 - 10 missing translations
