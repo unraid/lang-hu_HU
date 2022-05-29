@@ -4,4 +4,4 @@ System Overview=
 Unraid server=
 Unraid system=
 
-; Note: May 26, 2022 - 5 missing translations
+; Note: May 29, 2022 - 5 missing translations
