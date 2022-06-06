@@ -52,9 +52,14 @@ Array Clearing=Tömb törlése
 Array Starting=Tömb indítása
 Array Stopping=Tömb leállítása
 Mounting disks=Csatlakoztatott lemezek
+Retry unmounting user shares=Retry unmounting user share(s)
 Spinning up all drives=Az összes meghajtó felébresztése
+Stale configuration=
 Starting services=Szolgáltatások indítása
 Stopping services=Szolgáltatások leállítása
+Starting Recycle Bin=
+Stopping Recycle Bin=
+Sync filesystems=
 Unmounting disks=Lemezek leválasztása
 Autostart disabled=Automatikus indítás letiltva
 Missing encryption key=Hiányzik a titkosítási kulcs
@@ -66,3 +71,5 @@ Container Port=Konténer Port
 Container Variable=Konténerváltozó
 Container Label=Konténercímke
 Container Device=Konténer eszközök
+
+; Note: June 6, 2022 - 5 missing translations

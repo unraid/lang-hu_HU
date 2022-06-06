@@ -16,4 +16,4 @@ User=
 > To remove a name association, clear the respective user name box and press apply.
 :end
 
-; Note: May 30, 2022 - 9 missing translations
+; Note: June 6, 2022 - 9 missing translations

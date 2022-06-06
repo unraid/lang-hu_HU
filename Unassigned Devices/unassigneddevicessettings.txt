@@ -130,4 +130,4 @@ Use only when directed for support=
 > **Note:** Don't change the UUID of a pooled disk.
 :end
 
-; Note: May 30, 2022 - 34 missing translations
+; Note: June 6, 2022 - 34 missing translations
