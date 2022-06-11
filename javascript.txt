@@ -72,4 +72,4 @@ Container Variable=Konténerváltozó
 Container Label=Konténercímke
 Container Device=Konténer eszközök
 
-; Note: June 6, 2022 - 5 missing translations
+; Note: June 11, 2022 - 4 missing translations
