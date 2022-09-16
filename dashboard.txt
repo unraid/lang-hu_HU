@@ -70,6 +70,7 @@ Nominal power=Névleges teljesítmény
 not received=nem érkezett
 Only PNG images are allowed=Csak PNG képek engedélyezettek!
 Outbound=Kimenő
+Output voltage=
 Overall Load=Teljes terhelés
 Parity disk not present=Paritáslemez nincs jelen
 Parity disks not present=A paritáslemezek nincsenek jelen
@@ -110,3 +111,5 @@ User count %s with %s unprotected=Felhasználók száma: %s a/z %s védtelen
 utilization warning=használat figyelmeztetés
 View Running Processes=Futó folyamatok megtekintése
 Virtual Machines=Virtuális gépek
+
+; Note: September 16, 2022 - 1 missing translations
