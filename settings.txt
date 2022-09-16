@@ -463,6 +463,7 @@ Oops=Hoppá
 optional metric lowest is preferred, 0 is no default gateway=opcionális metrika (a legalacsonyabb előnyös, 0 nem alapértelmezett átjáró)
 optional metric lowest is preferred=opcionális metrika (a legalacsonyabb előnyben)
 or=vagy
+Output voltage=
 Page view=Oldalnézet
 Parity Check=Paritásellenőrzés
 Password=Jelszó
@@ -571,6 +572,7 @@ Shutdown VMs=Virtuális gépek leállítása
 shutdown=leállitás
 Sign In to Unraidnet required=Jelentkezzen be az Unraid.net-be
 Simple=Egyszerű
+Slave=
 Small=Kicsi
 Smart=Smart
 SMB Extras=SMB extrák
@@ -760,4 +762,4 @@ Transient errors in this log can be ignored unless you are having issues=
 Unraid API extra origins=
 View Flash Backup Error Log=
 
-; Note: June 6, 2022 - 20 missing translations
+; Note: September 16, 2022 - 22 missing translations
