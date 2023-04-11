@@ -195,6 +195,8 @@ raidz3=
 Raw Value=Raw érték
 Raw View=Raw nézet
 Read-Check in progress=Olvasás-ellenőrzés folyamatban
+Read errors corrected=
+Read errors detected=
 Reading=Olvasás
 Reboot in safe mode=Újraindítás csökkentett módban
 Registration Key Manager=Regisztrációs kulcskezelő
@@ -373,4 +375,4 @@ System in sleep mode=A rendszer alvó üzemmódban
 This will put the system in sleep mode=Ezzel a rendszer alvó módba kerül
 wiki entry=wiki bejegyzés
 
-; Note: March 17, 2023 - 26 missing translations
+; Note: April 11, 2023 - 28 missing translations
