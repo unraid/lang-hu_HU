@@ -72,4 +72,4 @@ User Shares=Felhasználói megosztások
 Write=Ír
 You cannot use the following within share names=Nem használhatja a következőt a Megosztási nevek-ben
 
-; Note: April 18, 2023 - 9 missing translations
+; Note: April 18, 2023 - 8 missing translations
