@@ -1,10 +1,10 @@
-Current date and time=
-Hide map=
-New date and time=
-NTP server=
-Show map=
-Time zone=
-Use NTP=
+Current date and time=Aktuális dátum és idő
+Hide map=Térkép elrejtése
+New date and time=Új dátum és idő
+NTP server=NTP szerver
+Show map=Térkép megjelenítése
+Time zone=dőzóna
+Use NTP=NTP használata
 
 :timezone_plug:
 > Select your applicable time zone from the drop-down list.
