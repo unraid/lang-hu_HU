@@ -1,12 +1,12 @@
-Click DETECT=
-Detect=
-Exclude drives=
-Fan control function=
-High temperature threshold=
-Low temperature threshold=
-Minimum PWM value=
-PWM controller=
-PWM fan=
-Refresh interval=
+Click DETECT=FELISMERÉS kattintás
+Detect=Felismerés
+Exclude drives=Meghajtók kizárása
+Fan control function=Ventilátor vezérlő funkció
+High temperature threshold=Magas hőmérsékleti küszöb
+Low temperature threshold=Alacsony hőmérsékleti küszöb
+Minimum PWM value=Minimális PWM érték
+PWM controller=PWM vezérlő
+PWM fan=PWM ventilátor
+Refresh interval=Frissítési intervallum
 
 ; Note: June 6, 2022 - 10 missing translations
