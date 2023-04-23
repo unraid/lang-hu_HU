@@ -1,12 +1,12 @@
-Halt=
-Host Address=
-Host=
-No active streams=
-Playtime=
-Stop stream=
-Stream=
-User Name=
-User=
+Halt=Állj
+Host Address=Gazdagép címe
+Host=Gazdagép
+No active streams=Nincsenek aktív adatfolyamok
+Playtime=Üzemidő
+Stop stream=Stream leállítása
+Stream=Stream
+User Name=Felhasználónév
+User=Felhasználó
 
 :streams_plug:
 > Give symbolic names to IP addresses, which are displayed on the active streams page.
