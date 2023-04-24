@@ -12,28 +12,32 @@ Excluded hours=Kizárt órák
 Execute function=Funkció végrehajtása
 Extra delay after array inactivity=Extra késleltetés a tömb inaktivitása után
 Force gigabit speed after wake-up=A gigabites sebesség kényszerítése ébredés után
-High traffic=Nagy forgalom
-IP address=IP-cím
-Local Remote=Lokális és Távoli
-Local=Lokális
-Log will be stored in bootlogss3_sleeplog=A napló a **/boot/logs/s3_sleep.log** helyen lesz tárolva
+
+High traffic=Forgalom nagysága
+IP address=IP cím
+Local Remote=Helyi & Távoli
+Local=Helyi
+Log will be stored in bootlogss3_sleeplog=A napló mentésre kerül a **/boot/logs/s3_sleep.log**
 Low traffic=Alacsony forgalom
 Medium traffic=Közepes forgalom
-Mega traffic=Mega forgalom
+Mega traffic=Magas forgalom
 Monitor disks outside array=Monitor lemezek tömbön kívül
 Network idle threshold=Hálózati tétlenségi küszöb
-no host=nincs host
+no host=nincs házigazda
 Remote=Távoli
 Set WOL options before sleep=Állítsa be a WOL-beállításokat elalvás előtt
 Silent traffic=Csendes forgalom
-Status counters=Állapot és számlálók
+Status counters=Állapot & számlálók
+
 Status only=Csak állapot
 Syslog and flash=Syslog és flash
 Syslog=Syslog
 Wait for array inactivity=Várja meg a tömb inaktivitását
 Wait for host inactivity=Várja meg a gazdagép inaktivitását
 Wait for network inactivity=Várja meg a hálózati inaktivitást
-Wait for user login inactivity=Várja meg, amíg a felhasználó kijelentkezik
+
+Wait for user login inactivity=Várja meg, amíg a felhasználó nem jelentkezik ki
+
 Yes, exclude Cache=Igen, zárja ki a gyorsítótárat
 
 :s3sleep_function_plug:
