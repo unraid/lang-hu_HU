@@ -35,8 +35,9 @@ STALE=ÁLLOTT
 Support Thread=Támogatási szál
 Uninstall=Eltávolítás
 Update All Plugins=Az összes beépülő modul frissítése
+Update Incompatible=
 Update Plugin=Plugin frissítése
 Upgrade=Frissítés
 View Release Notes=Kiadási megjegyzések megtekintése
 
-; Note: March 17, 2023 - 2 missing translations
+; Note: April 11, 2023 - 3 missing translations

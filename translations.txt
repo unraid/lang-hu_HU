@@ -55,6 +55,7 @@ Bug Description=Hibaleírás
 Bug Report=Hibajelentés
 bytes=bájt
 Cache=Gyorsítótár
+Calculated free space value=
 Cancel=Mégse
 Capabilities=Képességek
 Case-sensitive names=A kis- és nagybetűket megkülönböztető nevek
@@ -168,6 +169,7 @@ Interface=Hálózat
 Invalid Username or Password=Érvénytelen felhasználónév vagy jelszó
 IOMMU=IOMMU
 is available=elérhető
+Job=
 KB=KB
 Keep server details anonymous=Tartsa névtelenül a szerver adatait
 Kernel=Kernel
@@ -448,7 +450,6 @@ The command failed=
 The command finished successfully=
 TOTAL DATA PULLED=
 Was this container created using this plugin=
-Executes `unraid-api start`; no terminal needed=
 Please use a high quality name brand device at least 1GB in size min 4GB recommended=Please use a high quality name brand device at least 1GB in size (min 4GB recommended)
 
 ; Dynamix.system.button plugin
@@ -710,7 +711,7 @@ This may indicate a complex network that will not work with this Remote Access s
 We have sent a verifcation email to %s=
 You will no longer have access to this server using this url=You will no longer have access to this server using <abbr title="%s" class="italic">this url</abbr>
 
-; Dynamix File Manager - 2022-05-20
+; Dynamix File Manager - 2023-04-11
 %s year ago=%s éve
 %s years ago=%s éve
 Action=
@@ -742,6 +743,7 @@ DEVICE=ESZKÖZ
 Download File=Fájl letöltése
 Enter a valid target=Adjon meg egy érvényes célt
 Expand=
+File is removed=
 File Manager=
 File name=Fájl név
 file type=fájl tipus
@@ -755,7 +757,11 @@ in %s folders and %s files=%s mappákban és %s fájlokban
 Invalid path=Érvénytelen útvonal
 Invalid source=Érvénytelen forrás
 Invalid target=Érvénytelen cél
+Job running=
+Jobs=
 Last modified=Utoljára módosítva
+Minimize=
+more=
 Move Device=Eszköz áthelyezése
 Move File=Fájl áthelyezése
 Move Folder=Mappa áthelyezése
@@ -766,6 +772,7 @@ New file name=Új fájl név
 New folder name=Új mappa név
 New owner=Új tulajdonos
 New permission=Új engedély
+No jobs scheduled=
 No results found=
 Not allowed to mix disk and user shares=Tilos a lemez és a felhasználói megosztások keverése
 Objects to change=Változtatandó tárgyak
@@ -779,12 +786,15 @@ Owner=Tulajdonos
 Page will be reloaded=Az oldal újratöltésre kerül
 Parent Directory=Szülőkönyvtár
 Permission=Engedély
+Queue=
 Removing=Eltávolítás
 Rename File=Fájl átnevezése
 Rename Folder=Mappa átnevezése
 rename to=átnevezés a/z
 Renaming=Átnevezés
 Save=
+Scheduled Jobs=
+Search pattern=
 Search string=
 Search=
 Share name=Név
@@ -823,6 +833,7 @@ This renames the selected source=Ez átnevezi a kiválasztott forrást
 Toggle TimeAge display=Idő/életkor kijelzés váltása
 Total occupied space=Teljes elfoglalt terület
 Updating=Frissítés
+Upload Error=
 Use sparse option=
 year=év
 years=év
@@ -842,7 +853,6 @@ DNS issue, unable to resolve wanip4unraidnet=DNS issue, unable to resolve wanip4
 Enhance your experience with My Servers=
 Enhance your Unraid experience with these My Servers BETA features=Enhance your Unraid experience with these<br> My Servers (BETA) features
 Enhance your Unraid experience with these<br> My Servers BETA features=Enhance your Unraid experience with these<br class=\hidden sm:block\/> My Servers (BETA) features
-Executes `unraid-api start`; no terminal needed=
 For best results, use one of these urls=
 Get started by installing the plugin=
 Go to My Servers Dashboard=
@@ -898,4 +908,4 @@ Your current url %s is not in the list of allowed origins for this server=Your c
 Your server will not be usable until you purchase a Registration key or install a free 30-day Trial key=
 Your Unraid registration key is ineligible for replacement as it is blacklisted=
 
-; Note: March 17, 2023 - 86 missing translations
+; Note: April 18, 2023 - 96 missing translations

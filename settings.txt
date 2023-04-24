@@ -263,6 +263,7 @@ Fahrenheit=Fahrenheit
 Failed to open=Nem sikerült megnyitni
 Failed to stop=Nem sikerült leállítani
 Failure to do so may result in your docker image suffering corruption at a later time=Ennek elmulasztása azt eredményezheti, hogy a Docker kép egy későbbi időpontban megsérülhet
+Finished=
 First day=Első nap
 First week=Első hét
 Flash backup=Flash backup
@@ -764,6 +765,7 @@ YYYY-MM-DD=ÉÉÉÉ-HH-NN
 zfs=zfs
 
 ; My Servers plugin
+
 Are you sure you want pause communication with your remote flash backup on unraidnet=Biztos benne, hogy szünetelteti a kommunikációt az unraid.net távoli flash biztonsági másolatával?
 Are you sure you want to erase all change history in both local and unraidnet remote=Biztos benne, hogy törölni szeretné az összes változástörténetet mind a helyi, mind az unraid.net távirányítón?
 Disabled until you Provision an unraidnet SSL Cert and set SSL-TLS to Auto=Le van tiltva, amíg nem biztosít egy unraid.net SSL-tanúsítványt, és az SSL-TLS-t Automatikusra állítja
@@ -794,4 +796,5 @@ Transient errors in this log can be ignored unless you are having issues=A napl�
 Unraid API extra origins=Unraid API extra eredet
 View Flash Backup Error Log=Flash biztonsági mentési hibanapló megtekintése
 
-; Note: March 17, 2023 - 51 missing translations
+
+; Note: April 18, 2023 - 26 missing translations
