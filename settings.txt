@@ -765,12 +765,25 @@ YYYY-MM-DD=ÉÉÉÉ-HH-NN
 zfs=zfs
 
 ; My Servers plugin
-
+Account status=
+Also delete cloud backup Restore from backup will be unavailable=Also delete cloud backup. Restore from backup will be unavailable.
+Always - Manual Port Forward=
+Always - UPnP=
 Are you sure you want pause communication with your remote flash backup on unraidnet=Biztos benne, hogy szünetelteti a kommunikációt az unraid.net távoli flash biztonsági másolatával?
+Are you sure you want to delete your cloud backup Restore from backup will be unavailable=Are you sure you want to delete your cloud backup? Restore from backup will be unavailable.
+Are you sure you want to delete your local flash backup=Are you sure you want to delete your local flash backup?
 Are you sure you want to erase all change history in both local and unraidnet remote=Biztos benne, hogy törölni szeretné az összes változástörténetet mind a helyi, mind az unraid.net távirányítón?
+Connected to My Servers Cloud=
+Delete Cloud Backup=
+Disabled until connected to My Servers Cloud=
+Disabled until you have signed in=
+Disabled until you Provision a myunraidnet SSL Cert=Disabled until you Provision a myunraid.net SSL Cert
 Disabled until you Provision an unraidnet SSL Cert and set SSL-TLS to Auto=Le van tiltva, amíg nem biztosít egy unraid.net SSL-tanúsítványt, és az SSL-TLS-t Automatikusra állítja
 Disabled until you Provision an unraidnet SSL Cert=Le van tiltva, amíg nem biztosít egy unraid.net SSL-tanúsítványt
 Disabled until your root user account is password-protected=Le van tiltva, amíg a root felhasználói fiókot jelszóval nem védik
+Dynamic - Manual Port Forward=
+Dynamic - UPnP=
+Dynamic Remote Access allows you to do stuff that someone else can explain=Dynamic Remote Access allows you to do stuff that someone else can explain.
 Enable Transparent 2FA for Local Access=Engedélyezze a Transparent 2FA-t a helyi hozzáféréshez
 Enable Transparent 2FA for Remote Access=Engedélyezze a Transparent 2FA-t a távoli hozzáféréshez
 In order to activate Flash Backup there must be at least 1GB of free space on your flash drive=A Flash Backup aktiválásához legalább 1 GB szabad helynek kell lennie a flash meghajtón.
@@ -796,5 +809,4 @@ Transient errors in this log can be ignored unless you are having issues=A napl�
 Unraid API extra origins=Unraid API extra eredet
 View Flash Backup Error Log=Flash biztonsági mentési hibanapló megtekintése
 
-
-; Note: April 18, 2023 - 26 missing translations
+; Note: April 25, 2023 - 22 missing translations

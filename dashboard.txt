@@ -141,5 +141,3 @@ Virtual Machines=Virtuális gépek
 VPN Connections=VPN kapcsolatok
 Warnings=Figyelmeztetések
 ZFS=ZFS
-
-; Note: April 11, 2023 - 31 missing translations
