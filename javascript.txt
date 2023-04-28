@@ -52,7 +52,6 @@ Array Clearing=Tömb törlése
 Array Starting=Tömb indítása
 Array Stopping=Tömb leállítása
 Mounting disks=Csatlakoztatott lemezek
-Retry unmounting user shares=Retry unmounting user share(s)
 Spinning up all drives=Az összes meghajtó felébresztése
 Starting services=Szolgáltatások indítása
 Stopping services=Szolgáltatások leállítása
@@ -68,7 +67,8 @@ Container Variable=Konténerváltozó
 Container Label=Konténercímke
 Container Device=Konténer eszközök
 
-; Note: April 28, 2023 - 4 missing translations
+; Note: April 29, 2023 - 5 missing translations
+Retry unmounting user shares=Retry unmounting user share(s)
 Stale configuration=
 Starting Recycle Bin=
 Stopping Recycle Bin=
