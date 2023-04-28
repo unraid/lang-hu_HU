@@ -1,5 +1,4 @@
 %s An update is available=%s: Frissítés elérhető.
-Alert Message=
 anonymous=névtelen
 Author=Szerző
 Check For Updates=Frissítések keresése
@@ -27,7 +26,6 @@ Plugin Update Check=Plugin frissítésének ellenőrzése
 Plugin=Plugin
 Release Notes=Kiadási megjegyzések
 Remove Plugin=Plugin eltávolítása
-Remove Selected Plugins=
 remove=eltávolítás
 Select local plugin file=Válassza ki a helyi Plugin fáljt
 Stable=Stabil
@@ -35,9 +33,11 @@ STALE=ÁLLOTT
 Support Thread=Támogatási szál
 Uninstall=Eltávolítás
 Update All Plugins=Az összes beépülő modul frissítése
-Update Incompatible=
 Update Plugin=Plugin frissítése
 Upgrade=Frissítés
 View Release Notes=Kiadási megjegyzések megtekintése
 
-; Note: April 11, 2023 - 3 missing translations
+; Note: April 28, 2023 - 3 missing translations
+Alert Message=
+Remove Selected Plugins=
+Update Incompatible=
