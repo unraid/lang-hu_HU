@@ -813,4 +813,4 @@ Transient errors in this log can be ignored unless you are having issues=A napl�
 Unraid API extra origins=Unraid API extra eredet
 View Flash Backup Error Log=Flash biztonsági mentési hibanapló megtekintése
 
-; Note: April 28, 2023 - 21 missing translations
+; Note: April 28, 2023 - 20 missing translations
