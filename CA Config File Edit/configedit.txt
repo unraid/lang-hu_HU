@@ -10,5 +10,3 @@ Generally, it is not recommended to change the format=Általában nem javasolt a
 Credits=Credits
 No Backup File Found=Nem található biztonsági mentési fájl
 File Format=Fájlformátum
-
-; Note: June 6, 2022 - 12 missing translations

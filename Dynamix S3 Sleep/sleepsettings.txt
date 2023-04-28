@@ -12,7 +12,6 @@ Excluded hours=Kizárt órák
 Execute function=Funkció végrehajtása
 Extra delay after array inactivity=Extra késleltetés a tömb inaktivitása után
 Force gigabit speed after wake-up=A gigabites sebesség kényszerítése ébredés után
-
 High traffic=Forgalom nagysága
 IP address=IP cím
 Local Remote=Helyi & Távoli
@@ -28,16 +27,13 @@ Remote=Távoli
 Set WOL options before sleep=Állítsa be a WOL-beállításokat elalvás előtt
 Silent traffic=Csendes forgalom
 Status counters=Állapot & számlálók
-
 Status only=Csak állapot
 Syslog and flash=Syslog és flash
 Syslog=Syslog
 Wait for array inactivity=Várja meg a tömb inaktivitását
 Wait for host inactivity=Várja meg a gazdagép inaktivitását
 Wait for network inactivity=Várja meg a hálózati inaktivitást
-
 Wait for user login inactivity=Várja meg, amíg a felhasználó nem jelentkezik ki
-
 Yes, exclude Cache=Igen, zárja ki a gyorsítótárat
 
 :s3sleep_function_plug:
@@ -119,5 +115,3 @@ Yes, exclude Cache=Igen, zárja ki a gyorsítótárat
 :s3sleep_debug_plug:
 > Alapértelmezés szerint a hibakeresés KI. Ezt a beállítást csak hibaelhárítás esetén használja, ez további üzeneteket generál az s3_sleep parancsfájl különböző szakaszainak jelentésére.
 :end
-
-; Note: June 6, 2022 - 34 missing translations

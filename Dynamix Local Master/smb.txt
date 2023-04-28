@@ -1,9 +1,3 @@
-Current elected master=
-is current local master browser=
-Local master=
-Monitor local master election=
-please wait, obtaining=
-Workgroup=
 
 :smb_workgroup_plug:
 > Enter your local network Workgroup name. Usually this is "WORKGROUP".
@@ -23,4 +17,10 @@ Workgroup=
 > Shows in real-time the current elected local master browser.
 :end
 
-; Note: June 6, 2022 - 6 missing translations
+; Note: April 28, 2023 - 6 missing translations
+Current elected master=
+is current local master browser=
+Local master=
+Monitor local master election=
+please wait, obtaining=
+Workgroup=

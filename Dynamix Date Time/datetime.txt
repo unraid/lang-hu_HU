@@ -39,5 +39,3 @@ Use NTP=NTP használata
 :current_time_plug:
 > Enter the current time-of-day.  Use format YYYY-MM-DD HH:MM:SS. Greyed out when using NTP.
 :end
-
-; Note: June 6, 2022 - 7 missing translations

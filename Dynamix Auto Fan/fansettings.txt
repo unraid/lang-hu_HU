@@ -8,5 +8,3 @@ Minimum PWM value=Minimális PWM érték
 PWM controller=PWM vezérlő
 PWM fan=PWM ventilátor
 Refresh interval=Frissítési intervallum
-
-; Note: June 6, 2022 - 10 missing translations
