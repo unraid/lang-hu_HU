@@ -605,7 +605,6 @@ Confirm closure then continue to webGUI=Erősítse meg a bezárást, majd folyta
 Confirm Password=Jelszó megerősítése
 Confirm=Megerősítés
 Connect your Unraidnet account to get started=Connect your Unraid.net account to get started
-Connected to Mothership=Csatlakozva az anyahajóhoz
 Continue to Unraid=Tovább az Unraid-hez
 Continue Trial=Próba folytatása
 Copied key url=Kulcs url másolva
@@ -799,7 +798,7 @@ Your trial will expire in 30 days=A próbaidőszak 30 napon belül lejár
 Your Unraid registration key is ineligible for replacement as it has been replaced within the last 12 months=Az Unraid regisztrációs kulcsa nem cserélhető, mivel az elmúlt 12 hónapban lecserélték
 Your USB Flash GUID and other relevant server data will also be sent=A rendszer elküldi az USB Flash GUID azonosítóját és más releváns szerveradatokat is
 
-; Note: April 28, 2023 - 116 missing translations
+; Note: April 28, 2023 - 117 missing translations
 bond down=
 Calculated free space value=
 Job=
@@ -852,15 +851,16 @@ Confirm Connect plugin removal=
 Connect Error=
 Connect plugin install failed=
 Connect=
+Connected=
 Continue using Connect=
 Customizable Dashboard Tiles=
 Deep Linking=
+Disconnected=
 Download latest backup from Connect Dashboard before signing out=
 Download latest backup from Go to Connect before signing out=
 Download unraid-api Logs=
 Dynamic Remote Access=
 Enhance your experience with Connect=
-Executes `unraid-api start`; no terminal needed=
 For best results, use one of these urls=
 Get started by installing the plugin=
 Go to Connect=
