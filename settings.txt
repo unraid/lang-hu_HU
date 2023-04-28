@@ -65,6 +65,7 @@ Bonding members of=Összekötő tagjai
 Bonding mode=Ragasztási mód
 boost=felemelkedés
 Both=Mindkettő
+Both Web Virt-Manager Remote Viewer=Both Web & Virt-Manager Remote Viewer
 bottom-left=bal alsó
 bottom-right=jobb alsó
 Bridging members of=A tagok áthidalása
@@ -110,6 +111,7 @@ Confirm sleep command=Erősítse meg az alvás parancsot
 Confirmations=Megerősítések
 connect to any device on the VPN tunnel=csatlakozzon bármely eszközhöz a VPN alagúton
 connect to this server using IP address=csatlakozzon ehhez a szerverhez az IP-cím használatával
+Console Options=
 Container=Konténer
 Content=Tartalom
 Correct file system errors=Javítsa ki a fájlrendszer-hibákat
@@ -726,6 +728,7 @@ View libvirt log=Libvirt log megtekintése
 View Local Config=Helyi konfiguráció megtekintése
 View Peer Config=Peer konfiguráció megtekintése
 view=nézet
+Virt-Manager Remote Viewer=
 VLAN assignment mismatch=VLAN hozzárendelés eltérése
 VLAN number=VLAN szám
 VM Manager=VM Manager
@@ -743,6 +746,7 @@ VPN tunneled access=VPN alagút hozzáférés
 WAN Port=WAN port
 Warnings=Figyelmeztetések
 Watts=Watt
+Web interface=
 Week of the month=A hónap hete
 Weekly=Heti
 WireGuard Configuration=WireGuard konfiguráció
@@ -809,4 +813,4 @@ Transient errors in this log can be ignored unless you are having issues=A napl�
 Unraid API extra origins=Unraid API extra eredet
 View Flash Backup Error Log=Flash biztonsági mentési hibanapló megtekintése
 
-; Note: April 25, 2023 - 22 missing translations
+; Note: April 28, 2023 - 21 missing translations
