@@ -784,22 +784,39 @@ Transient errors in this log can be ignored unless you are having issues=A napl�
 Unraid API extra origins=Unraid API extra eredet
 View Flash Backup Error Log=Flash biztonsági mentési hibanapló megtekintése
 
-; Note: April 29, 2023 - 29 missing translations
+; Note: July 9, 2023 - 46 missing translations
+Always On - Manual Port Forward=
+Always On - UPnP=
+Any=
 Both Web Virt-Manager Remote Viewer=Both Web & Virt-Manager Remote Viewer
+Connected to Unraid Connect Cloud=
 Console Options=
+Current listening interfaces=
+Disabled until connected to Unraid Connect Cloud=
 Enable container table readmore-js=
 Ensure the primary network card eth0 has an IP address=Ensure the primary network card eth0 has an IP address.
+Exclude listening interfaces=
 Finished=
 Hidden share names are not allowed=
 if you have trouble logging in, close all other tabs pointing to this server and clear your browsers cache=if you have trouble logging in, close all other tabs pointing to this server and clear your browser's cache
+Include listening interfaces=
+Interface Extra=
 Make sure you understand what you are doing before enabling=
+Management Interface=
 Misconfiguration can cause problems=
+Permit exclusive shares=
+Questions See the documentation=Questions? See <a href="https://wiki.unraid.net/Connect" target="_blank">the documentation</a>.
+Remark to use the Dynamic - Manual Port Forward option for Remote Access please set Use SSLTLS to Strict in Management Access=Remark: to use the "Dynamic - Manual Port Forward" option for Remote Access please set "Use SSL/TLS" to "Strict" in Management Access.
+Remark to use the UPnP options please set Use UPnP to Yes in Management Access=Remark: to use the UPnP options please set "Use UPnP" to "Yes" in Management Access.
 Stop corresponding docker containers=
 System goes down=
+To test your manual port forward, temporarily configure Allow Remote Access as Always On - Manual Port Forward=To test your manual port forward, temporarily configure 'Allow Remote Access' as 'Always On - Manual Port Forward'
 Tunnel has running containers attached=
+Unraid Connect=
 Unraid Lets Encrypt certificate=Unraid Let's Encrypt certificate
 Virt-Manager Remote Viewer=
 Web interface=
+You can not exclude this interface=
 Account status=
 Also delete cloud backup Restore from backup will be unavailable=Also delete cloud backup. Restore from backup will be unavailable.
 Always - Manual Port Forward=
