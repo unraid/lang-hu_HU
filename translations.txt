@@ -254,7 +254,6 @@ Online Manual=Online Manual
 Online manual=Online manual
 OpenSSL=OpenSSL
 optional=optional
-Options for Block $action=
 Other Comment=Egyéb hozzászólások
 Other information=egyéb információ
 Parity device is disabled=A paritáseszköz le van tiltva
