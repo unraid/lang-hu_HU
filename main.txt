@@ -58,8 +58,10 @@ Date of purchase=Vásárlás dátuma
 Date=Dátum
 Delete Pool=Lemezkészlet törlése
 detected=észlelt
+Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode (spun-down)
 Device encrypted and unlocked=Eszköz titkosítva és feloldva
 Device encrypted=Eszköz titkosítva
+Device is missing disabled=Device is missing disabled=Device is missing disabled=Device is missing (disabled)
 Device is part of a pool=Az eszköz egy pool része
 Device locked unknown error=Eszköz zárolva: ismeretlen hiba
 Device locked wrong encryption key=Az eszköz zárolva: rossz titkosítási kulcs
@@ -348,7 +350,7 @@ System in sleep mode=A rendszer alvó üzemmódban
 This will put the system in sleep mode=Ezzel a rendszer alvó módba kerül
 wiki entry=wiki bejegyzés
 
-; Note: December 17, 2023 - 48 missing translations
+; Note: December 17, 2023 - 45 missing translations
 Add Subpool=
 Add ZFS Subpool=
 Attributes not available=
@@ -359,10 +361,8 @@ Compression=
 Critical NVME temperature threshold=
 Critical SSD temperature threshold=
 dedup - Deduplication Tables=
-Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode (spun-down)
 Device contents invalid=
 Device is disabled=
-Device is missing disabled=Device is missing disabled=Device is missing disabled=Device is missing (disabled)
 Identity is not available=
 Incorrect confirmation=
 logs - ZFS Intent Log=
@@ -372,7 +372,6 @@ no devices=
 Not present=
 Please try again=
 Pool Status=
-Power=
 Power=
 raid0=
 raid1=
