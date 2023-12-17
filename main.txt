@@ -337,6 +337,7 @@ xfs_repair status=xfs_repair status
 You may not add new disks and also remove existing disks=Nem adhat hozzá új lemez(eke)t, és nem távolíthat el meglévő lemez(eke)t
 your server=a Szervered
 
+
 ; Sleep plugin translations
 Check this=Ellenőrizze ezt
 for more information=további információkért
@@ -347,18 +348,32 @@ System in sleep mode=A rendszer alvó üzemmódban
 This will put the system in sleep mode=Ezzel a rendszer alvó módba kerül
 wiki entry=wiki bejegyzés
 
-; Note: April 28, 2023 - 28 missing translations
+; Note: December 17, 2023 - 48 missing translations
+Add Subpool=
+Add ZFS Subpool=
 Attributes not available=
 Autotrim=
+cache - Cache Devices=
 Capabilities not available=
 Compression=
+Critical NVME temperature threshold=
+Critical SSD temperature threshold=
+dedup - Deduplication Tables=
+Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode (spun-down)
+Device contents invalid=
+Device is disabled=
+Device is missing disabled=Device is missing disabled=Device is missing disabled=Device is missing (disabled)
 Identity is not available=
 Incorrect confirmation=
+logs - ZFS Intent Log=
 mirror=
+Missing pool disk=
 no devices=
 Not present=
 Please try again=
 Pool Status=
+Power=
+Power=
 raid0=
 raid1=
 raid10=
@@ -373,6 +388,12 @@ Read errors corrected=
 Read errors detected=
 ReiserFS is deprecated, please use another file system=
 single=
+spares - Hot Spares=
+special - Special Allocation Class=
+W=
+Warning NVME temperature threshold=
+Warning SSD temperature threshold=
+will remove the missing pool disk and then bring the array on-line=
 Wrong Pool State=
 zfs pool status=
 zfs=
