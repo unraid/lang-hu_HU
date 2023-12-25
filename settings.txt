@@ -301,6 +301,7 @@ Generate Key=Kulcs generálása
 Generate Keypair=Kulcspár létrehozása
 Global Share Settings=Globális megosztási beállítások
 Global SMART Settings=Globális SMART beállítások
+GRUB Configuration=
 Header custom background color=Fejléc egyéni háttérszíne
 Header custom meta text color=Fejléc egyéni metaszöveg színe
 Header custom secondary text color=Fejléc egyéni másodlagos szöveg színe
@@ -859,4 +860,4 @@ Transient errors in this log can be ignored unless you are having issues=A napl�
 Unraid API extra origins=Unraid API extra eredet
 View Flash Backup Error Log=Flash biztonsági mentési hibanapló megtekintése
 
-; Note: December 17, 2023 - 75 missing translations
+; Note: December 25, 2023 - 76 missing translations
