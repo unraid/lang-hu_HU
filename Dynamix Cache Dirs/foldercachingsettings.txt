@@ -2,12 +2,10 @@ Adaptive=Adaptív
 Cache pressure of directories on system=A rendszeren lévő könyvtárak gyorsítótárának nyomása
 Check HELP for filter example=Nézze meg a SÚGÓ-t a szűrőpéldákért
 Disk Idle Timer=Lemez üresjárati időzítő
-Excluded folders=Kizárt mappák
 Folder caching function=Mappa gyorsítótár funkciója
 for adaptive depth=alkalmazkodó mélységhez
 Important - check HELP if disks spin up=Fontos – ellenőrizze a SÚGÓ-t, ha a lemezek felpörögnek
 Included folders=Tartalmazott mappák
-Limit the memory available to the shell in which the script runs increase if it dies=Korlátozza a rendelkezésre álló memóriát arra a shellre, amelyben a szkript fut (ha meghal, növelje)
 Logging=Naplózás
 Maximum interval between folder scans=Maximális időköz a mappavizsgálatok között
 Maximum level depth=Maximális szintmélység
@@ -15,9 +13,6 @@ Minimum interval between folder scans=Minimális időköz a mappavizsgálatok k�
 Minimum level depth=Minimális szintmélység
 or see=vagy lásd
 Run scan of each disk in a separate thread=Futtassa le az egyes lemezek vizsgálatát külön szálban
-Scan timeout for a scan during disk-idle period=Keresési időtúllépés a lemez tétlenségi időszakában végzett vizsgálathoz
-Scan timeout for a scan during initial startup or less-idle period=Keresési időtúllépés a kezdeti indításkor vagy a kevésbé üresjárati időszak során
-Scan timeout for a scan when all directories have been succesfully cached=Vizsgálat időtúllépése, ha az összes könyvtárat sikeresen gyorsítótárazta
 Scan user shares mntuser=Felhasználói megosztások vizsgálata (/mnt/user)
 Suspend during Mover process=felhasználni a „Költöztető” folyamat során
 unlimited=korlátlan
@@ -140,3 +135,9 @@ User defined options=Felhasználó által meghatározott opciók
 >
 > Note that the single quotes around argument to -a is important. Double-quotes do not work in the current version, so unfortunately its not currently possible to filter with '-name "*Old" -prune'.
 :end
+
+; Note: December 8, 2024 - 4 missing translations
+Memory available to the cache_dirs script increase if it dies=Memory available to the cache_dirs script (increase if it dies)
+Timeout during disk-idle period=
+Timeout during initial startup or less-idle period=
+Timeout when all directories have been cached=
