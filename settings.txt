@@ -167,7 +167,7 @@ Default appdata storage location=Alapértelmezett appdata tárolási hely
 Default critical disk temperature threshold=Alapértelmezett kritikus lemez hőmérsékleti küszöb
 Default critical disk utilization threshold=Alapértelmezett kritikus lemezhasználati küszöb
 Default critical SSD temperature threshold=
-Default file system=Alapértelmezett fájlrendszer
+Default file system for Array disks=
 Default ISO storage path=Alapértelmezett ISO tárolási útvonal
 Default network bridge=Alapértelmezett hálózati híd
 Default network source=Alapértelmezett hálózati forrás
@@ -216,6 +216,7 @@ Docker LOG maximum file size=Docker LOG maximális fájlméret
 Docker LOG number of files=Docker LOG fájlok száma
 Docker LOG rotation=Docker LOG forgás
 Docker only=Csak Docker
+Docker PID Limit=
 Docker service=ocker szolgáltatás
 Docker Stop Timeout=Docker leállítási késleltetés
 Docker update notification=Docker frissítési értesítés
@@ -860,4 +861,4 @@ Transient errors in this log can be ignored unless you are having issues=A napl�
 Unraid API extra origins=Unraid API extra eredet
 View Flash Backup Error Log=Flash biztonsági mentési hibanapló megtekintése
 
-; Note: December 25, 2023 - 76 missing translations
+; Note: December 8, 2024 - 78 missing translations
