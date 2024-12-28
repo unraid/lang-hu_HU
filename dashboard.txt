@@ -95,6 +95,7 @@ Parity has not been checked yet=A paritást még nem ellenőrizték
 Parity Information=Paritási információ
 Parity is degraded=A paritás leromlott
 Pool=Tömb
+Popup Blocked=Popup Blocked.
 Power Status=Tápellátás állapota
 Power=Tápellátás
 Processor Information=Processzor információ
@@ -142,7 +143,7 @@ VPN Connections=VPN kapcsolatok
 Warnings=Figyelmeztetések
 ZFS=ZFS
 
-; Note: December 28, 2024 - 56 missing translations
+; Note: December 28, 2024 - 53 missing translations
 Check free space=
 checking=
 Clock is synchronized using NTP, time offset is %s %s=
@@ -177,7 +178,6 @@ Percent usage of Docker folder=
 Percent usage of Docker vdisk=
 Percent usage of flash usb device=
 Percent usage of LOG file system=
-Popup Blocked=Popup Blocked.
 RAM usage=
 RX=
 Services=

@@ -156,4 +156,4 @@ Web=Web
 WebUI=WebUI
 Writable=Írható
 
-; Note: December 28, 2024 - 124 missing translations
+; Note: December 28, 2024 - 123 missing translations
