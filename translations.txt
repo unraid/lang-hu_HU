@@ -21,8 +21,8 @@ Add VM=VM hozzáadása
 Advanced View=Haladó mód
 AFP Security Settings=AFP biztonsági beállítások
 ago=előtt
-Always Allow=
 All=Összes
+Always Allow=
 Anonymize diagnostics may make troubleshooting more difficult=A diagnosztika névtelenítése (megnehezítheti a hibaelhárítást)
 Anonymous Mode=Névtelenség mód
 Apply=Alkalmaz
@@ -54,8 +54,8 @@ Browser error=Böngésző hiba
 btrfs=btrfs
 Bug Description=Hibaleírás
 Bug Report=Hibajelentés
-bytes=bájt
 By default UEFI and Legacy boot mode are both enabled when GRUB is used to boot the machine=
+bytes=bájt
 Cache=Gyorsítótár
 Calculated free space value=
 Cancel=Mégse
@@ -257,6 +257,12 @@ Online Manual=Online Manual
 Online manual=Online manual
 OpenSSL=OpenSSL
 optional=optional
+Options for Block commit=
+Options for Block Commit=
+Options for Block copy=
+Options for Block Copy=
+Options for Block pull=
+Options for Block Pull=
 Other Comment=Egyéb hozzászólások
 Other information=egyéb információ
 Parity device is disabled=A paritáseszköz le van tiltva
@@ -279,6 +285,7 @@ PB=PB
 Percentage=
 Please access this server via the My Servers Dashboard=
 Please also ensure you have cookies enabled=Kérjük, győződjön meg arról is, hogy a sütik-k engedélyezve vannak
+Please enable cookies to use the Unraid webGUI=
 Please enable it=Kérjük, engedélyezze
 Please select one file only=Kérjük, csak egy fájlt válasszon
 Please set a password for the root user account=Kérjük, állítson be egy jelszót a root felhasználói fiókhoz
@@ -320,6 +327,7 @@ Removing container=
 Removing orphan image=
 Rename=Átnevezés
 Renew=Megújítás
+required=
 Reset=Reset
 Restart=Újraindítás
 Resume=Folytatás
@@ -467,6 +475,13 @@ YesTime Machine=Igen/Time Machine
 You must reboot for changes to take effect=A változtatások érvénybe lépéséhez újra kell indítani
 Your browser does not support HTML5 file uploads=Az Ön böngészője nem támogatja a HTML5 fájlok feltöltését
 Your browser has JavaScript disabled=Böngészőjében le van tiltva a JavaScript
+
+; Favorites
+Add to favorites=
+Added to Favorites=
+My Favorites=
+No favorites available=
+Remove from favorites=
 
 ; Dynamix.system.button plugin
 Array busy=Tömb elfoglalt
@@ -1238,4 +1253,4 @@ Open a bug report=
 %s year=
 %s years=
 
-; Note: December 8, 2024 - 395 missing translations
+; Note: December 28, 2024 - 408 missing translations
