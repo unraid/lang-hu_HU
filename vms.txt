@@ -162,6 +162,7 @@ QEMU Command Line=
 QEMU64=QEMU64
 random mac, you can supply your own=random MAC, akkor a saját
 re-generate random mac address=véletlenszerű MAC-cím újragenerálása
+Rename disabled, %s snapshots exists=Rename disabled, %s snapshot(s) exists
 Remove all files=
 Remove Images=
 Remove LibreELEC image=Távolítsa el a LibreELEC képet
@@ -265,4 +266,4 @@ Windows 82012, newer Linux distros=Windows 8/2012, újabb Linux disztribúciók
 wsport for virtual console=
 XML View=XML nézet (Haladó)
 
-; Note: December 29, 2024 - 124 missing translations
+; Note: December 29, 2024 - 125 missing translations
