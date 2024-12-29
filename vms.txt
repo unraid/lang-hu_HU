@@ -266,4 +266,4 @@ Windows 82012, newer Linux distros=Windows 8/2012, újabb Linux disztribúciók
 wsport for virtual console=
 XML View=XML nézet (Haladó)
 
-; Note: December 29, 2024 - 124 missing translations
+; Note: December 29, 2024 - 125 missing translations
