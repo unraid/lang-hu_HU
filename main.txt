@@ -148,6 +148,7 @@ Last checked on %s=Utolsó ellenőrzés: **%s**
 Last SMART test result=Utolsó SMART teszt eredménye
 logs - Separate Intent Log SLOG=logs - Separate Intent Log (SLOG)
 logs - ZFS Intent Log=
+loopback=
 Maintenance mode=Karbantartási mód
 Maintenance Mode=Karbantartási mód
 Maintenance=Karbantartás
@@ -175,6 +176,7 @@ No parity check history present=Nincs jelen paritásellenőrzési előzmény
 No self-tests logged on this disk=Ezen a lemezen nincs bejelentkezve önteszt
 Not installed=Nincs telepítve
 Not present=
+not set=
 OK=OK
 Once copy completes, the array may be Started, to initiate Data-Rebuild of the disabled disk=A másolás befejeztével a Tömb elindítható a letiltott lemez adat-újraépítésének elindításához
 operation=művelet
@@ -234,6 +236,7 @@ Repair corrupted blocks=A sérült blokkok javítása
 Replacement disk installed=Cserelemez telepítve
 Replacement disk is too small=A cserelemez túl kicsi
 Retype passphrase=Írja be újra a jelszót
+Rx=
 Schedule=Ütemező
 Scrub Status=Súrolás állapota
 Scrub=Súrolás
@@ -300,6 +303,7 @@ Toggle readswrites display=Az olvasási/írási megjelenítés váltása
 Too many attached devices Please consider upgrading your=Túl sok csatlakoztatott eszköz. Kérjük, fontolja meg a frissítését
 Too many wrong andor missing disks=Túl sok rossz és/vagy hiányzó lemez
 Total size=Teljes méret
+Tx=
 Unassign ALL devices to delete this pool=A készlet törléséhez szüntesse meg az **MINDEN** eszköz hozzárendelését
 Unassigned Devices=Hozzá nem rendelt eszközök
 Unavailable - disk must be spun up=Nem érhető el – a lemezt fel kell ébreszteni
@@ -413,4 +417,4 @@ System in sleep mode=A rendszer alvó üzemmódban
 This will put the system in sleep mode=Ezzel a rendszer alvó módba kerül
 wiki entry=wiki bejegyzés
 
-; Note: December 28, 2024 - 67 missing translations
+; Note: April 21, 2025 - 71 missing translations

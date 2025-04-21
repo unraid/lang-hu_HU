@@ -37,8 +37,9 @@ Update Plugin=Plugin frissítése
 Upgrade=Frissítés
 View Release Notes=Kiadási megjegyzések megtekintése
 
-; Note: July 9, 2023 - 4 missing translations
+; Note: April 21, 2025 - 5 missing translations
 Alert Message=
+cannot check=
 I have read the release notes=
 Remove Selected Plugins=
 Update Incompatible=
