@@ -55,6 +55,7 @@ Key file URL=Kulcsfájl URL
 Language support added=Nyelvi támogatás hozzáadva
 Language support deleted=Nyelvi támogatás törölve
 Language=Nyelv
+Log Viewer new=Log Viewer (new)
 Missing Key File=Hiányzó kulcsfájl
 Missing Language=Hiányzó nyelv
 Network Settings=Hálózati beállítások
@@ -313,7 +314,7 @@ is not unique (this is common with USB card readers).
 For more information, please [Contact Support](https://lime-technology.com/contact).
 :end
 
-; Note: April 21, 2025 - 41 missing translations
+; Note: May 31, 2025 - 40 missing translations
 Alert Message=
 Alerts=
 All Categories=
@@ -332,7 +333,6 @@ Insufficient free disk space available=
 Log file cleared=
 Log size=
 LOG size=
-Log Viewer new=Log Viewer (new)
 Modprobed config file=Modprobe.d config file
 No filter=
 Notices Only=
