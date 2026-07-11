@@ -1,9 +1,9 @@
-also remove image=kép eltávolítása is
+also remove image=a képet is távolítsa el
 Apply=Alkalmaz
-Are you sure=Biztos vagy benne?
+Are you sure=Biztos vagy benne
 Cancel=Mégse
 checking=ellenőrzés
-Completely REMOVE=Teljes TÖRLÉS
+Completely REMOVE=Teljes **TÖRLÉS**
 Console=Konzol
 day=nap
 days=nap
@@ -14,8 +14,8 @@ Done=Kész
 Edit=Szerkesztés
 Execution error=Végrehajtási hiba
 Force Stop=Kényszer leállítás
-Hibernate=Hibernált
-Log for=Napló a/z:
+Hibernate=Hibernálás
+Log for=Napló ehhez:
 log=Napló
 Logs=Naplók
 More Info=További információ
@@ -23,10 +23,10 @@ No=Nem
 OK=OK
 Ok=ok
 Pause=Szünet
-Proceed=Folytatás
+Proceed=Végrehajtás
 Project Page=Projektoldal
 Read Me First=Először olvass engem
-Remove container=Távolítsa el a Kontainért
+Remove container=Konténer eltávolítása
 Remove definition=Definíció eltávolítása
 Remove image=Kép eltávolítása
 Remove VM=VM eltávolítása
@@ -36,40 +36,42 @@ Resume=Folytatás
 Start=Indítás
 Stop=Leállítás
 Support=Támogatás
-Update container=Tároló frissítése
+Update container=Konténer frissítése
 Update=Frissítés
-Updating all Containers=Az összes Kontainer frissítése
-Updating the container=A Kontainer frissítése
+Updating all Containers=Az összes konténer frissítése
+Updating the container=A konténer frissítése
 VNC Remote=VNC Remote
 WebUI=WebUI
-Yes, delete it=Igen, töröld!
-Yes, update it=Igen, frissítse!
+Yes, delete it=Igen, töröld
+Yes, update it=Igen, frissítsd
 Yes=Igen
 
 ; footer messages
 Array Copying=Tömb másolása
-Array Clearing=Tömb törlése
+Array Clearing=Tömb tisztítása
 Array Starting=Tömb indítása
 Array Stopping=Tömb leállítása
-Mounting disks=Csatlakoztatott lemezek
-Spinning up all drives=Az összes meghajtó felébresztése
+Mounting disks=Lemezek csatlakoztatása
+Spinning up all drives=Az összes meghajtó felébresztése (felpörgetése)
 Starting services=Szolgáltatások indítása
 Stopping services=Szolgáltatások leállítása
 Unmounting disks=Lemezek leválasztása
-Autostart disabled=Automatikus indítás letiltva
+Autostart disabled=Automatikus indítás kikapcsolva
 Missing encryption key=Hiányzik a titkosítási kulcs
 Opening encrypted volumes=Titkosított kötetek megnyitása
 
 ; docker variables
 Container Path=Konténer útvonala
-Container Port=Konténer Port
+Container Port=Konténer port
 Container Variable=Konténerváltozó
 Container Label=Konténercímke
-Container Device=Konténer eszközök
+Container Device=Konténer eszköz
 
 ; Note: April 29, 2023 - 5 missing translations
-Retry unmounting user shares=Retry unmounting user share(s)
-Stale configuration=
-Starting Recycle Bin=
-Stopping Recycle Bin=
-Sync filesystems=
+Retry unmounting user shares=Felhasználói megosztás(ok) leválasztásának újbóli megkísérlése
+Stale configuration=Elavult konfiguráció
+Starting Recycle Bin=Lomtár indítása
+Stopping Recycle Bin=Lomtár leállítása
+Sync filesystems=Fájlrendszerek szinkronizálása
+
+; Note: July 11, 2026 - all lines translated by nkgy17
