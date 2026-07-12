@@ -4,7 +4,7 @@
 >
 > Ha a hálózati környezeted kimenő HTTP proxyt igényel, itt add meg.
 >
-> A webGUI-ból és néhány rendszerfolyamatból induló kimenő kapcsolat a megadott HTTP proxyt fogják használni. A Docker konténerek telepítése és frissítése is a proxyt fogja használni, de maga a konténer nem, és a VM-ek sem.
+> A webGUI-ból és néhány rendszerfolyamatból induló kimenő kapcsolat a megadott HTTP proxyt fogja használni. A Docker konténerek telepítése és frissítése is a proxyt fogja használni, de maga a konténer nem, és a VM-ek sem.
 >
 > Egy átfogóbb megoldásért érdemes megfontolnod a <u><a href='https://docs.unraid.net/unraid-os/manual/security/vpn/#configuring-vpn-tunneled-access-for-system/' target='_blank'>_(VPN alagutas hozzáférés a rendszerhez)_</a></u> beállítását.
 :end
@@ -16,7 +16,7 @@
 :outgoing_proxy_url_plug:
 > Ehhez a Proxyhoz tartozó kimenő Proxy URL-je. Az URL hitelesítő adatokkal vagy anélkül is megadható. A hitelesítő adatokat a rendszer az URL-ből fogja kinyerni.
 >
-> Ha megadsz egy felhasználónevet és jelszót, azok lesznek használva új hitelesítő adatokként.
+> Ha megadsz egy felhasználónevet és jelszót, a rendszer ezeket használja új hitelesítő adatokként.
 :end
 
 :outgoing_proxy_user_plug:
