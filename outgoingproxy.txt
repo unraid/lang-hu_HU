@@ -1,36 +1,38 @@
 
 :outgoing_proxy_enable_plug:
-> Select the Proxy to use.  Only online Proxies will be selectable.
+> Válaszd ki a használni kívánt Proxyt. Csak az online Proxyk választhatók ki.
 >
-> If your network environment requires an outgoing http proxy, define that here.
+> Ha a hálózati környezeted kimenő HTTP proxyt igényel, itt add meg.
 >
-> Outgoing connections from the webgui and some system processes will use the specified http proxy.  Docker container installs and updates will use the proxy, but the container itself will not, neither will any VMs.
+> A webGUI-ból és néhány rendszerfolyamatból induló kimenő kapcsolat a megadott HTTP proxyt fogja használni. A Docker konténerek telepítése és frissítése is a proxyt fogja használni, de maga a konténer nem, és a VM-ek sem.
 >
-> For a more comprehensive solution you might consider setting up <u><a href='https://docs.unraid.net/unraid-os/manual/security/vpn/#configuring-vpn-tunneled-access-for-system/' target='_blank'>_(VPN tunnel access for System)_</a></u>.
+> Egy átfogóbb megoldásért érdemes megfontolnod a <u><a href='https://docs.unraid.net/unraid-os/manual/security/vpn/#configuring-vpn-tunneled-access-for-system/' target='_blank'>_(VPN alagutas hozzáférés a rendszerhez)_</a></u> beállítását.
 :end
 
 :outgoing_proxy_name_plug:
-> Outgoing Proxy name for this Proxy
+> Ehhez a Proxyhoz tartozó kimenő Proxy neve
 :end
 
 :outgoing_proxy_url_plug:
-> Outgoing Proxy URL for this Proxy.  The URL can be entered with or without credentials.  The credentials will be parsed from the URL.
+> Ehhez a Proxyhoz tartozó kimenő Proxy URL-je. Az URL hitelesítő adatokkal vagy anélkül is megadható. A hitelesítő adatokat a rendszer az URL-ből fogja kinyerni.
 >
-> If you enter a User and Password, they will be used as new credentials.
+> Ha megadsz egy felhasználónevet és jelszót, a rendszer ezeket használja új hitelesítő adatokként.
 :end
 
 :outgoing_proxy_user_plug:
-> Outgoing Proxy User Name for this Proxy
+> Ehhez a Proxyhoz tartozó kimenő Proxy felhasználóneve
 :end
 
 
 ; Note: December 29, 2024 - 9 missing translations
-Enable Outgoing Proxy=
-Name=
-Optional=
-Outgoing Proxy=
-Password=
-Please match the requested format=
-Required=
-Select Proxy=
-User=
+Enable Outgoing Proxy=Kimenő Proxy engedélyezése
+Name=Név
+Optional=Opcionális
+Outgoing Proxy=Kimenő Proxy
+Password=Jelszó
+Please match the requested format=Kérlek, a kért formátumnak megfelelően add meg
+Required=Kötelező
+Select Proxy=Proxy kiválasztása
+User=Felhasználó
+
+; Note: July 11, 2026 - all lines translated by nkgy17
