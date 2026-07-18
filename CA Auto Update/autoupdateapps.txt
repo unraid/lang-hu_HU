@@ -1,5 +1,5 @@
 ; Note: April 28, 2023 - 19 missing translations
-; Nore: July 18, 2026 - fully translated to Hungarian by nkgy17
+; Note: July 18, 2026 - fully translated to Hungarian by nkgy17
 Docker Auto Update Settings=Docker automatikus frissítési beállítások
 Plugin Auto Update Settings=Plugin automatikus frissítési beállítások
 Autoupdate ON=Automatikus frissítés BE
@@ -18,4 +18,4 @@ Credits=Készítők
 Docker Must Be Enabled For This Module To Operate=A modul működéséhez engedélyezned kell a Dockert
 Time to wait for graceful stop before killing=Várakozási idő a szabályos leállásra a kényszerített leállítás előtt
 Update All Docker Applications=Összes Docker alkalmazás frissítése
-Do not overlap with autoupdate=Ne fedje át az automatikus frissítést
+Do not overlap with autoupdate=Ne legyen átfedés az automatikus frissítéssel
