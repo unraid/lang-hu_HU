@@ -1,17 +1,17 @@
-Halt=Állj
+Halt=Leállítás
 Host Address=Gazdagép címe
 Host=Gazdagép
-No active streams=Nincsenek aktív adatfolyamok
-Playtime=Üzemidő
+No active streams=Nincsenek aktív streamek
+Playtime=Lejátszási idő
 Stop stream=Stream leállítása
 Stream=Stream
 User Name=Felhasználónév
 User=Felhasználó
 
 :streams_plug:
-> Give symbolic names to IP addresses, which are displayed on the active streams page.
+> Rendelj egyedi neveket az IP-címekhez, amelyek így jelennek meg az aktív streamek oldalon.
 >
-> New IP addresses are automatically added to the list when detected.
+> Az új IP-címek észlelésekor a rendszer automatikusan hozzáadja őket a listához.
 >
-> To remove a name association, clear the respective user name box and press apply.
+> Egy név társításának törléséhez ürítsd ki a megfelelő felhasználónév mezőt, majd kattints az **Alkalmaz (Apply)** gombra.
 :end
