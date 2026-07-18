@@ -1,7 +1,7 @@
-Click DETECT=FELISMERÉS kattintás
+Click DETECT=Kattints a **FELISMERÉS** gombra
 Detect=Felismerés
-Exclude drives=Meghajtók kizárása
-Fan control function=Ventilátor vezérlő funkció
+Exclude drives=Meghajtók **kizárása**
+Fan control function=Ventilátorvezérlő funkció
 High temperature threshold=Magas hőmérsékleti küszöb
 Low temperature threshold=Alacsony hőmérsékleti küszöb
 Minimum PWM value=Minimális PWM érték
