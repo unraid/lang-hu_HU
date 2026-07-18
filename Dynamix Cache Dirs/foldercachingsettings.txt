@@ -1,10 +1,10 @@
 Adaptive=Adaptív
-Cache pressure of directories on system=A rendszeren lévő könyvtárak gyorsítótárának nyomása
-Check HELP for filter example=Nézze meg a SÚGÓ-t a szűrőpéldákért
-Disk Idle Timer=Lemez üresjárati időzítő
-Folder caching function=Mappa gyorsítótár funkciója
-for adaptive depth=alkalmazkodó mélységhez
-Important - check HELP if disks spin up=Fontos – ellenőrizze a SÚGÓ-t, ha a lemezek felpörögnek
+Cache pressure of directories on system=Gyorsítótár-nyomás a rendszer könyvtárain
+Check HELP for filter example=A szűrőpéldákért nézd meg a SÚGÓ-t
+Disk Idle Timer=Lemez üresjárati időzítője
+Folder caching function=Mappa-gyorsítótárazási funkció
+for adaptive depth=az adaptív mélységhez
+Important - check HELP if disks spin up=**Figyelem** – nézd meg a SÚGÓ-t, ha felpörögnek a lemezek
 Included folders=Tartalmazott mappák
 Logging=Naplózás
 Maximum interval between folder scans=Maximális időköz a mappavizsgálatok között
@@ -12,132 +12,129 @@ Maximum level depth=Maximális szintmélység
 Minimum interval between folder scans=Minimális időköz a mappavizsgálatok között
 Minimum level depth=Minimális szintmélység
 or see=vagy lásd
-Run scan of each disk in a separate thread=Futtassa le az egyes lemezek vizsgálatát külön szálban
+Run scan of each disk in a separate thread=Az egyes lemezek vizsgálatának futtatása külön szálon
 Scan user shares mntuser=Felhasználói megosztások vizsgálata (/mnt/user)
-Suspend during Mover process=felhasználni a „Költöztető” folyamat során
+Suspend during Mover process=Felfüggesztés a Költöztető (Mover) folyamat alatt
 unlimited=korlátlan
 Unraid forum=Unraid fórum
-Use Adaptive depth=Használja az adaptív mélységet
-User defined options=Felhasználó által meghatározott opciók
+Use Adaptive depth=Adaptív mélység használata
+User defined options=Felhasználó által megadott opciók
 
 :cachedirs_info_plug:
-> Folder Caching Info
+> Mappa-gyorsítótárazási infó
 >
-> The folder caching (cache_dirs) reads directories continously to keep them in memory.
-> The program does not know whether a directory is already in memory or need to be reread from disk.
-> Therefore it cannot avoid spinning up disks when it happens that the linux memory cache evicts a directory and cache_dirs rescans the directoy.
-> If a large number of files are being kept in memory then it seems inevitably that some diretories get evicted from the cache when the system is under load.
+> A mappa-gyorsítótárazás (cache_dirs) folyamatosan olvassa a könyvtárakat, hogy a memóriában tartsa őket.
+> A program nem tudja, hogy egy könyvtár már a memóriában van-e, vagy újra be kell-e olvasni a lemezről.
+> Ezért nem tudja elkerülni a lemezek felpörgetését, amikor a Linux memóriagyorsítótára kiürít egy könyvtárat, a cache_dirs pedig újra átvizsgálja azt.
+> Ha nagy számú fájlt tartasz a memóriában, szinte elkerülhetetlen, hogy a rendszer terhelése alatt egyes könyvtárak kikerüljenek a gyorsítótárból.
 >
-> The program by default uses an adaptive mode where it reduces the depth of the directory structure which it tries to keep in memory.
-> When it detects a cache-miss (slow scan time) it will reduce the depth until disks are idle again,
-> but will still be at risk of putting load on the disks for a minute or two until the program gives up and waits for idle disks.
-> The less files the cache needs to hold, the less likely it is that the program spins up disks.
+> A program alapértelmezés szerint egy *adaptív módot* használ, amellyel csökkenti a memóriában tartani kívánt könyvtárstruktúra mélységét.
+> Amikor gyorsítótár-kiesést (cache-miss, lassú vizsgálati időt) észlel, addig csökkenti a mélységet, amíg a lemezek újra üresjáratba nem kerülnek,
+> de egy-két percig még fennáll a veszélye annak, hogy megterheli a lemezeket, mielőtt a program feladná és megvárná az üresjárati állapotot.
+> Minél kevesebb fájlt kell a gyorsítótárnak tárolnia, annál kisebb a valószínűsége annak, hogy a program felpörgeti a lemezeket.
 :end
 
 :cachedirs_function_plug:
-> Select whether folder caching is enabled or disabled. Caching will only effectively occur when the array is started.
-> The caching function is automatically restarted or stopped when the array goes online or offline.
+> Válaszd ki, hogy a mappa-gyorsítótárazás engedélyezve vagy letiltva legyen. A gyorsítótárazás csak akkor lép ténylegesen életbe, ha a **tömb el van indítva**.
+> A gyorsítótárazási funkció automatikusan újraindul vagy leáll, amikor a tömb online vagy offline állapotba kerül.
 :end
 
 :cachedirs_pressure_plug:
-> Set cache_pressure to NN (default = 10). A value of 0 means never reclaim cache.
+> Állítsd a cache_pressure értékét NN-re (alapértelmezett = 10). A 0 érték azt jelenti, hogy soha nem kéri vissza a gyorsítótár tartalmát.
 >
-> A value of 1 works great for many users. If your disks spin up or cache_dirs logging indicates it frequently has accessed disks after scan, try lowering cache-pressure to 1. If the system runs out of memory increase cache-pressure.
+> Az 1-es érték sok felhasználónál remekül működik. Ha felpörögnek a lemezeid, vagy a cache_dirs naplózása azt jelzi, hogy a vizsgálat után gyakran nyúl a lemezekhez, próbáld meg lecsökkenteni a cache-pressure-t 1-re. Ha a rendszer kifogy a memóriából, növeld a cache-pressure értékét.
 >
-> If CPU and disks is heavily affected by cache_dirs on frequent intervals this is also an indication that cache_dirs has to rescan everything.
+> Ha a CPU-t és a lemezeket gyakori időközönként erősen megterheli a cache_dirs, az szintén arra utalhat, hogy a cache_dirs-nek mindent újra kell vizsgálnia.
 >
-> Warning: a value of 0 will cause kernel never to release the memory of directories, and if too little memory is available,
-> it will cause the system to crash. cache_dirs does not reset the cachePressure after quitting,
-> to reset the cache-pressure execute 'sudo sysctl vm.vfs_cache_pressure=100', or run cache-dirs with cache_pressure 100.
+> **Figyelem:** a 0 érték miatt a kernel soha nem szabadítja fel a könyvtárak memóriáját, és ha túl kevés memória áll rendelkezésre, az a rendszer összeomlásához vezethet. A cache_dirs kilépés után nem állítja vissza a cachePressure értékét, a visszaállításhoz futtasd a 'sudo sysctl vm.vfs_cache_pressure=100' parancsot, vagy indítsd a cache-dirs-t 100-as cache_pressure értékkel.
 >
-> See 'vfs_cache_pressure' in [kernel.org](https://www.kernel.org/doc/Documentation/sysctl/vm.txt).
+> Lásd a 'vfs_cache_pressure' leírását a kernel.org oldalon.
 :end
 
 :cachedirs_suspend_plug:
-> Stop caching while the mover is running to avoid conflicts. When using adaptive depth it will probably work well NO.
-> With fixed depth it will almost certainly put less load on the disks to choose YES.
+> A konfliktusok elkerülése érdekében állítsd le a gyorsítótárazást, miközben a **Költöztető (Mover)** fut. Adaptív mélység használata esetén valószínűleg a **NEM** is jól fog működni.
+> Fix mélység esetén szinte biztosan kevesebb terhelést jelent a lemezeknek, ha az **IGEN** lehetőséget választod.
 :end
 
 :cachedirs_included_folders_plug:
-> The dropdown menu shows all available folders, by default all folders are included. Select here the restricted list of folders to be included.
+> A legördülő menü az összes elérhető mappát mutatja, alapértelmezés szerint mindegyik bele van számítva. Itt választhatod ki a szűkített listát a tartalmazni kívánt mappákról.
 >
-> If an included folder is excluded, then the folder gets excluded. It is simplest to not use includes and excludes at the same time.
+> Ha egy tartalmazott mappát kizársz, akkor az a mappa kizárásra kerül. A legegyszerűbb, ha nem használsz egyszerre bennfoglalást (includes) és kizárást (excludes).
 :end
 
 :cachedirs_excluded_folders_plug:
-> The dropdown menu shows all available folders, by default no folders are excluded. Select here any folders to be excluded.
+> A legördülő menü az összes elérhető mappát mutatja, alapértelmezés szerint egyik sincs kizárva. Itt választhatod ki a kizárni kívánt mappákat.
 >
-> It is possible to exclude an included folder. It is simplest to not use includes and excludes at the same time.
+> Egy bennfoglalt mappát is ki lehet zárni. A legegyszerűbb, ha nem használsz egyszerre bennfoglalást és kizárást.
 :end
 
 :cachedirs_adaptive_depth_plug:
-> If adaptive is enabled the depth will be automatically adjusted but will never exceed max level depth.
-> It will start at depth 1 and keep increasing the scan depth towards maximum level as long as scans do not take too long to complete (see scan timeout).
-> If adaptive is disabled then cache_dirs will always scan to the max level.
+> Ha az adaptív mód engedélyezve van, a mélység automatikusan igazodik, de soha nem lépi túl a maximális szintmélységet.
+> A vizsgálat az 1-es mélységről indul, és folyamatosan növekszik a maximális szintig, amíg a vizsgálatok befejezése nem tart túl sokáig (lásd: vizsgálati időtúllépés).
+> Ha az adaptív mód le van tiltva, a cache_dirs mindig a maximális szintig fog vizsgálni.
 :end
 
 :cachedirs_min_level_plug:
-> Sets the minimum folder level for the adaptive scan (user-share > child folder > grand child is two levels). Default is 4.
+> Beállítja a minimális mappaszintet az adaptív vizsgálathoz (felhasználói megosztás > almappa > al-almappa két szintnek felel meg). Az alapértelmezett érték: 4.
 :end
 
 :cachedirs_max_level_plug:
-> Sets the maximum folder levels for the scan (parent > child folder > grand child). Set to 'unlimited' (or 0) to remove maximum
+> Beállítja a vizsgálat maximális mappaszintjeit (szülőmappa > almappa > al-almappa). Állítsd 'korlátlan' (vagy 0) értékre a maximum eltávolításához.
 :end
 
 :cachedirs_idle_timer_plug:
-> When the disks have been idle this long, cache_dirs adaptive scan starts working towards building the cache.
+> Amikor a lemezek már ilyen hosszú ideje üresjáratban vannak, a cache_dirs adaptív vizsgálata elkezd dolgozni a gyorsítótár felépítésén.
 :end
 
 :cachedirs_timeout_scan_plug:
-> Scan timeout is the maximum duration that a single scan through all directories at the current level af depth (which may change adaptively).
-> Increase it if cache_dirs fails in caching all your files. This timeout is always used if adaptive is disabled.
+> A vizsgálati időtúllépés (Scan timeout) a maximális időtartam, ameddig egyetlen vizsgálat futhat az összes könyvtáron az aktuális mélységi szinten (ami adaptívan változhat).
+> Növeld meg az értéket, ha a cache_dirs-nek nem sikerül az összes fájlt gyorsítótáraznia. Ez az időtúllépés mindig érvényben van, ha az adaptív mód le van tiltva.
 :end
 
 :cachedirs_timeout_initial_plug:
-> Increase it if you want cache_dirs too give more time in initial scan, and when filesystem may be busy.
+> Növeld meg az értéket, ha azt szeretnéd, hogy a cache_dirs több időt hagyjon a kezdeti vizsgálatra, vagy amikor a fájlrendszer nagyon elfoglalt.
 :end
 
 :cachedirs_timeout_cached_plug:
-> Decrease it if you want cache_dirs to put less load on system when cache is evicted from memory, and disks are not idle.
-> Increase if you want cache_dirs to have a greater chance af getting directories back into memory.
+> Csökkentsd az értéket, ha azt szeretnéd, hogy a cache_dirs kevesebb terhelést jelentsen a rendszerre, amikor a gyorsítótár kiürül a memóriából, and a lemezek nem üresjáratban vannak.
+> Növeld meg, ha azt szeretnéd, hogy a cache_dirs-nek nagyobb esélye legyen a könyvtárak visszatöltésére a memóriába.
 :end
 
 :cachedirs_min_interval_plug:
-> Tweaking of the caching interval can be done for slower systems. Default value is 1 second, should be alright for most systems.
+> Lassabb rendszereknél finomhangolható a gyorsítótárazási intervallum. Az alapértelmezett érték 1 másodperc, ami a legtöbb rendszerhez megfelelő.
 :end
 
 :cachedirs_max_interval_plug:
-> Tweaking of the caching interval can be done for slower systems. Default value is 10 seconds, should be alright for most systems.
+> Lassabb rendszereknél finomhangolható a gyorsítótárazási intervallum. Az alapértelmezett érték 10 másodperc, ami a legtöbb rendszerhez megfelelő.
 :end
 
 :cachedirs_scan_disk_plug:
-> Each disk will be scanned in a separate thread, so the disks will be read concurrently. If user share is also scanned the user
-> share will be scanned in a single thread after all disks scans are completed, to avoid thrashing disks.
+> Minden lemez egy külön szálon fut le, így a lemezek beolvasása párhuzamosan történik. Ha a felhasználói megosztás (user share) is vizsgálatra kerül, a lemezek szükségtelen terhelésének (thrashing) elkerülése érdekében az egyetlen szálon lesz átvizsgálva, miután az összes különálló lemez vizsgálata befejeződött.
 :end
 
 :cachedirs_limit_memory_plug:
-> set ulimit to NN to limit memory used by script (default=50000), '-U 0' sets no ulimit at all and inherits the shells default).
+> Állítsd be az ulimit értékét NN-re a szkript által használt memória korlátozásához (alapértelmezett = 50000), a '-U 0' teljesen kikapcsolja a korlátozást, és a héj (shell) alapértelmezettjét örökli.
 :end
 
 :cachedirs_logging_plug:
-> Select whether logging is enabled or disabled. Logging will be made to /var/log/cache_dirs.log and /var/log/cache_dirs_lost_cache.csv.
-> Be wary that the cache_dirs logs are placed in memory on unRAID and are not automatically rolled.
+> Válaszd ki, hogy a naplózás engedélyezve vagy letiltva legyen. A naplók a /var/log/cache_dirs.log és a /var/log/cache_dirs_lost_cache.csv fájlokba készülnek.
+> Figyelem: a cache_dirs naplófájljai az Unraid memóriájában (RAM) tárolódnak, és nem rotálódnak automatikusan.
 :end
 
 :cachedirs_user_defined_plug:
-> The cache_dirs script has additional options which may be used.
-> Refer to the online documentation to use these as needed,
-> or see the cache_dirs script itself located under /usr/local/emhttp/plugins/dynamix.cache.dirs/scripts/cache_dirs
+> A cache_dirs szkriptnek vannak további használható opciói is.
+> Szükség szerint olvasd el az online dokumentációt ezek alkalmazásához,
+> vagy nézd meg magát a cache_dirs szkriptet a /usr/local/emhttp/plugins/dynamix.cache.dirs/scripts/cache_dirs útvonalon.
 >
-> Its possible to tell cache_dirs to avoid traversing all directories with a certain name. The following example avoids '.Recycle.Bin' and 'temp' and 'log' folders: 
+> Megadhatod a cache_dirs számára, hogy elkerüljön bizonyos nevű könyvtárakat. A következő példa kihagyja a '.Recycle.Bin', 'temp' és 'log' mappákat: 
 >
 > <span class="strong orange-text">-a '-noleaf -name .Recycle.Bin -prune -o -name log -prune -o -name temp -prune -o -print'</span>
 >
-> Note that the single quotes around argument to -a is important. Double-quotes do not work in the current version, so unfortunately its not currently possible to filter with '-name "*Old" -prune'.
+> Vedd figyelembe, hogy a -a argumentuma körüli egyszeres idézőjelek fontosak. A dupla idézőjelek nem működnek a jelenlegi verzióban, így sajnos jelenleg nem lehetséges a '-name "*Old" -prune' szerinti szűrés.
 :end
 
-; Note: December 8, 2024 - 4 missing translations
-Memory available to the cache_dirs script increase if it dies=Memory available to the cache_dirs script (increase if it dies)
-Timeout during disk-idle period=
-Timeout during initial startup or less-idle period=
-Timeout when all directories have been cached=
+; Note: December 8, 2024 - 4 missing translations // July 18, 2026 - Fully translated to Hungarian by nkgy17
+Memory available to the cache_dirs script increase if it dies=A cache_dirs szkript számára elérhető memória *(növeld, ha összeomlik)*
+Timeout during disk-idle period=Időtúllépés a lemezek üresjárati időszakában
+Timeout during initial startup or less-idle period=Időtúllépés a kezdeti induláskor vagy kevésbé üresjárati időszakban
+Timeout when all directories have been cached=Időtúllépés, amikor már minden könyvtár gyorsítótárazva van
