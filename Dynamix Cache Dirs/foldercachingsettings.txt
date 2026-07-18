@@ -96,7 +96,7 @@ User defined options=Felhasználó által megadott opciók
 :end
 
 :cachedirs_timeout_cached_plug:
-> Csökkentsd az értéket, ha azt szeretnéd, hogy a cache_dirs kevesebb terhelést jelentsen a rendszerre, amikor a gyorsítótár kiürül a memóriából, and a lemezek nem üresjáratban vannak.
+> Csökkentsd az értéket, ha azt szeretnéd, hogy a cache_dirs kevesebb terhelést jelentsen a rendszerre, amikor a gyorsítótár kiürül a memóriából, és a lemezek nem üresjáratban vannak.
 > Növeld meg, ha azt szeretnéd, hogy a cache_dirs-nek nagyobb esélye legyen a könyvtárak visszatöltésére a memóriába.
 :end
 
@@ -109,7 +109,7 @@ User defined options=Felhasználó által megadott opciók
 :end
 
 :cachedirs_scan_disk_plug:
-> Minden lemez egy külön szálon fut le, így a lemezek beolvasása párhuzamosan történik. Ha a felhasználói megosztás (user share) is vizsgálatra kerül, a lemezek szükségtelen terhelésének (thrashing) elkerülése érdekében az egyetlen szálon lesz átvizsgálva, miután az összes különálló lemez vizsgálata befejeződött.
+> Minden lemezt külön szál vizsgál, így a lemezek beolvasása párhuzamosan történik. Ha a felhasználói megosztás (user share) is vizsgálatra kerül, a lemezek szükségtelen terhelésének (thrashing) elkerülése érdekében az egyetlen szálon lesz átvizsgálva, miután az összes különálló lemez vizsgálata befejeződött.
 :end
 
 :cachedirs_limit_memory_plug:
