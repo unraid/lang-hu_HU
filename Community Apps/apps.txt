@@ -450,7 +450,7 @@ Checking %s=%s ellenőrzése...
 
 ; dockerHub conversions // Docker Hub konverziók
 Determine configuration=Konfiguráció meghatározása
-Would you like CA to attempt to determine any applicable paths, ports, and variables for the template This will entail performing a test installation of the container It will be automatically deleted after processing The container will not be started=Szeretnéd, hogy a CA megpróbálja meghatározni a sablonhoz tartozó útvonalakat, portokat és változókat? Ez a konténer teszttelepítésével jár, amely a feldolgozás után automatikusan törlődik. A konténer *nem lesz elindítva*.
+Would you like CA to attempt to determine any applicable paths, ports, and variables for the template This will entail performing a test installation of the container It will be automatically deleted after processing The container will not be started=Szeretnéd, hogy a CA megpróbálja meghatározni a sablonhoz tartozó útvonalakat, portokat és változókat? Ez a konténer teszttelepítésével jár. A konténert a feldolgozás után automatikusan töröljük. A konténer *nem lesz elindítva*.
 An error occurred - Could not determine configuration=**Hiba történt** – Nem sikerült meghatározni a konfigurációt
 ; WebGui // WebGui
 Click Install to download and install the Community Applications plugin=Kattints a **Telepítés** gombra a **Community Applications** plugin letöltéséhez és telepítéséhez.
