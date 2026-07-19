@@ -1,6 +1,5 @@
-
-
-; Note: April 28, 2023 - 11 missing translations // July 18, 2026 - Fully translated to Hungarian by nkgy17
+; Note: April 28, 2023 - 11 missing translations
+; Note: July 18, 2026 - Fully translated to Hungarian by nkgy17
 Disabling Spectre, Meltdown and Zombieload MDS mitigations may improve your CPU speed But these are security risks for certain workloads, and disabling the mitigations is purely all at your own risk=**A Spectre, Meltdown és Zombieload MDS védelmi funkciók letiltása** növelheti a CPU sebességét. Bizonyos feladatoknál azonban ez *biztonsági kockázatot* jelent, így a védelmek letiltása **kizárólag a saját felelősségedre** történik.
 Mitigations currently disabled=A védelmi funkciók jelenleg **le vannak tiltva**
 Mitigations currently enabled=A védelmi funkciók jelenleg **engedélyezve vannak**
