@@ -1271,4 +1271,4 @@ Open a bug report=Hibajelentés nyitása
 %s years=%s év
 
 ; Note: May 31, 2025 - 425 missing translations
-; Note: July 18, 2026 - fully translated to Hungarian by nkgy17
+; Note: July 19, 2026 - fully translated to Hungarian by nkgy17
