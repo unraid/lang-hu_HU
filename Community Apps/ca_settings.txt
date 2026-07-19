@@ -24,5 +24,5 @@ This setting allows CA to periodically scan your system and alert you to the pre
 Save CA debugging information=CA hibakeresési információk mentése
 Only enable this when advised to from the author of Community Applications=Csak akkor kapcsold be, ha a Community Applications fejlesztője kifejezetten erre kér.
 Enable developer mode=Fejlesztői mód engedélyezése
-This unlocks some extra features within CA generally only used by developers Not recommended to enable=Ez felold néhány extra funkciót a CA-n binnen, amit általában csak a fejlesztők használnak. Bekapcsolása nem ajánlott.
+This unlocks some extra features within CA generally only used by developers Not recommended to enable=Ez felold néhány extra funkciót a CA-n belül, amelyeket általában csak a fejlesztők használnak. Bekapcsolása nem ajánlott.
 Support Thread=Támogatási fórumszál
