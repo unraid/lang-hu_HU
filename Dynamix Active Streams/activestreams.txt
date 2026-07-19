@@ -9,7 +9,7 @@ User Name=Felhasználónév
 User=Felhasználó
 
 :streams_plug:
-> Rendelj egyedi neveket az IP-címekhez, amelyek így jelennek meg az aktív streamek oldalon.
+> Rendelj egyedi neveket az IP-címekhez, amelyek így jelennek meg az aktív streamek oldalán.
 >
 > Az új IP-címek észlelésekor a rendszer automatikusan hozzáadja őket a listához.
 >
