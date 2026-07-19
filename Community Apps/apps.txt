@@ -24,7 +24,7 @@ Date Added=Hozzáadás dátuma
 Number Of Apps=Alkalmazások száma
 ; Initial disclaimer translations // Kezdeti felelősségkizárások fordításai
 Disclaimer=Felelősségkizárás
-All applications listed here are 3rd party additions to Unraid Neither the authors of Community Applications nor Limetech make any warranty as to the suitability of any application listed here=Az itt felsorolt összes alkalmazás *harmadik féltől származó kiegészítés* az Unraidhez. Sem a Community Applications készítői, sem a Limetech **nem vállalnak garanciát** az itt található alkalmazások alkalmasságára vagy biztonságára.
+All applications listed here are 3rd party additions to Unraid Neither the authors of Community Applications nor Limetech make any warranty as to the suitability of any application listed here=Az itt felsorolt összes alkalmazás *harmadik féltől származó kiegészítés* az Unraidhez. Sem a Community Applications készítői, sem a Limetech **nem vállalnak garanciát** az itt található alkalmazások alkalmasságára.
 Every attempt is made to ensure that only safe and compatible applications are present=Minden tőlünk telhetőt megteszünk annak érdekében, hogy csak *biztonságos* és *kompatibilis* alkalmazások legyenek elérhetők.
 Application Policy=Alkalmazás-irányelvek
 I Understand=Megértettem
@@ -45,7 +45,7 @@ Install Applications=Alkalmazások telepítése
 Update Application=Alkalmazás frissítése
 Update Applications=Alkalmazások frissítése
 Are you sure you want to update %s applications=Biztosan frissíteni szeretnél **%s** alkalmazást?
-Are you sure you want to install %s docker and %s plugin applications=Are you sure you want to install %1$s docker and %2$s plugin application(s)=Biztosan telepíteni szeretnél **%1$s** Docker és **%2$s** plugin alkalmazást?
+Are you sure you want to install %s docker and %s plugin applications=Biztosan telepíteni szeretnél **%1$s** Docker és **%2$s** plugin alkalmazást?
 
 ; Searches // Keresések
 Search=Keresés
@@ -92,8 +92,8 @@ Install Plugin=Plugin telepítése
 Update Plugin=Plugin frissítése
 
 Requirements not met=**A követelmények nem teljesülnek**
-The requirements for this upgrade have not been met on your system=A rendszerfrissítés követelményei **nem teljesülnek** a rendszereden.
-The sidebar for the app click info will list the details=The sidebar for the app (click info) will list the details=Az alkalmazás oldalsávja *(kattints az infóra)* tartalmazza a részleteket.
+The requirements for this upgrade have not been met on your system=A frissítés követelményei **nem teljesülnek** a rendszereden.
+The sidebar for the app click info will list the details=Az alkalmazás oldalsávja *(kattints az infóra)* tartalmazza a részleteket.
 
 BACK=VISSZA
 
@@ -225,7 +225,7 @@ The following plugins have duplicated filenames and are not able to be installed
 The following docker applications refer to the same docker repository but may have subtle changes in the template to warrant this=A következő Docker alkalmazások ugyanarra a Docker tárolóra hivatkoznak, de a sablonban lévő apró változtatások indokolttá tehetik ezt:
 If any of these entries are incorrect then contact the moderators of CA to discuss=Ha a bejegyzések közül bármelyik hibás, vedd fel a kapcsolatot a CA moderátoraival.
 Global Repository Comments=Globális tároló megjegyzések
-Applied to all applications=(Applied to all applications)=Minden alkalmazásra érvényesítve
+Applied to all applications=Minden alkalmazásra érvényesítve
 Individual Application Moderation=Egyedi alkalmazásmoderáció
 
 ; Misc // Egyebek
@@ -265,7 +265,7 @@ Privacy=Adatvédelem
 Productivity=Produktivitás
 Security=Biztonság
 Spotlight=Kiemelt
-Tools Utilities=Tools / Utilities=Eszközök / Segédprogramok
+Tools Utilities=Eszközök / Segédprogramok
 System=Rendszer
 Themes=Témák
 Utilities=Segédprogramok
@@ -276,36 +276,36 @@ Uncategorized=Besorolatlan
 GameServers=Játékszerverek
 HomeAutomation=Otthonautomatizálás
 MediaApp=Médiaalkalmazás
-MediaAppBooks=MediaApp:Books=Médiaalkalmazás:Könyvek
-MediaAppMusic=MediaApp:Music=Médiaalkalmazás:Zene
-MediaAppPhotos=MediaApp:Photos=Médiaalkalmazás:Fotók
-MediaAppVideo=MediaApp:Video=Médiaalkalmazás:Videó
-MediaAppOther=MediaApp:Other=Médiaalkalmazás:Egyéb
+MediaAppBooks=Médiaalkalmazás:Könyvek
+MediaAppMusic=Médiaalkalmazás:Zene
+MediaAppPhotos=Médiaalkalmazás:Fotók
+MediaAppVideo=Médiaalkalmazás:Videó
+MediaAppOther=Médiaalkalmazás:Egyéb
 MediaServer=Médiaszerver
-MediaServerBooks=MediaServer:Books=Médiaszerver:Könyvek
-MediaServerMusic=MediaServer:Music=Médiaszerver:Zene
-MediaServerPhotos=MediaServer:Photos=Médiaszerver:Fotók
-MediaServerVideo=MediaServer:Video=Médiaszerver:Videó
-MediaServerOther=MediaServer:Other=Médiaszerver:Egyéb
+MediaServerBooks=Médiaszerver:Könyvek
+MediaServerMusic=Médiaszerver:Zene
+MediaServerPhotos=Médiaszerver:Fotók
+MediaServerVideo=Médiaszerver:Videó
+MediaServerOther=Médiaszerver:Egyéb
 Network=Hálózat
-NetworkDNS=Network:DNS=Hálózat:DNS
-NetworkFTP=Network:FTP=Hálózat:FTP
-NetworkManagement=Network:Management=Hálózat:Kezelés
-NetworkProxy=Network:Proxy=Hálózat:Proxy
-NetworkVOIP=Network:VOIP=Hálózat:VOIP
-NetworkVPN=Network:VPN=Hálózat:VPN
-NetworkPrivacy=Network:Privacy=Hálózat:Adatvédelem
-NetworkWeb=Network:Web=Hálózat:Web
-NetworkOther=Network:Other=Hálózat:Egyéb
-ToolsSystem=Tools:System=Eszközök:Rendszer
-ToolsThemes=Tools:Themes=Eszközök:Témák
-ToolsUtilities=Tools:Utilities=Eszközök:Segédprogramok
-OtherUncategorized=Other:Uncategorized=Egyéb:Besorolatlan
+NetworkDNS=Hálózat:DNS
+NetworkFTP=Hálózat:FTP
+NetworkManagement=Hálózat:Kezelés
+NetworkProxy=Hálózat:Proxy
+NetworkVOIP=Hálózat:VOIP
+NetworkVPN=Hálózat:VPN
+NetworkPrivacy=Hálózat:Adatvédelem
+NetworkWeb=Hálózat:Web
+NetworkOther=Hálózat:Egyéb
+ToolsSystem=Eszközök:Rendszer
+ToolsThemes=Eszközök:Témák
+ToolsUtilities=Eszközök:Segédprogramok
+OtherUncategorized=Egyéb:Besorolatlan
 and %s more=és még %s
 
 ; App Popup Related // Alkalmazás felugró ablakhoz kapcsolódó
-This application template has been blacklisted=This application / template has been blacklisted=Ez az alkalmazássablon **feketelistára** lett téve
-This application template has been deprecated=This application / template has been deprecated=Ez az alkalmazássablon **elavulttá** vált
+This application template has been blacklisted=Ez az alkalmazássablon **feketelistára** lett téve
+This application template has been deprecated=Ez az alkalmazássablon **elavulttá** vált
 This application has additional requirements=Ez az alkalmazás **további követelményeket** igényel
 Additional Requirements=További követelmények
 Donate To Author=Támogasd a szerzőt
@@ -328,11 +328,11 @@ Ranked #%s=#%s a rangsorban
 ; as in Trending up or down arrow // fel vagy lefelé mutató trend nyíl
 Trending %s=Trend: %s
 ; as in As of some date // egy adott dátum szerint
-As of %s=(As of %s)=%s-i állapot szerint
+As of %s=%s-i állapot szerint
 Play Video=Videó lejátszása
 Play Video %s=Videó lejátszása: %s
 This application is not compatible with your version of Unraid=Ez az alkalmazás **nem kompatibilis** az Unraid verzióddal
-Another browser tab or device has updated the displayed templates Some actions are not available=Another browser tab or device has updated the displayed templates. Some actions are not available=Egy másik böngészőlap vagy eszköz frissítette a megjelenített sablonokat. Egyes műveletek nem érhetők el.
+Another browser tab or device has updated the displayed templates Some actions are not available=Egy másik böngészőlap vagy eszköz frissítette a megjelenített sablonokat. Egyes műveletek nem érhetők el.
 WebUI=WebUI
 Reinstall=Újratelepítés
 Reinstall From Previous Apps=Újratelepítés a korábbi appokból
@@ -341,8 +341,8 @@ Uninstall=Eltávolítás
 Project=Projekt
 Read Me First=**Olvasd el először**
 Install another instance=Másik példány telepítése
-Install Using The Templates Default Tag=Install Using The Template's Default Tag=Telepítés a sablon alapértelmezett címkéjével (tag)
-Moderator Comments=Moderator Comments:=Moderátori megjegyzések:
+Install Using The Templates Default Tag=Telepítés a sablon alapértelmezett címkéjével (tag)
+Moderator Comments=Moderátori megjegyzések:
 Note not all authors keep up to date on change logs=*Megjegyzés: nem minden szerző tartja naprakészen a változásnaplót*
 Note not all maintainers keep up to date on change logs=*Megjegyzés: nem minden karbantartó tartja naprakészen a változásnaplót*
 Last Update=Legutóbbi frissítés
@@ -377,7 +377,7 @@ Docker Application Installation finished=Docker alkalmazások telepítése befej
 ; Application Cards // Alkalmazáskártyák
 Actions=Műveletek
 Pending=Függőben
-This application is a driver plugin=This application is a driver (plugin)=Ez az alkalmazás egy *illesztőprogram (plugin)*
+This application is a driver plugin=Ez az alkalmazás egy *illesztőprogram (plugin)*
 This is a language pack=Ez egy nyelvcsomag
 This application is a docker container=Ez az alkalmazás egy *Docker konténer*
 This application is a plugin=Ez az alkalmazás egy *plugin*
@@ -426,7 +426,7 @@ Application Spotlight %s=Kiemelt alkalmazás: %s
 Unraid Staff=Unraid munkatársak
 
 ; Page Navigation // Oldalnavigáció
-Displaying %s - %s of %s=Displaying %1$s - %2$s (of %3$s)=Megjelenítés: %1$s - %2$s (**%3$s** közül)
+Displaying %s - %s of %s=Megjelenítés: %1$s - %2$s (**%3$s** közül)
 
 Updating Content=Tartalom frissítése...
 Language=Nyelv
@@ -450,9 +450,9 @@ Checking %s=%s ellenőrzése...
 
 ; dockerHub conversions // Docker Hub konverziók
 Determine configuration=Konfiguráció meghatározása
-Would you like CA to attempt to determine any applicable paths, ports, and variables for the template This will entail performing a test installation of the container It will be automatically deleted after processing The container will not be started=Would you like CA to attempt to determine any applicable paths, ports, and variables for the template?  This will entail performing a test installation of the container.  It will be automatically deleted after processing.  The container will not be started.=Szeretnéd, hogy a CA megpróbálja meghatározni a sablonhoz tartozó útvonalakat, portokat és változókat? Ez a konténer teszttelepítésével jár, amely a feldolgozás után automatikusan törlődik. A konténer *nem lesz elindítva*.
+Would you like CA to attempt to determine any applicable paths, ports, and variables for the template This will entail performing a test installation of the container It will be automatically deleted after processing The container will not be started=Szeretnéd, hogy a CA megpróbálja meghatározni a sablonhoz tartozó útvonalakat, portokat és változókat? Ez a konténer teszttelepítésével jár, amely a feldolgozás után automatikusan törlődik. A konténer *nem lesz elindítva*.
 An error occurred - Could not determine configuration=**Hiba történt** – Nem sikerült meghatározni a konfigurációt
 ; WebGui // WebGui
-Click Install to download and install the Community Applications plugin=Click **Install** to download and install the **Community Applications** plugin=Kattints a **Telepítés** gombra a **Community Applications** plugin letöltéséhez és telepítéséhez.
+Click Install to download and install the Community Applications plugin=Kattints a **Telepítés** gombra a **Community Applications** plugin letöltéséhez és telepítéséhez.
 
 ; Note: April 21, 2025 - 364 missing translations // July 18, 2026 - Fully translated to Hungarian by nkgy17
