@@ -222,7 +222,7 @@ More=Több
 Motherboard=Alaplap
 Move To End=Mozgatás a végére
 Move=Áthelyezés
-
+NA=N/A
 Name=Név
 Network=Hálózat
 Never=Soha
@@ -239,7 +239,7 @@ No listing Too many files=Nincs lista: Túl sok fájl
 No reply from mail server=Nincs válasz a levelezőszervertől
 No=Nem
 no=nem
-
+None=Nincs
 none=nincs
 Normal operation, device is active=Normál működés, a készülék aktív
 Normal=Normál
