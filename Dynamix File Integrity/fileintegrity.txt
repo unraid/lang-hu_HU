@@ -19,7 +19,7 @@ HHMM=ÓÓ:PP
 :integrity_hashing_plug:
 > Válaszd ki a preferált hashelési eljárást. Fájlonként az SHA2 egy 256 bites, az MD5 egy 128 bites, míg a BLAKE2 egy 512 bites ellenőrzőösszeget generál.
 >
-> Az MD5 a legelterjedtebb módszer, amelyet akkor érdemes választani, ha kompatibilitásra van szükség külső programokkal. A BLAKE2 a leggyorsabb eljárás és a legmagasabb felderítési rátával rendelkezik, ám ez egy egyedi (proprietary) megoldás.
+> Az MD5 a legelterjedtebb módszer, és akkor érdemes választani, ha külső programokkal való kompatibilitásra van szükség; a BLAKE2 a leggyorsabb módszer, és ennek a legmagasabb a felismerési hatékonysága, viszont ez egy zárt/saját tulajdonú megoldás.
 > SHA2 a hivatalos szabvány, és alapértelmezés szerint ez van kiválasztva, viszont a három lehetőség közül ez a leglassabb. A BLAKE2 opció le lesz tiltva, ha a processzorod nem támogatja.
 > Mindegyik módszer jelentős számítási kapacitást igényel, ezért egy gyengébb processzor esetében előfordulhat, hogy a teljesítmény elmarad az elvárttól.
 :end
@@ -32,10 +32,10 @@ HHMM=ÓÓ:PP
 :integrity_exluded_plug:
 > Válaszd ki azokat a mappákat (megosztásokat), amelyeket ki szeretnél zárni az automatikus hashelési és ellenőrzési funkcióból. Ha egy megosztás több lemezen is létezik, a rendszer mindegyik lemezen ki fogja hagyni.
 >
-> A **Custom folders / Custom files** opcióval manuálisan is megadhatsz kizárásokat, vesszővel elválasztva.<br>
+> Az **Egyedi mappák / Egyedi fájlok** opcióval manuálisan is megadhatsz kizárásokat, vesszővel elválasztva.<br>
 > Példák: mappanevek (pl. **`.Recycle.Bin`**), fájlnevek (pl. **`my_workfile.tmp`**) vagy fájlkiterjesztések (pl. **`*.tmp`**).
 >
-> Válaszd az **Apple metadata** opciót az Apple netatalk által létrehozott metaadatfájlok (.AppleDB és .DS_Store) kizárásához.
+> Válaszd az **Apple metaadatok** opciót az Apple netatalk által létrehozott metaadatfájlok (.AppleDB és .DS_Store) kizárásához.
 :end
 
 :integrity_verification_plug:
@@ -73,7 +73,7 @@ HHMM=ÓÓ:PP
 :end
 
 :integrity_notifications_plug:
-> Állítsd **YES** értékre, ha értesítéseket szeretnél kapni, ha fájlsérülést észlel a rendszer.
+> Állítsd **IGEN** értékre, ha értesítéseket szeretnél kapni, ha fájlsérülést észlel a rendszer.
 > Az értesítések beállításáról és fogadásáról a rendszer értesítési beállítások menüpontjában tájékozódhatsz.
 :end
 
@@ -109,7 +109,7 @@ hash files=hash fájlok
 Hashing method=Hashelési eljárás
 Header menu=Fejléc menü
 Import=Importálás
-Include duplicate file hashes in Find command=Duplikált fájl-hashek belefoglalása a **Find** parancsba
+Include duplicate file hashes in Find command=Duplikált fájl-hashek belefoglalása a **Keresés** parancsba
 log files=naplófájlok
 Low=Alacsony
 MD5=MD5
