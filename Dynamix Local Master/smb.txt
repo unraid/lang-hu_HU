@@ -1,4 +1,3 @@
-
 :smb_workgroup_plug:
 > Add meg a helyi hálózatod munkacsoportjának (Workgroup) nevét. Ez általában "WORKGROUP".
 :end
@@ -16,7 +15,6 @@
 > Valós időben mutatja a jelenleg megválasztott helyi master böngészőt.
 :end
 
-; Note: April 28, 2023 - 6 missing translations
 Current elected master=Jelenleg megválasztott master
 is current local master browser=a jelenlegi helyi master böngésző
 Local master=Helyi master
