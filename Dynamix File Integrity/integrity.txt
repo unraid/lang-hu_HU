@@ -3,6 +3,6 @@
 ; Note: July 20, 2026 - Fully translated to Hungarian by nkgy17
 Aborted - export file not found=Megszakítva - az exportfájl nem található
 Import=Importálás
-Build up-to-date=Létrehozás naprakész
-Export up-to-date=Exportálás naprakész
+Build up-to-date=A build naprakész
+Export up-to-date=Az export naprakész
 Operation aborted=Művelet megszakítva
