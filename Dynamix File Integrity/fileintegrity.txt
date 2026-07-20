@@ -1,136 +1,134 @@
-Dont start=Don't start
-HHMM=HH:MM
+Dont start=Ne induljon el
+HHMM=ÓÓ:PP
 
 :integrity_control_plug:
-> Select the placement of the file integrity control page. By default it is placed under the *Tools* menu, but it may be moved under the *header* menu.
+> Válaszd ki a fájl-integritás ellenőrző oldal elhelyezését. Alapértelmezés szerint az *Eszközök (Tools)* menü alatt található, de átkerülhet a *fejléc* menübe is.
 >
-> Keep in mind that the *header* menu has limited space.
+> Tartsd szem előtt, hogy a *fejléc* menüben korlátozott hely áll rendelkezésre.
 :end
 
 :integrity_service_plug:
-> When enabled a checksum value is automatically calculated and added to the extended attributes of the newly created or modified file.
-> When it is detected that a file change has occured, but its modification time hasn't changed, then an automatic checksum verification is performed to check for any silent file corruption.
+> Ha engedélyezed, a rendszer automatikusan kiszámítja az ellenőrzőösszeget (checksum), és hozzáadja az újonnan létrehozott vagy módosított fájl kiterjesztett attribútumaihoz.
+> Ha a rendszer észleli, hogy egy fájl megváltozott, de a módosítási ideje nem frissült, automatikus ellenőrzőösszeg-vizsgálatot futtat a rejtett fájlsérülések (silent corruption) felderítésére.
 >
-> The area selection can be filtered by excluding folders (shares) and/or excluding disks all together (see table below).
+> A védett terület szűrhető mappák (megosztások) és/vagy lemezek kizárásával (lásd az alábbi táblázatot).
 >
-> When the automatic hashing is disabled then manual control is required to keep information up-to-date.
+> Ha az automatikus hashelés ki van kapcsolva, manuális ellenőrzésre van szükség az információk naprakészen tartásához.
 :end
 
 :integrity_hashing_plug:
-> Select the preferred hashing method. SHA2 generates a 256 bits checksum value, MD5 generates a 128 bits checksum value, while BLAKE2 generates a 512 bits checksum value per file.
+> Válaszd ki a preferált hashelési eljárást. Fájlonként az SHA2 egy 256 bites, az MD5 egy 128 bites, míg a BLAKE2 egy 512 bites ellenőrzőösszeget generál.
 >
-> MD5 is the most commonly used method and should be selected when compatibility with external programs is required, BLAKE2 is the fastest method and has the highest detection grade, this is a proprietary solution though.
-> SHA2 is the official standard and is selected by default. It is the slowest of all three methods though. The BLAKE2 option is disabled if it is not supported by your processor.
-> All methods require substantial computing power from the processor and a too weak processor may not be able to perform up to expectations.
+> Az MD5 a legelterjedtebb módszer, amelyet akkor érdemes választani, ha kompatibilitásra van szükség külső programokkal. A BLAKE2 a leggyorsabb eljárás és a legmagasabb felderítési rátával rendelkezik, ám ez egy egyedi (proprietary) megoldás.
+> SHA2 a hivatalos szabvány, és alapértelmezés szerint ez van kiválasztva, viszont a három lehetőség közül ez a leglassabb. A BLAKE2 opció le lesz tiltva, ha a processzorod nem támogatja.
+> Mindegyik módszer jelentős számítási kapacitást igényel, ezért egy gyengébb processzor esetében előfordulhat, hogy a teljesítmény elmarad az elvárttól.
 :end
 
 :integrity_flash_plug:
-> When enabled a daily file on the flash device will be created, holding the checksum results for all newly or modified files of that particular day.
-> The format of this file is the same as the standard export file. The daily file is saved as */config/plugins/dynamix.file.integrity/saved/disks.export.&lt;date&gt;.new.hash*
+> Ha engedélyezed, a rendszer egy napi szintű fájlt hoz létre a flash meghajtón, amely az adott napon újonnan létrehozott vagy módosított fájlok ellenőrzőösszegeit tartalmazza.
+> Ennek a fájlnak a formátuma megegyezik a szabványos exportfájléval. A napi fájl mentési helye: */config/plugins/dynamix.file.integrity/saved/disks.export.&lt;date&gt;.new.hash*
 :end
 
 :integrity_exluded_plug:
-> Select here any folders (shares) you want to exclude from the automatic hashing and verification functionality. A share existing on multiple disks will be skipped on any disk where it is present.
+> Válaszd ki azokat a mappákat (megosztásokat), amelyeket ki szeretnél zárni az automatikus hashelési és ellenőrzési funkcióból. Ha egy megosztás több lemezen is létezik, a rendszer mindegyik lemezen ki fogja hagyni.
 >
-> Use **Custom folders / Custom files** to manually enter exclusions. Multiple exclusions are separated by a comma.<br>
-> Examples are folder names, e.g. **`.Recycle.Bin`**, file names, e.g. **`my_workfile.tmp`** or file extensions, e.g. **`*.tmp`**.
+> A **Custom folders / Custom files** opcióval manuálisan is megadhatsz kizárásokat, vesszővel elválasztva.<br>
+> Példák: mappanevek (pl. **`.Recycle.Bin`**), fájlnevek (pl. **`my_workfile.tmp`**) vagy fájlkiterjesztések (pl. **`*.tmp`**).
 >
-> Select **Apple metadata** to exclude metadata files created by Apple's netatalk (.AppleDB and .DS_Store).
+> Válaszd az **Apple metadata** opciót az Apple netatalk által létrehozott metaadatfájlok (.AppleDB és .DS_Store) kizárásához.
 :end
 
 :integrity_verification_plug:
-> When enabled a cron schedule is created to do file verification in the background. You need to select which disks participate in the automatic hashing and verification process (see table below).
-> The cron schedule can run on a selectable daily, weekly or monthly basis.
+> Ha engedélyezed, egy időzített feladat (cron schedule) jön létre a fájlok háttérben történő ellenőrzésére. Ki kell választanod, mely lemezek vegyenek részt az automatikus hashelési és ellenőrzési folyamatban (lásd az alábbi táblázatot).
+> Az időzítés futhat napi, heti vagy havi rendszerességgel.
 >
-> One or more tasks can be created, each containing one or more disks. All disks under the same task are verified in parallel. This decreases the total run-time, but increases the
-> processor load. Make sure your processor can handle this load, and change grouping accordingly. At one end all disks can be put in a single task, resulting in the highest concurrency.
-> At the other end every disk can be put in its own task, resulting in the lowest processor load.
+> Egy vagy több feladat is létrehozható, amelyek mindegyike egy vagy több lemezt tartalmazhat. Az azonos feladathoz tartozó összes lemez ellenőrzése párhuzamosan fut. Ez csökkenti a teljes futási időt, de növeli a processzorterhelést. Győződj meg róla, hogy a processzorod bírja ezt a terhelést, és ennek megfelelően módosítsd a csoportosítást. Az egyik véglet, ha az összes lemezt egyetlen feladatba teszed, ami a leggyorsabb párhuzamos futást eredményezi. A másik véglet, ha minden lemezt külön feladatba helyezel, ami a legalacsonyabb processzorterhelést jelenti.
 >
-> A disk with a disabled checksum box and a red background, indicates a background verification process is currently in progress for this disk. It can not be stopped.
+> Ha egy lemez ellenőrzőösszeg-jelölőnégyzete le van tiltva és a háttere piros, az azt jelzi, hogy a háttérben futó ellenőrzési folyamat már folyamatban van az adott lemezen. Ez nem állítható le.
 >
-> When multiple tasks exist then each task is executed in the next schedule in a rotating fashion. E.g. when you have set up a weekly schedule with 3 tasks then every week
-> another task is executed and after 3 weeks the verification function has done all selected disks.
+> Ha több feladat létezik, a rendszer rotációs elv szerint hajtja végre őket a következő ütemezéskor. Például, ha heti ütemezést állítottál be 3 feladattal, akkor minden héten másik feladat fut le, és 3 hét elteltével az ellenőrzési funkció az összes kiválasztott lemezen végigmegy.
 >
-> When the verification schedule is disabled then manual control is required to verify the correctness of the files.
+> Ha az ellenőrzési ütemezés ki van kapcsolva, manuális beavatkozás szükséges a fájlok helyességének ellenőrzéhez.
 :end
 
 :integrity_priority_plug:
-> Background processes can be run in either normal or low priority mode.
+> A háttérfolyamatok normál vagy alacsony prioritású módban is futtathatók.
 :end
 
 :integrity_parity_plug:
-> Before a verification task starts it can either continue as usual when a parity operation is running, or the verification task doesn't start at all.
-> In the latter case you need to wait for the next scheduled time to execute the task.
+> Az ellenőrzési feladat indulása előtt a rendszer vagy folytatja a futást a megszokott módon (ha épp paritásművelet fut), vagy a feladat egyáltalán el sem indul.
+> Utóbbi esetben meg kell várnod a következő ütemezett időpontot a feladat végrehajtásához.
 :end
 
 :integrity_day_of_the_week_plug:
-> When a weekly schedule is chosen, then select here the day of execution.
+> Heti ütemezés választása esetén itt adhatod meg a végrehajtás napját.
 :end
 
 :integrity_day_of_the_month_plug:
-> When a monthly schedule is chosen, then select here the date of execution.
+> Havi ütemezés választása esetén itt adhatod meg a végrehajtás napját.
 :end
 
 :integrity_time_of_the_day_plug:
-> Select the hour and minute at which time the scheduled task will be executed. Granularity is 5 minutes.
+> Válaszd ki az órát és percet, amikor az ütemezett feladat végrehajtásra kerül. Az idő lépésköze 5 perc.
 :end
 
 :integrity_notifications_plug:
-> Set to YES if you want to receive notifications when file corruption is detected.
-> See the notification settings on how to set up and receive "alert" notifications.
+> Állítsd **YES** értékre, ha értesítéseket szeretnél kapni, ha fájlsérülést észlel a rendszer.
+> Az értesítések beállításáról és fogadásáról a rendszer értesítési beállítások menüpontjában tájékozódhatsz.
 :end
 
 :integrity_logging_plug:
-> Error logging, including file corruption detection information can be given in the system log, or saved as a file on flash.
-> Disabling error logging will suppress log creation, but it is still possible to receive notifications.
+> A hibánaplózás – beleértve a fájlsérülések észlelésére vonatkozó információkat – bekerülhet a rendszernaplóba (syslog), vagy elmenthető fájlként a flash meghajtóra.
+> A hibánaplózás letiltása elnyomja a naplófájlok létrehozását, de az értesítések fogadása továbbra is lehetséges marad.
 :end
 
 ; Note: April 29, 2023 - 48 missing translations
-Apple metadata=
-Array must be Started to use this feature=Array must be **Started** to use this feature
-Automatically protect new and modified files=
-BLAKE2=
-Build=
-Continue=
-Corz=
-Custom files=
-Custom folders=
-Day of the month=
-Day of the week=
-Disk selection=
-Disk verification schedule=
-Download Now=
-Dynamix File Integrity=
-Error logging=
-Excluded files=
-Excluded folders and files=
-Excluded folders=
-File Duplicates Check=
-Find=
-Generate Corz Files=
-hash files=
-Hashing method=
-Header menu=
-Import=
-Include duplicate file hashes in Find command=Include duplicate file hashes in **Find** command
-log files=
-Low=
-MD5=
-Output file=
-Placement of file integrity control=
-Process priority=
-Save new hashing results to flash=
-saved files=
-Send notifications=
-SHA2=
-Syslog only=
-Syslog Output file=Syslog & Output file
-Task=
-Time of the day=
-Toggle all=
-Tools menu=
-Verification tasks=
-view hash files=
-view log files=
-view saved files=
-When parity operation is running=
+Apple metadata=Apple metaadatok
+Array must be Started to use this feature=A funkció használatához a tömbnek **Elindítva (Started)** állapotban kell lennie
+Automatically protect new and modified files=Új és módosított fájlok automatikus védelme
+BLAKE2=BLAKE2
+Build=Létrehozás
+Continue=Folytatás
+Corz=Corz
+Custom files=Egyedi fájlok
+Custom folders=Egyedi mappák
+Day of the month=A hónap napja
+Day of the week=A hét napja
+Disk selection=Lemezválasztás
+Disk verification schedule=Lemezellenőrzés ütemezése
+Download Now=Letöltés most
+Dynamix File Integrity=Dynamix File Integrity
+Error logging=Hibánaplózás
+Excluded files=Kizárt fájlok
+Excluded folders and files=Kizárt mappák és fájlok
+Excluded folders=Kizárt mappák
+File Duplicates Check=Duplikált fájlok ellenőrzése
+Find=Keresés
+Generate Corz Files=Corz fájlok generálása
+hash files=hash fájlok
+Hashing method=Hashelési eljárás
+Header menu=Fejléc menü
+Import=Importálás
+Include duplicate file hashes in Find command=Duplikált fájl-hashek belefoglalása a **Find** parancsba
+log files=naplófájlok
+Low=Alacsony
+MD5=MD5
+Output file=Kimeneti fájl
+Placement of file integrity control=Fájl-integritás ellenőrzés elhelyezése
+Process priority=Folyamat prioritása
+Save new hashing results to flash=Új hashelési eredmények mentése a flash meghajtóra
+saved files=mentett fájlok
+Send notifications=Értesítések küldése
+SHA2=SHA2
+Syslog only=Csak rendszernapló (syslog)
+Syslog Output file=Rendszernapló és kimeneti fájl
+Task=Feladat
+Time of the day=Napszak
+Toggle all=Összes átváltása
+Tools menu=Eszközök (Tools) menü
+Verification tasks=Ellenőrzési feladatok
+view hash files=hash fájlok megtekintése
+view log files=naplófájlok megtekintése
+view saved files=mentett fájlok megtekintése
+When parity operation is running=Ha paritásművelet fut
+; Note: July 20, 2026 - Fully translated to Hungarian by nkgy17
