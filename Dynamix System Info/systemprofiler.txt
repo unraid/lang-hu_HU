@@ -1,8 +1,5 @@
-
-
-; Note: April 28, 2023 - 5 missing translations
-Not available=
-P + Q algorithm=
-System Overview=
-Unraid server=
-Unraid system=
+Not available=Nem érhető el
+P + Q algorithm=P + Q algoritmus
+System Overview=Rendszer áttekintése
+Unraid server=Unraid szerver
+Unraid system=Unraid rendszer
