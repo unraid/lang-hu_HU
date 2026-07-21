@@ -1,5 +1,5 @@
 %s ago=%s előtt
-%s used of %s %s %%=%s / %s használt (%s %%)
+%s used of %s %s %%=%s / %s felhasználva (%s %%)
 1 m=1 p
 10 s=10 mp
 2 m=2 p
@@ -107,7 +107,7 @@ Runtime left=Hátralévő futásidő
 Scheduled parity check is disabled=Az ütemezett paritásellenőrzés le van tiltva
 Select Case Model=Válassz házmodellt
 Select time frame=Válassz időkeretet
-Share count %s with %s cache only and %s encrypted=Megosztások száma: %s (%s csak gyorsítótár, %s titkosított)
+Share count %s with %s cache only and %s encrypted=Megosztások száma: %s (%s csak gyorsítótárazott, %s titkosított)
 Shares Information=Megosztás-információk
 Show details=Részletek megjelenítése
 Show Information=Információ megjelenítése
