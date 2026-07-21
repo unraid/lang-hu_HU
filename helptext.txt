@@ -614,7 +614,7 @@ Az ***Alkalmaz*** gomb megnyomásakor a rendszer ellenőrzi a változásokat, ma
 
 :cpu_pinning_help:
 Ez az oldal teljes képet ad a Docker-konténerek jelenlegi CPU-rögzítési hozzárendeléseiről.<br>
-Lehetővé teszi ezen hozzárendelések módosítását drops.
+Lehetővé teszi ezen hozzárendelések módosítását.
 
 A futó konténerek **először leállnak**, és a módosítás után újraindulnak.<br>
 A leállított konténerek azonnal módosulnak, és az új hozzárendelések akkor válnak aktívvá, amikor a felhasználó manuálisan elindítja a konténert.
@@ -623,8 +623,8 @@ Az ***Alkalmaz*** gomb megnyomásakor a rendszer ellenőrzi a változásokat, ma
 
 *Fontos: Kérjük, várj, amíg minden frissítés befejeződik, mielőtt elhagyod ezt az oldalt*.
 
-Alapértelmezés szerint NINCSEM mag kiválasztva a Docker-konténerhez, ami azt jelenti, hogy az az összes elérhető magot használja.<br>
-Ne válaszd az **ÖSSZES** magot a konténereknél, csak ne válassz ki egyetlen magot sem, ha korlátlan maghasználatot szeretnél.
+Alapértelmezés szerint NINCSEN mag kiválasztva a Docker-konténerhez, ami azt jelenti, hogy az az összes elérhető magot használja.<br>
+Ne válaszd az **ÖSSZES** magot a konténereknél, ha korlátlan maghasználatot szeretnél. Egyszerűen ne válassz ki egyetlen magot sem.
 
 Ne válassz ki olyan magokat a konténereknél, amelyek *izolálva* vannak.
 Tervezésénél fogva a konténer csak egyetlen magot (a legalacsonyabb sorszámú magot) használja, ha több izolált mag van kiválasztva.<br>
