@@ -59,7 +59,7 @@ Yes, exclude Cache=Igen, a gyorsítótár (Cache) kizárása
 :s3sleep_activity_plug:
 > Az *Állapot* (Status) az eszköz hardveres állapotát figyeli.
 >
-> A *Számlálók* (Counters) az eszköz olvasási/írási számlálóit figyeli.
+> A *Számlálók* (Counters) az eszköz olvasási/írási számlálóit figyelik.
 :end
 
 :s3sleep_outside_plug:
@@ -83,7 +83,7 @@ Yes, exclude Cache=Igen, a gyorsítótár (Cache) kizárása
 :end
 
 :s3sleep_host_plug:
-> Válaszd ki, hogy szükséges-e külső hosztok figyelése, és hogy azok nem válaszoló állapota feltétele legyen-e az alvó állapotnak vagy leállításnak.
+> Válaszd ki, hogy szükséges-e a külső hosztok figyelése, és hogy a nem válaszoló állapotuk legyen-e az alvó állapot vagy a leállítás feltétele.
 >
 > Add meg a külső hosztokat IP-cím alapján; több IP-címet vesszővel válassz el. Ha bármelyik hoszt válaszol a pingre, az alvó állapot vagy a leállítás nem fog megtörténni.
 :end
