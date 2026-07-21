@@ -21,7 +21,7 @@
 :end
 
 :stats_disk_size_plug:
-> Megjeleníti az egyes lemezek méretét a lemezhasználati grafikon jobb oldalán. A méret mindig a lehető legnagyobb mértékegységben jelenik meg.
+> Megjeleníti az egyes lemezek méretét a lemezhasználati grafikon jobb oldalán. A méret mindig a legmegfelelőbb mértékegységben jelenik meg.
 :end
 
 :stats_ethernet_plug:
@@ -29,7 +29,7 @@
 :end
 
 :stats_unit_plug:
-> Válaszd ki az interfész (hálózati) sebességének megjelenítési módját; a legelterjedtebb a bit per másodperc.
+> Válaszd ki az interfész (hálózati) sebességének megjelenítendő mértékegységét; a legelterjedtebb a bit/másodperc.
 :end
 
 :stats_initial_plug:
@@ -52,8 +52,8 @@
 30 minutes=30 perc
 1 hour=1 óra
 2 hours=2 óra
-Bits per second=Bit per másodperc
-Bytes per second=Byte per másodperc
+Bits per second=Bit/másodperc
+Bytes per second=Byte/másodperc
 CPU graph scaling=CPU-grafikon skálázása
 Disk Stats=Lemezstatisztikák
 Ethernet interface=Ethernet interfész
