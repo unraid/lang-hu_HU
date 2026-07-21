@@ -2,133 +2,132 @@
 ; Help
 ;
 :recycle_bin_shares_plug:
-> Recycle Bin Shares:
+> Lomtár megosztások:
 >
-> The shares with Recycle Bin contents will be displayed along with the size of the share's Trash Bin.
-> Click on the <strong>Browse</strong> icon to browse the deleted files in that share.
-> Click on the <strong>Empty</strong> button to remove the deleted files.
+> A Lomtár tartalmával rendelkező megosztások a megosztáshoz tartozó Lomtár méretével együtt jelennek meg.
+> Kattints a <strong>Tallózás</strong> ikonra az adott megosztásban lévő törölt fájlok böngészéséhez.
+> Kattints az <strong>Ürítés</strong> gombra a törölt fájlok eltávolításához.
 >
-> Unassigned Devices shares will only show if the Recycle Bin is enabled for Unassigned Devices and there are Unassigned Devices that are mounted and shared and have Recycle Bin contents.
+> A hozzá nem rendelt eszközök (Unassigned Devices) megosztásai csak akkor jelennek meg, ha a Lomtár engedélyezve van a hozzá nem rendelt eszközöknél, és vannak olyan csatolt, megosztott eszközök, amelyek Lomtár-tartalommal rendelkeznek.
 >
-> Click on the 'SMB Share', 'Share Type', or 'Trash Size' columns of the table header and the contents will be sorted.  The 'Trash Size' is an alpha numeric and not a numeric sort.
+> Kattints a táblázat fejlécének 'SMB megosztás', 'Megosztás típusa' vagy 'Lomtár mérete' oszlopaira a tartalom rendezéséhez. A 'Lomtár mérete' alfanumerikus és nem numerikus rendezésű.
 :end
 
 :recycle_bin_enable_plug:
-> Set to **Yes** to enable the Recycle Bin functionality for deleted files when the server is started.
+> Állítsd **Igen** értékre a törölt fájlokra vonatkozó Lomtár funkció engedélyezéséhez a szerver indításakor.
 >
-> To hide the Recycle Bin folder, set 'Hide Dot Files to 'Yes' in the SMB settings <a href='/Settings/SMB'>here</a>.
+> A Lomtár mappa elrejtéséhez állítsd az 'A ponttal kezdődő fájlok elrejtése' opciót 'Igen' értékre az SMB beállításoknál <a href='/Settings/SMB'>itt</a>.
 :end
 
 :recycle_bin_hide_folder_plug:
-> Set to **No** to show the Recycle Bin folder in user shares.  The SMB setting "Hide dot files" controls if hidden folders show in user shares.
+> Állítsd **Nem** értékre a Lomtár mappa megjelenítéséhez a felhasználói megosztásokban. Az SMB "A ponttal kezdődő fájlok elrejtése" beállítása szabályozza, hogy a rejtett mappák megjelenjenek-e a felhasználói megosztásokban.
 :end
 
 :recycle_bin_background_plug:
-> Set to **Yes** to enable the Recycle Bin Size to be updated in the background every minute.  This can make the Recycle Bin Settings and Shares pages more responsive and prevent disk spinups when accessing the Recycle Bin.  The Recycle Bin size can take up to a minute to refresh when this is enabled.
+> Állítsd **Igen** értékre a Lomtár méretének percenkénti, háttérben történő frissítéséhez. Ez válaszkészebbé teheti a Lomtár beállításai és a Megosztások oldalakat, valamint megakadályozhatja a lemezek felpörgését a Lomtár elérésekor. Ha ez engedélyezve van, a Lomtár méretének frissülése akár egy percig drops eltelhet.
 :end
 
 :recycle_bin_ud_plug:
-> Set to **Yes** to enable the Recycle Bin deleted file functionality on Unassigned Devices drive shares when the Unassigned Devices plugin is installed.  SMB/NFS mounts and iso mounts are excluded from the Recycle Bin functionality on this server.  Enable the Recycle Bin on the remote server where the remote share originates if it is an Unraid server.
+> Állítsd **Igen** értékre a törölt fájlok Lomtár funkciójának engedélyezéséhez a hozzá nem rendelt eszközök (Unassigned Devices) meghajtó-megosztásain, ha a hozzá nem rendelt eszközök plugin telepítve van. Az SMB/NFS csatolások és az ISO csatolások ki vannak zárva ezen a szerveren a Lomtár funkcióból. Engedélyezd a Lomtárat azon a távoli szerveren, ahonnan a távoli megosztás származik, ha az egy Unraid szerver.
 :end
 
 :recycle_bin_parameters_plug:
-> Additional parameters for Recycle Bin.  The following are some options you can set to control the file structure of the deleted files.
-> Enter the parameters in a list with no spaces or commas between them.
-> The order of the parameters will affect the file structure in the Recycle Bin.
-> Leaving this field blank will put all deleted files in the Recycle Bin without any path information.
+> További paraméterek a Lomtárhoz. Az alábbiakban néhány olyan opció található, amelyeket beállíthatsz a törölt fájlok fájlstruktúrájának szabályozására.
+> A paramétereket szóközök és vesszők nélkül, egy listába írd be.
+> A paraméterek sorrendje befolyásolja a Lomtárban lévő fájlstruktúrát.
+> Ha ezt a mezőt üresen hagyod, az összes törölt fájl útvonal-információ nélkül kerül a Lomtárba.
 >
-> Hint: Use the '/' for more control of the directory structure in the Recycle Bin.
-> For example '%m/%S' will organize the deleted files by the machine name that deleted the file and then the share name structure.
+> Tipp: Használd a '/' karaktert a Lomtár könyvtárstruktúrájának pontosabb szabályozásához.
+> Például a '%m/%S' a fájlt törlő gép neve, majd a megosztás neve szerint rendezi a törölt fájlokat.
 >
-> + '%S' Samba share name (which in Unraid equals the share name), eg. Storage
-> + '%P' User share full path, eg /mnt/user/Storage, /mnt/disk1, /mnt/disks/unassigned_device, /flash
-> + '%u' Username of the current service, if any
-> + '%m' Machine name of the user who deleted the file
+> + '%S' Samba megosztás neve (amely az Unraidben megegyezik a megosztás nevével), pl. Storage
+> + '%P' Felhasználói megosztás teljes útvonala, pl. /mnt/user/Storage, /mnt/disk1, /mnt/disks/unassigned_device, /flash
+> + '%u' A jelenlegi szolgáltatás felhasználóneve, ha van
+> + '%m' A fájlt törlő felhasználó gépének neve
 :end
 
 :recycle_bin_permissions_plug:
-> Set the directory and sub-directory permissions of the Recycle Bin.  Set permissions to 07xx for the Recycle Bin to operate properly.  Don't change this from the default if you don't know how to use permissions.
+> Állítsd be a Lomtár könyvtár- és alkönyvtár-jogosultságait. A Lomtár megfelelő működéséhez állítsd a jogosultságokat 07xx értékre. Ne változtasd meg az alapértelmezett értéket, ha nem tudod, hogyan kell használni a jogosultságokat.
 :end
 
 :recycle_bin_excluded_files_plug:
-> List of files to exclude from the Recycle Bin separated by commas.  Wild cards '*' and '?' are allowed.
+> A Lomtárból kizárandó fájlok vesszővel elválasztott listája. A '*' és '?' helyettesítő karakterek engedélyezettek.
 :end
 
 :recycle_bin_excluded_dirs_plug:
-> List of directories to exclude from the Recycle Bin separated by commas.  To specify a particular share directory, use 'share/directory'.  Unassigned Devices are specified the same way using 'mountpoint/directory'.  Wild cards '*' and '?' are allowed in the directory name.
+> A Lomtárból kizárandó könyvtárak vesszővel elválasztott listája. Egy adott megosztás könyvtárának megadásához használd a 'megosztás/könyvtár' formátumot. A hozzá nem rendelt eszközök megadása ugyanígy történik a 'csatlakozásipont/könyvtár' formátum használatával. A könyvtárnévben engedélyezettek a '*' és '?' helyettesítő karakterek.
 :end
 
 :recycle_bin_excluded_shares_plug:
-> List of shares to exclude from the Recycle Bin separated by commas.  This list can include Unassigned Devices shares.  The share name is case sensitive.
+> A Lomtárból kizárandó megosztások vesszővel elválasztott listája. Ez a lista tartalmazhatja a hozzá nem rendelt eszközök megosztásait is. A megosztás neve kis- és nagybetűérzékeny.
 >
-> The excluded share can include part of a share name and will exclude all shares with the excluded share text in the actual share name.  If you want an exact match, use the full share name.
+> A kizárt megosztás tartalmazhatja a megosztás nevének egy részét is, és minden olyan megosztást kizár, amelynek a tényleges nevében szerepel a kizárt megosztás szövege. Ha pontos egyezést szeretnél, használd a teljes megosztásnevet.
 >
-> For example: 'Squidbait' (without quotes) will exclude all shares created by the Ransom Ware plugin.
+> Például: a 'Squidbait' (idézőjelek nélkül) kizárja a Ransomware plugin által létrehozott összes megosztást.
 >
-> Note: Excluding a share only excludes it from deleted files going to the .Recycle.Bin folder on the share.  Files in the existing .Recycle.Bin folder will still show in the total size and on the 'Shares' tab.
+> Megjegyzés: Egy megosztás kizárása csak azt akadályozza meg, hogy a törölt fájlok a megosztáson lévő .Recycle.Bin mappába kerüljenek. A meglévő .Recycle.Bin mappában lévő fájlok továbbra is megjelennek a teljes méretben és a 'Megosztások' fülön.
 :end
 
 :recycle_bin_age_day_plug:
-> Any files older than the set number of days are removed on the schedule or when the 'Remove Aged Files' button is clicked.
+> A beállított napok számánál régebbi fájlok eltávolításra kerülnek az ütemezés szerint, vagy amikor a 'Régi fájlok eltávolítása' gombra kattintasz.
 :end
 
 :recycle_bin_remove_age_files_plug:
-> Set the desired schedule to remove aged files.  Hourly will be on the hour every hour.  Daily will be every day at 3 AM.  Weekly will be every week at 3 AM on Sunday.
+> Állítsd be a régi fájlok eltávolításának kívánt ütemezését. Az óránkénti beállítás minden órában egész órakor fut le. A napi beállítás minden nap hajnali 3:00-kor fut le. A heti beállítás minden héten vasárnap hajnali 3:00-kor fut le.
 :end
 
 :recycle_bin_age_files_notification_plug:
-> When set to **Yes** a notification will be sent when the scheduled remove files task runs.
+> Ha **Igen** értékre van állítva, a rendszer értesítést küld az ütemezett fájleltávolítási feladat lefutásakor.
 :end
 
 :recycle_bin_log_deleted_files_plug:
-> When set to **Yes** deleted files will be logged.
+> Ha **Igen** értékre van állítva, a törölt fájlok naplózásra kerülnek.
 :end
 
 :recycle_bin_show_log_plug:
-> Recycle Bin Log:
+> Lomtár naplója:
 >
-> The deleted files will show in the log as unlinked files.
-> Click on the 'Clear' button to clear the log.
+> A törölt fájlok nem hivatkozott fájlokként jelennek meg a naplóban.
+> Kattints a 'Törlés' gombra a napló ürítéséhez.
 :end
 
-; Note: December 8, 2024 - 40 missing translations
-Age Days=
-Array=
-Array is stopped=
-Browse the Share Recycle Bin=
-Deleted Files=
-Deleted Files Log=
-Empty=
-Empty the=
-Empty All Trash=
-Empty Trash=
-Enable Empty All Trash Button=
-Enable Empty Share Trash Button=
-Enable on Unassigned Devices=
-Enable Recycle Bin=
-Enable Remove Aged Files Button=
-Excluded Directories=
-Excluded Files=
-Excluded Shares=
-Log Deleted Files=
-Recycle Bin=
-Recycle Bin is empty=
-Recycle Bin Log=
-Recycle Bin parameters=
-Recycle Bin permissions=
-Recycle Bin Total Size=
-Refresh the Recycle Bin page=
-Remove Aged Files=
-Remove aged files from the Recycle Bin=
-Remove Aged Files Notification=
-Remove Aged Files on Schedule=
-Remove all files from the Recycle Bin=
-Restart the Recycle Bin=
-Share Type=
-SMB Share=
-Start the Recycle Bin=
-Starting and stopping the Recycle Bin can cause SMB shares to go offline for a short period=
-Stop the Recycle Bin=
-These actions apply to all shares=
-Trash Size=
-Update Recycle Bin Size in Background=
+Age Days=Megőrzési idő (napok)
+Array=Tömb
+Array is stopped=A tömb le van állítva
+Browse the Share Recycle Bin=A megosztás Lomtárának böngészése
+Deleted Files=Törölt fájlok
+Deleted Files Log=Törölt fájlok naplója
+Empty=Ürítés
+Empty the=Ürítés:
+Empty All Trash=Összes Lomtár ürítése
+Empty Trash=Lomtár ürítése
+Enable Empty All Trash Button=Az Összes Lomtár ürítése gomb engedélyezése
+Enable Empty Share Trash Button=A Megosztás Lomtárának ürítése gomb engedélyezése
+Enable on Unassigned Devices=Engedélyezés hozzá nem rendelt eszközöknél
+Enable Recycle Bin=Lomtár engedélyezése
+Enable Remove Aged Files Button=A Régi fájlok eltávolítása gomb engedélyezése
+Excluded Directories=Kizárt könyvtárak
+Excluded Files=Kizárt fájlok
+Excluded Shares=Kizárt megosztások
+Log Deleted Files=Törölt fájlok naplózása
+Recycle Bin=Lomtár
+Recycle Bin is empty=A Lomtár üres
+Recycle Bin Log=Lomtár naplója
+Recycle Bin parameters=Lomtár paraméterei
+Recycle Bin permissions=Lomtár jogosultságai
+Recycle Bin Total Size=Lomtár teljes mérete
+Refresh the Recycle Bin page=A Lomtár oldal frissítése
+Remove Aged Files=Régi fájlok eltávolítása
+Remove aged files from the Recycle Bin=Régi fájlok eltávolítása a Lomtárból
+Remove Aged Files Notification=Értesítés régi fájlok eltávolításáról
+Remove Aged Files on Schedule=Régi fájlok eltávolítása ütemezés szerint
+Remove all files from the Recycle Bin=Összes fájl eltávolítása a Lomtárból
+Restart the Recycle Bin=Lomtár újraindítása
+Share Type=Megosztás típusa
+SMB Share=SMB megosztás
+Start the Recycle Bin=Lomtár indítása
+Starting and stopping the Recycle Bin can cause SMB shares to go offline for a short period=A Lomtár indítása és leállítása miatt az SMB megosztások rövid időre elérhetetlenné válhatnak
+Stop the Recycle Bin=Lomtár leállítása
+These actions apply to all shares=Ezek a műveletek az összes megosztásra érvényesek
+Trash Size=Lomtár mérete
+Update Recycle Bin Size in Background=Lomtár méretének frissítése a háttérben
