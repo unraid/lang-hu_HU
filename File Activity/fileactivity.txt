@@ -2,41 +2,40 @@
 ; Help
 ;
 :file_activity_loggging_plug:
-> File Activity Monitoring:
+> Fájlaktivitás-figyelés:
 >
-> File open, read, write, and modify activity is monitored and logged on the array using inotify and is displayed by disk or share, UD disks, and cache.
-> You need to start the File Activity in order to log the disk activity.
-> File Activity is intended to be running for short periods so you can check disk activity.
-> A server with a lot of file activity can fill the log space.
-> The 'appdata' and 'Syslogs' directories are excluded.
+> A tömbön futó fájlmegnyitási, -olvasási, -írási és -módosítási tevékenységeket az inotify segítségével figyeli és naplózza a rendszer, majd megjeleníti lemezek, megosztások, hozzá nem rendelt eszközök és a gyorsítótár szerint.
+> A lemezaktivitás naplózásához el kell indítanod a fájlaktivitás-figyelést.
+> A fájlaktivitás-figyelőt rövid idejű használatra tervezték, hogy ellenőrizhesd a lemezek terhelését.
+> A nagy fájlforgalmú szerverek gyorsan megtölthetik a naplótárhelyet.
+> Az 'appdata' és 'Syslogs' könyvtárak automatikusan ki vannak zárva.
 >
-> Note: File Activity monitoring is stopped if the array is stopped, and will restart when the array is started if it is enabled.
+> Megjegyzés: A fájlaktivitás-figyelés leáll, ha a tömböt leállítod, és a tömb elindításakor automatikusan újraindul, ha engedélyezve van.
 :end
 
 :file_activity_enable_logging_plug:
-> Set to **Yes** to enable File Activity monitoring when the server is started.
+> Állítsd **Igen** értékre a fájlaktivitás-figyelés engedélyezéséhez a szerver indításakor.
 :end
 
 :file_activity_enable_ud_plug:
-> Set to **Yes** to enable File Activity monitoring for Unassigned Devices if the Unassigned Devices plugin is installed.
+> Állítsd **Igen** értékre a fájlaktivitás-figyelés engedélyezéséhez a hozzá nem rendelt eszközöknél (Unassigned Devices), ha a megfelelő plugin telepítve van.
 :end
 
 :file_activity_enable_cache_plug:
-> Set to **Yes** to enable File Activity monitoring for the Cache and Pool Disks.  Pool disks only apply in Unraid 6.9.
+> Állítsd **Igen** értékre a fájlaktivitás-figyelés engedélyezéséhez a gyorsítótár- és pool-lemezeknél. A pool-lemezek támogatása az Unraid 6.9-es verziójától érvényes.
 :end
 
 :file_activity_display_events_plug:
-> This is the number of file events shown on disks and shares from the File Activity log for each share or disk.
+> Ez a fájlesemények száma, amely az egyes megosztásoknál és lemezeknél megjelenik a fájlaktivitási naplóból.
 :end
 
-; Note: December 8, 2024 - 10 missing translations
-Display Events=
-File Activity=
-File Activity Monitoring=
-Start File Activity=
-Stop File Activity Monitoring=
-Clear the File Activity log=
-Refresh Page=
-Enable File Activity Monitoring=
-Enable for Unassigned Devices=
-Enable for Cache and Pool Disks=
+Display Events=Megjelenített események
+File Activity=Fájlaktivitás
+File Activity Monitoring=Fájlaktivitás-figyelés
+Start File Activity=Fájlaktivitás-figyelés indítása
+Stop File Activity Monitoring=Fájlaktivitás-figyelés leállítása
+Clear the File Activity log=Fájlaktivitási napló ürítése
+Refresh Page=Oldal frissítése
+Enable File Activity Monitoring=Fájlaktivitás-figyelés engedélyezése
+Enable for Unassigned Devices=Engedélyezés hozzá nem rendelt eszközöknél
+Enable for Cache and Pool Disks=Engedélyezés gyorsítótár- és pool-lemezeknél
