@@ -51,7 +51,7 @@ Yes, exclude Cache=Igen, a gyorsítótár (Cache) kizárása
 :end
 
 :s3sleep_inactivity_plug:
-> Válaszd ki, hogy a tömbnek teljesen inaktívnak kell-e lennie (minden lemez leállt / spun down), mielőtt az alvó állapot vagy a leállítás megtörténne.
+> Válaszd ki, hogy a tömbnek teljesen inaktívnak kell-e lennie (minden lemez leállítva), mielőtt az alvó állapot vagy a leállítás megtörténne.
 >
 > A gyorsítótár (Cache) lemez belevehető vagy kizárható ebből a beállításból, például ha a gyorsítótár folyamatos használatban van, és soha nem áll le.
 :end
