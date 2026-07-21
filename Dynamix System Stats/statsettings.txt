@@ -17,7 +17,7 @@
 :stats_view_plug:
 > Válaszd ki, hány grafikon jelenjen meg egyetlen sorban. A szélesség automatikusan igazodik a grafikonok számához és a képernyő felbontásához.
 >
-> A mintavételezés a háttérben egyperces időközönként történik, ez a beállítás nem változtatja meg a felbontást, csak a grafikonok szélességét.
+> A mintavételezés a háttérben egyperces időközönként történik. Ez a beállítás nem változtatja meg a felbontást, csak a grafikonok szélességét.
 :end
 
 :stats_disk_size_plug:
