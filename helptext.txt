@@ -987,7 +987,7 @@ Engedélyezd (alapértelmezett) vagy tiltsd le az UPnP funkciót a szerveren. Ez
 :end
 
 :mgmt_use_ssl_tls_help:
-Meghatározza, hogyan reagál a webGUI a HTTP és/vagy HTTPS protokolllal történő megkeresésekre a helyi hálózaton.
+Meghatározza, hogyan reagál a webGUI a HTTP és/vagy HTTPS protokollal történő megkeresésekre a helyi hálózaton.
 
 Válaszd a **Nem** lehetőséget a HTTPS letiltásához.
 
@@ -1034,7 +1034,7 @@ Add meg a helyi legfelső szintű tartományt (Top Level Domain). Üresen hagyha
 :end
 
 :mgmt_certificate_expiration_help:
-A **Beszzerzés** gomb használható egy *ingyenes* SSL tanúsítvány telepítésére a [Let's Encrypt](https://letsencrypt.org/) szolgáltatásból, ha a szerver be van jelentkezve az unraid.net oldalra.
+A **Beszerzés** gomb használható egy *ingyenes* SSL tanúsítvány telepítésére a [Let's Encrypt](https://letsencrypt.org/) szolgáltatásból, ha a szerver be van jelentkezve az unraid.net oldalra.
 
 A Let's Encrypt SSL tanúsítvány telepítése után két háttérszolgáltatás aktiválódik, miközben a szerver be van jelentkezve az unraid.net oldalra:
 
@@ -1319,7 +1319,7 @@ Három illesztőprogram található meg. Jelöld ki mindet, kattints a Tovább g
 :end
 
 :vms_host_shutdown_help:
-A szerver leállításakor ez határozza meg a futó VM-ekre vonatkozó műveletet. Ha a *VM-ek higernálása* opció van kiválasztva, a VM utasítást kap a hibernálásra (ha támogatott), ellenkező esetben megkísérli a VM leállítását.
+A szerver leállításakor ez határozza meg a futó VM-ekre vonatkozó műveletet. Ha a *VM-ek hibernálása* opció van kiválasztva, a VM utasítást kap a hibernálásra (ha támogatott), ellenkező esetben megkísérli a VM leállítását.
 :end
 
 :vms_shutdown_timeout_help:
