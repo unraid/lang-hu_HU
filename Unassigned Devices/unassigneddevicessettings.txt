@@ -1,193 +1,190 @@
-
 ; Help
 ;
 :ud_settings_plus_plug:
-> **Note:** The 'Unassigned Devices Plus' plugin must be installed in order to mount HFS+ and exFAT disk formats, and enable destructive mode.
+> **Megjegyzés:** Az 'Unassigned Devices Plus' plugin telepítése szükséges a HFS+ és exFAT lemezformátumok felcsatolásához, valamint a romboló mód engedélyezéséhez.
 :end
 
 :ud_settings_common_script_plug:
-> If set, this script will run before the device script. The action is in the environment variable **$ACTION**. Be sure you reference all commands with their full path.
+> Ha be van állítva, ez a szkript lefut az eszközszkript előtt. A művelet a **$ACTION** környezeti változóban található. Ügyelj arra, hogy minden parancsra a teljes útvonalával hivatkozz.
 :end
 
 :ud_settings_destructive_plug:
-> If enabled, this will allow you to erase and format partitions using Unassigned Devices. This cannot be enabled unless the 'Unassigned Devices Plus' plugin is installed.
+> Engedélyezés esetén ez lehetővé teszi partíciók törlését és formázását a Hozzá nem rendelt eszközök segítségével. Ez nem engedélyezhető, hacsak az 'Unassigned Devices Plus' plugin nincs telepítve.
 :end
 
 :ud_settings_mount_usb_devices_plug:
-> When set to **Yes**, will auto mount a new USB device and share it without user intervention.
+> Ha **Igen** értékre van állítva, a rendszer automatikusan felcsatolja és megosztja az új USB-eszközt felhasználói beavatkozás nélkül.
 :end
 
 :ud_settings_discard_plug:
-> Mount SSDs that support discard with 'discard' option. If you are using the SSD Trim Settings to do a periodic trim of SSDs you can set this to **No**.
+> A discard funkciót támogató SSD-k csatolása 'discard' opcióval. Ha az SSD TRIM beállításokat használod az SSD-k rendszeres karbantartásához, ezt **Nem** értékre állíthatod.
 :end
 
 :ud_settings_symlinks_plug:
-> Set to **Yes** to create symlinks for /mnt/remotes/ at /mnt/disks/.
+> Állítsd **Igen** értékre szimbolikus hivatkozások létrehozásához a /mnt/disks/ könyvtárban a /mnt/remotes/ útvonalra.
 >
-> This is for backwards compatibility of VM and Docker Container mappings to the /mnt/disks/ mount point.
-> You are encouraged to change your mappings to the /mnt/remotes/ mount point.
+> Ez a virtuális gépek és Docker-konténerek /mnt/disks/ csatlakozási ponthoz való visszafele kompatibilitását szolgálja.
+> Javasoljuk, hogy módosítsd a hozzárendeléseidet a /mnt/remotes/ csatlakozási pontra.
 >
-> If you do not need the backwards compatibility, leave it set to **No**.
+> Ha nincs szükséged a visszafele kompatibilitásra, hagyd **Nem** értéken.
 :end
 
 :ud_settings_remote_share_wait_plug:
-> This is the time in seconds to wait before mounting remote shares when the array is first started.
->
+> Ez az az idő másodpercben, amennyit várakozni kell a távoli megosztások felcsatolása előtt a tömb első elindításakor.
 :end
 
 :ud_settings_specify_smb_vers_plug:
-> Set to **No** for Unassigned Devices to first try to mount remote shares by not setting the SMB version when mounting.
+> Állítsd **Nem** értékre, hogy a Hozzá nem rendelt eszközök először az SMB-verzió megadása nélkül próbálja meg felcsatolni a távoli megosztásokat.
 >
-> Set to **Yes** for Unassigned Devices to only mount SMB remote shares specifying the SMB version.
+> Állítsd **Igen** értékre, hogy a Hozzá nem rendelt eszközök csak az SMB-verzió pontos megadásával csatolja fel a távoli SMB-megosztásokat.
 >
-> Some remote servers need to have the version specified.
+> Néhány távoli szervernél elengedhetetlen a verzió megadása.
 :end
 
 :ud_settings_debug_level_plug:
-> Setting a Debug Log Level adds additional logging in specific areas of UD for troubleshooting.
+> A hibakeresési naplózási szint beállítása további naplózást ad a Hozzá nem rendelt eszközök specifikus területeihez a hibaelhárítás érdekében.
 >
-> Set to **None** to turn off debug logging.
+> Állítsd **Nincs** értékre a hibakeresési naplózás kikapcsolásához.
 >
-> Set the Debug Log Level to a numeric value to debug a specific area of UD.
+> Állítsd a hibakeresési naplózási szintet egy számértékre egy adott terület hibakereséséhez.
 >
-> **Note:** Don't leave the Debug Log Level on for extended periods of time.  It can add a lot of log messages to the syslog.
+> **Megjegyzés:** Ne hagyd bekapcsolva a hibakeresési naplózási szintet hosszabb ideig. Ez rengeteg naplóüzenetet adhat hozzá a rendszernaplóhoz.
 :end
 
 :ud_settings_specify_nfs_vers_plug:
-> Set to **NFSv3** to mount all NFS Remote Shares with NFSv3.
+> Állítsd **NFSv3** értékre az összes távoli NFS-megosztás NFSv3 protokollal történő felcsatolásához.
 >
-> Set to **NFSv4** to mount all NFS Remote Shares with NFSv4.
+> Állítsd **NFSv4** értékre az összes távoli NFS-megosztás NFSv4 protokollal történő felcsatolásához.
 >
-> All NFS remote shares will be mounted with the specified version.
+> Minden távoli NFS-megosztás a megadott verzióval kerül felcsatolásra.
 :end
 
 :ud_settings_smb_security_plug:
-> Set the user level of SMB Security.
+> Állítsd be az SMB biztonság felhasználói szintjét.
 >
-> + Set to **Yes** to enable SMB Security on SMB shares. Set access by user to allow access and whether or not the user can write to the share.
-> + Set to **Hidden** to enable SMB Security on SMB shares that will not be visible. Set access by user to allow access and whether or not the user can write to the share.
-> + Set to **No** will share devices, SMB/NFS, and iso Mounts Public with read and write access.
+> + Állítsd **Igen** értékre az SMB biztonság engedélyezéséhez az SMB megosztásokon. Állítsd be a hozzáférést felhasználónként a hozzáférés engedélyezéséhez, és annak meghatározásához, hogy a felhasználó írhatja-e a megosztást.
+> + Állítsd **Rejtett** értékre az SMB biztonság engedélyezéséhez azokon az SMB megosztásokon, amelyek nem lesznek láthatók. Állítsd be a hozzáférést felhasználónként a hozzáférés engedélyezéséhez, és annak meghatározásához, hogy a felhasználó írhatja-e a megosztást.
+> + Állítsd **Nem** értékre az eszközök, SMB/NFS és ISO csatolások nyilvános megosztásához, írási és olvasási hozzáféréssel.
 :end
 
 :ud_settings_case_sensitive_plug:
-> Controls whether filenames are case-sensitive.
+> Szabályozza, hogy a fájlnevek kis- és nagybetűérzékenyek-e.
 >
-> The default setting of **Auto** allows clients that support case sensitive filenames (Linux CIFSVFS) to tell the Samba server on a per-packet basis that they wish to access the file system in a case-sensitive manner (to support UNIX case sensitive semantics). No Windows system supports case-sensitive filenames so setting this option to auto is the same as setting it to No for them; however, the case of filenames passed by a Windows client will be preserved. This setting can result in reduced performance with very large directories because Samba must do a filename search and match on passed names.
+> Az **Automatikus** alapértelmezett beállítás lehetővé teszi a kis- és nagybetűérzékeny fájlneveket támogató klienseknek (Linux CIFSVFS), hogy csomagonként jelezzék a Samba szervernek, ha kis- és nagybetűérzékenyen kívánják elérni a fájlrendszert (a UNIX kis- és nagybetűérzékeny szemantikájának támogatásához). Egyetlen Windows rendszer sem támogatja a kis- és nagybetűérzékeny fájlneveket, így ennek az opciónak az automatikusra állítása számukra megegyezik a Nem beállítással; azonban a Windows kliens által átadott fájlnevek kis- és nagybetűi megőrzésre kerülnek. Ez a beállítás csökkentheti a teljesítményt nagyon nagy könyvtárak esetén, mivel a Sambának fájlnévkeresést és egyeztetést kell végeznie az átadott neveken.
 >
-> A setting of **Yes** means that files are created with the case that the client passes, and only accessible using this same case. This will speed very large directory access, but some Windows applications may not function properly with this setting. For example, if "MyFile" is created but a Windows app attempts to open "MYFILE" (which is permitted in Windows), it will not be found.
+> Az **Igen** beállítás azt jelenti, hogy a fájlok azzal a kis- és nagybetűs alakkal jönnek létre, amelyet a kliens átad, és csak ugyanezzel a formával érhetők el. Ez felgyorsítja a nagyon nagy könyvtárak elérését, de egyes Windows alkalmazások nem biztos, hogy megfelelően működnek ezzel a beállítással. Például, ha a "MyFile" létrejön, de egy Windows alkalmazás megpróbálja megnyitni a "MYFILE" fájlt (ami Windowson engedélyezett), az nem lesz megtalálható.
 >
-> A value of **Forced lower** is special: the case of all incoming client filenames, not just new filenames, will be set to lower-case. In other words, no matter what mixed case name is created on the Windows side, it will be stored and accessed in all lower-case. This ensures all Windows apps will properly find any file regardless of case, but case will not be preserved in folder listings.
+> A **Kényszerített kisbetűs** érték speciális: az összes bejövő kliens fájlnév (nem csak az új fájlnevek) kisbetűsre lesz állítva. Más szavakkal, függetlenül attól, hogy milyen kis- és nagybetűket tartalmazó név jön létre a Windows oldalon, az csupa kisbetűvel kerül tárolásra és elérésre. Ez biztosítja, hogy minden Windows alkalmazás megfelelően megtaláljon bármely fájlt a kis- és nagybetűktől függetlenül, de a kis- és nagybetűs forma nem őrződik meg a mappalistákban.
 :end
 
 :ud_time_machine_plug:
-> Set to **Yes** to enable Time Machine settings on the SMB shares.
+> Állítsd **Igen** értékre a Time Machine beállítások engedélyezéséhez az SMB megosztásokon.
 :end
 
 :ud_time_machine_vol_size_plug:
-> This limits the reported volume size, preventing Time Machine from using the entire real disk space for backup. For example, setting this value to "1024" would limit the reported disk space to 1GB.
+> Ez korlátozza a jelentett kötetméretet, megakadályozva, hogy a Time Machine a teljes valós lemezterületet használja a biztonsági mentéshez. Például ennek az értéknek az "1024" értékre állítása 1 GB-ra korlátozza a jelentett lemezterületet.
 :end
 
 :ud_settings_force_user_plug:
-> There are times when permissions on SMB shares aren't handled as expected. Turning this feature on can help with those permissions.
-> This applies to all devices mounted with Unassigned Devices.
-> The down side is that it overrides Linux group permissions. If you are unsure about whether or not this is necessary, leave it enabled.
+> Előfordulhatnak olyan esetek, amikor az SMB megosztások jogosultságai nem a várt módon kerülnek kezelésre. Ennek a funkciónak a bekapcsolása segíthet az ilyen jogosultsági problémákon.
+> Ez a Hozzá nem rendelt eszközök segítségével felcsatolt összes eszközre érvényes.
+> Hátránya, hogy felülírja a Linux csoportjogosultságokat. Ha nem vagy biztos benne, hogy ez szükséges-e, hagyd engedélyezve.
 :end
 
 :ud_settings_nfs_security_plug:
-> Set to **Yes** to export Unassigned Devices with NFS sharing. Shares are exported Public with read and write access or Private with the rule you set. Access is controlled with permission settings on files and folders.
+> Állítsd **Igen** értékre a Hozzá nem rendelt eszközök NFS-megosztással történő exportálásához. A megosztások Nyilvános mód esetén olvasási és írási hozzáféréssel, vagy Magán mód esetén a beállított szabállyal kerülnek exportálásra. A hozzáférés szabályozása a fájlokon és mappákon lévő jogosultsági beállításokkal történik.
 :end
 
 :ud_settings_nfs_rules_plug:
-> **Note:** The normal rule used by UD is '*(rw,sec=sys,insecure,anongid=100,anonuid=99,no_root_squash)'.
+> **Megjegyzés:** A Hozzá nem rendelt eszközök által használt normál szabály: '*(rw,sec=sys,insecure,anongid=100,anonuid=99,no_root_squash)'.
 :end
 
 :ud_settings_disk_pass_plug:
-> Select the disk that you want to set a Password. This is the password for this disk only and does not affect the array password/passphrase. Leave password blank to use the array password/passphrase for luks encrypted disks.
+> Válaszd ki azt a lemezt, amelyhez jelszót szeretnél beállítani. Ez a jelszó csak erre a lemezre vonatkozik, és nem befolyásolja a tömb jelszavát/jelmondatát. Hagyd üresen a jelszót a tömb jelszavának/jelmondatának használatához a LUKS-titkosított lemezeknél.
 :end
 
 :ud_settings_change_uuid_plug:
-> Select the disk that you want to change the UUID. This is useful when a XFS formatted disk has been removed from the array and has the same UUID as an array disk. Drive must be unmounted to change the UUID.
+> Válaszd ki azt a lemezt, amelynek meg szeretnéd változtatni az UUID-ját. Ez akkor hasznos, ha egy XFS-formázott lemez el lett távolítva a tömbből, és ugyanaz az UUID-ja, mint egy tömblemeznek. A meghajtót le kell csatolni az UUID megváltoztatásához.
 >
-> **Note:** Don't change the UUID of a pooled disk.
+> **Megjegyzés:** Ne változtasd meg egy poolban lévő lemez UUID-ját.
 :end
 
 :ud_settings_zfs_upgrade_plug:
-> Select the disk that you want to upgrade to the latest ZFS version. Drive must be mounted to upgrade ZFS.
+> Válaszd ki azt a lemezt, amelyet frissíteni szeretnél a legújabb ZFS-verzióra. A meghajtónak fel kell lennie csatolva a ZFS frissítéséhez.
 :end
 
 :ud_remote_server_test_plug:
-> Remote Servers need to have SMB and/or NFS enabled.  This will check that the SMB and/or NFS ports are open.  The 'showmount -e <server>' command on Unraid must also show NFS mounts available.
-> For SMB to be considered online, the Remote Server has to have the SMB port open.
-> For NFS to be considered online, the Remote Server has to have the NFS port open and the 'showmount -e' command has to show NFS shares.
-> There can be a case where the port is open and 'showmount -e' doesn't show NFS shares and NFS will not work.
-> If showmount does not return any NFS shares on a reachable remote server like a Synology, it generally means one of the following:
-> No NFS Shares Exported:
-> The server might not have any directories configured for NFS export. Check the NFS configuration on the Synology device and ensure that folders intended for NFS sharing are explicitly exported.
-> Access Restrictions:
-> NFS shares may be configured with IP-based access restrictions. Synology devices allow you to specify which IP addresses or networks can access each NFS share. If your IP address is not allowed, the NFS share will not appear in showmount output.
-> NFS Service Not Enabled:
-> The NFS service on the Synology might not be enabled. Verify this in the Synology DSM settings under Control Panel > File Services > NFS. Enable NFS if it is currently disabled.
-> Firewall or Network Configuration:
-> The Synology device may have firewall rules blocking the showmount request or the required RPC communication. Ensure that the firewall settings allow traffic on NFS-related ports (typically 2049 for NFS and 111 for RPC).
-> Synology Export Options:
-> The Synology NFS settings can sometimes require enabling Enable NFS at the top level and specifying Allow NFSv3 if you are using clients that expect NFSv3. Check Control Panel > File Services > NFS to ensure proper configuration.
-> By ensuring that NFS is enabled, configured with the correct permissions, and exported directories are allowed for your client IP, showmount should list the available exports.
+> A távoli szervereken engedélyezni kell az SMB és/vagy NFS szolgáltatást. Ez ellenőrzi, hogy az SMB és/vagy NFS portok nyitva vannak-e. Az Unraid 'showmount -e <szerver>' parancsának is meg kell mutatnia az elérhető NFS-csatolásokat.
+> Ahhoz, hogy az SMB online állapotúnak minősüljön, a távoli szerveren nyitva kell lennie az SMB portnak.
+> Ahhoz, hogy az NFS online állapotúnak minősüljön, a távoli szerveren nyitva kell lennie az NFS portnak, és a 'showmount -e' parancsnak ki kell listáznia az NFS-megosztásokat.
+> Előfordulhat olyan eset, amikor a port nyitva van, de a 'showmount -e' nem mutat NFS-megosztásokat, így az NFS nem fog működni.
+> Ha a showmount nem ad vissza semmilyen NFS-megosztást egy elérhető távoli szerveren (például egy Synology eszköznél), az általában a következők egyikét jelenti:
+> Nincsenek exportált NFS-megosztások:
+> Előfordulhat, hogy a szerveren nincsenek NFS-exportálásra konfigurált könyvtárak. Ellenőrizd az NFS-konfigurációt a Synology eszközön, és győződj meg arról, hogy az NFS-megosztásra szánt mappák kifejezetten exportálva vannak.
+> Hozzáférési korlátozások:
+> Az NFS-megosztások konfigurálhatók IP-alapú hozzáférési korlátozásokkal. A Synology eszközök lehetővé teszik annak megadását, hogy mely IP-címek vagy hálózatok férhetnek hozzá az egyes NFS-megosztásokhoz. Ha az IP-címed nem engedélyezett, az NFS-megosztás nem jelenik meg a showmount kimenetében.
+> Az NFS szolgáltatás nincs engedélyezve:
+> Előfordulhat, hogy az NFS szolgáltatás nincs engedélyezve a Synology-n. Ellenőrizd ezt a Synology DSM beállításaiban a Vezérlőpult > Fájlszolgáltatások > NFS menüpont alatt. Engedélyezd az NFS-t, ha jelenleg ki van kapcsolva.
+> Tűzfal vagy hálózati konfiguráció:
+> A Synology eszköz rendelkezhet olyan tűzfalszabályokkal, amelyek blokkolják a showmount kérést vagy a szükséges RPC-kommunikációt. Győződj meg arról, hogy a tűzfalbeállítások engedélyezik a forgalmat az NFS-hez kapcsolódó portokon (jellemzően 2049 az NFS és 111 az RPC esetében).
+> Synology exportálási opciók:
+> A Synology NFS-beállításainál néha szükség lehet az NFS engedélyezése opció bekapcsolására a legfelső szinten, valamint az NFSv3 engedélyezése megadására, ha NFSv3-at váró klienseket használsz. Ellenőrizd a Vezérlőpult > Fájlszolgáltatások > NFS menüpontot a megfelelő konfiguráció biztosításához.
+> Az NFS engedélyezésével, a megfelelő jogosultságok konfigurálásával és az exportált könyvtárak kliens IP-címedhez való engedélyezésével a showmount parancsnak ki kell listáznia az elérhető exportálásokat.
 :end
 
-; Note: December 8, 2024 - 56 missing translations
-Add=
-Auto Mount USB Devices=
-Case-sensitive names=
-Change Disk UUID=
-Change UUID=
-Change Disk UUID=
-Command times=
-Common Script=
-Common Settings=
-Destructive Mode=
-Disabled=
-Disk spin down is managed by Unraid=
-Enable NFS export=
-Enable SMB Security=
-Enable Time Machine=
-Enter Disk Password=
-Enter the Remote Server name or IP address and the results from the Remote Server Test will show in the Result text area=Enter the Remote Server name or IP address and the results from the Remote Server Test will show in the **Result** text area
-Enter Pool Mount Point=
-Legacy Mount Point Compatibility=
-Mount SSDs with discard option=
-NFS Security=
-NFS Settings=
-NFS must be enabled in Settings->NFS to enable NFS Export=
-NFS Version to use when Mounting Remote Shares=
-Public=
-Private=
-Private Hidden=
-Refresh and Update=
-Remote Share Mount Wait Time=
-Rule=
-Select Disk=
-See Help=
-Set Encrypted Disk Password=
-Set Password=
-Set Pool Mount Point=
-Set the Pool Mount Point for this disk=
-Set the disk Password=
-SMB Settings=
-SMB Sharing=
-Specify SMB Version when Mounting Remote Shares=
-Spin down disks=
-Test=
-Testing=
-Test the Remote Server=
-The Unassigned Devices Plus plugin must be installed to enable Destructive Mode=
-This is a tool to help troubleshoot Remote Servers ability to serve SMB and NFS shares=
-Time Machine volume size limit=
-to SMB share config=
-Udev and Hotplug=
-Unassigned Devices=
-Unraid 6.10 or later is required for NFSv4 support=
-Upgrade ZFS Pool=
-Use only when directed for support because the messages can flood the log=
-Warning=
-Windows may require a valid User to be defined even for Public shares=
-Working=
+Add=Hozzáadás
+Auto Mount USB Devices=USB-eszközök automatikus csatolása
+Case-sensitive names=Kis- és nagybetűérzékeny nevek
+Change Disk UUID=Lemez UUID módosítása
+Change UUID=UUID módosítása
+Change Disk UUID=Lemez UUID módosítása
+Command times=Parancsidők
+Common Script=Közös szkript
+Common Settings=Közös beállítások
+Destructive Mode=Romboló mód
+Disabled=Letiltva
+Disk spin down is managed by Unraid=A lemezek leállítását az Unraid kezeli
+Enable NFS export=NFS exportálás engedélyezése
+Enable SMB Security=SMB biztonság engedélyezése
+Enable Time Machine=Time Machine engedélyezése
+Enter Disk Password=Add meg a lemez jelszavát
+Enter the Remote Server name or IP address and the results from the Remote Server Test will show in the Result text area=Add meg a távoli szerver nevét vagy IP-címét, és a Távoli szerver tesztjének eredményei az **Eredmény** szövegmezőben jelennek meg
+Enter Pool Mount Point=Add meg a pool csatlakozási pontját
+Legacy Mount Point Compatibility=Régi csatlakozási pont kompatibilitás
+Mount SSDs with discard option=SSD-k csatolása discard opcióval
+NFS Security=NFS biztonság
+NFS Settings=NFS beállítások
+NFS must be enabled in Settings->NFS to enable NFS Export=Az NFS exportálás engedélyezéséhez az NFS-t engedélyezni kell a Beállítások -> NFS menüpontban
+NFS Version to use when Mounting Remote Shares=Távoli megosztások csatolásakor használandó NFS-verzió
+Public=Nyilvános
+Private=Magán
+Private Hidden=Magán rejtett
+Refresh and Update=Frissítés és frissítés
+Remote Share Mount Wait Time=Távoli megosztások csatolási várakozási ideje
+Rule=Szabály
+Select Disk=Válassz lemezt
+See Help=Lásd a Súgót
+Set Encrypted Disk Password=Titkosított lemez jelszavának beállítása
+Set Password=Jelszó beállítása
+Set Pool Mount Point=Pool csatlakozási pontjának beállítása
+Set the Pool Mount Point for this disk=Állítsd be a pool csatlakozási pontját ehhez a lemezhez
+Set the disk Password=Állítsd be a lemez jelszavát
+SMB Settings=SMB beállítások
+SMB Sharing=SMB megosztás
+Specify SMB Version when Mounting Remote Shares=SMB-verzió megadása távoli megosztások csatolásakor
+Spin down disks=Lemezek leállítása
+Test=Teszt
+Testing=Tesztelés...
+Test the Remote Server=Távoli szerver tesztelése
+The Unassigned Devices Plus plugin must be installed to enable Destructive Mode=A Romboló mód engedélyezéséhez az Unassigned Devices Plus plugin telepítése szükséges
+This is a tool to help troubleshoot Remote Servers ability to serve SMB and NFS shares=Ez egy eszköz a távoli szerverek SMB és NFS megosztási képességének hibaelhárításához
+Time Machine volume size limit=Time Machine kötetméret korlátja
+to SMB share config=az SMB megosztás konfigurációjához
+Udev and Hotplug=Udev és forrócsatlakozás
+Unassigned Devices=Hozzá nem rendelt eszközök
+Unraid 6.10 or later is required for NFSv4 support=Az NFSv4 támogatásához Unraid 6.10 vagy újabb verzió szükséges
+Upgrade ZFS Pool=ZFS pool frissítése
+Use only when directed for support because the messages can flood the log=Csak akkor használd, ha a támogatás kérte, mert az üzenetek eláraszthatják a naplót
+Warning=Figyelmeztetés
+Windows may require a valid User to be defined even for Public shares=A Windows megkövetelheti egy érvényes felhasználó meghatározását még a nyilvános megosztásoknál is
+Working=Folyamatban...
