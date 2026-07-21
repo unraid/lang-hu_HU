@@ -1,240 +1,226 @@
-After a reboot from a lockup or hung server, you can view the saved log using the Syslog viewer=
-Check the=
-Available User Watches=
-Click on Help for more information=
-Correct any problems that are identified before doing any tweaking=
-Current Disk Cache Settings=
-Current Inotify Settings=
-Current NIC settings=
-Current User Watches=
-Disable NIC Flow Control=
-Disable NIC Offload=
-Disk Cache=
-Dont change the Disk Cache settings until you read and understand this=
-Driver=
-Enable Intel TurboAMD Performance Boost=Enable Intel Turbo/AMD Performance Boost
-Enable syslog Archiving=
-Ethernet NIC Rx Buffer=
-Ethernet NIC Tx Buffer=
-Ethernet NICS=
-Flow Control=
-for additional ideas on improving your Unraid performance and solving problems=
-for information on the issue=
-Go to Settings->Syslog Server and enable the Syslog Server=
-Governor=
-Guide=
-If you are experiencing OOM errors, try adjusting the Disk Cache settings on the Tweaks page=
-If you configure VLANs on Unraid, you should make Unraid the Master Browser=
-If you dont Unraid may not detect the Master Browser for all network interfaces correctly=
-If you have an Intel Processor, it may appear that all CPUs are constantly running at full speed=
-If you set the 'Power Save' CPU Governor, you may see your processors stuck at 800 MHz=
-Install the Fix Common Problems plugin and resolve any Unraid configuration problems=
-Intel TurboAMD Performance Boost=Intel Turbo/AMD Performance Boost
-It is recommended that you update Unraid to the latest stable version to get the latest features, bug fixes, and security updates=
-It is recommended to use the pstate driver on Intel processors if you want the most performance=
-It is recommended you use the 'Performance' Governor for best performance and power savings=
-Make changes slowly=
-Make one change at a time and verify if it improves your situation=
-Making changes here can briefly interrupt your network operation=
-Many plugins are no longer compatible with older Unraid versons=
-Max SMB Open Files=
-Max User Instances=
-Max User Watches=
-NIC Offload=
-NIC Rx Buffer=
-NIC Tx Buffer=
-Normal CPU Scaling Governor=
-Note=
-Number of syslogs to Archive=
-post=
-Power Saving Settings=
-Power Saving CPU Scaling Governor=
-Processes to kill before Array is Stopped=
-Put the IP address of your server in the Remote syslog server field=
-Read this=
-Schedule CPU Power Saving Mode=
-Some have reported better VM performance with media streaming and gaming VMs with the suggestions on this=
-Some have reported faster and more consistent network performance by making changes in networking parameters on the Tweaks tab of this plugin=
-Some of the settings will consume RAM and may end up causing Linux to terminate some processes to free up RAM=
-Some people are reporting OOM out of memory errors=
-Support for older versions of Unraid is being phased out=
-The dashboard shows CPU loading and not CPU frequency=
-The feature is not available on any of your NICs=
-The first thing you should do is to install the Fix Common Problems plugin to find and fix common problems=
-The Tips below are suggestions, workarounds for known problems, and potential fixes=
-There is a very cool feature in Unraid 6 and up that can be used to capture your logs and help in troubleshooting a situation where your server locks up or becomes unresponsive=
-This will identify potential problems to be solved before you upgrade the Unraid OS=
-This will log all your server log enries to the Syslog Server and save the log to an array share=
-This seems to be occurring more now because of the large amounts of memory being installed in Unraid and the default Disk Cache settings too high=
-Time to set Normal CPU Scaling=
-Time to set Power Saving CPU Scaling=
-Time to set TurboPerformance Boost Off=Time to set Turbo/Performance Boost Off
-Time to set TurboPerformance Boost On=Time to set Turbo/Performance Boost On
-Tips=
-Tips and Tweaks wiki=
-Tweaks=
-Use the Update Assistant that is part of the Fix Common Problems plugin=
-Version 6.11.4 and later=
-You can check CPU frequencies on the command line with=
-You may actually cause more problems than you solve if there are problems with your Unraid configuration=
+After a reboot from a lockup or hung server, you can view the saved log using the Syslog viewer=A szerver lefagyása vagy megakadása utáni újraindítást követően a mentett naplót a Syslog-megtekintővel tudod megtekinteni
+Check the=Ellenőrizd a következőt:
+Available User Watches=Elérhető felhasználói figyelések
+Click on Help for more information=Kattints a Súgóra a további információkért
+Correct any problems that are identified before doing any tweaking=Javíts ki minden feltárt problémát, mielőtt bármilyen finomhangolásba kezdenél
+Current Disk Cache Settings=Jelenlegi lemez-gyorsítótár beállítások
+Current Inotify Settings=Jelenlegi Inotify beállítások
+Current NIC settings=Jelenlegi hálózati kártya beállítások
+Current User Watches=Jelenlegi felhasználói figyelések
+Disable NIC Flow Control=Hálózati kártya áramlásvezérlésének letiltása
+Disable NIC Offload=Hálózati kártya tehermentesítésének letiltása
+Disk Cache=Lemez-gyorsítótár
+Dont change the Disk Cache settings until you read and understand this=Ne módosítsd a lemez-gyorsítótár beállításait, amíg ezt el nem olvasod és meg nem érted
+Driver=Illesztőprogram
+Enable Intel TurboAMD Performance Boost=Intel Turbo / AMD Performance Boost engedélyezése
+Enable syslog Archiving=Rendszernapló-archiválás engedélyezése
+Ethernet NIC Rx Buffer=Ethernet hálózati kártya Rx puffer
+Ethernet NIC Tx Buffer=Ethernet hálózati kártya Tx puffer
+Ethernet NICS=Ethernet hálózati kártyák
+Flow Control=Áramlásvezérlés
+for additional ideas on improving your Unraid performance and solving problems=az Unraid teljesítményének javítására és a problémák megoldására vonatkozó további ötletekért
+for information on the issue=a problémával kapcsolatos információkért
+Go to Settings->Syslog Server and enable the Syslog Server=Lépj a Beállítások -> Rendszernapló-szerver menüpontba, és engedélyezd a rendszernapló-szervert
+Governor=Skálázási mód
+Guide=Útmutató
+If you are experiencing OOM errors, try adjusting the Disk Cache settings on the Tweaks page=Ha OOM (memóriahiány) hibákat tapasztalsz, próbáld meg módosítani a lemez-gyorsítótár beállításait a Finomhangolás oldalon
+If you configure VLANs on Unraid, you should make Unraid the Master Browser=Ha VLAN-okat konfigurálsz az Unraidben, érdemes az Unraidet megtenni Master Browsernek
+If you dont Unraid may not detect the Master Browser for all network interfaces correctly=Ha nem teszed meg, előfordulhat, hogy az Unraid nem érzékeli megfelelően a Master Browsert az összes hálózati interfészen
+If you have an Intel Processor, it may appear that all CPUs are constantly running at full speed=Ha Intel processzorod van, úgy tűnhet, mintha az összes CPU-mag folyamatosan teljes sebességen futna
+If you set the 'Power Save' CPU Governor, you may see your processors stuck at 800 MHz=Ha az 'Energiatakarékos' CPU skálázási módot állítod be, előfordulhat, hogy a processzorok 800 MHz-en ragadnak
+Install the Fix Common Problems plugin and resolve any Unraid configuration problems=Telepítsd a Fix Common Problems plugint, és szüntesd meg az Unraid konfigurációs problémáit
+Intel TurboAMD Performance Boost=Intel Turbo / AMD Performance Boost
+It is recommended that you update Unraid to the latest stable version to get the latest features, bug fixes, and security updates=Javasolt az Unraid frissítése a legújabb stabil verzióra a legújabb funkciók, hibajavítások és biztonsági frissítések eléréséhez
+It is recommended to use the pstate driver on Intel processors if you want the most performance=Intel processzorok esetén a pstate illesztőprogram használata javasolt a legnagyobb teljesítmény eléréséhez
+It is recommended you use the 'Performance' Governor for best performance and power savings=A legjobb teljesítmény és energiamegtakarítás érdekében a 'Performance' skálázási mód használata javasolt
+Make changes slowly=Lassan, fokozatosan végezz módosításokat
+Make one change at a time and verify if it improves your situation=Egyszerre csak egy módosítást végezz, és ellenőrizd, hogy javít-e a helyzeten
+Making changes here can briefly interrupt your network operation=Az itt végrehajtott módosítások rövid időre megszakíthatják a hálózati működést
+Many plugins are no longer compatible with older Unraid versons=Sok plugin már nem kompatibilis a régebbi Unraid verziókkal
+Max SMB Open Files=Max SMB nyitott fájlok
+Max User Instances=Max felhasználói példányok
+Max User Watches=Max felhasználói figyelések
+NIC Offload=Hálózati kártya tehermentesítés
+NIC Rx Buffer=Hálózati kártya Rx puffer
+NIC Tx Buffer=Hálózati kártya Tx puffer
+Normal CPU Scaling Governor=Normál CPU skálázási mód
+Note=Megjegyzés
+Number of syslogs to Archive=Archiválandó rendszernaplók száma
+post=bejegyzés
+Power Saving Settings=Energiatakarékossági beállítások
+Power Saving CPU Scaling Governor=Energiatakarékos CPU skálázási mód
+Processes to kill before Array is Stopped=A tömb leállítása előtt kényszerítetten leállítandó folyamatok
+Put the IP address of your server in the Remote syslog server field=Írd be a szervered IP-címét a Távoli rendszernapló-szerver mezőbe
+Read this=Olvasd el ezt
+Schedule CPU Power Saving Mode=CPU energiatakarékos mód ütemezése
+Some have reported better VM performance with media streaming and gaming VMs with the suggestions on this=Néhányan jobb virtuális gép teljesítményről számoltak be média-streaming és játékra használt virtuális gépeknél az ebben található javaslatok alapján:
+Some have reported faster and more consistent network performance by making changes in networking parameters on the Tweaks tab of this plugin=Néhányan gyorsabb és egyenletesebb hálózati teljesítményről számoltak be a plugin Finomhangolás fülén található hálózati paraméterek módosításával
+Some of the settings will consume RAM and may end up causing Linux to terminate some processes to free up RAM=Néhány beállítás RAM-ot fogyaszt, ami végül ahhoz vezethet, hogy a Linux leállít bizonyos folyamatokat a RAM felszabadítása érdekében
+Some people are reporting OOM out of memory errors=Néhányan OOM (memóriahiány) hibákról számolnak be
+Support for older versions of Unraid is being phased out=A régebbi Unraid verziók támogatása kivezetésre kerül
+The dashboard shows CPU loading and not CPU frequency=A vezérlőpult a CPU terheltségét mutatja, nem a CPU frekvenciáját
+The feature is not available on any of your NICs=Ez a funkció egyik hálózati kártyádon sem érhető el
+The first thing you should do is to install the Fix Common Problems plugin to find and fix common problems=Az első dolog, amit tenned kell, hogy telepíted a Fix Common Problems plugint a gyakori problémák megtalálásához és javításához
+The Tips below are suggestions, workarounds for known problems, and potential fixes=Az alábbi tippek javaslatok, áthidaló megoldások ismert problémákra, valamint lehetséges javítások
+There is a very cool feature in Unraid 6 and up that can be used to capture your logs and help in troubleshooting a situation where your server locks up or becomes unresponsive=Az Unraid 6-os és újabb verzióiban van egy nagyszerű funkció, amellyel rögzítheted a naplókat, és segíthet a hibaelhárításban, ha a szerver lefagy vagy nem válaszol
+This will identify potential problems to be solved before you upgrade the Unraid OS=Ez azonosítja a lehetséges problémákat, amelyeket meg kell oldani az Unraid OS frissítése előtt
+This will log all your server log enries to the Syslog Server and save the log to an array share=Ez az összes szervernapló-bejegyzést a rendszernapló-szerverre naplózza, és elmenti a naplót egy tömbmegosztásra
+This seems to be occurring more now because of the large amounts of memory being installed in Unraid and the default Disk Cache settings too high=Ez mostanában gyakrabban fordul elő az Unraidbe beszerelt nagy mennyiségű memória és a túl magas alapértelmezett lemez-gyorsítótár beállítások miatt
+Time to set Normal CPU Scaling=Normál CPU skálázás beállításának ideje
+Time to set Power Saving CPU Scaling=Energiatakarékos CPU skálázás beállításának ideje
+Time to set TurboPerformance Boost Off=Turbo / Performance Boost kikapcsolásának ideje
+Time to set TurboPerformance Boost On=Turbo / Performance Boost bekapcsolásának ideje
+Tips=Tippek
+Tips and Tweaks wiki=Tippek és finomhangolás wiki
+Tweaks=Finomhangolás
+Use the Update Assistant that is part of the Fix Common Problems plugin=Használd a Frissítési asszisztenst, amely a Fix Common Problems plugin része
+Version 6.11.4 and later=6.11.4 és újabb verziók
+You can check CPU frequencies on the command line with=A CPU-frekvenciákat a parancssorban a következővel ellenőrizheted:
+You may actually cause more problems than you solve if there are problems with your Unraid configuration=Esetleg több problémát okozhatsz, mint amennyit megoldasz, ha probléma van az Unraid konfigurációjával
 
 ;
 ; Help
 ;
 :tips_tweaks_general_plug:
-> Some General Recommendations:
+> Néhány általános ajánlás:
 >
-> + Use of a static IP address can help in certain cases.  NFS shares are referenced by IP address.  Be sure you reserve the IP address on your router, or set a very high IP address to prevent conflicts.
-> + Use of Jumbo Frames is discouraged.  Jumbo Frames have been known to cause issues with some Dockers.
-> + Don't set vm.dirty.ratio above 20% unless you have a UPS backup for your Unraid.  You may lose data that has not been written to disk on a power failure.
-> + A value of vm.dirty_background_ratio over 1/2 of vm.dirty_ratio is not recommended unless using single digits for both values.
+> + A statikus IP-cím használata bizonyos esetekben segíthet. Az NFS-megosztások IP-cím alapján vannak hivatkozva. Ügyelj arra, hogy foglald le az IP-címet a routeren, vagy állíts be egy nagyon magas IP-címet az ütközések elkerülése érdekében.
+> + A Jumbo Frames használata nem javasolt. A Jumbo Frames ismert módon problémákat okozhat egyes Docker-konténereknél.
+> + Ne állítsd a vm.dirty.ratio értéket 20% fölé, hacsak nincs szünetmentes tápegységed (UPS) az Unraidhez. Áramkimaradás esetén elveszítheted azokat az adatokat, amelyek még nem lettek kiírva a lemezre.
+> + A vm.dirty_background_ratio értéke nem javasolt, hogy meghaladja a vm.dirty_ratio felét, kivéve, ha mindkét értéknél egyjegyű számokat használsz.
 :end
 
 :tips_tweaks_nic_flow_control_plug:
-> Set to 'Yes' to disable NIC Flow Control.  NIC Flow Control was originally implemented to help in
-> networks with mixed speed devices.  It doesn't seem to be as necessary on today's networks.  If you
-> have a managed switch, flow control can generally be turned on and off on the switch.  If you have
-> a consumer grade switch, you won't have that level of control.  Flow Control has been known to create
-> network issues in certain circumstances.  It is recommended to disable Flow Control if you experience network issues.
+> Állítsd 'Igen' értékre a hálózati kártya áramlásvezérlésének letiltásához. A hálózati kártya áramlásvezérlését eredetileg a vegyes sebességű eszközöket tartalmazó hálózatok megsegítésére vezették be. A mai hálózatokon már nem tűnik annyira szükségesnek. Ha menedzselhető switched van, az áramlásvezérlés általában be- és kikapcsolható a switchen. Ha lakossági kategóriájú switched van, nem lesz ilyen szintű vezérlési lehetőséged. Az áramlásvezérlésről ismert, hogy bizonyos körülmények között hálózati problémákat okoz. Hálózati problémák tapasztalása esetén javasolt az áramlásvezérlés letiltása.
 >
-> Changing from any setting to 'Default' requires a reboot.
+> Bármely beállításról az 'Alapértelmezett' értékre való váltáshoz újraindítás szükséges.
 :end
 
 :tips_tweaks_nic_offload_plug:
-> Set to 'Yes' to disable NIC offloads.  Offloads were developed to offload some network processing
-> to the NIC and off the main CPU and deal with large packets.  This was intended to save some CPU processing
-> load and increase network throughput.  TSO offload has been known to cause network issues in certain circumstances.
-> It is recommended to disable NIC Offloads if you experience network issues.
+> Állítsd 'Igen' értékre a hálózati kártya tehermentesítési funkcióinak letiltásához. A tehermentesítéseket azért fejlesztették ki, hogy a hálózati feldolgozás egy részét átterheljék a hálózati kártyára a fő CPU-ról, és kezeljék a nagy csomagokat. Ez a CPU terhelésének csökkentését és a hálózati átviteli sebesség növelését szolgálta. A TSO tehermentesítésről ismert, hogy bizonyos körülmények között hálózati problémákat okoz. Hálózati problémák tapasztalása esetén javasolt a hálózati kártya tehermentesítésének letiltása.
 >
-> Changing from any setting to 'Default' requires a reboot.
+> Bármely beállításról az 'Alapértelmezett' értékre való váltáshoz újraindítás szükséges.
 :end
 
 :tips_tweaks_rx_buffer_plug:
-> Select the size of the NIC Rx ring buffer.  Some NICs have a limit on the size of the Rx ring buffer.  The default value of 256 is recommended.
+> Válaszd ki a hálózati kártya Rx gyűrűspufferének méretét. Néhány hálózati kártyánál korlátozva van az Rx gyűrűspuffer mérete. A 256-os alapértelmezett érték javasolt.
 >
-> Changing from any setting to 'Default' requires a reboot.
+> Bármely beállításról az 'Alapértelmezett' értékre való váltáshoz újraindítás szükséges.
 :end
 
 :tips_tweaks_tx_buffer_plug:
-> Select the size of the NIC Tx ring buffer.  Some NICs have a limit on the size of the Tx ring buffer.  The default value of 256 is recommended.
+> Válaszd ki a hálózati kártya Tx gyűrűspufferének méretét. Néhány hálózati kártyánál korlátozva van a Tx gyűrűspuffer mérete. A 256-os alapértelmezett érték javasolt.
 >
-> Changing from any setting to 'Default' requires a reboot.
+> Bármely beállításról az 'Alapértelmezett' értékre való váltáshoz újraindítás szükséges.
 :end
 
 :tips_tweaks_nics_plug:
-> List the NICs to apply the above settings separated by commas.  If you have multiple NICs that are bonded, be sure to include all of them.  Flow Control, TSO, and NIC buffer settings will
-> be applied to these NICs.
+> Sorold fel azokat a hálózati kártyákat vesszővel elválasztva, amelyekre alkalmazni kívánod a fenti beállításokat. Ha több összevont (bonded) hálózati kártyád van, ügyelj arra, hogy mindegyiket belefoglald. Az áramlásvezérlés, a TSO és a hálózati kártya pufferbeállításai ezekre a kártyákra lesznek alkalmazva.
 :end
 
 :tips_tweaks_dirty_background_plug:
-> For streaming and gaming VMs, set the values low in the single digits.  Recommended values are: vm.dirty_background_ratio=2% and vm.dirty_ratio=3%.
-> If you have large amounts of RAM, smaller is better.
-> Caution: Don't increase these values beyond the default settings unless you have a UPS that will reliably shut down Unraid.
+> Média-streaming és játékra használt virtuális gépeknél állítsd az értékeket alacsony, egyjegyű számra. A javasolt értékek: vm.dirty_background_ratio=2% és vm.dirty_ratio=3%.
+> Ha nagy mennyiségű RAM-mal rendelkezel, a kisebb érték a jobb.
+> Figyelem: Ne növeld ezeket az értékeket az alapértelmezett beállításokon túlra, hacsak nincs olyan szünetmentes tápegységed (UPS), amely megbízhatóan leállítja az Unraidet.
 >
-> Set the 'vm.dirty_background_ratio' as a percentage of total RAM memory.
-> The default setting of 10% is recommended in most cases.  If you have a media streaming or gaming VM, use a value of 2%.  If you experience OOM errors, it is recommended you set this to 1%.
+> Állítsd be a 'vm.dirty_background_ratio' értékét a teljes RAM memória százalékában.
+> A legtöbb esetben a 10%-os alapértelmezett beállítás javasolt. Média-streaming vagy játékra használt virtuális gép esetén használj 2%-os értéket. Ha OOM (memóriahiány) hibákat tapasztalsz, javasolt ezt 1%-ra állítani.
 :end
 
 :tips_tweaks_dirty_ratio_plug:
-> Set the 'vm.dirty_ratio' as a percentage of total RAM memory.
-> Setting this too high may cause Linux to terminate some processes to gain more memory.  The default setting of 20% is recommended in most cases.  If you have a media streaming or gaming VM, use a value of 3%.  If you experience OOM errors, it is recommended you set this to 2%.
+> Állítsd be a 'vm.dirty_ratio' értékét a teljes RAM memória százalékában.
+> Ennek a túl magasra állítása ahhoz vezethet, hogy a Linux leállít egyes folyamatokat, hogy több memóriát nyerjen. A legtöbb esetben a 20%-os alapértelmezett beállítás javasolt. Média-streaming vagy játékra használt virtuális gép esetén használj 3%-os értéket. Ha OOM (memóriahiány) hibákat tapasztalsz, javasolt ezt 2%-ra állítani.
 :end
 
 :tips_tweaks_writeback_plug:
-> The default is 200 centiseconds (2 seconds) to control how often the kernel checks for dirty data to flush in the background.
+> Az alapértelmezett érték 200 centimásodperc (2 másodperc), amely azt szabályozza, hogy a rendszermag (kernel) milyen gyakran ellenőrzi a háttérben kiírandó módosított adatokat.
 :end
 
 :tips_tweaks_expire_plug:
-> The default is 1000 centiseconds (10 seconds) to specify how long data can stay dirty before it is considered for write-back.
+> Az alapértelmezett érték 1000 centimásodperc (10 másodperc), amely megadja, hogy az adatok mennyi ideig maradhatnak módosított állapotban, mielőtt kiírásra jelölné őket a rendszer.
 :end
 
 :tips_tweaks_max_watches_plug:
-> If inotify fails to start because there are not enough user watches, increase the max_user_watches.
+> Ha az inotify nem indul el, mert nincs elegendő felhasználói figyelés, növeld a max_user_watches értékét.
 >
-> The default is 524288.
+> Az alapértelmezett érték 524288.
 :end
 
 :tips_tweaks_max_instances_plug:
-> This is maximum number of inotify instances that a user can create.
+> Ez az inotify példányok maximális száma, amelyet egy felhasználó létrehozhat.
 >
-> The default is 128.
+> Az alapértelmezett érték 128.
 :end
 
 :tips_tweaks_max_files_plug:
-> This value is used by samba to set the maximum number of open files allowed in SMB shares.
+> Ezt az értéket a Samba használja a nyitott fájlok maximális számának beállítására az SMB megosztásokban.
 >
-> The default is 40960 and the allowed range is 40960 to 65535.
+> Az alapértelmezett érték 40960, az engedélyezett tartomány pedig 40960 és 65535 között van.
 :end
 
 :tips_tweak_turbo_plug:
-> Set to 'Yes' to enable the Intel Turbo or AMD Performance Boost Mode.
+> Állítsd 'Igen' értékre az Intel Turbo vagy AMD Performance Boost mód engedélyezéséhez.
 :end
 
 :tips_tweaks_turbo_state_off_plug:
-> Enter the time you want to set Intel Turbo/AMD Performance Boost Off in 24 hour format hh:mm.
+> Add meg az Intel Turbo / AMD Performance Boost kikapcsolásának időpontját 24 órás óó:pp formátumban.
 :end
 
 :tips_tweaks_turbo_state_on_plug:
-> Enter the time you want to set Intel Turbo/AMD Performance Boost On in 24 hour format hh:mm.
+> Add meg az Intel Turbo / AMD Performance Boost bekapcsolásának időpontját 24 órás óó:pp formátumban.
 :end
 
 :tips_tweaks_cpu_governor_plug:
-> Select the CPU Scaling Governor you want to use.
+> Válaszd ki a használni kívánt CPU skálázási módot.
 >
-> + "Power Save" - Default for the Intel Pstate driver.  Scales CPU frequency based on load.
-> + "On Demand" - Default for ACPI CPU Freq driver.  Scales CPU frequency based on load.  Frequency stepping is aggressive.
-> + "Conservative" - Scales CPU frequency based on load.  Frequency stepping is gentler.  Can cause some latency.
-> + "Performance" - Set all CPUs at full frequency regardless of load.  This can have a positive influence on performance and latency.
-> + "Schedutil" - Set all CPUs frequency scaling to schedutil.  This sets CPU frequency based on the Linux scheduler.  Note: This is still in development.
-> + "Scheduled" - At start time set governor to "Performance".  At stop time set governor to "Powersave" or "On Demand" depending on driver used.
+> + "Power Save" - Alapértelmezett az Intel Pstate illesztőprogramhoz. A CPU frekvenciáját a terhelés alapján skálázza.
+> + "On Demand" - Alapértelmezett az ACPI CPU Freq illesztőprogramhoz. A CPU frekvenciáját a terhelés alapján skálázza. A frekvenciaváltás agresszív.
+> + "Conservative" - A CPU frekvenciáját a terhelés alapján skálázza. A frekvenciaváltás finomabb. Némi késleltetést okozhat.
+> + "Performance" - Az összes CPU-t teljes frekvenciára állítja be a terheléstől függetlenül. Ez pozitív hatással lehet a teljesítményre és a késleltetésre.
+> + "Schedutil" - Az összes CPU frekvenciaskálázását schedutil módra állítja. Ez a CPU frekvenciáját a Linux ütemező alapján állítja be. Megjegyzés: Ez még fejlesztés alatt áll.
+> + "Scheduled" - A kezdési időpontban "Performance" módba állítja a skálázót. A leállítási időpontban "Powersave" vagy "On Demand" módba állítja a használt illesztőprogramtól függően.
 >
-> You can now set the CPU governor with the rc.tweaks script.  Use the command:
+> A CPU skálázási módot mostantól az rc.tweaks szkripttel is beállíthatod. Használd a következő parancsot:
 > /usr/local/sbin/rc.tweaks set_governor 'governor'
-> The 'governor' choices are: 'ondemand', 'performance', 'powersave', 'conservative', and 'schedutil'.
+> A 'governor' opciók: 'ondemand', 'performance', 'powersave', 'conservative' és 'schedutil'.
 :end
 
-
 :tips_tweaks_power_save_cpu_governor_plug:
-> Select the Power Saving CPU Scaling Governor you want to use.
+> Válaszd ki a használni kívánt energiatakarékos CPU skálázási módot.
 >
-> + "Power Save" - Scales CPU frequency based on load.
-> + "On Demand" - Default for ACPI CPU Freq driver.  Scales CPU frequency based on load.  Frequency stepping is aggressive.
-> + "Conservative" - Scales CPU frequency based on load.  Frequency stepping is gentler.  Can cause some latency.
-> + "Schedutil" - Set all CPUs frequency scaling to schedutil.  This sets CPU frequency based on the Linux scheduler.  Note: This is still in development.
+> + "Power Save" - A CPU frekvenciáját a terhelés alapján skálázza.
+> + "On Demand" - Alapértelmezett az ACPI CPU Freq illesztőprogramhoz. A CPU frekvenciáját a terhelés alapján skálázza. A frekvenciaváltás agresszív.
+> + "Conservative" - A CPU frekvenciáját a terhelés alapján skálázza. A frekvenciaváltás finomabb. Némi késleltetést okozhat.
+> + "Schedutil" - Az összes CPU frekvenciaskálázását schedutil módra állítja. Ez a CPU frekvenciáját a Linux ütemező alapján állítja be. Megjegyzés: Ez még fejlesztés alatt áll.
 :end
 
 :tips_tweak_turbo_plug:
-> Set to 'Yes' to enable the Intel Turbo or AMD Performance Boost Mode.
+> Állítsd 'Igen' értékre az Intel Turbo vagy AMD Performance Boost mód engedélyezéséhez.
 :end
 
 :tips_tweaks_scheduled_plug:
-> Set to 'Yes' to enable scheduled CPU Power Saving mode based on the times set below for Normal and Power Saving modes.
+> Állítsd 'Igen' értékre az ütemezett CPU energiatakarékos mód engedélyezéséhez a Normál és az Energiatakarékos módok alább beállított időpontjai alapján.
 :end
 
-
 :tips_tweaks_cpu_state_plug:
-> Enter the time you want to set the governor to "Power Save" for Intel Pstate and Intel CPU Freq or "On Demand" in 24 hour format hh:mm.
+> Add meg az időpontot 24 órás óó:pp formátumban, amikor a skálázót "Power Save" (Intel Pstate és Intel CPU Freq esetén) vagy "On Demand" módba szeretnéd állítani.
 :end
 
 :tips_tweaks_performance_plug:
-> Enter the time you want to set the governor to "Performance" in 24 hour format hh:mm.
+> Add meg az időpontot 24 órás óó:pp formátumban, amikor a skálázót "Performance" módba szeretnéd állítani.
 :end
 
-
 :tips_tweaks_syslog_archive_plug:
-> Set to 'Yes' to enable the capture and archive of syslogs and run a diagnostics on shutdown.  Logs and diagnostics are saved to /boot/logs/.
+> Állítsd 'Igen' értékre a rendszernaplók rögzítésének és archiválásának engedélyezéséhez, valamint a diagnosztika futtatásához leállításkor. A naplók és a diagnosztika a /boot/logs/ mappába kerülnek mentésre.
 :end
 
 :tips_tweaks_number_syslogs_plug:
-> Set the number of syslogs to save in the archive.
-> Set zero to save only last syslog.  Set to -1 to save all logs.  Default setting is 10.
+> Állítsd be az archívumban mentendő rendszernaplók számát.
+> Állíts be nullát csak az utolsó rendszernapló mentéséhez. Állíts be -1 értéket az összes napló mentéséhez. Az alapértelmezett beállítás: 10.
 :end
 
 :tips_tweaks_kill_processes_plug:
-> Enter the names of processes to kill before stopping the array, separated by commas.  For example, 'ssh' and 'bash'.  These processes can keep the array disks from unmounting causing Unraid to hang when the array is being stopped.
+> Add meg a tömb leállítása előtt kényszerítetten leállítandó folyamatok nevét vesszővel elválasztva. Például: 'ssh' és 'bash'. Ezek a folyamatok megakadályozhatják a tömblemezek lecsatolását, ami az Unraid megakadását okozhatja a tömb leállításakor.
 >
-> Note: Be careful with the processes you kill here.  You could lose data!
+> Megjegyzés: Légy óvatos az itt leállított folyamatokkal. Adatvesztést okozhatsz!
 :end
-
-
-; Note: February 10, 2024 - 79 missing translations
