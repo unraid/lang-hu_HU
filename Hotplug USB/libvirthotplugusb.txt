@@ -2,23 +2,22 @@
 ; Help
 ;
 :libvirt_hot_plug:
-> Select the VM for the USB device to be attached/detached and the USB device for the selected VM.
+> Válaszd ki azt a virtuális gépet, amelyhez az USB-eszközt csatlakoztatni vagy arról lecsatlakoztatni szeretnéd, valamint a kiválasztott virtuális géphez tartozó USB-eszközt.
 :end
 
-; Note: April 28, 2023 - 16 missing translations
-Hotplug USB=
-Running VMs=
-Attach=
-Attach the USB device to the selected VM=
-Detach=
-Refresh this page=
-Detach the USB device from the selected VM=
-Result=
-Result of attachdetach operation=
-Note=
-Some USB Devices require detaching and attaching multiple times to be properly detected by VMs=
-If you disconnected the USB device while it was attached to a VM, you will have to detach it and then re-attach it=
-Detaching Please wait=
-Attaching Please wait=
-No VM Selected=
-No USB devices=
+Hotplug USB=USB forrócsatlakozás
+Running VMs=Futó virtuális gépek
+Attach=Csatlakoztatás
+Attach the USB device to the selected VM=Az USB-eszköz csatlakoztatása a kiválasztott virtuális géphez
+Detach=Lecsatlakoztatás
+Refresh this page=Oldal frissítése
+Detach the USB device from the selected VM=Az USB-eszköz lecsatlakoztatása a kiválasztott virtuális gépből
+Result=Eredmény
+Result of attachdetach operation=A csatlakoztatási/lecsatlakoztatási művelet eredménye
+Note=Megjegyzés
+Some USB Devices require detaching and attaching multiple times to be properly detected by VMs=Néhány USB-eszközt többször is le kell csatlakoztatni és újracsatlakoztatni, hogy a virtuális gép megfelelően érzékelje
+If you disconnected the USB device while it was attached to a VM, you will have to detach it and then re-attach it=Ha kihúztad az USB-eszközt, miközben az egy virtuális géphez volt csatlakoztatva, előbb le kell csatlakoztatnod a felületen, majd újra csatlakoztatnod kell
+Detaching Please wait=Lecsatlakoztatás folyamatban, kérlek várj
+Attaching Please wait=Csatlakoztatás folyamatban, kérlek várj
+No VM Selected=Nincs virtuális gép kiválasztva
+No USB devices=Nincsenek USB-eszközök
