@@ -1,87 +1,85 @@
-
 :stats_utilization_plug:
-> The disk utilization percentage number can be positioned either at the start (left) or at the end (right) of the bar.
+> A lemezkihasználtság százalékos értéke elhelyezhető a sáv elején (balra) vagy a végén (jobbra).
 >
-> Left will align all numbers, while right lets the number float depending on its value.
+> A balra igazítás egymás alá igazítja az összes számot, míg a jobbra igazításnál a szám pozíciója az értéktől függően változik.
 :end
 
 :stats_graphs_plug:
-> Select which system information needs to be displayed. Internally all information is always gathered and stored.
+> Válaszd ki, hogy mely rendszerinformációk jelenjenek meg. A rendszer a háttérben az összes információt folyamatosan gyűjti és tárolja.
 >
-> This setting only affects what is being displayed.
+> Ez a beállítás kizárólag a megjelenítésre van hatással.
 :end
 
 :stats_scaling_plug:
-> Select the CPU graph scaling to be automatic or fixed at 100%.
+> Válaszd ki, hogy a CPU-grafikon skálázása automatikus legyen, vagy rögzített 100%-on.
 :end
 
 :stats_view_plug:
-> Select how many graphs will be displayed in a single row. The width is automatically adjusted to the number of graphs and the screen resolution.
+> Válaszd ki, hány grafikon jelenjen meg egyetlen sorban. A szélesség automatikusan igazodik a grafikonok számához és a képernyő felbontásához.
 >
-> Graph samples are internally done with a one minute interval, this setting does not change the resolution, just the width of a graph.
+> A mintavételezés a háttérben egyperces időközönként történik, ez a beállítás nem változtatja meg a felbontást, csak a grafikonok szélességét.
 :end
 
 :stats_disk_size_plug:
-> Show the size of each disk at the right side of the disk usage graph. Size is always displayed using the highest possible unit.
+> Megjeleníti az egyes lemezek méretét a lemezhasználati grafikon jobb oldalán. A méret mindig a lehető legnagyobb mértékegységben jelenik meg.
 :end
 
 :stats_ethernet_plug:
-> When more than one interface is present then select the interface to be displayed. Internally statistics of all available interfaces is kept.
+> Ha több interfész is jelen van, válaszd ki a megjelenítendő interfészt. A rendszer a háttérben az összes elérhető interfész statisztikáját nyilvántartja.
 :end
 
 :stats_unit_plug:
-> Select how interface (network) speeds are displayed, common is bits per second.
+> Válaszd ki az interfész (hálózati) sebességének megjelenítési módját; a legelterjedtebb a bit per másodperc.
 :end
 
 :stats_initial_plug:
-> The system graphs can be viewd over different periods, select here the intial period. On the system stats page itself this can be changed to any of the other choices.
+> A rendszergrafikonok különböző időszakokra vetítve tekinthetők meg; itt választhatod ki a kezdeti időszakot. A rendszerstatisztikák oldalon ez bármikor átváltható a többi lehetőségre.
 >
-> Internally information is kept with a monthly rotating mechanism. Each day is stored in a separate file.
+> A rendszer a háttérben havi rotációs mechanizmussal őrzi meg az információkat. Minden nap külön fájlban kerül tárolásra.
 :end
 
 :stats_realtime_plug:
-> Real-time graphing is done in a sliding window fashion. E.g. 5 minutes are first filled and next start to slide with each new sample added at the end.
+> A valós idejű grafikonábrázolás gördülő ablakos módszerrel történik. Például először feltöltődik az első 5 perc, majd a grafikon elkezd gördülni minden egyes új mintavétellel a végén.
 >
-> This setting sets the initial duration of the sliding window, it can be changed on the system stats page itself.
+> Ez a beállítás adja meg a gördülő ablak kezdeti időtartamát, ami a rendszerstatisztikák oldalon bármikor módosítható.
 :end
 
-; Note: April 28, 2023 - 39 missing translations
-30 seconds=
-1 minute=
-2 minutes=
-5 minutes=
-10 minutes=
-30 minutes=
-1 hour=
-2 hours=
-Bits per second=
-Bytes per second=
-CPU graph scaling=
-Disk Stats=
-Ethernet interface=
-Four=
-Header menu=
-Initial graphing mode=
-Initial real-time sliding window=
-Last day=
-Last 2 days=
-Last 3 days=
-Last week=
-Last 2 weeks=
-Last 3 weeks=
-Last month=
-Network graph display unit=
-Opening page=
-Pair=
-Placement of Stats menu=
-Position of disk utilization percentage=
-Real-time=
-Show disk size=
-Since start=
-Single=
-Storage=
-System graphs view per row=
-System Stats=
-Three=
-Tools menu=
-Viewable system graphs=
+30 seconds=30 másodperc
+1 minute=1 perc
+2 minutes=2 perc
+5 minutes=5 perc
+10 minutes=10 perc
+30 minutes=30 perc
+1 hour=1 óra
+2 hours=2 óra
+Bits per second=Bit per másodperc
+Bytes per second=Byte per másodperc
+CPU graph scaling=CPU-grafikon skálázása
+Disk Stats=Lemezstatisztikák
+Ethernet interface=Ethernet interfész
+Four=Négy
+Header menu=Fejléc menü
+Initial graphing mode=Kezdeti grafikon mód
+Initial real-time sliding window=Valós idejű gördülő ablak kezdeti mérete
+Last day=Elmúlt nap
+Last 2 days=Elmúlt 2 nap
+Last 3 days=Elmúlt 3 nap
+Last week=Elmúlt hét
+Last 2 weeks=Elmúlt 2 hét
+Last 3 weeks=Elmúlt 3 hét
+Last month=Elmúlt hónap
+Network graph display unit=Hálózati grafikon mértékegysége
+Opening page=Kezdőlap
+Pair=Pár
+Placement of Stats menu=Statisztika menü elhelyezése
+Position of disk utilization percentage=Lemezkihasználtság százalékának pozíciója
+Real-time=Valós idejű
+Show disk size=Lemezméret megjelenítése
+Since start=Indítás óta
+Single=Egyetlen
+Storage=Tárhely
+System graphs view per row=Rendszergrafikonok száma soronként
+System Stats=Rendszerstatisztikák
+Three=Három
+Tools menu=Eszközök menü
+Viewable system graphs=Megjeleníthető rendszergrafikonok
