@@ -6,11 +6,11 @@
 30 minutes=30 perc
 1 hour=1 óra
 2 hours=2 óra
-Above=Felette
-Array must be Started to view disk stats=A lemezstatisztikák megtekintéséhez a tömbnek **Elindítva** (Started) állapotban kell lennie
-Array must be Started to view system stats=A rendszerstatisztikák megtekintéséhez a tömbnek **Elindítva** (Started) állapotban kell lennie
+Above=Felett
+Array must be Started to view disk stats=A lemezstatisztikák megtekintéséhez a tömbnek **Elindítva** állapotban kell lennie
+Array must be Started to view system stats=A rendszerstatisztikák megtekintéséhez a tömbnek **Elindítva** állapotban kell lennie
 Available for Data=Adatok számára elérhető
-Below=Alatta
+Below=Alatt
 CPU Load=CPU-terhelés
 Disk Usage=Lemezhasználat
 disks=lemezek
