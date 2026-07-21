@@ -35,7 +35,7 @@
 :stats_initial_plug:
 > A rendszergrafikonok különböző időszakokra vetítve tekinthetők meg; itt választhatod ki a kezdeti időszakot. A rendszerstatisztikák oldalon ez bármikor átváltható a többi lehetőségre.
 >
-> A rendszer a háttérben havi rotációs mechanizmussal őrzi meg az információkat. Minden nap külön fájlban kerül tárolásra.
+> A rendszer a háttérben havi rotációs mechanizmussal őrzi meg az információkat. Minden egyes nap külön-külön fájlban kerül tárolásra.
 :end
 
 :stats_realtime_plug:
