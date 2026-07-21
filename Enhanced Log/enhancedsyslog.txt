@@ -1,7 +1,4 @@
-
-
-; Note: April 28, 2023 - 4 missing translations
-Enhanced System Log=
-Minor Issues=
-File System=
-Drive Related=
+Enhanced System Log=Továbbfejlesztett rendszernapló
+Minor Issues=Kisebb problémák
+File System=Fájlrendszer
+Drive Related=Meghajtókkal kapcsolatos
