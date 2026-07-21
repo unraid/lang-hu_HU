@@ -2,163 +2,160 @@
 ; Help
 ;
 :enhanced_syslog_show_all_lines_plug:
-> Set to **Yes** to show all lines in the enhanced log.  Set to **No** to show only highlighted lines.
+> Állítsd **Igen** értékre az összes sor megjelenítéséhez a továbbfejlesztett naplóban. Állítsd **Nem** értékre, ha csak a kiemelt sorokat szeretnéd látni.
 :end
 
 :enhanced_log_number_of_lines_plug:
-> Number of lines to display in the Enhanced Syslog.  Default is 1000.
+> A továbbfejlesztett rendszernaplóban megjelenítendő sorok száma. Az alapértelmezett érték: 1000.
 :end
 
 :enhanced_log_enable_error_plug:
-> Set to **Yes** to enable **Errors** highlighting in the enhanced log.
+> Állítsd **Igen** értékre a **Hibalogok** kiemelésének engedélyezéséhez a továbbfejlesztett naplóban.
 :end
 
 :enhanced_log_enable_minor_plug:
-> Set to **Yes** to enable **Minor Issues** highlighting in the enhanced log.
+> Állítsd **Igen** értékre a **Kisebb problémák** kiemelésének engedélyezéséhez a továbbfejlesztett naplóban.
 :end
 
 :enhanced_log_enable_limetch_plug:
-> Set to **Yes** to enable **Lime Tech** highlighting in the enhanced log.
+> Állítsd **Igen** értékre a **Lime Tech** bejegyzések kiemelésének engedélyezéséhez a továbbfejlesztett naplóban.
 :end
 
 :enhanced_log_enable_array_plug:
-> Set to **Yes** to enable **Array** highlighting in the enhanced log.
+> Állítsd **Igen** értékre a **Tömb** bejegyzések kiemelésének engedélyezéséhez a továbbfejlesztett naplóban.
 :end
 
 :enhanced_log_enable_system_plug:
-> Set to **Yes** to enable **System** highlighting in the enhanced log.
+> Állítsd **Igen** értékre a **Rendszer** bejegyzések kiemelésének engedélyezéséhez a továbbfejlesztett naplóban.
 :end
 
 :enhanced_log_enable_file_system_plug:
-> Set to **Yes** to enable **File System** highlighting in the enhanced log.
+> Állítsd **Igen** értékre a **Fájlrendszer** bejegyzések kiemelésének engedélyezéséhez a továbbfejlesztett naplóban.
 :end
 
 :enhanced_log_enable_drive_plug:
-> Set to **Yes** to enable **Drive Related** highlighting in the enhanced log.
+> Állítsd **Igen** értékre a **Meghajtókkal kapcsolatos** bejegyzések kiemelésének engedélyezéséhez a továbbfejlesztett naplóban.
 :end
 
 :enhanced_log_enable_network_plug:
-> Set to **Yes** to enable **Network** highlighting in the enhanced log.
+> Állítsd **Igen** értékre a **Hálózat** bejegyzések kiemelésének engedélyezéséhez a továbbfejlesztett naplóban.
 :end
 
 :enhanced_log_enable_login_plug:
-> Set to **Yes** to enable **Login** highlighting in the enhanced log.
+> Állítsd **Igen** értékre a **Bejelentkezés** bejegyzések kiemelésének engedélyezéséhez a továbbfejlesztett naplóban.
 :end
 
 :enhanced_log_enable_emhttp_plug:
-> Set to **Yes** to enable **emhttp** highlighting in the enhanced log.
+> Állítsd **Igen** értékre az **emhttp** bejegyzések kiemelésének engedélyezéséhez a továbbfejlesztett naplóban.
 :end
 
 :enhanced_log_enable_other_plug:
-> Set to **Yes** to enable **Other** highlighting in the enhanced log.
+> Állítsd **Igen** értékre az **Egyéb** bejegyzések kiemelésének engedélyezéséhez a továbbfejlesztett naplóban.
 :end
 
 :enhancd_log_default_plug:
-> **Default** resets the Configuration and Colors.  Click **Apply** to save your changes.  Click **Done** when you are finished with your changes.
+> Az **Alapértelmezett** gomb visszaállítja a konfigurációt és a színeket. Kattints az **Alkalmaz** gombra a módosítások mentéséhez. Kattints a **Kész** gombra, ha végeztél a beállításokkal.
 :end
 
 :enhanced_log_color_error_plug:
-> Color to use for **Error** highlighting.  You can use the color name or number.  The color number begins with a '#'.
+> A **Hiba** kiemeléséhez használt szín. Használhatsz színnevet vagy színkódot. A színkód '#' karakterrel kezdődik.
 :end
 
 :enhanced_log_color_minor_plug:
-> Color to use for **Minor Issues** highlighting.  You can use the color name or number.  The color number begins with a '#'.
+> A **Kisebb problémák** kiemeléséhez használt szín. Használhatsz színnevet vagy színkódot. A színkód '#' karakterrel kezdődik.
 :end
 
 :enhanced_log_color_limetech_plug:
-> Color to use for **Lime Tech** highlighting.  You can use the color name or number.  The color number begins with a '#'.
+> A **Lime Tech** bejegyzések kiemeléséhez használt szín. Használhatsz színnevet vagy színkódot. A színkód '#' karakterrel kezdődik.
 :end
 
 :enhanced_log_color_array_plug:
-> Color to use for **Array** highlighting.  You can use the color name or number.  The color number begins with a '#'.
+> A **Tömb** bejegyzések kiemeléséhez használt szín. Használhatsz színnevet vagy színkódot. A színkód '#' karakterrel kezdődik.
 :end
 
 :enhanced_log_color_system_plug:
-> Color to use for **System** highlighting.  You can use the color name or number.  The color number begins with a '#'.
+> A **Rendszer** bejegyzések kiemeléséhez használt szín. Használhatsz színnevet vagy színkódot. A színkód '#' karakterrel kezdődik.
 :end
 
 :enhanced_log_color_file_system_plug:
-> Color to use for **File System** highlighting.  You can use the color name or number.  The color number begins with a '#'.
+> A **Fájlrendszer** bejegyzések kiemeléséhez használt szín. Használhatsz színnevet vagy színkódot. A színkód '#' karakterrel kezdődik.
 :end
 
 :enhanced_log_color_drive_plug:
-> Color to use for **Drive Related** highlighting.  You can use the color name or number.  The color number begins with a '#'.
+> A **Meghajtókkal kapcsolatos** bejegyzések kiemeléséhez használt szín. Használhatsz színnevet vagy színkódot. A színkód '#' karakterrel kezdődik.
 :end
 
 :enhanced_log_color_network_plug:
-> Color to use for **Network** highlighting.  You can use the color name or number.  The color number begins with a '#'.
+> A **Hálózat** bejegyzések kiemeléséhez használt szín. Használhatsz színnevet vagy színkódot. A színkód '#' karakterrel kezdődik.
 :end
 
 :enhanced_log_color_login_plug:
-> Color to use for **Login** highlighting.  You can use the color name or number.  The color number begins with a '#'.
+> A **Bejelentkezés** bejegyzések kiemeléséhez használt szín. Használhatsz színnevet vagy színkódot. A színkód '#' karakterrel kezdődik.
 :end
 
 :enhanced_log_color_emhttp_plug:
-> Color to use for **emhttp** highlighting.  You can use the color name or number.  The color number begins with a '#'.
+> Az **emhttp** bejegyzések kiemeléséhez használt szín. Használhatsz színnevet vagy színkódot. A színkód '#' karakterrel kezdődik.
 :end
 
 :enhanced_log_color_other_plug:
-> Color to use for **Other** highlighting.  You can use the color name or number.  The color number begins with a '#'.
+> Az **Egyéb** bejegyzések kiemeléséhez használt szín. Használhatsz színnevet vagy színkódot. A színkód '#' karakterrel kezdődik.
 :end
 
 :enhanced_log_custom_plug:
-> Enter any custom events you want highlighted in the log.  Any custom events you enter will be processed after the built in events.
-> The events are entered as: "search string", "event" 
-> Case is ignored in the search string and wild cards are allowed.
-> Examples:
-> "found.*chip" will match any string with 'found' and 'chip' with any text in between,
-> "(spinup|spindown)" will match any string with either 'spinup' or 'spindown'. 
-> The search string and event are quoted, and each line contains one match string and event combination.  Errors in the strings can cause php errors.
-> Events are: "error", "minor issues", "lime tech", "array", "system", "file system", "drive related", "network", "login", "emhttp", "other".
+> Add meg a naplóban kiemelni kívánt egyedi eseményeket. A megadott egyedi események a beépített események után kerülnek feldolgozásra.
+> Az események megadási formátuma: "keresési kifejezés", "esemény"
+> A keresési kifejezés nem kis- és nagybetűérzékeny, és a helyettesítő karakterek engedélyezettek.
+> Példák:
+> a "found.*chip" kifejezés minden olyan karakterláncra illeszkedik, amelyben szerepel a 'found' és a 'chip' szó, tetszőleges szöveggel közöttük,
+> a "(spinup|spindown)" kifejezés minden olyan karakterláncra illeszkedik, amely tartalmazza a 'spinup' vagy 'spindown' szót.
+> A keresési kifejezést és az eseményt idézőjelek közé kell tenni, és minden sor egyetlen keresési kifejezés és esemény kombinációt tartalmaz. A kifejezésekben lévő hibák PHP-hibákat okozhatnak.
+> Az események a következők lehetnek: "error", "minor issues", "lime tech", "array", "system", "file system", "drive related", "network", "login", "emhttp", "other".
 :end
 
 :enhanced_log_custom_buttons_plug:
-> Click the **Apply** button to save your custom events.  Click **Reset** to
-> undo any changes you make before you have saved the custom events. Click **Done** to exit this page.
+> Kattints az **Alkalmaz** gombra az egyedi események mentéséhez. Kattints a **Visszaállítás** gombra a még nem mentett módosítások visszavonásához. Kattints a **Kész** gombra az oldal elhagyásához.
 :end
 
 :enhanced_log_filter_plug:
-> You can filter out log entries to keep your Syslog from being overwhelmed with debig or redundant log entries.  You should only filter out log entries that you know are unnecessary or redundant.
-> Because the Syslog is very important for debugging issues, don't filter out entries unnecessarily.
-> Enter the log strings you want to filtered from the Syslog.  Each entry is on a separate line with leading and trailing quotes.
+> Kiszűrheted a naplóbejegyzéseket, hogy a rendszernapló ne teljen meg hibakeresési (debug) vagy felesleges bejegyzésekkel. Csak azokat a bejegyzéseket szűrd ki, amelyekről biztosan tudod, hogy feleslegesek vagy redundánsak.
+> Mivel a rendszernapló rendkívül fontos a hibák feltárásához, ne szűrj ki bejegyzéseket indokolatlanul.
+> Add meg a rendszernaplóból kiszűrni kívánt szövegrészleteket. Minden bejegyzést külön sorba írj, idézőjelek közé téve.
 :end
 
 :enhanced_log_filter_buttons_plug:
-> Click the **Apply** button to Apply the Syslog filter. Click **Reset** to
-> undo any changes you make before you have saved the Syslog filter. Click **Done** to exit this page.
+> Kattints az **Alkalmaz** gombra a rendszernapló-szűrő érvényesítéséhez. Kattints a **Visszaállítás** gombra a még nem mentett módosítások visszavonásához. Kattints a **Kész** gombra az oldal elhagyásához.
 :end
 
-; Note: April 28, 2023 - 33 missing translations
-Configuration=
-Colors=
-Syslog Colors=
-Custom Match=
-Custom Syslog Match Strings=
-Syslog Filter=
-Syslog Configuration=
-Syslog Filter Strings=
-Show All Lines in Log=
-Number of Lines to Display=
-Enable Error Highlighting=
-Enable Minor Issues Highlighting=
-Enable Lime Tech Highlighting=
-Enable Array Highlighting=
-Enable System Highlighting=
-Enable File System Highlighting=
-Enable Drive Related Highlighting=
-Enable Network Highlighting=
-Enable Login Highlighting=
-Enable emhttp Highlighting=
-Enable Other Highlighting=
-Color Selection Chart=
-Error Highlight Color=
-Minor Issues Highlight Color=
-Lime Tech Highlight Color=
-Array Highlight Color=
-System Highlight Color=
-File System Highlight Color=
-Drive Related Highlight Color=
-Network Highlight Color=
-Login Highlight Color=
-emhttp Highlight Color=
-Other Highlight Color=
+Configuration=Konfiguráció
+Colors=Színek
+Syslog Colors=Rendszernapló színei
+Custom Match=Egyedi illeszkedés
+Custom Syslog Match Strings=Egyedi rendszernapló-illeszkedési kifejezések
+Syslog Filter=Rendszernapló-szűrő
+Syslog Configuration=Rendszernapló-konfiguráció
+Syslog Filter Strings=Rendszernapló-szűrő kifejezések
+Show All Lines in Log=Összes sor megjelenítése a naplóban
+Number of Lines to Display=Megjelenítendő sorok száma
+Enable Error Highlighting=Hibák kiemelésének engedélyezése
+Enable Minor Issues Highlighting=Kisebb problémák kiemelésének engedélyezése
+Enable Lime Tech Highlighting=Lime Tech kiemelésének engedélyezése
+Enable Array Highlighting=Tömb kiemelésének engedélyezése
+Enable System Highlighting=Rendszer kiemelésének engedélyezése
+Enable File System Highlighting=Fájlrendszer kiemelésének engedélyezése
+Enable Drive Related Highlighting=Meghajtókkal kapcsolatos kiemelés engedélyezése
+Enable Network Highlighting=Hálózat kiemelésének engedélyezése
+Enable Login Highlighting=Bejelentkezés kiemelésének engedélyezése
+Enable emhttp Highlighting=emhttp kiemelésének engedélyezése
+Enable Other Highlighting=Egyéb kiemelés engedélyezése
+Color Selection Chart=Színválasztó táblázat
+Error Highlight Color=Hiba kiemelési színe
+Minor Issues Highlight Color=Kisebb problémák kiemelési színe
+Lime Tech Highlight Color=Lime Tech kiemelési színe
+Array Highlight Color=Tömb kiemelési színe
+System Highlight Color=Rendszer kiemelési színe
+File System Highlight Color=Fájlrendszer kiemelési színe
+Drive Related Highlight Color=Meghajtókkal kapcsolatos kiemelési szín
+Network Highlight Color=Hálózat kiemelési színe
+Login Highlight Color=Bejelentkezés kiemelési színe
+emhttp Highlight Color=emhttp kiemelési színe
+Other Highlight Color=Egyéb kiemelési szín
