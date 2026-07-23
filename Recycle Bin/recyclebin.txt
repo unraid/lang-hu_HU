@@ -24,7 +24,7 @@
 :end
 
 :recycle_bin_background_plug:
-> Állítsd **Igen** értékre a Lomtár méretének percenkénti, háttérben történő frissítéséhez. Ez válaszkészebbé teheti a Lomtár beállításai és a Megosztások oldalakat, valamint megakadályozhatja a lemezek felpörgését a Lomtár elérésekor. Ha ez engedélyezve van, a Lomtár méretének frissülése akár egy percig drops eltelhet.
+> Állítsd **Igen** értékre a Lomtár méretének percenkénti, háttérben történő frissítéséhez. Ez válaszkészebbé teheti a Lomtár beállításai és a Megosztások oldalakat, valamint megakadályozhatja a lemezek felpörgését a Lomtár elérésekor. Ha ez engedélyezve van, a Lomtár méretének frissülése akár egy percig is eltarthat.
 :end
 
 :recycle_bin_ud_plug:
