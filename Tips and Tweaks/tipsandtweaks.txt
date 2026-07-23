@@ -133,11 +133,11 @@ You may actually cause more problems than you solve if there are problems with y
 :end
 
 :tips_tweaks_writeback_plug:
-> Az alapértelmezett érték 200 centimásodperc (2 másodperc), amely azt szabályozza, hogy a rendszermag (kernel) milyen gyakran ellenőrzi a háttérben kiírandó módosított adatokat.
+> Az alapértelmezett érték 200 századmásodperc (2 másodperc), amely azt szabályozza, hogy a rendszermag (kernel) milyen gyakran ellenőrzi a háttérben kiírandó módosított adatokat.
 :end
 
 :tips_tweaks_expire_plug:
-> Az alapértelmezett érték 1000 centimásodperc (10 másodperc), amely megadja, hogy az adatok mennyi ideig maradhatnak módosított állapotban, mielőtt kiírásra jelölné őket a rendszer.
+> Az alapértelmezett érték 1000 századmásodperc (10 másodperc), amely megadja, hogy az adatok mennyi ideig maradhatnak módosított állapotban, mielőtt kiírásra jelölné őket a rendszer.
 :end
 
 :tips_tweaks_max_watches_plug:
