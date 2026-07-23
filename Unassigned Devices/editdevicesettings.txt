@@ -30,7 +30,7 @@
 :end
 
 :ud_edit_user_script_choose_name_plug:
-> Ha a User Scripts plugin telepítve van, beállíthatod, hogy a Hozzá nem rendelt eszközök megjelenítse az eszközt használó felhasználói szkript futási állapotát. Ez a mező csak akkor engedélyezett, ha létezik eszközszkript-fájl.
+> Ha a User Scripts plugin telepítve van, beállíthatod, hogy a **Hozzá nem rendelt eszközök** mező megjelenítse az eszközt használó felhasználói szkript futási állapotát. Ez a mező csak akkor engedélyezett, ha létezik eszközszkript-fájl.
 :end
 
 :ud_edit_script_run_background_plug:
