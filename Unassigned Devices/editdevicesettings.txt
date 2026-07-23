@@ -1,104 +1,101 @@
-
 ;
 ; Help
 ;
 :ud_edit_script_device_settings_plug:
-> Select the options for this device and mount point.
+> Válaszd ki az eszköz és a csatlakozási pont beállításait.
 :end
 
 :ud_edit_script_detach_plug:
-> Click **Detach** to detach the device.  The device will then show in Historical Devices and can be Attached from the device settings there.
+> Kattints a **Lecsatlakoztatás** gombra az eszköz lecsatlakoztatásához. Az eszköz ezután az Előzményekben szereplő eszközök között jelenik meg, és az ottani eszközbeállításoknál csatlakoztatható újra.
 :end
 
 :ud_edit_script_attach_plug:
-> Click **Attach** to attach a device that has been detached.  This will act like the device was just installed and will auto mount if 'Auto Mount' is on.  It will take a while for the device to show up in UD.
+> Kattints a **Csatlakoztatás** gombra egy korábban lecsatlakoztatott eszköz újracsatlakoztatásához. Ez úgy működik, mintha az eszközt most telepítették volna, és automatikusan csatlakozik, ha az 'Automatikus csatolás' be van kapcsolva. Eltarthat egy ideig, amíg az eszköz megjelenik a Hozzá nem rendelt eszközök között.
 :end
 
 :ud_edit_script_abort_plug:
-> Click **Abort** to abort the device script.
+> Kattints a **Megszakítás** gombra az eszközszkript megszakításához.
 :end
 
 :ud_disk_name_plug:
-> Enter the alias name for this device.  This is the name you want to use to refer to this drive.  Leave the name blank and the 'devX' will be assigned.
+> Add meg az eszköz álnevét. Ez az a név, amellyel erre a meghajtóra hivatkozni szeretnél. Ha üresen hagyod a nevet, a 'devX' kerül hozzárendelésre.
 >
-> **Name:** 8 characters max, spaces converted to '_', minimal special characters allowed, name is case sensitive.
+> **Név:** Legfeljebb 8 karakter, a szóközök '_'-ra konvertálódnak, minimális speciális karakter engedélyezett, a név kis- és nagybetűérzékeny.
 >
-> **Note:** Cannot contain "dev" as the first characters.  This is reserved for the 'devX' devices.
+> **Megjegyzés:** Nem kezdődhet "dev" karakterekkel. Ez a 'devX' eszközök számára van fenntartva.
 :end
 
 :ud_edit_script_choose_name_plug:
-> This is the Script File that runs when the device is mounted. Choose your Script File name from the file selection dropdown, or enter your desired script.
+> Ez az a szkriptfájl, amely az eszköz csatolásakor fut le. Válaszd ki a szkriptfájl nevét a fájlválasztó gördülőmenüből, vagy add meg a kívánt szkriptet.
 :end
 
 :ud_edit_user_script_choose_name_plug:
-> If you have the User Scripts plugin installed, you can have
-Unassigned Devices show the running status of the User Script that will be using this device. This field will only be enabled when a Device Script File exists.
+> Ha a User Scripts plugin telepítve van, beállíthatod, hogy a **Hozzá nem rendelt eszközök** mező megjelenítse az eszközt használó felhasználói szkript futási állapotát. Ez a mező csak akkor engedélyezett, ha létezik eszközszkript-fájl.
 :end
 
 :ud_edit_script_run_background_plug:
-> Set to **Yes** to have the Device Script run as a background task.  This can keep the Unassigned Devices UI from hanging when the script is run from the UI.
+> Állítsd **Igen** értékre, hogy az eszközszkript háttérfeladatként fusson. Ez megakadályozhatja a Hozzá nem rendelt eszközök felületének megakadását, amikor a szkriptet a felületről futtatod.
 :end
 
 :ud_edit_script_buttons_plug:
-> Click **Default** to initialize the edit box with a default Device Script. You still need to click **Save** in order to commit the change.
+> Kattints az **Alapértelmezett** gombra a szerkesztőmező alapértelmezett eszközszkripttel való feltöltéséhez. A módosítás véglegesítéséhez továbbra is a **Mentés** gombra kell kattintanod.
 >
-> Click **Save** to save your Device Script file.
+> Kattints a **Mentés** gombra az eszközszkript-fájl mentéséhez.
 >
-> Click **Delete** to delete the Device Script file.
+> Kattints a **Törlés** gombra az eszközszkript-fájl törléséhez.
 >
-> Click **Reset** to undo any changes you make (before Saving).
+> Kattints a **Visszaállítás** gombra a módosítások visszavonásához (mentés előtt).
 >
-> Click **Apply** to commit the current edits.
+> Kattints az **Alkalmaz** gombra a jelenlegi szerkesztések érvényesítéséhez.
 >
-> Click **Done** to exit this page.
+> Kattints a **Kész** gombra az oldal elhagyásához.
 :end
 
-; Note: April 21, 2025 - 48 missing translations
-Abort Device Script=
-Attach=
-Attach This Disk=
-Attaching=
-Automount=
-Click to select file or click Default button for the Device Script File=
-Default=
-Delete Device Script File=
-Detach=
-Detach This Disk=
-Detaching=
-Device Script=
-Device Script content=
-Disable Mount and Unmount Button=
-Disable Mount Button=
-Disk Name=
-Disk Serial=
-Edit Device Script=
-Enter Device Script File Name=
-Enter and Edit the Device Script that runs when a udev or operator event occurs=
-Enter the User Script File Name=
-Enter the User Script that will be using this device=
-Enter the volume to mount on this apfs partition=
-Load the default Device Script=
-Run in background=
-Mark this Device as passed through to a VM or Docker=
-Mount Device Read only=
-Mount Device when Plugged in or Array is Started=
-Mount ISO File when Array is Started=
-Mount Point=
-Mount Remote Share Read only=
-Mount Remote SMB or NFS Share when Array is Started=
-Note: Enable SMB Sharing or NFS Export in Unassigned Devices Settings to share this device=
-Passed Through=
-Read Only=
-Run Device Script File in the background=
-Save your Device Script File=
-Save your Device Script File changes=
-Share Device with SMB and NFS=
-Share Remote Mount with SMB and NFS=
-Show all partitions on this device by default=
-Show Partitions=
-Source=
-Unassigned Devices Settings=
-Undo your changes since last Save=
-User Script=
-Volume=
-ZFS Volume=
+Abort Device Script=Eszközszkript megszakítása
+Attach=Csatlakoztatás
+Attach This Disk=Ezen lemez csatlakoztatása
+Attaching=Csatlakoztatás...
+Automount=Automatikus csatolás
+Click to select file or click Default button for the Device Script File=Kattints a fájl kiválasztásához, vagy kattints az Alapértelmezett gombra az eszközszkript-fájlhoz
+Default=Alapértelmezett
+Delete Device Script File=Eszközszkript-fájl törlése
+Detach=Lecsatlakoztatás
+Detach This Disk=Ezen lemez lecsatlakoztatása
+Detaching=Lecsatlakoztatás...
+Device Script=Eszközszkript
+Device Script content=Eszközszkript tartalma
+Disable Mount and Unmount Button=Csatolás és lecsatolás gomb letiltása
+Disable Mount Button=Csatolás gomb letiltása
+Disk Name=Lemez neve
+Disk Serial=Lemez sorozatszáma
+Edit Device Script=Eszközszkript szerkesztése
+Enter Device Script File Name=Add meg az eszközszkript fájlnevét
+Enter and Edit the Device Script that runs when a udev or operator event occurs=Add meg és szerkeszd az eszközszkriptet, amely udev vagy kezelői esemény bekövetkezésekor fut le
+Enter the User Script File Name=Add meg a felhasználói szkript fájlnevét
+Enter the User Script that will be using this device=Add meg azt a felhasználói szkriptet, amely ezt az eszközt fogja használni
+Enter the volume to mount on this apfs partition=Add meg az ezen az APFS-partíción csatolandó kötetet
+Load the default Device Script=Alapértelmezett eszközszkript betöltése
+Run in background=Futtatás a háttérben
+Mark this Device as passed through to a VM or Docker=Eszköz megjelölése virtuális gépnek vagy Dockernek átadottként
+Mount Device Read only=Eszköz csatolása csak olvasási módban
+Mount Device when Plugged in or Array is Started=Eszköz csatolása csatlakoztatáskor vagy a tömb indításakor
+Mount ISO File when Array is Started=ISO fájl csatolása a tömb indításakor
+Mount Point=Csatlakozási pont
+Mount Remote Share Read only=Távoli megosztás csatolása csak olvasási módban
+Mount Remote SMB or NFS Share when Array is Started=Távoli SMB vagy NFS megosztás csatolása a tömb indításakor
+Note: Enable SMB Sharing or NFS Export in Unassigned Devices Settings to share this device=Megjegyzés: Az eszköz megosztásához engedélyezd az SMB megosztást vagy NFS exportálást a Hozzá nem rendelt eszközök beállításaiban
+Passed Through=Átadva
+Read Only=Csak olvasható
+Run Device Script File in the background=Eszközszkript-fájl futtatása a háttérben
+Save your Device Script File=Eszközszkript-fájl mentése
+Save your Device Script File changes=Eszközszkript-fájl módosításainak mentése
+Share Device with SMB and NFS=Eszköz megosztása SMB és NFS protokollal
+Share Remote Mount with SMB and NFS=Távoli csatolás megosztása SMB és NFS protokollal
+Show all partitions on this device by default=Ezen eszköz összes partíciójának megjelenítése alapértelmezés szerint
+Show Partitions=Partíciók megjelenítése
+Source=Forrás
+Unassigned Devices Settings=Hozzá nem rendelt eszközök beállításai
+Undo your changes since last Save=Legutóbbi mentés óta végrehajtott módosítások visszavonása
+User Script=Felhasználói szkript
+Volume=Kötet
+ZFS Volume=ZFS kötet
