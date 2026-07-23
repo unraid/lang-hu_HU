@@ -1,13 +1,10 @@
-
-
-; Note: April 21, 2025 - 10 missing translations
-Cannot determine file system on an encrypted disk=
-Dirty log detected=
-Executing file system check=
-Executing file system scrub=
-File system corruption detected=
-File system corruption fixed=
-Force Log Zeroing=
-No file system corruption detected=
-Note: While there is some risk, if it is not possible to first mount the filesystem to clear the log, zeroing it is the only option to try and repair the filesystem, and in most cases it results in little or no data loss=
-Run with Correct flag=
+Cannot determine file system on an encrypted disk=Nem állapítható meg a fájlrendszer a titkosított lemezen
+Dirty log detected=Nem lezárt napló észlelhető
+Executing file system check=Fájlrendszer-ellenőrzés végrehajtása
+Executing file system scrub=Fájlrendszer-tisztítás végrehajtása
+File system corruption detected=Fájlrendszer-sérülés észlelhető
+File system corruption fixed=Fájlrendszer-sérülés kijavítva
+Force Log Zeroing=Napló nullázásának kikényszerítése
+No file system corruption detected=Nem található fájlrendszer-sérülés
+Note: While there is some risk, if it is not possible to first mount the filesystem to clear the log, zeroing it is the only option to try and repair the filesystem, and in most cases it results in little or no data loss=Megjegyzés: Bár van némi kockázata, ha nem lehetséges először felcsatolni a fájlrendszert a napló kiürítéséhez, a nullázás az egyetlen lehetőség a fájlrendszer javításának megkísérlésére, és a legtöbb esetben ez kevés adatvesztéssel jár, vagy egyáltalán nem okoz adatvesztést
+Run with Correct flag=Futtatás a Javítás opcióval
