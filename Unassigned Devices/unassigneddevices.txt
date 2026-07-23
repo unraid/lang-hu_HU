@@ -245,9 +245,10 @@ ZFS Volume=ZFS kötet
 > + '/usr/local/sbin/rc.unassigned mount autoshares' - minden automatikus csatolásra beállított SMB/NFS csatolás csatolásra kerül.
 > + '/usr/local/sbin/rc.unassigned umount auto' - minden automatikus csatolásra beállított eszköz és SMB/NFS csatolás lecsatolásra kerül.
 > + '/usr/local/sbin/rc.unassigned umount all' - minden eszköz és SMB/NFS csatolás lecsatolásra kerül a tömb leállításának előkészítéseként.
-> + '/usr/local/sbin/rc.unassigned mount /dev/sdX vagy devX' - az sdX eszköz csatolása, ahol az 'X' az eszköz azonosítója. A devX az eszköz neve a UD oldalon. Ha az eszköz neve 'Dev 1', használd a dev1 megjelölést a csatolandó eszközhöz.
-> + '/usr/local/sbin/rc.unassigned mount name=lemeznev' - eszköz csatolása lemeznév alapján.
-> + '/usr/local/sbin/rc.unassigned umount /dev/sdX vagy devX' - az sdX eszköz lecsatolása, ahol az 'X' az eszköz azonosítója. A devX az eszköz neve a UD oldalon. Ha az eszköz neve 'Dev 1', használd a dev1 megjelölést a lecsatolandó eszközhöz. Ezt a parancsot használhatod egy UD szkriptben az eszköz lecsatolására, amikor a szkript befejeződött.
+> + '/usr/local/sbin/rc.unassigned mount /dev/sdX' - az sdX eszköz csatolása, ahol az 'X' az eszköz azonosítója. A devX az eszköz neve a UD oldalon. Ha az eszköz neve 'Dev 1', használd a dev1 megjelölést a csatolandó eszközhöz.
+> + '/usr/local/sbin/rc.unassigned mount devX' - a devX eszköz csatolása lemeznév alapján.
+> + '/usr/local/sbin/rc.unassigned umount /dev/sdX' - az sdX eszköz lecsatolása, ahol az 'X' az eszköz azonosítója. A devX az eszköz neve a UD oldalon. Ha az eszköz neve 'Dev 1', használd a dev1 megjelölést a lecsatolandó eszközhöz. Ezt a parancsot használhatod egy UD szkriptben az eszköz lecsatolására, amikor a szkript befejeződött.
+> + '/usr/local/sbin/rc.unassigned umount devX' - a devX eszköz lecsatolása lemeznév alapján. Ezt a parancsot használhatod egy UD szkriptben az eszköz lecsatolására, amikor a szkript befejeződött.
 > + '/usr/local/sbin/rc.unassigned umount name=lemeznev' - eszköz lecsatolása lemeznév alapján.
 > + '/usr/local/sbin/rc.unassigned spindown devX' - lemez leállítása. A devX az eszköz neve a UD oldalon. Ha az eszköz neve 'Dev 1', használd a dev1 megjelölést a leállítandó eszközhöz. Az SSD-k nem állnak le.
 > + '/usr/local/sbin/rc.unassigned spindown name=lemeznev' - lemez leállítása lemeznév alapján.
