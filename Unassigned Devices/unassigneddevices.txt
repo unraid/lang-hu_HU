@@ -227,7 +227,7 @@ ZFS Volume=ZFS kötet
 > **Egy lemez formázásához:**
 >
 > + A romboló módnak engedélyezve kell lennie.
-> + A lemez összes partícióját el kell távolítani. Lecsatold a lemezt, kattints a <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> ikonra, majd kattints az összes <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> ikonra a partíciók törléséhez.
+> + A lemez összes partícióját el kell távolítani. Csatold le a lemezt, kattints a <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> ikonra, majd kattints az összes <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> ikonra a partíciók törléséhez.
 > + Ha a lemezt előtisztították és egy szürke 'Formázás' gomb látható, kattints a <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> ikonra, majd kattints a <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> ikonra az előtisztítási állapotfájl törléséhez.
 >
 > **Megjegyzés: A UD-ban particionált lemez kompatibilis a tömb lemezparticionálásával, és hozzáadható a tömbhöz. A támogatott fájlrendszer-formátumok: XFS, titkosított XFS, BTRFS és titkosított BTRFS.**
