@@ -49,7 +49,7 @@ Important=Fontos
 Install Language=Nyelv telepítése
 Install=Telepítés
 Installed languages=Telepített nyelvek
-Invalid Trial Installation=Érvénytelen *Próba* telepítés
+Invalid Trial Installation=Érvénytelen *próbatelepítés*
 It will collect all of the system hardware information, remove any serial numbers, and securely upload it to LimeTech=Összegyűjti az összes rendszer-hardverinformációt, eltávolítja a sorozatszámokat, és biztonságosan feltölti a LimeTech szerverére
 Key file URL=Kulcsfájl URL-címe
 Language support added=Nyelvi támogatás hozzáadva
@@ -80,7 +80,7 @@ Processes=Folyamatok
 Purchase Key=Kulcs vásárlása
 Registered GUID=Regisztrált GUID
 Registered on=Regisztrálva ekkor:
-Registered to=Regisztrálva neki:
+Registered to=Regisztrálva a következő számára:
 registering USB Flash GUID=USB Flash GUID regisztrálása
 Release has been withdrawn=A kiadás vissza lett vonva
 Remove the installed language=A telepített nyelv eltávolítása
@@ -113,7 +113,7 @@ This will update folder file permissions=Ez frissíti a mappák és fájlok jogo
 Time=Idő
 To install a registration key, paste the key file URL in the box below and click Install Key=Regisztrációs kulcs telepítéséhez illeszd be a kulcsfájl URL-jét az alábbi mezőbe, majd kattints a **Kulcs telepítése** gombra
 to select your language=a nyelv kiválasztásához
-Trial key expires on=A Próba kulcs lejárati ideje:
+Trial key expires on=A Próbakulcs lejárati ideje:
 Trial=Próba
 Update OS=Operációs rendszer frissítése
 Upgrade Key=Kulcs frissítése
@@ -133,8 +133,8 @@ When received, please paste the URL into the Key file URL box and=Amikor megkapt
 Wrong File Extension=Hibás fájlkiterjesztés
 You havent sent Limetech your hardware profile yet=Még nem küldted el a Limetechnek a hardverprofilodat
 Your hardware profile was last submitted on=A hardverprofilod utoljára ekkor lett elküldve:
-Your Trial key has expired=A Próba kulcsod lejárt
-Your Trial key requires an internet connection=A Próba kulcsodhoz internetkapcsolat szükséges
+Your Trial key has expired=A Próbakulcsod lejárt
+Your Trial key requires an internet connection=A Próbakulcsodhoz internetkapcsolat szükséges
 
 ; Sysdevs text - added May 18, 2020
 A reboot is required to apply changes=A változások alkalmazásához újraindítás szükséges
@@ -190,7 +190,7 @@ A **Letöltés** gombra kattintva elindul a gyűjtési folyamat, majd utasítja 
 
 *Vedd figyelembe, hogy a harmadik féltől származó pluginok tárolhatnak vagy nem tárolnak személyes adatokat a plugin-specifikus konfigurációs fájlokban és/vagy a rendszernapló kimenetén.*
 
-*Használd a* **Diagnosztika névtelenítése** *opciót, amikor a diagnosztikai fájlt a nyilvános fórumban teszed közzé. A Limetech-kel folytatott privát kommunikáció során javasolt a beállítás törlése és az összes információ változatlan formában történő rögzítése.*
+*Használd a* **Diagnosztika névtelenítése** *opciót, amikor a diagnosztikai fájlt a nyilvános fórumban teszed közzé. A Limetech-kel folytatott privát kommunikáció során javasolt az opció kikapcsolása és az összes információ változatlan formában történő rögzítése.*
 :end
 
 :newconfig_plug:
@@ -231,7 +231,7 @@ Vedd figyelembe, hogy ez az eszköz negatívan befolyásolhatja a Docker-kontén
 :end
 
 :registration_1_plug:
-A szervered nem lesz használható, amíg nem vásárolsz egy Regisztrációs kulcsot, vagy nem telepítesz egy ingyenes, 30 napos *Próba* kulcsot. A *Próba* kulcs a *Pro* Regisztrációs kulcs minden funkcióját biztosítja.
+A szervered nem lesz használható, amíg nem vásárolsz egy Regisztrációs kulcsot, vagy nem telepítesz egy ingyenes, 30 napos *próbakulcsot*. A *próbakulcs* a *Pro* regisztrációs kulcs minden funkcióját biztosítja.
 
 A regisztrációs kulcsok az USB Flash indítóeszközöd sorozatszámához (GUID) vannak kötve. Kérjük, használj jó minőségű, márkás, legalább 1 GB méretű eszközt.
 
@@ -244,21 +244,21 @@ Megjegyzés: Az USB memóriakártya-olvasók általában **nem** támogatottak, 
 :end
 
 :registration_3_plug:
-A *Próba* kulcsod tartalmazza a *Pro* Regisztrációs kulcs összes funkcióját és eszköztámogatását.
+A *próbakulcsod* tartalmazza a *Pro* Regisztrációs kulcs összes funkcióját és eszköztámogatását.
 
-Miután a *Próba* kulcsod elérte a lejárati időt, a szervered **továbbra is normálisan működik** a tömb következő **Leállításáig**.
+Miután a *Próbakulcsod* elérte a lejárati időt, a szervered **továbbra is normálisan működik** a tömb következő **Leállításáig**.
 
-Ezen a ponton vásárolhatsz egy Regisztrációs kulcsot, vagy kérhetsz egy *Próba* meghosszabbítást.
+Ezen a ponton vásárolhatsz egy Regisztrációs kulcsot, vagy kérhetsz egy *próbakulcs* meghosszabbítást.
 :end
 
 :registration_4_plug:
-Az Unraid OS használatának folytatásához vásárolhatsz egy Regisztrációs kulcsot. Alternatív megoldásként kérhetsz egy *Próba* meghosszabbító kulcsot.
+Az Unraid OS használatának folytatásához vásárolhatsz egy Regisztrációs kulcsot. Alternatív megoldásként kérhetsz egy *próbakulcs* meghosszabbítást.
 
-A legtöbb *Próba* meghosszabbítási kérelem azonnal feldolgozásra kerül, de kérjük, várj akár egy munkanapot a *Próba* meghosszabbító kulcs kézhezvételéig.
+A legtöbb *próbakulcs* meghosszabbítási kérelem azonnal feldolgozásra kerül, de kérjük, várj akár egy munkanapot a *próbakulcs* meghosszabbító kulcs kézhezvételéig.
 :end
 
 :registration_5_plug:
-Már meglévő Unraid OS telepítéssel nem lehet *Próba* kulcsot használni.
+Már meglévő Unraid OS telepítéssel nem lehet *próbakulcsot* használni.
 
 Vásárolhatsz egy ehhez az USB Flash eszközhöz tartozó Regisztrációs kulcsot a telepítés használatának folytatásához.
 
@@ -270,11 +270,11 @@ További információért fordulj a [Támogatáshoz](https://lime-technology.com
 
 Ha nincs biztonsági másolatod a Regisztrációs kulcsfájlodról, fordulj a [Támogatáshoz](https://lime-technology.com/contact).
 
-Ha ez egy *Próba* telepítés volt, vásárolhatsz egy Regisztrációs kulcsot.
+Ha ez egy *próbatelepítés* volt, vásárolhatsz egy Regisztrációs kulcsot.
 :end
 
 :registration_7_plug:
-A *Próba* telepítések csak az eredetileg regisztrált USB Flash eszközzel érvényesek.
+A *próbatelepítések* csak az eredetileg regisztrált USB Flash eszközzel érvényesek.
 
 A telepítés ezen USB Flash eszközzel való használatának folytatásához vásárolhatsz egy Regisztrációs kulcsot.
 :end
