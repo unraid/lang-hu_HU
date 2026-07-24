@@ -26,7 +26,7 @@
 > Ez a virtuális gépek és Docker-konténerek /mnt/disks/ csatlakozási ponthoz való visszafele kompatibilitását szolgálja.
 > Javasoljuk, hogy módosítsd a hozzárendeléseidet a /mnt/remotes/ csatlakozási pontra.
 >
-> Ha nincs szükséged a visszafele kompatibilitásra, hagyd **Nem** értéken.
+> Ha nincs szükséged a visszafelé kompatibilitásra, hagyd **Nem** értéken.
 :end
 
 :ud_settings_remote_share_wait_plug:
@@ -34,9 +34,9 @@
 :end
 
 :ud_settings_specify_smb_vers_plug:
-> Állítsd **Nem** értékre, hogy a Hozzá nem rendelt eszközök először az SMB-verzió megadása nélkül próbálja meg felcsatolni a távoli megosztásokat.
+> Állítsd **Nem** értékre, hogy a Hozzá nem rendelt eszközök először az SMB-verzió megadása nélkül próbálják meg felcsatolni a távoli megosztásokat.
 >
-> Állítsd **Igen** értékre, hogy a Hozzá nem rendelt eszközök csak az SMB-verzió pontos megadásával csatolja fel a távoli SMB-megosztásokat.
+> Állítsd **Igen** értékre, hogy a Hozzá nem rendelt eszközök csak az SMB-verzió pontos megadásával csatolják fel a távoli SMB-megosztásokat.
 >
 > Néhány távoli szervernél elengedhetetlen a verzió megadása.
 :end
@@ -159,7 +159,7 @@ NFS Version to use when Mounting Remote Shares=Távoli megosztások csatolásako
 Public=Nyilvános
 Private=Magán
 Private Hidden=Magán rejtett
-Refresh and Update=Frissítés és frissítés
+Refresh and Update=Újrabetöltés és aktualizálás
 Remote Share Mount Wait Time=Távoli megosztások csatolási várakozási ideje
 Rule=Szabály
 Select Disk=Válassz lemezt
