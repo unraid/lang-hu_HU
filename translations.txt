@@ -293,7 +293,7 @@ paused=szüneteltetve
 PB=PB
 Percentage=Százalék
 Please access this server via the My Servers Dashboard=Kérlek, ezt a szervert a My Servers (szervereim) irányítópulton keresztül érd el
-Please also ensure you have cookies enabled=Kérlek, győződj meg arról is, hogy a sütik-k engedélyezve vannak
+Please also ensure you have cookies enabled=Kérlek, győződj meg arról is, hogy a sütik engedélyezve vannak
 Please enable cookies to use the Unraid webGUI=Az Unraid webGUI használatához engedélyezd a sütiket
 Please enable it=Kérlek, engedélyezd
 Please select one file only=Kérlek, csak egy fájlt válassz
@@ -1269,6 +1269,3 @@ Open a bug report=Hibajelentés nyitása
 %s seconds=%s másodperc
 %s year=%s év
 %s years=%s év
-
-; Note: May 31, 2025 - 425 missing translations
-; Note: July 19, 2026 - fully translated to Hungarian by nkgy17
