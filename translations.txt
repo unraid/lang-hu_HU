@@ -1177,6 +1177,8 @@ You have already activated the Flash Backup feature via the Unraid Connect plugi
 You have not activated the Flash Backup feature via the Unraid Connect plugin=Még nem aktiváltad a Flash Backup funkciót az Unraid Connect pluginon keresztül.
 check for OS updates=frissítések keresése az operációs rendszerhez
 unlimited=korlátlan
+On January 1st, 2023 SSL certificates for unraidnet were deprecated=2023. január 1-jén az unraid.net SSL-tanúsítványai elavulttá váltak.
+Thank you for installing Connect=Köszönjük, hogy telepítetted a Connectet!
 
 ; Downgrade component additions 2023-11-09
 A reboot will be required=Szükséges lesz egy **újraindítás**
