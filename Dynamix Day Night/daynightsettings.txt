@@ -1,31 +1,31 @@
-Automatic theming=Automatikus tematika
-Bing API key=Bing API kulcs
+Automatic theming=Automatikus témaváltás
+Bing API key=Bing API-kulcs
 Bing=Bing
-City name=Város Név
-Country name=Ország neve
-Day theme=Napi téma
-Geocoding service=Geokódoló szolgáltatás
-Google API key=Google API kulcs
+City name=Város
+Country name=Ország
+Day theme=Nappali téma
+Geocoding service=Geokódolási szolgáltatás
+Google API key=Google API-kulcs
 Google=Google
-MapQuest API key=MapQuest API kulcs
+MapQuest API key=MapQuest API-kulcs
 MapQuest=MapQuest
 Night theme=Éjszakai téma
 No geographical coordinates found for the given address=Nem találhatók földrajzi koordináták a megadott címhez
-Please adjust=Kérjük, állítsa be
+Please adjust=Állítsd be
 Postal code=Irányítószám
-See=Lát
-Street address=Cím
-this site=ez az oldal
-to obtain a Bing API key=Bing API kulcs beszerzése
-to obtain a Google API key=oogle API kulcs beszerzése
-to obtain a MapQuest API key=MapQuest API kulcs beszerzése
+See=Lásd
+Street address=Utca, házszám
+this site=ezt az oldalt
+to obtain a Bing API key=egy Bing API-kulcs beszerzéséhez
+to obtain a Google API key=egy Google API-kulcs beszerzéséhez
+to obtain a MapQuest API key=egy MapQuest API-kulcs beszerzéséhez
 
 :day_night_plug:
-> Enter your address information (street, city, country) which is used to calculate the sunrise and sunset times of your location.
+> Add meg a címadatokat (utca, város, ország), amelyek alapján a rendszer kiszámítja a helyszínedhez tartozó napkelte és naplemente időpontokat.
 >
-> A geocoding service is used to convert your address to geographical (latitude and longitude) coordinates.<br>
-> You need to register with one of the available services and get a unique API key to make use of their service.
+> A geokódolási szolgáltatás arra szolgál, hogy a címedet földrajzi koordinátákká (szélességi és hosszúsági fokokká) alakítsa.<br>
+> A szolgáltatás használatához regisztrálnod kell az elérhető lehetőségek egyikére, és be kell szerezned egy egyedi API-kulcsot.
 >
-> The **day** theme is selected between sunrise and sunset<br>
-> The **night** theme is selected between sunset and sunrise
+> A **nappali** téma a napkelte és naplemente közötti időszakban lesz kiválasztva.<br>
+> Az **éjszakai** téma a naplemente és napkelte közötti időszakban lesz kiválasztva.
 :end
