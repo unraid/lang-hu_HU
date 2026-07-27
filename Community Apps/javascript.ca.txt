@@ -1,17 +1,17 @@
 
 
-; Note: April 28, 2023 - 14 missing translations
-Search for %s=
-DockerHub Search for %s=
-Are you sure you want to delete %s from the list of previously installed applications=
-Are you sure you want to uninstall %s=
-Are you sure you want to remove the private application %s by %s=
-Removing %s=
-Uninstalling %s=
-Install %s Selected Application=
-Install %s Selected Applications=
-Are you sure you want to install %s docker and %s plugin applications=
-Install Application=
-Install Applications=
-Something really wrong went on during %s=
-Are you sure you want to delete %s applications from the previously installed list=
+; Note: April 28, 2023 - 14 missing translations // July 18, 2026 - Fully translated to Hungarian by nkgy17
+Search for %s=Keresés erre: %s
+DockerHub Search for %s=DockerHub keresés erre: %s
+Are you sure you want to delete %s from the list of previously installed applications=Biztosan törölni szeretnéd a(z) %s alkalmazást a korábban telepítettek listájáról?
+Are you sure you want to uninstall %s=Biztosan el szeretnéd távolítani a(z) %s alkalmazást?
+Are you sure you want to remove the private application %s by %s=Biztosan el szeretnéd távolítani a(z) %s privát alkalmazást, amit %s készített?
+Removing %s=%s eltávolítása...
+Uninstalling %s=%s eltávolítása...
+Install %s Selected Application=A kiválasztott %s alkalmazás telepítése
+Install %s Selected Applications=A kiválasztott %s alkalmazás telepítése
+Are you sure you want to install %s docker and %s plugin applications=Biztosan telepíteni szeretnél %s Docker és %s plugin alkalmazást?
+Install Application=Alkalmazás telepítése
+Install Applications=Alkalmazások telepítése
+Something really wrong went on during %s=Valami nagyon félrement a(z) %s során
+Are you sure you want to delete %s applications from the previously installed list=Biztosan törölni szeretnél %s alkalmazást a korábban telepítettek listájáról?
