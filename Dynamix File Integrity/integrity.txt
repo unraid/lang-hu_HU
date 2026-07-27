@@ -1,8 +1,8 @@
 
-
 ; Note: April 28, 2023 - 5 missing translations
-Aborted - export file not found=
-Import=
-Build up-to-date=
-Export up-to-date=
-Operation aborted=
+; Note: July 20, 2026 - Fully translated to Hungarian by nkgy17
+Aborted - export file not found=Megszakítva - az exportfájl nem található
+Import=Importálás
+Build up-to-date=A build naprakész
+Export up-to-date=Az export naprakész
+Operation aborted=Művelet megszakítva
