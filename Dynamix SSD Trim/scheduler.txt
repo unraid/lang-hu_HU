@@ -1,42 +1,41 @@
-Day Date=Day / Date
-HHMM=HH:MM
+Day Date=Nap / Dátum
+HHMM=ÓÓ:PP
 
 :trim_schedule_plug:
-> Choose a trim schedule ranging from hourly, daily, weekly and monthly.
+> Válaszd ki a TRIM ütemezését: óránkénti, napi, heti vagy havi lehetőség közül választhatsz.
 >
-> The interval determines how often SSD trim will run, it runs in the background.
+> Az intervallum határozza meg, hogy milyen gyakran fusson az SSD TRIM a háttérben.
 :end
 
 :trim_day_of_the_week_plug:
-> Choose a day when the weekly schedule is selected. Otherwise disabled.
+> Heti ütemezés kiválasztása esetén válaszd ki a napot. Egyébként le van tiltva.
 :end
 
 :trim_day_of_the_month_plug:
-> Choose a date when the monthly schedule is selected. Otherwise disabled.
+> Havi ütemezés kiválasztása esetén válaszd ki a dátumot. Egyébként le van tiltva.
 :end
 
 :trim_time_of_the_day_plug:
-> When an hourly schedule is selected this will set the interval in hours. An interval always starts on the whole hour (minute 0).
+> Óránkénti ütemezés esetén ez állítja be az intervallumot órákban. Az intervallum mindig egész órakor (0. percben) kezdődik.
 >
-> For the other schedules choose here the time of the day trim should start.
+> A többi ütemezésnél itt választhatod ki a napszakot, amikor a TRIM elinduljon.
 :end
 
-; Note: April 28, 2023 - 18 missing translations
-Any=
-Daily schedule=
-Hour=
-Hourly schedule=
-Minute=
-Monthly schedule=
-Scheduled Tasks=
-Weekly schedule=
-Day of the month=
-Day of the week=
-Every 2 hours=
-Every 3 hours=
-Every 4 hours=
-Every 6 hours=
-Every 8 hours=
-Every hour=
-SSD TRIM schedule=
-Time of the day=
+Any=Bármelyik
+Daily schedule=Napi ütemezés
+Hour=Óra
+Hourly schedule=Óránkénti ütemezés
+Minute=Perc
+Monthly schedule=Havi ütemezés
+Scheduled Tasks=Ütemezett feladatok
+Weekly schedule=Heti ütemezés
+Day of the month=A hónap napja
+Day of the week=A hét napja
+Every 2 hours=2 óránként
+Every 3 hours=3 óránként
+Every 4 hours=4 óránként
+Every 6 hours=6 óránként
+Every 8 hours=8 óránként
+Every hour=Óránként
+SSD TRIM schedule=SSD TRIM ütemezése
+Time of the day=Napszak
