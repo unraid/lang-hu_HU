@@ -1,462 +1,458 @@
-Cancel=
+Cancel=Mégse
 
-; My PSAs / banners
-Happy New Year=
-Happy Holidays from Andrew, Tracey, and family=
-Please Enjoy Responsibly=
-Popup Blocked CA requires popups to be enabled under certain circumstances You must white list your server within your browser to allow popups=
-Docker Service Not Enabled - Only Plugins Available To Be Installed Or Managed=
-Docker system failed to start - Only Plugins Available To Be Installed Or Managed=
-Array not started - Only Plugins Available To Be Installed Or Managed=
-Community Applications works best when cookies are enabled in your browser Certain features may not be available=
-Backup Server Active Some icons may not appear, and plugin installations may be affected=
-Debugging enabled This significantly increases the memory used by your browser=
-Browser translation detected Display issues may result=
-Action Centre Enabled=
-Deprecated OS version No further updates to Community Applications will be issued for this OS version=
+; My PSAs / banners // Közlemények és bannerek
+Happy New Year=**Boldog új évet!**
+Happy Holidays from Andrew, Tracey, and family=**Kellemes ünnepeket kíván Andrew, Tracey és családja!**
+Please Enjoy Responsibly=*Használd felelősséggel!*
+Popup Blocked CA requires popups to be enabled under certain circumstances You must white list your server within your browser to allow popups=**Felugró ablak blokkolva.** A CA-nak bizonyos esetekben szüksége van a felugró ablakokra. Engedélyezned kell a szerveredet a böngésződ *kivétellistáján (whitelist)*, hogy a felugró ablakok megjelenhessenek.
+Docker Service Not Enabled - Only Plugins Available To Be Installed Or Managed=**A Docker szolgáltatás nincs engedélyezve** – csak a pluginok telepítése vagy kezelése érhető el.
+Docker system failed to start - Only Plugins Available To Be Installed Or Managed=**A Docker rendszer nem tudott elindulni** – csak a pluginok telepítése vagy kezelése érhető el.
+Array not started - Only Plugins Available To Be Installed Or Managed=**A tömb nincs elindítva** – csak a pluginok telepítése vagy kezelése érhető el.
+Community Applications works best when cookies are enabled in your browser Certain features may not be available=A **Community Applications** akkor működik a legjobban, ha a *sütik* engedélyezve vannak a böngésződben. Bizonyos funkciók enélkül nem biztos, hogy elérhetők lesznek.
+Backup Server Active Some icons may not appear, and plugin installations may be affected=**A tartalék szerver aktív.** Előfordulhat, hogy egyes ikonok nem jelennek meg, és ez a pluginok telepítését is befolyásolhatja.
+Debugging enabled This significantly increases the memory used by your browser=**Hibakeresés (debugging) engedélyezve.** Ez jelentősen növeli a böngésződ memóriahasználatát.
+Browser translation detected Display issues may result=**Automata böngészőfordítást észleltünk.** Ez megjelenítési hibákat okozhat.
+Action Centre Enabled=**Műveleti központ engedélyezve**
+Deprecated OS version No further updates to Community Applications will be issued for this OS version=**Elavult OS-verzió.** Ezen az operációs rendszeren a **Community Applications** nem kap több frissítést.
 
-; Sorting Options
-Sort By=
-Name Ascending=
-Name Descending=
-Downloads=
-Date Added=
-Number Of Apps=
-; Initial disclaimer translations
-Disclaimer=
-All applications listed here are 3rd party additions to Unraid Neither the authors of Community Applications nor Limetech make any warranty as to the suitability of any application listed here=
-Every attempt is made to ensure that only safe and compatible applications are present=
-Application Policy=
-I Understand=
-Installations of apps disabled You must accept the warning to be able to install applications=
-Click here=
-%s Results Per Page=
-Results Per Page: %s=
+; Sorting Options // Rendezési opciók
+Sort By=Rendezés alapja
+Name Ascending=Név szerint növekvő
+Name Descending=Név szerint csökkenő
+Downloads=Letöltések
+Date Added=Hozzáadás dátuma
+Number Of Apps=Alkalmazások száma
+; Initial disclaimer translations // Kezdeti felelősségkizárások fordításai
+Disclaimer=Felelősségkizárás
+All applications listed here are 3rd party additions to Unraid Neither the authors of Community Applications nor Limetech make any warranty as to the suitability of any application listed here=Az itt felsorolt összes alkalmazás *harmadik féltől származó kiegészítés* az Unraidhez. Sem a Community Applications készítői, sem a Limetech **nem vállalnak garanciát** az itt található alkalmazások alkalmasságára.
+Every attempt is made to ensure that only safe and compatible applications are present=Minden tőlünk telhetőt megteszünk annak érdekében, hogy csak *biztonságos* és *kompatibilis* alkalmazások legyenek elérhetők.
+Application Policy=Alkalmazás-irányelvek
+I Understand=Megértettem
+Installations of apps disabled You must accept the warning to be able to install applications=**Az alkalmazások telepítése le van tiltva.** El kell fogadnod a figyelmeztetést a telepítéshez.
+Click here=Kattints ide
+%s Results Per Page=**%s** találat oldalonként
+Results Per Page: %s=Találatok száma oldalonként: **%s**
 
-; Plugin Disclaimer
-Community Applications contains both docker containers and plugin applications Plugins are designed for OS enhancements, and run with full privileges on your system and are clearly identified within CA=
-Plugin Note=
+; Plugin Disclaimer // Plugin felelősségkizárás
+Community Applications contains both docker containers and plugin applications Plugins are designed for OS enhancements, and run with full privileges on your system and are clearly identified within CA=A **Community Applications** Docker konténereket és plugin alkalmazásokat egyaránt tartalmaz. A *pluginok* az operációs rendszer bővítésére szolgálnak, **teljes jogosultsággal** futnak a rendszereden, és a CA-n belül egyértelműen meg vannak jelölve.
+Plugin Note=Megjegyzés a pluginokhoz
 
-; Multi Install
-Install Plugin Applications=
-Select all on page=
-Install Application=
-Install Applications=
-Update Application=
-Update Applications=
-Are you sure you want to update %s applications=
-Are you sure you want to install %s docker and %s plugin applications=Are you sure you want to install %1$s docker and %2$s plugin application(s)
+; Multi Install // Csoportos telepítés
+Install Plugin Applications=Plugin alkalmazások telepítése
+Select all on page=Összes kijelölése az oldalon
+Install Application=Alkalmazás telepítése
+Install Applications=Alkalmazások telepítése
+Update Application=Alkalmazás frissítése
+Update Applications=Alkalmazások frissítése
+Are you sure you want to update %s applications=Biztosan frissíteni szeretnél **%s** alkalmazást?
+Are you sure you want to install %s docker and %s plugin applications=Biztosan telepíteni szeretnél **%1$s** Docker és **%2$s** plugin alkalmazást?
 
-; Searches
-Search=
-Click Here To Get More Results From DockerHub=
-No Matching Applications Found=
+; Searches // Keresések
+Search=Keresés
+Click Here To Get More Results From DockerHub=Kattints ide a **DockerHub**-on lévő további találatokért
+No Matching Applications Found=**Nem találhatók megfelelő alkalmazások**
 
-; Repository Related
-%s removed as favourite repository=
-%s set as favourite repository=
-Click to remove favourite repository=
-Click to set %s as favourite repository=
-Search for apps in repository=
-No description present=
-Go to the forum page=
-Go to the webpage=
-Go to reddit=
-Go to facebook=
-Go to discord=
-Go to forum profile=
-Show Profile=
-SHOW MORE=
-SHOW LESS=
-Read more=
-Total Applications=
-Total Known Downloads=
-Total Docker Applications=
-Total Plugin Applications=
-Total Languages=
-Average Downloads Per App=
-Web Page=
-Forum=
-Forum Profile=
-Profile=
-Facebook=
-Reddit=
-Twitter=
-Discord=
-Search Apps=
-Registry=
-Details=
-Added=
-; Install Plugin title of openbox
-Install Plugin=
-Update Plugin=
+; Repository Related // Tárolókkal (Repository) kapcsolatos
+%s removed as favourite repository=**%s** eltávolítva a kedvenc tárolók közül
+%s set as favourite repository=**%s** beállítva kedvenc tárolóként
+Click to remove favourite repository=Kattints ide a kedvenc tároló eltávolításához
+Click to set %s as favourite repository=Kattints ide **%s** kedvenc tárolóként való beállításához
+Search for apps in repository=Alkalmazások keresése a tárolóban
+No description present=*Nincs leírás megadva*
+Go to the forum page=Ugrás a fórum oldalra
+Go to the webpage=Ugrás a weboldalra
+Go to reddit=Ugrás a Redditre
+Go to facebook=Ugrás a Facebookra
+Go to discord=Ugrás a Discordra
+Go to forum profile=Ugrás a fórum profilra
+Show Profile=Profil megjelenítése
+SHOW MORE=**MUTASS TÖBBET**
+SHOW LESS=**MUTASS KEVESEBBET**
+Read more=Olvass tovább
+Total Applications=Összes alkalmazás
+Total Known Downloads=Összes ismert letöltés
+Total Docker Applications=Összes Docker alkalmazás
+Total Plugin Applications=Összes plugin alkalmazás
+Total Languages=Összes nyelv
+Average Downloads Per App=Átlagos letöltés alkalmazásonként
+Web Page=Weboldal
+Forum=Fórum
+Forum Profile=Fórum profil
+Profile=Profil
+Facebook=Facebook
+Reddit=Reddit
+Twitter=Twitter
+Discord=Discord
+Search Apps=Alkalmazások keresése
+Registry=Regiszter
+Details=Részletek
+Added=Hozzáadva
+; Install Plugin title of openbox // Plugin telepítése openbox ablakcím
+Install Plugin=Plugin telepítése
+Update Plugin=Plugin frissítése
 
-Requirements not met=
-The requirements for this upgrade have not been met on your system=
-The sidebar for the app click info will list the details=The sidebar for the app (click info) will list the details
+Requirements not met=**A követelmények nem teljesülnek**
+The requirements for this upgrade have not been met on your system=A frissítés követelményei **nem teljesülnek** a rendszereden.
+The sidebar for the app click info will list the details=Az alkalmazás oldalsávja *(kattints az infóra)* tartalmazza a részleteket.
 
-BACK=
+BACK=VISSZA
 
-; Remove App from previously installed
-Delete Template=
-Yes, delete it=
+; Remove App from previously installed // Alkalmazás eltávolítása a korábban telepítettek közül
+Delete Template=Sablon törlése
+Yes, delete it=**Igen, töröld**
 
-; Uninstall popup
-Uninstall Application=
-Yes uninstall it=
+; Uninstall popup // Eltávolítás felugró ablak
+Uninstall Application=Alkalmazás eltávolítása
+Yes uninstall it=**Igen, távolítsd el**
 
-; Remove Private Application
-Remove Private Application=
-Yes, remove it=
+; Remove Private Application // Privát alkalmazás eltávolítása
+Remove Private Application=Privát alkalmazás eltávolítása
+Yes, remove it=**Igen, távolítsd el**
 
-; App Pinning
-Click to pin this application=
-Click to unpin this application=
-Pin App=
-Unpin App=
+; App Pinning // Alkalmazások kitűzése
+Click to pin this application=Kattints ide az alkalmazás kitűzéséhez
+Click to unpin this application=Kattints ide a kitűzés feloldásához
+Pin App=Alkalmazás kitűzése
+Unpin App=Kitűzés feloldása
 
-; Branch installations
-Choose A Branch To Install=
+; Branch installations // Ág (Branch) telepítések
+Choose A Branch To Install=Válassz ki egy *ágat (branch)* a telepítéshez
 
-; Multiple application installs
-; no apps selected
-Install Selected Applications=
+; Multiple application installs // Csoportos alkalmazástelepítés
+; no apps selected // nincsenek alkalmazások kijelölve
+Install Selected Applications=Kijelölt alkalmazások telepítése
 
-Yes, install it=
+Yes, install it=**Igen, telepítsd**
 
-; Multi-install popup
-Yes, install them=
-Cookies not enabled Plugins must be separately installed from docker applications=
-Docker applications will be installed utilizing the most recently saved template with no user input on your part=
-Updating Support Links=
-Downloading docker icons=
-Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=
+; Multi-install popup // Csoportos telepítés felugró ablak
+Yes, install them=**Igen, telepítsd őket**
+Cookies not enabled Plugins must be separately installed from docker applications=A **sütik nincsenek engedélyezve.** A pluginokat a Docker alkalmazásoktól külön kell telepíteni.
+Docker applications will be installed utilizing the most recently saved template with no user input on your part=A Docker alkalmazások a legutóbb mentett sablon alapján fognak települni, *további felhasználói beavatkozás nélkül*.
+Updating Support Links=Támogatási linkek frissítése...
+Downloading docker icons=Docker ikonok letöltése...
+Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=A telepítés befejeződött. Ha a **KÉSZ (DONE)** gomb nem jelent meg, kattints a piros **X**-re a jobb felső sarokban.
 
-; error messages
-An error occurred Could not find any %s Apps=
-Download of appfeed failed=
-; the %s here refers to a function being called
-Something really went wrong here=
-Post the ENTIRE contents of this message in the Community Applications Support Thread=
-Unknown error happened Please post a screenshot in the support thread of the Statistics screen=
-This plugin has a duplicated name from another plugin %s This will impact your ability to install both plugins simultaneously=
-You have been logged out=
-Fatal Flash Drive Error=
-This usually means your flash drive is corrupted or has dropped offline The rest of the Unraid GUI will also be affected Post a new thread in the Unraid forums if this error continues=
-Fatal Docker Image Error=
-Your docker image or folder is either read-only or completely full Issues will result because of this You should create a new post in the Unraid forums and include your diagnostics=
-This template is set up to use a custom network You may have to adjust the network or IP address etc to match your system=
-This template is set up to run as Privileged This is a possible security risk and usually does not need to be enabled Note that some applications require privileged in order to operate correctly=
-One or more ports used by this application are already in use by another service or app running on your server You will need to adjust the host ports accordingly on the template=
-Not Enough Memory=
-Community Applications and Unraid OS have a minimum required installed memory of 4G CA cannot run without those mimimums being met=
-Run Anyways=
-Memory Requirements not met Problems may result=
-Installation already in progress=
-Another plugin installation or update is already in progress and this one cannot start Wait until the current installation or update is completed and try again=
-Clear Flag=
-%s is incompatible with your OS version Please update the OS to proceed=
-%s is incompatible with your OS version Either uninstall %s or update the OS=
-Browser failed to communicate with Unraid Server=
-For unknown reasons, your browser was unable to communicate with Community Applications running on your server=
-Additional information may be within Tools, PHPSettings - View Log=
-Attempt to Fix Via Reload Page=
-External Link=
-Clicking OK will take you to a 3rd party website not associated with Limetech=
+; error messages // Hibaüzenetek
+An error occurred Could not find any %s Apps=**Hiba történt.** Nem található egyetlen %s alkalmazás sem.
+Download of appfeed failed=**Nem sikerült letölteni** az alkalmazáscsatornát (appfeed).
+; the %s here refers to a function being called // a %s itt egy meghívott függvényre utal
+Something really went wrong here=**Valami nagyon félrement itt**
+Post the ENTIRE contents of this message in the Community Applications Support Thread=Másold be a bejegyzés **TELJES** tartalmát a Community Applications támogatási fórumszálába!
+Unknown error happened Please post a screenshot in the support thread of the Statistics screen=**Ismeretlen hiba történt.** Kérünk, készíts egy képernyőképet a *Statisztika* ablakról, és oszd meg a támogatási fórumszálban.
+This plugin has a duplicated name from another plugin %s This will impact your ability to install both plugins simultaneously=Ez a plugin megegyezik egy másik plugin nevével (**%s**). Ez megakadályozza mindkét plugin egyidejű telepítését.
+You have been logged out=Ki lettél jelentkeztetve
+Fatal Flash Drive Error=**Végzetes hiba a pendrive-on**
+This usually means your flash drive is corrupted or has dropped offline The rest of the Unraid GUI will also be affected Post a new thread in the Unraid forums if this error continues=Ez általában azt jelenti, hogy az **USB boot eszközöd megsérült vagy lecsatlakozott (offline).** Ez az Unraid kezelőfelületének többi részére is hatással lesz. Nyiss egy új témát az Unraid fórumon, ha a hiba továbbra is fennáll.
+Fatal Docker Image Error=**Végzetes Docker Image hiba**
+Your docker image or folder is either read-only or completely full Issues will result because of this You should create a new post in the Unraid forums and include your diagnostics=A **Docker image vagy mappa írásvédetté vált vagy teljesen megtelt**, ami működési hibákat okoz. Hozz létre egy új bejegyzést az Unraid fórumon, és mellékeld a diagnosztikai fájlokat *(diagnostics)*.
+This template is set up to use a custom network You may have to adjust the network or IP address etc to match your system=Ez a sablon *egyedi hálózat* használatára van beállítva. Előfordulhat, hogy módosítanod kell a hálózatot, az IP-címet stb., hogy illeszkedjen a rendszeredhez.
+This template is set up to run as Privileged This is a possible security risk and usually does not need to be enabled Note that some applications require privileged in order to operate correctly=Ez a sablon **Emelt szintű (Privileged)** módban fut. Ez *biztonsági kockázatot* jelenthet, és általában nem szükséges bekapcsolni. Vedd figyelembe, hogy egyes alkalmazásoknak emelt szintre van szükségük a megfelelő működéshez.
+One or more ports used by this application are already in use by another service or app running on your server You will need to adjust the host ports accordingly on the template=Az alkalmazás által használt egy vagy több portot **már használja egy másik szolgáltatás vagy app** a szervereden. Ennek megfelelően módosítanod kell a gazdagép *(host)* portjait a sablonban.
+Not Enough Memory=**Nincs elég memória**
+Community Applications and Unraid OS have a minimum required installed memory of 4G CA cannot run without those mimimums being met=A Community Applications és az Unraid OS minimális memóriaigénye **4 GB**. A CA nem tud elindulni, ha ez a feltétel nem teljesül.
+Run Anyways=Futtatás mindenesetre
+Memory Requirements not met Problems may result=A memóriakövetelmények nem teljesülnek. Ez problémákat okozhat.
+Installation already in progress=**A telepítés már folyamatban van**
+Another plugin installation or update is already in progress and this one cannot start Wait until the current installation or update is completed and try again=Egy másik plugin telepítése vagy frissítése már folyamatban van, így ez nem tud elindulni. Várd meg, amíg a jelenlegi folyamat befejeződik, majd próbáld újra.
+Clear Flag=Jelző törlése
+%s is incompatible with your OS version Please update the OS to proceed=A(z) **%s** nem kompatibilis az operációs rendszered verziójával. Kérjük, frissítsd az OS-t a folytatáshoz.
+%s is incompatible with your OS version Either uninstall %s or update the OS=A(z) **%s** nem kompatibilis az operációs rendszered verziójával. Távolítsd el a(z) %s alkalmazást, vagy frissítsd az OS-t.
+Browser failed to communicate with Unraid Server=**A böngészőnek nem sikerült kommunikálnia az Unraid szerverrel**
+For unknown reasons, your browser was unable to communicate with Community Applications running on your server=Ismeretlen okokból a böngésződ nem tudott kommunikálni a szervereden futó **Community Applications** modullal.
+Additional information may be within Tools, PHPSettings - View Log=További információkat az *Eszközök > PHP beállítások > Napló megtekintése* menüpontban találhatsz.
+Attempt to Fix Via Reload Page=Javítási kísérlet az oldal újratöltésével
+External Link=Külső hivatkozás
+Clicking OK will take you to a 3rd party website not associated with Limetech=Az **OK** gombra kattintva egy külső, harmadik féltől származó weboldalra jutsz, amely nem kapcsolódik a Limetechhez.
 
-; CA Sections Keep the length reasonable
-Home=
-Installed Apps=
-Previous Apps=
-Pinned Apps=
-Favourite Repo=
-Action Centre=
-Recently Added=
-Random Apps=
-Top New Installs=
-Top Trending Apps=
-Spotlight Apps=
-All Apps=
-Statistics=
-Credits=
-Support=
-VERSION=
-Change Log=
-Debugging=
+; CA Sections Keep the length reasonable // CA szekciók (tartsd ésszerű hosszúságúnak)
+Home=Kezdőlap
+Installed Apps=Telepített appok
+Previous Apps=Korábbi appok
+Pinned Apps=Kitűzött appok
+Favourite Repo=Kedvenc tároló
+Action Centre=Műveleti központ
+Recently Added=Legutóbb hozzáadott
+Random Apps=Véletlenszerű appok
+Top New Installs=Legnépszerűbb új telepítések
+Top Trending Apps=Leginkább felkapott appok
+Spotlight Apps=Kiemelt alkalmazások
+All Apps=Összes app
+Statistics=Statisztika
+Credits=Készítők
+Support=Támogatás
+VERSION=VERZIÓ
+Change Log=Változásnapló
+Debugging=Hibakeresés
 
-; Credits
-Development=
-Additional Contributions=
-GUI Layout Design=
-Application Feed=
-Additional Testing=
-Moderation=
-Additional Libraries=
-Copyright=
-Translation=
+; Credits // Készítők
+Development=Fejlesztés
+Additional Contributions=További közreműködők
+GUI Layout Design=Kezelőfelület elrendezés és dizájn
+Application Feed=Alkalmazáscsatorna (Feed)
+Additional Testing=További tesztelés
+Moderation=Moderáció
+Additional Libraries=További könyvtárak
+Copyright=Szerzői jog
+Translation=Fordítás
 
-; Statistics page
+; Statistics page // Statisztika oldal
+unknown=ismeretlen
+Last Change To Application Feed=Alkalmazáscsatorna utolsó módosítása
+Docker Applications=Docker alkalmazások
+Plugin Applications=Plugin alkalmazások
+Templates=Sablonok
+Official Containers=Hivatalos konténerek
+Repositories=Tárolók (Repositories)
+Private Docker Applications=Privát Docker alkalmazások
+Invalid Templates=Érvénytelen sablonok
+Template Errors=Sablonhibák
+Blacklisted Apps=Feketelistás appok
+Incompatible Applications=Inkompatibilis alkalmazások
+Deprecated Applications=Elavult alkalmazások
+Moderation Entries=Moderációs bejegyzések
+Primary Server=Elsődleges szerver
+Backup Server=Tartalék szerver
+Installs not allowed from this page=Erről az oldalról a telepítés nem engedélyezett
 
-unknown=
-Last Change To Application Feed=
-Docker Applications=
-Plugin Applications=
-Templates=
-Official Containers=
-Repositories=
-Private Docker Applications=
-Invalid Templates=
-Template Errors=
-Blacklisted Apps=
-Incompatible Applications=
-Deprecated Applications=
-Moderation Entries=
-Primary Server=
-Backup Server=
-Installs not allowed from this page=
+; Statistics Popup // Statisztika felugró ablak
+No invalid templates found=Nem találhatók érvénytelen sablonok
+These templates are invalid and the application they are referring to is unknown=Ezek a sablonok érvénytelenek, és az alkalmazás, amire hivatkoznak, ismeretlen.
+No templates were automatically fixed=Egyik sablon sem lett automatikusan javítva
+All of these errors found have been fixed automatically=Minden talált hiba automatikusan javítva lett
+Note that many of these errors can be avoided by following the directions=Vedd figyelembe, hogy a hibák nagy része elkerülhető az útmutató követésével
+HERE=ITT
+The following plugins have duplicated filenames and are not able to be installed simultaneously=A következő pluginok fájlnevei megegyeznek, így nem telepíthetők egyidejűleg:
+The following docker applications refer to the same docker repository but may have subtle changes in the template to warrant this=A következő Docker alkalmazások ugyanarra a Docker tárolóra hivatkoznak, de a sablonban lévő apró változtatások indokolttá tehetik ezt:
+If any of these entries are incorrect then contact the moderators of CA to discuss=Ha a bejegyzések közül bármelyik hibás, vedd fel a kapcsolatot a CA moderátoraival.
+Global Repository Comments=Globális tároló megjegyzések
+Applied to all applications=Minden alkalmazásra érvényesítve
+Individual Application Moderation=Egyedi alkalmazásmoderáció
 
-; Statistics Popup
-No invalid templates found=
-These templates are invalid and the application they are referring to is unknown=
-No templates were automatically fixed=
-All of these errors found have been fixed automatically=
-Note that many of these errors can be avoided by following the directions=
-HERE=
-The following plugins have duplicated filenames and are not able to be installed simultaneously=
-The following docker applications refer to the same docker repository but may have subtle changes in the template to warrant this=
-If any of these entries are incorrect then contact the moderators of CA to discuss=
-Global Repository Comments=
-Applied to all applications=(Applied to all applications)
-Individual Application Moderation=
+; Misc // Egyebek
+Community Applications Changelog=Community Applications változásnapló
+Each month we highlight some of the amazing work from our community=Minden hónapban kiemeljük a közösségünk néhány nagyszerű munkáját.
+Check out these newly added applications from our awesome community=Nézd meg a szuper közösségünk által újonnan hozzáadott alkalmazásokat!
+Check out these up and coming apps=Nézd meg ezeket a feltörekvő appokat!
+These apps have the highest percentage of new installs=Ezek az alkalmazások rendelkeznek a legmagasabb új telepítési aránnyal.
+An assortment of randomly chosen apps=Véletlenszerűen kiválasztott alkalmazások válogatása
+Featured Applications=Kiemelt alkalmazások
 
-; Misc
-Community Applications Changelog=
+; Categories try not to be excessively long This is displayed on the left of CA screen // Kategóriák (tartsd ésszerűen röviden, a CA képernyő bal oldalán látható)
+Backup=Biztonsági mentés
+Cloud=Felhő
+Crypto Currency=Kriptovaluta
+Downloaders=Letöltők
+Drivers=Illesztőprogramok
+Game Servers=Játékszerverek
+Home Automation=Otthonautomatizálás
+Media Applications=Médiaalkalmazások
+Books=Könyvek
+Music=Zene
+Photos=Fotók
+Video=Videó
+Other=Egyéb
+Media Servers=Médiaszerverek
+Network Services=Hálózati szolgáltatások
+DNS=DNS
+FTP=FTP
+Management=Kezelés
+Messenger=Üzenetküldők
+Proxy=Proxy
+VOIP=VOIP
+VPN=VPN
+Web=Web
+Privacy=Adatvédelem
+Productivity=Produktivitás
+Security=Biztonság
+Spotlight=Kiemelt
+Tools Utilities=Eszközök / Segédprogramok
+System=Rendszer
+Themes=Témák
+Utilities=Segédprogramok
+Private Apps=Privát appok
+Uncategorized=Besorolatlan
 
-Each month we highlight some of the amazing work from our community=
-Check out these newly added applications from our awesome community=
-Check out these up and coming apps=
-These apps have the highest percentage of new installs=
-An assortment of randomly chosen apps=
-Featured Applications=
+; Categories displayed within a popup or on the card.  Where an entry exists after the "=" it is not translated, but rather how it should look // Kártyákon vagy felugró ablakban megjelenő kategóriák. Ahol az = után már van bejegyzés, azt nem fordítjuk, hanem így kell kinéznie
+GameServers=Játékszerverek
+HomeAutomation=Otthonautomatizálás
+MediaApp=Médiaalkalmazás
+MediaAppBooks=Médiaalkalmazás:Könyvek
+MediaAppMusic=Médiaalkalmazás:Zene
+MediaAppPhotos=Médiaalkalmazás:Fotók
+MediaAppVideo=Médiaalkalmazás:Videó
+MediaAppOther=Médiaalkalmazás:Egyéb
+MediaServer=Médiaszerver
+MediaServerBooks=Médiaszerver:Könyvek
+MediaServerMusic=Médiaszerver:Zene
+MediaServerPhotos=Médiaszerver:Fotók
+MediaServerVideo=Médiaszerver:Videó
+MediaServerOther=Médiaszerver:Egyéb
+Network=Hálózat
+NetworkDNS=Hálózat:DNS
+NetworkFTP=Hálózat:FTP
+NetworkManagement=Hálózat:Kezelés
+NetworkProxy=Hálózat:Proxy
+NetworkVOIP=Hálózat:VOIP
+NetworkVPN=Hálózat:VPN
+NetworkPrivacy=Hálózat:Adatvédelem
+NetworkWeb=Hálózat:Web
+NetworkOther=Hálózat:Egyéb
+ToolsSystem=Eszközök:Rendszer
+ToolsThemes=Eszközök:Témák
+ToolsUtilities=Eszközök:Segédprogramok
+OtherUncategorized=Egyéb:Besorolatlan
+and %s more=és még %s
 
-; Categories try not to be excessively long This is displayed on the left of CA screen
+; App Popup Related // Alkalmazás felugró ablakhoz kapcsolódó
+This application template has been blacklisted=Ez az alkalmazássablon **feketelistára** lett téve
+This application template has been deprecated=Ez az alkalmazássablon **elavulttá** vált
+This application has additional requirements=Ez az alkalmazás **további követelményeket** igényel
+Additional Requirements=További követelmények
+Donate To Author=Támogasd a szerzőt
+Donate To Maintainer=Támogasd a karbantartót
+CLOSE=BEZÁRÁS
+Author=Szerző
+Maintainer=Karbantartó
+DockerHub=DockerHub
+Application Template=Alkalmazássablon
+DockerHub Stars=DockerHub csillagok
+Added to CA=Hozzáadva a CA-hoz
+Date Updated=Frissítés dátuma
+Current Version=Jelenlegi verzió
+Min OS=Min. OS
+Max OS=Max. OS
+Total Downloads=Összes letöltés
+Popularity=Népszerűség
+Licence=Licenc
+Ranked #%s=#%s a rangsorban
+; as in Trending up or down arrow // fel vagy lefelé mutató trend nyíl
+Trending %s=Trend: %s
+; as in As of some date // egy adott dátum szerint
+As of %s=%s-i állapot szerint
+Play Video=Videó lejátszása
+Play Video %s=Videó lejátszása: %s
+This application is not compatible with your version of Unraid=Ez az alkalmazás **nem kompatibilis** az Unraid verzióddal
+Another browser tab or device has updated the displayed templates Some actions are not available=Egy másik böngészőlap vagy eszköz frissítette a megjelenített sablonokat. Egyes műveletek nem érhetők el.
+WebUI=WebUI
+Reinstall=Újratelepítés
+Reinstall From Previous Apps=Újratelepítés a korábbi appokból
+Install=Telepítés
+Uninstall=Eltávolítás
+Project=Projekt
+Read Me First=**Olvasd el először**
+Install another instance=Másik példány telepítése
+Install Using The Templates Default Tag=Telepítés a sablon alapértelmezett címkéjével (tag)
+Moderator Comments=Moderátori megjegyzések:
+Note not all authors keep up to date on change logs=*Megjegyzés: nem minden szerző tartja naprakészen a változásnaplót*
+Note not all maintainers keep up to date on change logs=*Megjegyzés: nem minden karbantartó tartja naprakészen a változásnaplót*
+Last Update=Legutóbbi frissítés
+Note All statistics are only gathered every 30 days=*Megjegyzés: Minden statisztikát csak 30 naponta frissítünk*
+;the following if using a space you MUST use nbsp but keep it down to one word if at all possible // a következőnél ha szóközt használsz, kötelező nbsp-t tenni, de ha lehet, maradj egy szónál
+Donate=Támogatás
+Currently Installed Version=Jelenleg telepített verzió
+Install The Update=Frissítés telepítése
+; as in you have the latest version already installed // mintha a legújabb verzió már telepítve lenne
+Latest Version=**Legújabb verzió**
+Multi Language Support=Többnyelvű támogatás
+Support Forum=Támogatási fórum
+; as in more than 100000 // mint több mint 100000
+More than %s=Több mint %s
+Remove from Previous Apps=Eltávolítás a korábbi appok közül
+Remove=Eltávolítás
+See All Apps=Összes app megtekintése
+Favourite=Kedvenc
+Application Type=Alkalmazás típusa
 
-Backup=
-Cloud=
-Crypto Currency=
-Downloaders=
-Drivers=
-Game Servers=
-Home Automation=
-Media Applications=
-Books=
-Music=
-Photos=
-Video=
-Other=
-Media Servers=
-Network Services=
-DNS=
-FTP=
-Management=
-Messenger=
-Proxy=
-VOIP=
-VPN=
-Web=
-Privacy=
-Productivity=
-Security=
-Spotlight=
-Tools Utilities=Tools / Utilities
-System=
-Themes=
-Utilities=
-Private Apps=
-Uncategorized=
+; Graphs // Grafikonok
+Trend Per Month=Havi trend
+Downloads Per Month=Havi letöltések
 
-; Categories displayed within a popup or on the card.  Where an entry exists after the "=" it is not translated, but rather how it should look
-GameServers=
-HomeAutomation=
-MediaApp=
-MediaAppBooks=MediaApp:Books
-MediaAppMusic=MediaApp:Music
-MediaAppPhotos=MediaApp:Photos
-MediaAppVideo=MediaApp:Video
-MediaAppOther=MediaApp:Other
-MediaServer=
-MediaServerBooks=MediaServer:Books
-MediaServerMusic=MediaServer:Music
-MediaServerPhotos=MediaServer:Photos
-MediaServerVideo=MediaServer:Video
-MediaServerOther=MediaServer:Other
-Network=
-NetworkDNS=Network:DNS
-NetworkFTP=Network:FTP
-NetworkManagement=Network:Management
-NetworkProxy=Network:Proxy
-NetworkVOIP=Network:VOIP
-NetworkVPN=Network:VPN
-NetworkPrivacy=Network:Privacy
-NetworkWeb=Network:Web
-NetworkOther=Network:Other
-ToolsSystem=Tools:System
-ToolsThemes=Tools:Themes
-ToolsUtilities=Tools:Utilities
-OtherUncategorized=Other:Uncategorized
-and %s more=
+; Multi install script // Csoportos telepítő szkript
+Installing docker applications %s=Docker alkalmazások telepítése: %s
+Starting %s=%s indítása...
+%s failed to start You should install it by itself to fix the errors=A(z) %s indítása **sikertelen**. A hibák kijavításához érdemes külön telepítened.
+Setting installed applications to autostart=Telepített alkalmazások beállítása automatikus indulásra...
+Docker Application Installation finished=Docker alkalmazások telepítése befejeződött
 
-; App Popup Related
-This application template has been blacklisted=This application / template has been blacklisted
-This application template has been deprecated=This application / template has been deprecated
-This application has additional requirements=
-Additional Requirements=
-Donate To Author=
-Donate To Maintainer=
-CLOSE=
-Author=
-Maintainer=
-DockerHub=
-Application Template=
-DockerHub Stars=
-Added to CA=
-Date Updated=
-Current Version=
-Min OS=
-Max OS=
-Total Downloads=
-Popularity=
-Licence=
-Ranked #%s=
-; as in Trending up or down arrow
-Trending %s=
-; as in As of some date
-As of %s=(As of %s)
-Play Video=
-Play Video %s=
-This application is not compatible with your version of Unraid=
-Another browser tab or device has updated the displayed templates Some actions are not available=Another browser tab or device has updated the displayed templates. Some actions are not available
-WebUI=
-Reinstall=
-Reinstall From Previous Apps=
-Install=
-Uninstall=
-Project=
-Read Me First=
-Install another instance=
-Install Using The Templates Default Tag=Install Using The Template's Default Tag
-Moderator Comments=Moderator Comments:
-Note not all authors keep up to date on change logs=
-Note not all maintainers keep up to date on change logs=
-Last Update=
-Note All statistics are only gathered every 30 days=
-;the following if using a space you MUST use nbsp but keep it down to one word if at all possible
-Donate=
-Currently Installed Version=
-Install The Update=
-; as in you have the latest version already installed
-Latest Version=
-Multi Language Support=
-Support Forum=
-; as in more than 100000
-More than %s=
-Remove from Previous Apps=
-Remove=
-See All Apps=
-Favourite=
-Application Type=
+; Application Cards // Alkalmazáskártyák
+Actions=Műveletek
+Pending=Függőben
+This application is a driver plugin=Ez az alkalmazás egy *illesztőprogram (plugin)*
+This is a language pack=Ez egy nyelvcsomag
+This application is a docker container=Ez az alkalmazás egy *Docker konténer*
+This application is a plugin=Ez az alkalmazás egy *plugin*
+This is a spotlight application=Ez egy kiemelt alkalmazás
+This is your favourite repository=Ez a kedvenc tárolód
+This application is from your favourite repository=Ez az alkalmazás a kedvenc tárolódból származik
+This application is pinned for later viewing=Ez az alkalmazás ki van tűzve későbbi megtekintésre
+Private Application=Privát alkalmazás
+Remove Application From List=Alkalmazás eltávolítása a listáról
+Check off to select multiple reinstalls=Jelöld be több alkalmazás csoportos újratelepítéséhez
+Go to the plugin settings=Ugrás a plugin beállításaihoz
+Click to reinstall the application using default values=Kattints ide az alkalmazás alapértelmezett értékekkel való újratelepítéséhez
+Click to edit the application values=Kattints ide az alkalmazás értékeinek szerkesztéséhez
+Click to reinstall=Kattints ide az újratelepítéshez
+Click to install=Kattints ide a telepítéshez
+Click to go to the WebUI=Kattints ide a WebUI megnyitásához
+This application template has been deprecated=Ez az alkalmazássablon elavulttá vált.
+This application template has been blacklisted=Ez az alkalmazássablon feketelistára lett téve.
+Click info to see the notes regarding this application=Kattints az infóra az alkalmazáshoz tartozó megjegyzések megtekintéséhez.
+This application has additional requirements=Ez az alkalmazás **további követelményeket** igényel
+BETA=BÉTA
+INSTALLED=TELEPÍTVE
+OFFICIAL=HIVATALOS
+UPDATED=FRISSÍTVE
+This is an official container=Ez egy hivatalos konténer
+Digitally Signed=Digitálisan aláírt
+This container is digitally signed=Ez a konténer digitálisan alá van írva.
+Docker Hub=Docker Hub
+NOTE You must visit the dockerHub page to gather the information required to install correctly=**MEGJEGYZÉS:** Fel kell keresned a Docker Hub oldalt a helyes telepítéshez szükséges információk beszerzéséhez.
+Show CA templates=CA sablonok megjelenítése
+Deprecated=Elavult
+Incompatible=Inkompatibilis
+Blacklisted=Feketelistás
+Template Exists=A sablon létezik
+Template already exists in Apps=A sablon már létezik az alkalmazások (Apps) között.
+; eg: LinuxServer Repository // pl. LinuxServer tároló
+%s Repository=%s tároló
+; eg: Squid's Repository // pl. Squid tárolója
+%s's Repository=%s tárolója
 
-; Graphs
-Trend Per Month=
-Downloads Per Month=
+Info=Infó
+Attention=Figyelem
+Repository=Tároló
+Why we picked it=Miért ezt választottuk?
+Application Spotlight %s=Kiemelt alkalmazás: %s
+Unraid Staff=Unraid munkatársak
 
-; Multi install script
-Installing docker applications %s=
-Starting %s=
-%s failed to start You should install it by itself to fix the errors=
-Setting installed applications to autostart=
-Docker Application Installation finished=
+; Page Navigation // Oldalnavigáció
+Displaying %s - %s of %s=Megjelenítés: %1$s - %2$s (**%3$s** közül)
 
-; Application Cards
-Actions=
-Pending=
-This application is a driver plugin=This application is a driver (plugin)
-This is a language pack=
-This application is a docker container=
-This application is a plugin=
-This is a spotlight application=
-This is your favourite repository=
-This application is from your favourite repository=
-This application is pinned for later viewing=
-Private Application=
-Remove Application From List=
-Check off to select multiple reinstalls=
-Go to the plugin settings=
-Click to reinstall the application using default values=
-Click to edit the application values=
-Click to reinstall=
-Click to install=
-Click to go to the WebUI=
-This application template has been deprecated=
-This application template has been blacklisted=
-Click info to see the notes regarding this application=
-This application has additional requirements=
-BETA=
-INSTALLED=
-OFFICIAL=
-UPDATED=
-This is an official container=
-Digitally Signed=
-This container is digitally signed=
-Docker Hub=
-NOTE You must visit the dockerHub page to gather the information required to install correctly=
-Show CA templates=
-Deprecated=
-Incompatible=
-Blacklisted=
-Template Exists=
-Template already exists in Apps=
-; eg: LinuxServer Repository
-%s Repository=
-; eg: Squid's Repository
-%s's Repository=
+Updating Content=Tartalom frissítése...
+Language=Nyelv
+Switch to this language=Váltás erre a nyelvre
+Country Code=Országkód
+Install Language Pack=Nyelvcsomag telepítése
+Remove Language Pack=Nyelvcsomag eltávolítása
+Update Language Pack=Nyelvcsomag frissítése
+Installed Version=Telepített verzió
+A note about translations=Megjegyzés a fordításokról
+Click here to view the language changelog=Kattints ide a nyelv változásnaplójának megtekintéséhez
+View Missing Translations=Hiányzó fordítások megtekintése
 
-Info=
-Attention=
-Repository=
-Why we picked it=
-Application Spotlight %s=
-Unraid Staff=
+; Update Checks // Frissítések ellenőrzése
+Check For Updates=Frissítések keresése
+Check for updates already running=A frissítések keresése már fut.
+Checking for docker container updates=Docker konténerfrissítések keresése...
+Checking for plugin updates=Plugin frissítések keresése...
+Checking for language updates=Nyelvi frissítések keresése...
+Checking %s=%s ellenőrzése...
 
-; Page Navigation
-Displaying %s - %s of %s=Displaying %1$s - %2$s (of %3$s)
+; dockerHub conversions // Docker Hub konverziók
+Determine configuration=Konfiguráció meghatározása
+Would you like CA to attempt to determine any applicable paths, ports, and variables for the template This will entail performing a test installation of the container It will be automatically deleted after processing The container will not be started=Szeretnéd, hogy a CA megpróbálja meghatározni a sablonhoz tartozó útvonalakat, portokat és változókat? Ez a konténer teszttelepítésével jár. A konténert a feldolgozás után automatikusan töröljük. A konténer *nem lesz elindítva*.
+An error occurred - Could not determine configuration=**Hiba történt** – Nem sikerült meghatározni a konfigurációt
+; WebGui // WebGui
+Click Install to download and install the Community Applications plugin=Kattints a **Telepítés** gombra a **Community Applications** plugin letöltéséhez és telepítéséhez.
 
-Updating Content=
-Language=
-Switch to this language=
-Country Code=
-Install Language Pack=
-Remove Language Pack=
-Update Language Pack=
-Installed Version=
-A note about translations=
-Click here to view the language changelog=
-View Missing Translations=
-
-; Update Checks
-Check For Updates=
-Check for updates already running=
-Checking for docker container updates=
-Checking for plugin updates=
-Checking for language updates=
-Checking %s=
-
-; dockerHub conversions
-Determine configuration=
-Would you like CA to attempt to determine any applicable paths, ports, and variables for the template This will entail performing a test installation of the container It will be automatically deleted after processing The container will not be started=Would you like CA to attempt to determine any applicable paths, ports, and variables for the template?  This will entail performing a test installation of the container.  It will be automatically deleted after processing.  The container will not be started.
-An error occurred - Could not determine configuration=
-; WebGui
-Click Install to download and install the Community Applications plugin=Click **Install** to download and install the **Community Applications** plugin
-
-
-; Note: April 21, 2025 - 364 missing translations
+; Note: April 21, 2025 - 364 missing translations // July 18, 2026 - Fully translated to Hungarian by nkgy17
