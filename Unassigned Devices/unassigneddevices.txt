@@ -1,260 +1,259 @@
-Add ISO File Share=
-Add Remote SMB=
-Add Root Share=
-All Unassigned Devices configurations will be updated=
-All disks will be refreshed using udev=
-An XFS, BTRFS, or ZFS disk partitioned in UD is compatible with the array disk partitioning and can be added to the array=
-Any data on this disk will be lost=
-Are you sure=
-Auto mount=
-Back=
-Browse Disk Share=
-Browse ISO File Share=
-Browse Remote SMB=
-Check the syslog for details=
-Choose File System Format=
-Choose ISO File=
-Choose NFS Server=
-Choose SMB Server=
-Choose Share=
-Click on Icon to Choose Protocol=
-Change Disk Mount Point=
-Change ISO File Mount Point=
-Change Remote Share Mount Point=
-Change SMB=
-Changing the Mount Point will also change the disk label on all disks and the pool name on a ZFS disk=
-Clear=
-Click to select ISO file=
-Click to view/hide partitions and mount points=
-Complete=
-Device=
-Disks=
-Disk Label=
-Disk Log Information=
-Disk Sharing must be disabled to add a Root Share=
-Do NOT use a remote share local mount in a Docker container or VM for critical data=
-Do not put files or folders into the /mnt/rootshare/ folder=
-Domain=
-Edit Device Script=
-Edit ISO File Script=
-Edit Remote SMB=
-Encrypt CIFS Mount=
-Enter the Domain for the share if on a Domain=
-Enter the Password if the share is password protected=
-Enter the Username if the share is password protected=
-Enter the password to use for this disk=
-Enter the server name and it will be added to the local DNS names and will then resolve by name=
-Exclusive Share files will not be accessible in a Root Share=
-Execute Script as udev simulating a device being installed=
-Fail=
-failed to=
-Failed to get data to refresh page=
-file share for=
-File System Check=
-File System Scrub=
-Format=
-Formatting=
-Free=
-from disk=
-Go to Settings->Global Share Settings and set Enable Disk Shares to Auto or Off=
-Historical=
-Historical Unassigned Devices=
-Historical Device is=
-Identification=
-If SMB shares do not show, check your credentials=
-If the IP address of the server shows in the list after searching, your DNS server is not resolving the name=
-If this disk was pre-cleared, you will remove the pre-clear signature=
-If you add the disk to the array and the pre-clear signature is removed, Unraid will go through the lengthy process of clearing the disk again=
-Invalid Configuration - Remove and Re-add=
-is offline=
-ISO File is=
-ISO File Shares=
-If using a disk password be sure to enter the password for this disk in UD Settings so it can be mounted=
-Device=
-Leave blank to use the array passwordpassphrase=
-Load Shares=
-Loading=
-Log=
-Mount=
-Mount Point=
-Mounting=
-Next=
-NFS Mount Point=
-NFS or ISO File Shares configured=
-NFS Script=
-NFS Share=
-NFS Shares=
-No Remote SMB=
-No script file to execute=
-No Unassigned Disks available=
-Not Enabled=
-not installed=
-Note=
-offline=
-User Shares=
-User Shares without Pools=
-You must enable NFS in Settings->NFS to mount NFS shares=
-You must enable SMB in Settings->SMB to mount SMB shares=
-Open=
-Partition=
-Partition and Format Disk=
-Passed=
-Passed Through=
-Password=
-Pool=
-Preclear=
-Read only=
-Reboot=
-Refresh Disks and Configuration=
-Remember your password It cannot be recovered=
-Remote Server is=
-Remote Shares=
-Remote Shares online status will be reset=
-Remote share mounts are dependent on a solid and reliable network connection and that can be difficult to achieve=
-Remove Device configuration=
-Remove ISO File Share=
-Remove Partition=
-Remove Remote SMB=
-Remove partition=
-Running=
-Script=
-Script is already running=
-Search For Servers=
-Script Log=
-Search for Servers, or enter the Server name or IP address manually=
-Search for Shares or enter the Share name manually=
-Searching=
-Select the Root Share=
-Serial Number Mount Point=Serial Number (Mount Point)
-Shares=
-Share Type=
-share for=
-Show/Hide Historical Unassigned Devices=
-Show/Hide SMB/NFS/ISO Shares=
-Show/Hide Unassiged Disk Devices=
-Simple=
-SMB Shares=
-Source=
-SSD cannot be spun down=
-Success=
-Show Historical Devices=
-Show SMB/NFS/ISO Shares=
-Show Disk Devices=
-This is a way to gather Unraid shares into one Root Share=
-This will remove the ISO file share for=
-This will remove the=
-This will remove the saved configuration of=
-This will remove the=
-Timeout: Failed to get unassigned devices information - check the syslog=
-to confirm=
-to format=
-Unassigned Devices Settings=
-Unassigned Disk Devices=
-Unassigned Disks=
-Unmount=
-Unmounting=
-Use caution when gathering shares into one Root Share=
-Used=
-User Shares=
-User Shares without Pools=
-User Shares - allow access to User Shares, including Cache and Pool files=
-User Shares without Pools - allow access to User Shares, but the Root Share will not include Cache and Pool files=
-Username=
-View Device Script Log=
-View ISO File Script Log=
-View NFS Script Log=
-View SMB Script Log=
-WARNING=
-When you copy files between shares in the Root Share, the files may not end up on the expected disks=
-Working=
-You can also subject yourself to security issues like ransomware by exposing all your shares in one Root Share=
-You may need to enter credentials to list the shares=
-You must enable NFS in Settings->NFS to mount NFS shares=
-You must enable SMB in Settings->SMB to mount SMB shares=
-You must enable the Destructive Mode in UD Settings before you can Format this disk=
-You WILL have problems if you do=
-ZFS Pool Name=
-ZFS Volume=
+Add ISO File Share=ISO fájlmegosztás hozzáadása
+Add Remote SMB=Távoli SMB hozzáadása
+Add Root Share=Gyökérmegosztás hozzáadása
+All Unassigned Devices configurations will be updated=Minden hozzá nem rendelt eszköz konfigurációja frissítve lesz
+All disks will be refreshed using udev=Minden lemez frissítve lesz az udev használatával
+An XFS, BTRFS, or ZFS disk partitioned in UD is compatible with the array disk partitioning and can be added to the array=A UD-ban particionált XFS-, BTRFS- vagy ZFS-lemez kompatibilis a tömb lemezparticionálásával, és hozzáadható a tömbhöz
+Any data on this disk will be lost=Ezen a lemezen minden adat elvész
+Are you sure=Biztos vagy benne?
+Auto mount=Automatikus csatolás
+Back=Vissza
+Browse Disk Share=Lemezmegosztás tallózása
+Browse ISO File Share=ISO fájlmegosztás tallózása
+Browse Remote SMB=Távoli SMB tallózása
+Check the syslog for details=Ellenőrizd a rendszernaplót a részletekért
+Choose File System Format=Válassz fájlrendszer-formátumot
+Choose ISO File=Válassz ISO fájlt
+Choose NFS Server=Válassz NFS szervert
+Choose SMB Server=Válassz SMB szervert
+Choose Share=Válassz megosztást
+Click on Icon to Choose Protocol=Kattints az ikonra a protokoll kiválasztásához
+Change Disk Mount Point=Lemez csatlakozási pontjának módosítása
+Change ISO File Mount Point=ISO fájl csatlakozási pontjának módosítása
+Change Remote Share Mount Point=Távoli megosztás csatlakozási pontjának módosítása
+Change SMB=SMB módosítása
+Changing the Mount Point will also change the disk label on all disks and the pool name on a ZFS disk=A csatlakozási pont módosítása megváltoztatja a lemezcímkét is az összes lemezen, valamint a pool nevét a ZFS-lemezen
+Clear=Törlés
+Click to select ISO file=Kattints az ISO fájl kiválasztásához
+Click to view/hide partitions and mount points=Kattints a partíciók és csatlakozási pontok megjelenítéséhez/elrejtéséhez
+Complete=Kész
+Device=Eszköz
+Disks=Lemezek
+Disk Label=Lemezcímke
+Disk Log Information=Lemez naplóinformációi
+Disk Sharing must be disabled to add a Root Share=A gyökérmegosztás hozzáadásához a lemezmegosztást le kell tiltani
+Do NOT use a remote share local mount in a Docker container or VM for critical data=NE használj távoli megosztás helyi csatolását Docker-konténerben vagy virtuális gépben kritikus adatokhoz
+Do not put files or folders into the /mnt/rootshare/ folder=Ne tegyél fájlokat vagy mappákat a /mnt/rootshare/ mappába
+Domain=Tartomány
+Edit Device Script=Eszközszkript szerkesztése
+Edit ISO File Script=ISO fájlszkript szerkesztése
+Edit Remote SMB=Távoli SMB szerkesztése
+Encrypt CIFS Mount=CIFS csatolás titkosítása
+Enter the Domain for the share if on a Domain=Add meg a megosztás tartományát, ha tartományban van
+Enter the Password if the share is password protected=Add meg a jelszót, ha a megosztás jelszóval védett
+Enter the Username if the share is password protected=Add meg a felhasználónevet, ha a megosztás jelszóval védett
+Enter the password to use for this disk=Add meg az ezen a lemezen használandó jelszót
+Enter the server name and it will be added to the local DNS names and will then resolve by name=Add meg a szerver nevét, és az hozzáadásra kerül a helyi DNS-nevekhez, így név alapján lesz feloldva
+Exclusive Share files will not be accessible in a Root Share=A kizárólagos megosztásban lévő fájlok nem lesznek elérhetők a gyökérmegosztásban
+Execute Script as udev simulating a device being installed=Szkript végrehajtása udev-ként, szimulálva az eszköz telepítését
+Fail=Hiba
+failed to=nem sikerült:
+Failed to get data to refresh page=Nem sikerült lekérni az adatokat az oldal frissítéséhez
+file share for=fájlmegosztás ehhez:
+File System Check=Fájlrendszer-ellenőrzés
+File System Scrub=Fájlrendszer-tisztítás
+Format=Formázás
+Formatting=Formázás...
+Free=Szabad
+from disk=lemezről
+Go to Settings->Global Share Settings and set Enable Disk Shares to Auto or Off=Lépj a Beállítások -> Globális megosztási beállítások menüpontba, és állítsd a Lemezmegosztások engedélyezése opciót Automatikus vagy Kikapcsolva értékre
+Historical=Előzmények
+Historical Unassigned Devices=Előzményekben szereplő hozzá nem rendelt eszközök
+Historical Device is=Előzményekben szereplő eszköz:
+Identification=Azonosítás
+If SMB shares do not show, check your credentials=Ha az SMB megosztások nem jelennek meg, ellenőrizd a hitelesítési adataidat
+If the IP address of the server shows in the list after searching, your DNS server is not resolving the name=Ha a keresés után a szerver IP-címe jelenik meg a listában, a DNS-szerver nem oldja fel a nevet
+If this disk was pre-cleared, you will remove the pre-clear signature=Ha ez a lemez előzetesen tisztítva volt, eltávolítod az előtisztítási aláírást
+If you add the disk to the array and the pre-clear signature is removed, Unraid will go through the lengthy process of clearing the disk again=Ha hozzáadod a lemezt a tömbhöz, és az előtisztítási aláírás el lett távolítva, az Unraid újra végigmegy a lemez tisztításának hosszas folyamatán
+Invalid Configuration - Remove and Re-add=Érvénytelen konfiguráció - Távolítsd el és add hozzá újra
+is offline=offline
+ISO File is=ISO fájl:
+ISO File Shares=ISO fájlmegosztások
+If using a disk password be sure to enter the password for this disk in UD Settings so it can be mounted=Ha lemezjelszót használsz, feltétlenül add meg ezen lemez jelszavát a UD beállításaiban, hogy felcsatolható legyen
+Device=Eszköz
+Leave blank to use the array passwordpassphrase=Hagyd üresen a tömb jelszavának/jelmondatának használatához
+Load Shares=Megosztások betöltése
+Loading=Betöltés...
+Log=Napló
+Mount=Csatolás
+Mount Point=Csatlakozási pont
+Mounting=Csatolás...
+Next=Tovább
+NFS Mount Point=NFS csatlakozási pont
+NFS or ISO File Shares configured=Konfigurált NFS vagy ISO fájlmegosztások
+NFS Script=NFS szkript
+NFS Share=NFS megosztás
+NFS Shares=NFS megosztások
+No Remote SMB=Nincs távoli SMB
+No script file to execute=Nincs végrehajtható szkriptfájl
+No Unassigned Disks available=Nincsenek elérhető hozzá nem rendelt lemezek
+Not Enabled=Nincs engedélyezve
+not installed=nincs telepítve
+Note=Megjegyzés
+offline=offline
+User Shares=Felhasználói megosztások
+User Shares without Pools=Felhasználói megosztások poolok nélkül
+You must enable NFS in Settings->NFS to mount NFS shares=Az NFS megosztások csatolásához engedélyezned kell az NFS-t a Beállítások -> NFS menüpontban
+You must enable SMB in Settings->SMB to mount SMB shares=Az SMB megosztások csatolásához engedélyezned kell az SMB-t a Beállítások -> SMB menüpontban
+Open=Megnyitás
+Partition=Partíció
+Partition and Format Disk=Lemez particionálása és formázása
+Passed=Sikeres
+Passed Through=Átadva
+Password=Jelszó
+Pool=Pool
+Preclear=Előtisztítás
+Read only=Csak olvasható
+Reboot=Újraindítás
+Refresh Disks and Configuration=Lemezek és konfiguráció frissítése
+Remember your password It cannot be recovered=Jegyezd meg a jelszavadat, nem állítható vissza
+Remote Server is=Távoli szerver:
+Remote Shares=Távoli megosztások
+Remote Shares online status will be reset=A távoli megosztások online állapota visszaállításra kerül
+Remote share mounts are dependent on a solid and reliable network connection and that can be difficult to achieve=A távoli megosztások csatolása stabil és megbízható hálózati kapcsolattól függ, amit néha nehéz elérni
+Remove Device configuration=Eszközkonfiguráció eltávolítása
+Remove ISO File Share=ISO fájlmegosztás eltávolítása
+Remove Partition=Partíció eltávolítása
+Remove Remote SMB=Távoli SMB eltávolítása
+Remove partition=Partíció eltávolítása
+Running=Fut
+Script=Szkript
+Script is already running=A szkript már fut
+Search For Servers=Szerverek keresése
+Script Log=Szkriptnapló
+Search for Servers, or enter the Server name or IP address manually=Keress szervereket, vagy add meg a szerver nevét vagy IP-címét manuálisan
+Search for Shares or enter the Share name manually=Keress megosztásokat, vagy add meg a megosztás nevét manuálisan
+Searching=Keresés...
+Select the Root Share=Válaszd ki a gyökérmegosztást
+Serial Number Mount Point=Sorozatszám (Csatlakozási pont)
+Shares=Megosztások
+Share Type=Megosztás típusa
+share for=megosztás ehhez:
+Show/Hide Historical Unassigned Devices=Előzményekben szereplő hozzá nem rendelt eszközök megjelenítése/elrejtése
+Show/Hide SMB/NFS/ISO Shares=SMB/NFS/ISO megosztások megjelenítése/elrejtése
+Show/Hide Unassiged Disk Devices=Hozzá nem rendelt lemezes eszközök megjelenítése/elrejtése
+Simple=Egyszerű
+SMB Shares=SMB megosztások
+Source=Forrás
+SSD cannot be spun down=Az SSD nem állítható le
+Success=Siker
+Show Historical Devices=Előzményekben szereplő eszközök megjelenítése
+Show SMB/NFS/ISO Shares=SMB/NFS/ISO megosztások megjelenítése
+Show Disk Devices=Lemezes eszközök megjelenítése
+This is a way to gather Unraid shares into one Root Share=Ez egy módja annak, hogy az Unraid megosztásokat egyetlen gyökérmegosztásba gyűjtsd össze
+This will remove the ISO file share for=Ez eltávolítja az ISO fájlmegosztást ehhez:
+This will remove the=Ez eltávolítja a következőt:
+This will remove the saved configuration of=Ez eltávolítja a mentett konfigurációját a következőnek:
+This will remove the=Ez eltávolítja a következőt:
+Timeout: Failed to get unassigned devices information - check the syslog=Időtúllépés: Nem sikerült lekérni a hozzá nem rendelt eszközök információit - ellenőrizd a rendszernaplót
+to confirm=a megerősítéshez
+to format=a formázáshoz
+Unassigned Devices Settings=Hozzá nem rendelt eszközök beállításai
+Unassigned Disk Devices=Hozzá nem rendelt lemezes eszközök
+Unassigned Disks=Hozzá nem rendelt lemezek
+Unmount=Lecsatolás
+Unmounting=Lecsatolás...
+Use caution when gathering shares into one Root Share=Légy óvatos, amikor a megosztásokat egyetlen gyökérmegosztásba gyűjtöd össze
+Used=Használt
+User Shares=Felhasználói megosztások
+User Shares without Pools=Felhasználói megosztások poolok nélkül
+User Shares - allow access to User Shares, including Cache and Pool files=Felhasználói megosztások - hozzáférést biztosít a felhasználói megosztásokhoz, beleértve a gyorsítótár és a pool fájljait
+User Shares without Pools - allow access to User Shares, but the Root Share will not include Cache and Pool files=Felhasználói megosztások poolok nélkül - hozzáférést biztosít a felhasználói megosztásokhoz, de a gyökérmegosztás nem tartalmazza a gyorsítótár és a pool fájljait
+Username=Felhasználónév
+View Device Script Log=Eszközszkript naplójának megtekintése
+View ISO File Script Log=ISO fájlszkript naplójának megtekintése
+View NFS Script Log=NFS szkript naplójának megtekintése
+View SMB Script Log=SMB szkript naplójának megtekintése
+WARNING=FIGYELMEZTETÉS
+When you copy files between shares in the Root Share, the files may not end up on the expected disks=Amikor fájlokat másolsz a gyökérmegosztáson belüli megosztások között, előfordulhat, hogy a fájlok nem a várt lemezekre kerülnek
+Working=Folyamatban...
+You can also subject yourself to security issues like ransomware by exposing all your shares in one Root Share=Biztonsági kockázatoknak, például zsarolóvírusoknak is kiteszed magad, ha az összes megosztásodat egyetlen gyökérmegosztásban teszed közzé
+You may need to enter credentials to list the shares=Előfordulhat, hogy meg kell adnod a hitelesítési adatokat a megosztások listázásához
+You must enable NFS in Settings->NFS to mount NFS shares=Az NFS megosztások csatolásához engedélyezned kell az NFS-t a Beállítások -> NFS menüpontban
+You must enable SMB in Settings->SMB to mount SMB shares=Az SMB megosztások csatolásához engedélyezned kell az SMB-t a Beállítások -> SMB menüpontban
+You must enable the Destructive Mode in UD Settings before you can Format this disk=A lemez formázása előtt engedélyezned kell a Romboló módot a UD beállításaiban
+You WILL have problems if you do=Problémáid FOGNAK adódni, ha ezt teszed
+ZFS Pool Name=ZFS pool neve
+ZFS Volume=ZFS kötet
 
 :unassgned_devices_switches_plug:
-> Turn on the **Disks** switch to change the web page to show disk devices. Turn off the **Disks** switch to change the web page to hide disk devices.
+> Kapcsold be a **Lemezek** kapcsolót a weboldal lemezes eszközök megjelenítésére való átállításához. Kapcsold ki a **Lemezek** kapcsolót a lemezes eszközök elrejtéséhez.
 >
-> Turn on the **Shares** switch to change the web page to show shares. Turn off the **Shares** switch to change the web page to hide shares.
+> Kapcsold be a **Megosztások** kapcsolót a weboldal megosztások megjelenítésére való átállításához. Kapcsold ki a **Megosztások** kapcsolót a megosztások elrejtéséhez.
 >
-> Turn on the **Historical** switch to show Historical disk devices. Turn off **Historical** switch to switch back to not show Historical disk devices.
+> Kapcsold be az **Előzmények** kapcsolót az előzményekben szereplő lemezes eszközök megjelenítéséhez. Kapcsold ki az **Előzmények** kapcsolót az előzményekben szereplő lemezes eszközök elrejtéséhez.
 >
-> Click on the <i class="fa fa-refresh"></i> icon to refresh disks and configuration.
+> Kattints a <i class="fa fa-refresh"></i> ikonra a lemezek és a konfiguráció frissítéséhez.
 >
-> Click on the <i class="fa fa-gear"></i> icon to go to the UD Settings.
+> Kattints a <i class="fa fa-gear"></i> ikonra a UD beállításaihoz való ugráshoz.
 >
-> You can spin a disk up or down by clicking on the disk ball <i class='fa fa-circle orb green-orb'></i>or <i class='fa fa-circle orb grey-orb'></i>indicator.  Applies to version 6.9 RC2 and later only.
+> A lemezeket felpörgetheted vagy leállíthatod a lemez jelzőfényére <i class='fa fa-circle orb green-orb'></i> vagy <i class='fa fa-circle orb grey-orb'></i> kattintva. Csak a 6.9 RC2 és újabb verziókra érvényes.
 >
-> Click on the <i class="fa fa-gears"></i> icon to go to the Device Settings configuration.  This is where you configure a device script and certain device characteristics.
-> 
-> Click on the <i class="icon-nvme"></i> or <i class="fa fa-hdd-o"></i> icon to display syslog entries specific to this disk device.
+> Kattints a <i class="fa fa-gears"></i> ikonra az Eszközbeállítások konfigurációjához való ugráshoz. Itt konfigurálhatod az eszközszkriptet és az eszköz bizonyos jellemzőit.
 >
-> **Mount Point icons:**
+> Kattints az <i class="icon-nvme"></i> vagy <i class="fa fa-hdd-o"></i> ikonra a kifejezetten ehhez a lemezes eszközhöz tartozó rendszernapló-bejegyzések megjelenítéséhez.
 >
-> When the <i class='fa fa-pencil'></i> icon shows next to the mount point it indicates the mount point can be changed when the mount point is clicked.
+> **Csatlakozási pont ikonok:**
 >
-> When the <i class='fa fa-external-link'></i> icon shows next to the mount point it indicates the clicking on the mount point will browse the files on that partition.
+> Ha a csatlakozási pont mellett a <i class='fa fa-pencil'></i> ikon látható, az azt jelzi, hogy a csatlakozási pontra kattintva a csatlakozási pont módosítható.
 >
-> Click on the <i class="fa fa-align-left"></i> icon to display the device script log.  This is the log specific to the device script.
+> Ha a csatlakozási pont mellett a <i class='fa fa-external-link'></i> ikon látható, az azt jelzi, hogy a csatlakozási pontra kattintva tallózhatod az adott partíción lévő fájlokat.
 >
-> Click on the <i class="fa fa-check"></i> icon to perform a file system check.  BTRFS and ZFS file systems need to be mounted to do a file check.  The file check on BTRFS and ZFS file systems is a scrub.
+> Kattints a <i class="fa fa-align-left"></i> ikonra az eszközszkript naplójának megjelenítéséhez. Ez a kifejezetten az eszközszkripthez tartozó napló.
 >
-> Click on the <i class="fa fa-flash"></i> icon to run your device script as if it was hot plugged.  This only applies to disk devices.
+> Kattints a <i class="fa fa-check"></i> ikonra a fájlrendszer-ellenőrzés elvégzéséhez. A BTRFS és ZFS fájlrendszereket fel kell csatolni a fájlellenőrzés elvégzéséhez. A BTRFS és ZFS fájlrendszereken végzett fájlellenőrzés egy tisztítás (scrub).
+>
+> Kattints a <i class="fa fa-flash"></i> ikonra az eszközszkript futtatásához, mintha forrón csatlakoztatták volna. Ez csak lemezes eszközökre érvényes.
 :end
 
 :unassigned_devices_general_help_plug:
-> **Unassigned Devices is called UD for short.**
+> **A hozzá nem rendelt eszközök (Unassigned Devices) rövid neve: UD.**
 >
-> Hover your mouse over an any active area on the UD page and a tool tip will show you what clicking that area does.
-> You can mount USB devices, sata drives, Remote SMB/NFS shares, and ISO Files with UD.  Any devices with the auto mount switch on will be mounted when the array is started.  All drives and SMB/NFS Mounts are unmounted when the array is stopped on the 'stopping_svcs' event.
-> If you want to share your drive, you can turn on the Share switch.  The default for Remote SMB shares is Public read/write access.  Enable SMB Security by user in the Unassigned Devices Settings.  NFS shares are exported and access is read/write.  The export of NFS devices is enabled in the Unassigned Devices settings. You can also enable a common script that will be executed on every disk mount.  In order to share any UD device, sharing needs to be enabled in the UD Settings and the switch turned on to share the particular device.  SMB/NFS remove shares and ISO mounts are always shared.
-> After entering a mount point, press &lt;Enter&gt; to save the change.
+> Vidd az egeredet a UD oldal bármely aktív területe fölé, és egy buboréksúgó megmutatja, mit tesz az adott területre való kattintás.
+> A UD segítségével USB-eszközöket, SATA-meghajtókat, távoli SMB/NFS megosztásokat és ISO fájlokat csatolhatsz. Bármely eszköz, amelynél az automatikus csatolás kapcsolója be van kapcsolva, a tömb indításakor csatolásra kerül. Minden meghajtó és SMB/NFS csatolás lecsatolásra kerül, amikor a tömb leáll a 'stopping_svcs' eseménynél.
+> Ha meg szeretnéd osztani a meghajtódat, bekapcsolhatod a Megosztás kapcsolót. A távoli SMB megosztások alapértelmezett beállítása a nyilvános írási/olvasási hozzáférés. A felhasználónkénti SMB biztonságot a Hozzá nem rendelt eszközök beállításaiban engedélyezheted. Az NFS megosztások exportálásra kerülnek, és a hozzáférés írható/olvasható. Az NFS eszközök exportálása a Hozzá nem rendelt eszközök beállításaiban engedélyezhető. Engedélyezhetsz egy közös szkriptet is, amely minden lemezcsatoláskor lefut. Bármely UD eszköz megosztásához a megosztást engedélyezni kell a UD beállításaiban, és az adott eszköz megosztási kapcsolóját be kell kapcsolni. A távoli SMB/NFS megosztások és ISO csatolások mindig meg vannak osztva.
+> A csatlakozási pont megadása után nyomj &lt;Enter&gt;-t a módosítás mentéséhez.
 >
-> Additional options are available when you click on the <i style='color:black;font-weight:bold;' class="fa fa-plus-square"></i> icon by device identification.  When the disk is unmounted, the mount point of the device can be changed.  The disk label will also be changed.  A disk can be formatted and an fsck run to check the disk.
+> További opciók érhetők el, ha az eszközazonosítás melletti <i style='color:black;font-weight:bold;' class="fa fa-plus-square"></i> ikonra kattintasz. Ha a lemez le van csatolva, az eszköz csatlakozási pontja módosítható. A lemezcímke is megváltozik. A lemez formázható, és egy fsck is futtatható a lemez ellenőrzésére.
 >
-> The 'Settings->Unassigned Devices' security settings for SMB and NFS must be set correctly for SMB and NFS sharing to work properly.
+> A 'Beállítások -> Hozzá nem rendelt eszközök' biztonsági beállításait megfelelően kell beállítani az SMB és NFS megosztás megfelelő működéséhez.
 >
-> If the mount button is grayed out for a SMB/NFS remote share, the remote server is not responding to a ping.  The remote share server must respond to a ping or UD will consider it off-line.
+> Ha a csatolás gomb szürke egy távoli SMB/NFS megosztásnál, a távoli szerver nem válaszol a pingre. A távoli megosztás szerverének válaszolnia kell a pingre, különben a UD offline-nak tekinti.
 >
-> The 'Add Root Share' button is disabled when 'Enable disk shares' is enabled and any Root Shares previously added will not mount.
+> A 'Gyökérmegosztás hozzáadása' gomb le van tiltva, ha a 'Lemezmegosztások engedélyezése' be van kapcsolva, és a korábban hozzáadott gyökérmegosztások nem fognak felcsatlakozni.
 >
-> UD has a destructive mode that allows deleting disk partitions and formatting disks.	If Destructive Mode is not turned on in the UD Settings, you WILL NOT be able to format a disk or remove partitions.  Go the the 'Settings->Unassigned Devices' to set the destructive mode.
+> A UD rendelkezik egy romboló móddal (Destructive Mode), amely lehetővé teszi a lemezpartíciók törlését és a lemezek formázását. Ha a Romboló mód nincs bekapcsolva a UD beállításaiban, NEM fogod tudni megformázni a lemezt vagy törölni a partíciókat. Lépj a 'Beállítások -> Hozzá nem rendelt eszközök' menüpontba a romboló mód beállításához.
 >
-> **To format a disk:**
+> **Egy lemez formázásához:**
 >
-> + Destructive mode must be enabled.
-> + Disk must have all partitions removed.  Unmount disk, click on the <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> icon,, and click on all <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> icons to delete partitions.
-> + If the disk has been precelared and shows a grayed 'Format' button, click on the <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> icon, then click on the <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> icon to delete the preclear status file.
+> + A romboló módnak engedélyezve kell lennie.
+> + A lemez összes partícióját el kell távolítani. Csatold le a lemezt, kattints a <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> ikonra, majd kattints az összes <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> ikonra a partíciók törléséhez.
+> + Ha a lemezt előtisztították és egy szürke 'Formázás' gomb látható, kattints a <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> ikonra, majd kattints a <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> ikonra az előtisztítási állapotfájl törléséhez.
 >
-> **Note: A disk partitioned in UD is compatible with the array disk partitioning and can be added to the array.  Supported file formats are XFS, XFS encrypted, BTRFS and BTRFS encrypted.**
+> **Megjegyzés: A UD-ban particionált lemez kompatibilis a tömb lemezparticionálásával, és hozzáadható a tömbhöz. A támogatott fájlrendszer-formátumok: XFS, titkosított XFS, BTRFS és titkosított BTRFS.**
 >
-> **Encrypted Disks:**
+> **Titkosított lemezek:**
 >
-> + Any disk formatted in UD that is encrypted will use the array password/passphrase and can be incorporated into the array.  Or you can set a unique password when it is formatted.  If you set a password on the disk when it is formatted, you will need to enter a disk password in Unassignd Devices->Settings for that disk.
-> + Any disk that was not encrypted with the Array password/passphrase can be mounted by setting a per disk passord set in Unassigned Devices->Settings.
+> + Bármely UD-ban formázott titkosított lemez a tömb jelszavát/jelmondatát használja, és beépíthető a tömbbe. Vagy beállíthatsz egy egyedi jelszót is a formázásakor. Ha jelszót állítasz be a lemezen a formázásakor, meg kell adnod a lemez jelszavát a Hozzá nem rendelt eszközök -> Beállítások menüpontban ahhoz a lemezhez.
+> + Bármely lemez, amely nem a tömb jelszavával/jelmondatával lett titkosítva, csatolható a Hozzá nem rendelt eszközök -> Beállítások menüpontban lemezenként beállított jelszó megadásával.
 >
-> **Unassigned devices script:**
+> **Hozzá nem rendelt eszközök szkriptje:**
 >
-> UD includes a script that is used for mounting and unmounting devices and SMB/NFS mounts. These scripts can be used from the command line or in your scripts as necessary.
+> A UD tartalmaz egy szkriptet, amely eszközök és SMB/NFS megosztások csatolására és lecsatolására szolgál. Ezek a szkriptek szükség szerint használhatók a parancssorból vagy a saját szkriptjeidben.
 >
-> + '/usr/local/sbin/rc.unassigned mount autodevices' - all devices set to auto mount will be mounted.
-> + '/usr/local/sbin/rc.unassigned mount autoshares' - all SMB/NFS mounts set to auto mount will be mounted.
-> + '/usr/local/sbin/rc.unassigned umount auto' - all devices and SMB/NFS mounts set to auto mount will be unmounted.
-> + '/usr/local/sbin/rc.unassigned umount all' - all devices and SMB/NFS mounts are unmounted in preparation for shutting down the array.
-> + '/usr/local/sbin/rc.unassigned mount /dev/sdX or devX' - mount device sdX where 'X' is the device designator.  The devX is the device name in the UD page.  If the device name is 'Dev 1', then use dev1 as the device to mount.
-> + '/usr/local/sbin/rc.unassigned mount name=diskname' - mount device by disk name.
-> + '/usr/local/sbin/rc.unassigned umount /dev/sdX or devX' - unmount device sdX where 'X' is the device designator. The devX is the device name in the UD page.  If the device name is 'Dev 1', then use dev1 as the device to unmount. You can use this command in a UD script to unmount the device when the script has completed.
-> + '/usr/local/sbin/rc.unassigned umount name=diskname' - unmount device by disk name.
-> + '/usr/local/sbin/rc.unassigned spindown devX' - spin down a disk.  The devX is the device name in the UD page.  If the device name is 'Dev 1', then use dev1 as the device to spin down.  SSDs will not spin down.
-> + '/usr/local/sbin/rc.unassigned spindown name=diskname' - spin down a disk by disk name.
-> + '/usr/local/sbin/rc.unassigned mount SOURCE' - where SOURCE is the SMB/NFS source.
-> + '/usr/local/sbin/rc.unassigned umount SOURCE' - where SOURCE is the SMB/NFS source.
+> + '/usr/local/sbin/rc.unassigned mount autodevices' - minden automatikus csatolásra beállított eszköz csatolásra kerül.
+> + '/usr/local/sbin/rc.unassigned mount autoshares' - minden automatikus csatolásra beállított SMB/NFS csatolás csatolásra kerül.
+> + '/usr/local/sbin/rc.unassigned umount auto' - minden automatikus csatolásra beállított eszköz és SMB/NFS csatolás lecsatolásra kerül.
+> + '/usr/local/sbin/rc.unassigned umount all' - minden eszköz és SMB/NFS csatolás lecsatolásra kerül a tömb leállításának előkészítéseként.
+> + '/usr/local/sbin/rc.unassigned mount /dev/sdX' - az sdX eszköz csatolása, ahol az 'X' az eszköz azonosítója. A devX az eszköz neve a UD oldalon. Ha az eszköz neve 'Dev 1', használd a dev1 megjelölést a csatolandó eszközhöz.
+> + '/usr/local/sbin/rc.unassigned mount devX' - a devX eszköz csatolása lemeznév alapján.
+> + '/usr/local/sbin/rc.unassigned umount /dev/sdX' - az sdX eszköz lecsatolása, ahol az 'X' az eszköz azonosítója. A devX az eszköz neve a UD oldalon. Ha az eszköz neve 'Dev 1', használd a dev1 megjelölést a lecsatolandó eszközhöz. Ezt a parancsot használhatod egy UD szkriptben az eszköz lecsatolására, amikor a szkript befejeződött.
+> + '/usr/local/sbin/rc.unassigned umount devX' - a devX eszköz lecsatolása lemeznév alapján. Ezt a parancsot használhatod egy UD szkriptben az eszköz lecsatolására, amikor a szkript befejeződött.
+> + '/usr/local/sbin/rc.unassigned umount name=lemeznev' - eszköz lecsatolása lemeznév alapján.
+> + '/usr/local/sbin/rc.unassigned spindown devX' - lemez leállítása. A devX az eszköz neve a UD oldalon. Ha az eszköz neve 'Dev 1', használd a dev1 megjelölést a leállítandó eszközhöz. Az SSD-k nem állnak le.
+> + '/usr/local/sbin/rc.unassigned spindown name=lemeznev' - lemez leállítása lemeznév alapján.
+> + '/usr/local/sbin/rc.unassigned mount FORRAS' - ahol a FORRAS az SMB/NFS forrás.
+> + '/usr/local/sbin/rc.unassigned umount FORRAS' - ahol a FORRAS az SMB/NFS forrás.
 >
-> Be careful using the /dev/sdX designation because it can change after a reboot.
+> Légy óvatos a /dev/sdX megjelölés használatával, mert ez újraindítás után megváltozhat.
 :end
-
-; Note: April 21, 2025 - 177 missing translations
