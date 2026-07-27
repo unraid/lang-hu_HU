@@ -1,28 +1,28 @@
 
 
-; Note: April 21, 2025 - 25 missing translations
-Hide Deprecated Applications=
-This setting hides deprecated applications from the list of available apps Deprecated apps will still however display within the installed and previous apps sections=
-Hide Incompatible Applications=
-This setting will hide applications that are listed as being incompatible with your version of Unraid=
-Allow install of second instance=
-This option enables another button on the cards and popups which will allow you to reinstall an installed application using its default template values This option can be confusing at times, and is only generally used if you wish to install and have an application running twice simultaneously=
-Automatically open the sidebar=
-Allows CA to automatically open the sidebar for more information when hovering over an application's icon=
-Allow CA to check for updates to applications=
-This setting enables CA to check for updates to applications Note that Community Applications will always check for updates to itself=
-Disable Mouse Wheel Page Changes=
-This setting disables using left or right on a mouse wheel to change the page=
-Mouse wheel threshold=
-If you tilt the mouse wheel left or right, the browser returned value will change Set the threshold to the value returned Note that different browsers and operating systems may return different values=
-This is a global value for all devices If it causes issues, then disable Mouse Wheel Page Changes=
-Allow CA to send any emergency notifications=
-This setting allows CA to periodically scan your system and alert you to the presence of=
-1 Known malware and security vulnerabilities within applications=
-2 Critical security vulnerabilities within Unraid OS=
-3 Any installed applications which may seriously hinder the operation of your server=
-Save CA debugging information=
-Only enable this when advised to from the author of Community Applications=
-Enable developer mode=
-This unlocks some extra features within CA generally only used by developers Not recommended to enable=
-Support Thread=
+; Note: April 21, 2025 - 25 missing translations // July 18, 2026 - Fully translated to Hungarian by nkgy17
+Hide Deprecated Applications=Elavult alkalmazások elrejtése
+This setting hides deprecated applications from the list of available apps Deprecated apps will still however display within the installed and previous apps sections=Ez a beállítás elrejti az elavult alkalmazásokat az elérhető appok listájáról. Az elavult alkalmazások a telepített és a korábbi appok között azonban továbbra is láthatóak maradnak.
+Hide Incompatible Applications=Inkompatibilis alkalmazások elrejtése
+This setting will hide applications that are listed as being incompatible with your version of Unraid=Ez a beállítás elrejti azokat az alkalmazásokat, amelyek nem kompatibilisek az Unraid verzióddal.
+Allow install of second instance=Második példány telepítésének engedélyezése
+This option enables another button on the cards and popups which will allow you to reinstall an installed application using its default template values This option can be confusing at times, and is only generally used if you wish to install and have an application running twice simultaneously=Ez a funkció egy plusz gombot jelenít meg a kártyákon és a felugró ablakokban, amivel újratelepíthetsz egy már meglévő alkalmazást az alapértelmezett sablonértékeivel. Ez a lehetőség néha megtévesztő lehet, és általában csak akkor szükséges, ha ugyanazt az alkalmazást kétszer szeretnéd futtatni egyszerre.
+Automatically open the sidebar=Oldalsáv automatikus megnyitása
+Allows CA to automatically open the sidebar for more information when hovering over an application's icon=Engedélyezi, hogy a CA automatikusan megnyissa az oldalsávot további információkért, ha az egérrel egy alkalmazás ikonja fölé mutatsz.
+Allow CA to check for updates to applications=Alkalmazásfrissítések ellenőrzésének engedélyezése a CA számára
+This setting enables CA to check for updates to applications Note that Community Applications will always check for updates to itself=Ez a beállítás engedélyezi a CA számára az alkalmazások frissítéseinek ellenőrzését. Ne feledd, hogy a Community Applications saját magát mindig ellenőrzi.
+Disable Mouse Wheel Page Changes=Egérgörgős lapozás letiltása
+This setting disables using left or right on a mouse wheel to change the page=Ez a beállítás letiltja az egérgörgő balra vagy jobbra döntésével történő lapozást.
+Mouse wheel threshold=Egérgörgő küszöbértéke
+If you tilt the mouse wheel left or right, the browser returned value will change Set the threshold to the value returned Note that different browsers and operating systems may return different values=Ha balra vagy jobbra döntöd az egérgörgőt, a böngésző által visszaadott érték megváltozik. Állítsd be a küszöbértéket a visszaadott értékre. Ne feledd, hogy a különböző böngészők és operációs rendszerek eltérő értékeket adhatnak vissza.
+This is a global value for all devices If it causes issues, then disable Mouse Wheel Page Changes=Ez egy globális érték minden eszközre. Ha problémát okoz, tiltsd le az Egérgörgős lapozást.
+Allow CA to send any emergency notifications=Vészhelyzeti értesítések engedélyezése a CA számára
+This setting allows CA to periodically scan your system and alert you to the presence of=Ez a beállítás engedélyezi, hogy a CA rendszeresen átvizsgálja a rendszeredet, és figyelmeztessen a következők jelenlétére:
+1 Known malware and security vulnerabilities within applications=1. Ismert kártevők és biztonsági rések az alkalmazásokban
+2 Critical security vulnerabilities within Unraid OS=2. Kritikus biztonsági rések az Unraid OS-ben
+3 Any installed applications which may seriously hinder the operation of your server=3. Olyan telepített alkalmazások, amelyek komolyan akadályozhatják a szervered működését
+Save CA debugging information=CA hibakeresési információk mentése
+Only enable this when advised to from the author of Community Applications=Csak akkor kapcsold be, ha a Community Applications fejlesztője kifejezetten erre kér.
+Enable developer mode=Fejlesztői mód engedélyezése
+This unlocks some extra features within CA generally only used by developers Not recommended to enable=Ez felold néhány extra funkciót a CA-n belül, amelyeket általában csak a fejlesztők használnak. Bekapcsolása nem ajánlott.
+Support Thread=Támogatási fórumszál
