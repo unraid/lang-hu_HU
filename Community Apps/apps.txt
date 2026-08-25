@@ -176,7 +176,7 @@ Random Apps=Véletlenszerű appok
 Top New Installs=Legnépszerűbb új telepítések
 Top Trending Apps=Leginkább felkapott appok
 Spotlight Apps=Kiemelt alkalmazások
-All Apps=Összes app
+All Apps=Összes alkalmazás
 Statistics=Statisztika
 Credits=Készítők
 Support=Támogatás
@@ -304,9 +304,7 @@ OtherUncategorized=Egyéb:Besorolatlan
 and %s more=és még %s
 
 ; App Popup Related // Alkalmazás felugró ablakhoz kapcsolódó
-This application template has been blacklisted=Ez az alkalmazássablon **feketelistára** lett téve
-This application template has been deprecated=Ez az alkalmazássablon **elavulttá** vált
-This application has additional requirements=Ez az alkalmazás **további követelményeket** igényel
+This application has additional requirements=Ehhez az alkalmazáshoz **további követelmények** tartoznak
 Additional Requirements=További követelmények
 Donate To Author=Támogasd a szerzőt
 Donate To Maintainer=Támogasd a karbantartót
@@ -348,7 +346,7 @@ Note not all maintainers keep up to date on change logs=*Megjegyzés: nem minden
 Last Update=Legutóbbi frissítés
 Note All statistics are only gathered every 30 days=*Megjegyzés: Minden statisztikát csak 30 naponta frissítünk*
 ;the following if using a space you MUST use nbsp but keep it down to one word if at all possible // a következőnél ha szóközt használsz, kötelező nbsp-t tenni, de ha lehet, maradj egy szónál
-Donate=Támogatás
+Donate=Adományozás
 Currently Installed Version=Jelenleg telepített verzió
 Install The Update=Frissítés telepítése
 ; as in you have the latest version already installed // mintha a legújabb verzió már telepítve lenne
@@ -394,10 +392,9 @@ Click to edit the application values=Kattints ide az alkalmazás értékeinek sz
 Click to reinstall=Kattints ide az újratelepítéshez
 Click to install=Kattints ide a telepítéshez
 Click to go to the WebUI=Kattints ide a WebUI megnyitásához
-This application template has been deprecated=Ez az alkalmazássablon elavulttá vált.
-This application template has been blacklisted=Ez az alkalmazássablon feketelistára lett téve.
+This application template has been deprecated=Ez az alkalmazássablon **elavulttá** vált
+This application template has been blacklisted=Ez az alkalmazássablon **feketelistára** lett téve
 Click info to see the notes regarding this application=Kattints az infóra az alkalmazáshoz tartozó megjegyzések megtekintéséhez.
-This application has additional requirements=Ez az alkalmazás **további követelményeket** igényel
 BETA=BÉTA
 INSTALLED=TELEPÍTVE
 OFFICIAL=HIVATALOS
@@ -420,7 +417,7 @@ Template already exists in Apps=A sablon már létezik az alkalmazások (Apps) k
 
 Info=Infó
 Attention=Figyelem
-Repository=Tároló
+Repository=Tároló (Repository)
 Why we picked it=Miért ezt választottuk?
 Application Spotlight %s=Kiemelt alkalmazás: %s
 Unraid Staff=Unraid munkatársak
@@ -452,7 +449,6 @@ Checking %s=%s ellenőrzése...
 Determine configuration=Konfiguráció meghatározása
 Would you like CA to attempt to determine any applicable paths, ports, and variables for the template This will entail performing a test installation of the container It will be automatically deleted after processing The container will not be started=Szeretnéd, hogy a CA megpróbálja meghatározni a sablonhoz tartozó útvonalakat, portokat és változókat? Ez a konténer teszttelepítésével jár. A konténert a feldolgozás után automatikusan töröljük. A konténer *nem lesz elindítva*.
 An error occurred - Could not determine configuration=**Hiba történt** – Nem sikerült meghatározni a konfigurációt
-; WebGui // WebGui
-Click Install to download and install the Community Applications plugin=Kattints a **Telepítés** gombra a **Community Applications** plugin letöltéséhez és telepítéséhez.
 
-; Note: April 21, 2025 - 364 missing translations // July 18, 2026 - Fully translated to Hungarian by nkgy17
+; WebGui
+Click Install to download and install the Community Applications plugin=Kattints a **Telepítés** gombra a **Community Applications** plugin letöltéséhez és telepítéséhez.
