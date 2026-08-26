@@ -1,0 +1,78 @@
+A disk must be cleared of all partitions before it can be precleared=A lemeznek partíciómentesnek kell lennie ahhoz, hogy előtörölhető legyen.
+Cannot Preclear=Nem előtörölhető
+Clear Disk=Lemeztörlés
+Clear Signature=Aláírás törlése
+Clear Stats=Statisztika törlése
+Click to show reports=Kattints a jelentések megjelenítéséhez
+Concurrent Sessions=Egyidejű munkamenetek
+Cycles=Ciklusok
+Device Model=Eszközmodell
+Disk Log Information=Lemez naplóinformációi
+Disk Size=Lemezméret
+Download Logs=Naplók letöltése
+Enable Testing for debugging=Tesztelés engedélyezése hibakereséshez
+Fast Post-read=Gyors utóolvasás
+Firmware=Firmware
+Fix Preclear=Előtörlés javítása
+Identification=Azonosítás
+If you set a queue limit, all running preclear sessions above that limit will be paused and remain in the queue until a session finishes=Ha beállítasz egy sorkorlátot, a rendszer szünetelteti az e fölötti összes futó előtörlési munkamenetet, és a sorban tartja őket, amíg egy munkamenet be nem fejeződik.
+Notifications=Értesítések
+On every cycle and step end=Minden ciklus és lépés végén
+On every 25% of progress=Minden 25%-os előrehaladásnál
+On every cycle end=Minden ciklus végén
+On preclear end=Előtörlés végén
+Operation=Művelet
+Post-read Verify=Utóolvasásos ellenőrzés
+Preclear Disks=Lemezek előtörlése
+Preclear Disk Log=Előtörlési lemeznapló
+Preclear Log=Előtörlési napló
+Preclear Status=Előtörlés állapota
+Preview Progress=Előrehaladás előnézete
+Read size=Olvasási méret
+Remove Report=Jelentés eltávolítása
+Resume all Sessions=Összes munkamenet folytatása
+Resume Preclear=Előtörlés folytatása
+Preview Progress Report=Előrehaladási jelentés előnézete
+Select Disks=Lemezek kiválasztása
+Serial Number=Sorozatszám
+Set Preclear Queue=Előtörlési sor beállítása
+Show Preclear Report=Előtörlési jelentés megjelenítése
+Skip Pre-read=Előolvasás kihagyása
+Skip Post-Read=Utóolvasás kihagyása
+Start Multiple Sessions=Több munkamenet indítása
+Start New=Új indítása
+Start Preclear=Előtörlés indítása
+Stop all Sessions=Összes munkamenet leállítása
+Stop Preclear=Előtörlés leállítása
+Temp=Hőm.
+Testing=Tesztelés
+There are no disks that can be precleared=Nincs olyan lemez, amely előtörölhető lenne.
+Verify Signature=Aláírás ellenőrzése
+Write size=Írási méret
+You can use Unassigned Devices to clear the disk=A lemez törléséhez használhatod a Hozzá nem rendelt eszközöket (Unassigned Devices).
+
+:preclear_general_help_plug:
+> A Hozzá nem rendelt eszközök (Unassigned Devices) Előtörlés funkciójával lemezeket készíthetsz elő a tömbbe való felvételre, törölheted a leselejtezendő lemezeket, és terheléses teszteket futtathatsz, mielőtt a lemezeket a tömbben használnád.
+>
+> Csak azok a lemezek jelennek meg előtörlésre jelöltként, amelyek nincsenek használatban a tömbben, és nincs rajtuk fájlrendszerrel rendelkező partíció.
+>
+> Amíg egy lemez előtörlése zajlik, nyomon követheted az állapotát ezen az oldalon, a Hozzá nem rendelt eszközök oldalon, vagy az Unraid weboldal láblécében található előtörlés-állapot ikonnal.
+> 
+> Az előtörlésnek több módja is van:
+>
+> A **gfjardim** felhasználó által írt **Enhanced** szkript előnye, hogy támogatja a bővített funkciókat, például az előtörlés szüneteltetését és folytatását. Emellett részletes naplózással is rendelkezik.
+>
+> A **Docker** opció a binhex Docker-konténerre utal, amely elvégzi az előtörlést. Ennek előnye, hogy az előtörlés elkülönítve, a konténeren belül zajlik.
+>
+> Előtörlési műveletek:
+>
+> + Lemeztörlés – A lemez törlődik, és felkerül rá az Unraid aláírás. Ez egy üres partíciót hoz létre a lemezen.
+> + Lemez nullázása – A rendszer a teljes lemezt nullákkal írja felül, és eltávolítja az előtörlési aláírást.
+> + Nullázás és lemeztörlés – A rendszer véletlenszerű mintákat ír a lemezre, majd nullákkal írja felül. Ez jó választás leselejtezendő lemezekhez, mert biztosítja, hogy minden fájlnyom eltűnjön.
+> + Aláírás ellenőrzése – A rendszer ellenőrzi a lemez aláírását.
+> + Lemez ellenőrzése – A rendszer ellenőrzi a lemez aláírását, és azt is, hogy a lemez valóban nullázva van-e.
+> + Utóolvasásos ellenőrzés – A rendszer utólagos ellenőrző olvasást végez a lemez ellenőrzésére.
+> + Aláírás törlése – A rendszer eltávolítja az előtörlési aláírást a lemezről.
+>
+> A lemez sorozatszáma mellett megjelenő <em style='color:#00BE37;'>Előtörölve</em> szöveg azt jelzi, hogy a lemeznek van előtörlési aláírása. Ez csak akkor jelenik meg, ha a lemez elő van törölve, és az előtörlési statisztikákat már eltávolították.
+:end
