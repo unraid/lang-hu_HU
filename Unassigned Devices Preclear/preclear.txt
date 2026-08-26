@@ -56,7 +56,7 @@ You can use Unassigned Devices to clear the disk=A lemez törléséhez használh
 >
 > Csak azok a lemezek jelennek meg előtörlésre jelöltként, amelyek nincsenek használatban a tömbben, és nincs rajtuk fájlrendszerrel rendelkező partíció.
 >
-> Amíg egy lemez előtörlése zajlik, nyomon követheted az állapotát ezen az oldalon, a Hozzá nem rendelt eszközök oldalon, vagy az Unraid weboldal láblécében található előtörlés-állapot ikonnal.
+> Amíg egy lemez előtörlése zajlik, nyomon követheted az állapotát ezen az oldalon, a Hozzá nem rendelt eszközök oldalon, vagy az Unraid webGUI láblécében található előtörlés-állapot ikonnal.
 > 
 > Az előtörlésnek több módja is van:
 >
