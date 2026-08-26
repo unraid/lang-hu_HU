@@ -21,11 +21,11 @@ Balance=Kiegyenlítés
 Blacklisted=Feketelistán
 Boot Device=Indítóeszköz
 Boot system in UEFI mode=Rendszer indítása UEFI-módban
-BTRFS balance status=btrfs balance állapota
-BTRFS check status=btrfs check állapota
-BTRFS filesystem usage=btrfs fájlrendszer-használat
+BTRFS balance status=BTRFS balance állapota
+BTRFS check status=BTRFS check állapota
+BTRFS filesystem usage=BTRFS fájlrendszer-használat
 BTRFS operation is running=A BTRFS-művelet fut
-BTRFS scrub status=btrfs scrub állapota
+BTRFS scrub status=BTRFS scrub állapota
 cache - Cache Devices=cache - Gyorsítótár-eszközök
 cache - L2ARC=cache - L2ARC
 Canceled=Megszakítva
@@ -404,8 +404,8 @@ xfs_repair status=xfs_repair állapota
 You may not add new disks and also remove existing disks=Nem adhatsz hozzá új lemezeket és távolíthatsz el meglévő lemezeket egyszerre
 your server=a szervered
 Zero Log=Napló nullázása (Zero Log)
-ZFS pool status=zfs pool állapota
-ZFS=zfs
+ZFS pool status=ZFS pool állapota
+ZFS=ZFS
 
 ; Sleep plugin translations
 Check this=Nézd meg ezt
