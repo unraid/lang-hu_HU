@@ -1,7 +1,7 @@
 Do you want to pause all running preclear sessions=Szeretnéd szüneteltetni az összes futó előtörlési munkamenetet?
 Do you want to proceed=Szeretnéd folytatni?
 Do you want to resume all running preclear sessions=Szeretnéd folytatni az összes futó előtörlési munkamenetet?
-Do you want to resume it instead of starting a new one=Szeretnéd folytatni ezt, új indítása helyett?
+Do you want to resume it instead of starting a new one=Szeretnéd ezt folytatni ahelyett, hogy újat indítanál?
 Do you want to stop all running preclear sessions=Szeretnéd leállítani az összes futó előtörlési munkamenetet?
 Fail=Hiba
 Fix=Javítás
