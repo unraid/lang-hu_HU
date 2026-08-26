@@ -1,1 +1,1 @@
-Search WebGUI=webGUI keresése
+Search WebGUI=WebGUI keresése
