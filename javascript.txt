@@ -1,8 +1,8 @@
-also remove image=a képet is távolítsa el
+also remove image=A kép eltávolítása is
 Apply=Alkalmaz
-Are you sure=Biztos vagy benne
+Are you sure=Biztos vagy benne?
 Cancel=Mégse
-checking=ellenőrzés
+checking=ellenőrzés...
 Completely REMOVE=Teljes **TÖRLÉS**
 Console=Konzol
 day=nap
@@ -25,7 +25,7 @@ Ok=ok
 Pause=Szünet
 Proceed=Végrehajtás
 Project Page=Projektoldal
-Read Me First=Először olvass engem
+Read Me First=Olvasd el először
 Remove container=Konténer eltávolítása
 Remove definition=Definíció eltávolítása
 Remove image=Kép eltávolítása
@@ -42,36 +42,33 @@ Updating all Containers=Az összes konténer frissítése
 Updating the container=A konténer frissítése
 VNC Remote=VNC Remote
 WebUI=WebUI
-Yes, delete it=Igen, töröld
+Yes, delete it=**Igen, töröld**
 Yes, update it=Igen, frissítsd
 Yes=Igen
 
 ; footer messages
-Array Copying=Tömb másolása
-Array Clearing=Tömb tisztítása
-Array Starting=Tömb indítása
-Array Stopping=Tömb leállítása
-Mounting disks=Lemezek csatlakoztatása
-Spinning up all drives=Az összes meghajtó felébresztése (felpörgetése)
-Starting services=Szolgáltatások indítása
-Stopping services=Szolgáltatások leállítása
-Unmounting disks=Lemezek leválasztása
+Array Copying=Tömb másolása...
+Array Clearing=Tömb törlése...
+Array Starting=Tömb indítása...
+Array Stopping=Tömb leállítása...
+Mounting disks=Lemezek csatlakoztatása...
+Spinning up all drives=Az összes meghajtó felpörgetése...
+Starting services=Szolgáltatások indítása...
+Stopping services=Szolgáltatások leállítása...
+Unmounting disks=Lemezek leválasztása...
 Autostart disabled=Automatikus indítás kikapcsolva
 Missing encryption key=Hiányzik a titkosítási kulcs
-Opening encrypted volumes=Titkosított kötetek megnyitása
+Opening encrypted volumes=Titkosított kötetek megnyitása...
 
 ; docker variables
-Container Path=Konténer útvonala
-Container Port=Konténer port
+Container Path=Konténer elérési útja
+Container Port=Konténer portja
 Container Variable=Konténerváltozó
 Container Label=Konténercímke
-Container Device=Konténer eszköz
+Container Device=Konténereszköz
 
-; Note: April 29, 2023 - 5 missing translations
 Retry unmounting user shares=Felhasználói megosztás(ok) leválasztásának újbóli megkísérlése
 Stale configuration=Elavult konfiguráció
 Starting Recycle Bin=Lomtár indítása
 Stopping Recycle Bin=Lomtár leállítása
 Sync filesystems=Fájlrendszerek szinkronizálása
-
-; Note: July 11, 2026 - all lines translated by nkgy17
