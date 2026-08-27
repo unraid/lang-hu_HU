@@ -6,7 +6,7 @@
 
 Parity Check Tuning=Paritásellenőrzés-finomhangolás
 automatic=automatikus
-Basic=Alapvető
+Basic=Alap
 below critical disk temperature threshold=a lemez kritikus hőmérsékleti küszöbértéke alatt
 below warning disk temperature threshold=a lemez figyelmeztető hőmérsékleti küszöbértéke alatt
 CAUTION=FIGYELEM
@@ -28,7 +28,7 @@ Parity Sync=Paritás-szinkronizálás
 Pause an array operation at=Tömbművelet szüneteltetése ekkor:
 Pause and Resume array operations if disks overheat=Tömbműveletek szüneteltetése és folytatása a lemezek túlmelegedése esetén
 Read Check=Olvasási ellenőrzés
-Requires unRaid 67 or later=Unraid 6.7 vagy újabb verzió szükséges
+Requires Unraid 67 or later=Unraid 6.7 vagy újabb verzió szükséges
 Resume an array operation at=Tömbművelet folytatása ekkor:
 Resume parity checks on next array start=Paritásellenőrzés folytatása a tömb következő indításakor
 Resume running Array operations on next array start=Futó tömbműveletek folytatása a tömb következő indításakor
@@ -40,7 +40,7 @@ Shutdown server at=Szerver leállítása ekkor:
 Syslog only=Csak rendszernapló
 Syslog and Flash=Rendszernapló és flash
 Flash only=Csak flash
-Testing=Tesztelés
+Testing=Tesztelés...
 Unscheduled=Nem ütemezett
 Use increments for %s %s=Részletek használata a következőhöz: %s %s
 Use increments for disk Clear operations=Részletek használata lemezürítési műveleteknél
@@ -101,7 +101,7 @@ Shutdown=Leállítás
 Start a correcting parity check=Javító paritásellenőrzés indítása
 Start a parity check with scheduled settings=Paritásellenőrzés indítása az ütemezett beállításokkal
 Starting Shutdown=Leállítás indítása
-Unclean shutdown detected=Nem szabályos leállítás észlelhető
+Unclean shutdown detected=Nem szabályos leállás észlelve
 Unknown action=Ismeretlen művelet
 Unrecognized option=Ismeretlen opció
 Usage=Használat
@@ -111,14 +111,12 @@ where action is one of=ahol a művelet a következők egyike:
 
 aborted due to Unclean shutdown=megszakítva nem szabályos leállítás miatt
 array stopping so progress will be lost=a tömb leáll, így a folyamat előrehaladása elvész
-Automatic unRaid=Automatikus Unraid
+Automatic Unraid=Automatikus Unraid
 Average Speed=Átlagos sebesség
 completed=befejeződött
 Correcting Parity Check=Javító paritásellenőrzés
-Drives cooled down=A meghajtók lehűltek
 errors=hibák
 finished=befejeződött
-Increments=Részletek
 NonCorrecting Parity Check=Nem javító paritásellenőrzés
 Pause=Szüneteltetés
 Paused=Szüneteltetve
@@ -126,7 +124,6 @@ Resume=Folytatás
 Resumed=Folytatva
 Runtime=Futási idő
 Scheduled pause=Ütemezett szüneteltetés
-Unclean shutdown detected=Nem szabályos leállítás észlelhető
 will be started=el fog indulni
 
 ; Swal warnings
@@ -157,7 +154,7 @@ Testing mode is normally only used by the plugin author or when gathering eviden
 Testing mode is very verbose and generates a lot of additional log entries so you do not want it enabled unless this is really necessary=A tesztelési mód nagyon részletes és rengeteg további naplóbejegyzést generál, ezért ne hagyd engedélyezve, hacsak nem valóban szükséges
 The Pause and Resume times would give an increment length of more than 12 hours which is unusual=A szüneteltetési és folytatási időpontok alapján a részlet hossza meghaladná a 12 órát, ami szokatlan
 The Resume value must be greater than the Pause one for the heat related Pause and Resume to work correctly as they are both subtracted from the disk temperature warning value when calculating the desired temperature=A folytatási értéknek nagyobbnak kell lennie a szüneteltetési értéknél a hőmérséklet alapú szüneteltetés és folytatás megfelelő működéséhez, mivel a kívánt hőmérséklet kiszámításakor mindkettő kivonásra kerül a lemez figyelmeztető hőmérsékleti értékéből
-The value you have specified seems unusually large as it is not an absolute value but is relative to the value specified for the drives Temperature Warning level at the unRaid level=A megadott érték szokatlanul nagynak tűnik, mivel nem abszolút érték, hanem az Unraid szinten beállított lemez-hőmérsékleti figyelmeztetési szinthez képest relatív
+The value you have specified seems unusually large as it is not an absolute value but is relative to the value specified for the drives Temperature Warning level at the Unraid level=A megadott érték szokatlanul nagynak tűnik, mivel nem abszolút érték, hanem az Unraid szinten beállított lemez-hőmérsékleti figyelmeztetési szinthez képest relatív
 This might affect array integrity=Ez befolyásolhatja a tömb integritását
 Unusually large value=Szokatlanul nagy érték
 
@@ -166,7 +163,6 @@ Unusually large value=Szokatlanul nagy érték
 %s Cancelled=%s megszakítva
 Array not started so no action taken=A tömb nem indult el, így nem történt intézkedés
 as drives now cooled down=mivel a meghajtók mostanra lehűltek
-Following drives overheated=A következő meghajtók túlmelegedtek:
 Only able to start a Read-Check due to number of disabled drives=A letiltott meghajtók száma miatt csak olvasási ellenőrzést lehet indítani
 
 ; Syslog messages (with debug logging enabled)
@@ -177,7 +173,7 @@ already running=már fut
 array drives=tömblemezek
 Array operation paused but drives not cooled enough to resume=A tömbművelet szünetel, de a meghajtók nem hűltek le kellőképpen a folytatáshoz
 Array operation paused but not for temperature related reason=A tömbművelet szünetel, de nem hőmérsékleti okok miatt
-Array stopping=A tömb leáll
+Array stopping=A tömb leáll...
 Array stopping while %s was in progress %s=A tömb leáll, miközben a következő folyamatban volt: %s %s
 but no action currently taken on started event=de jelenleg nem történt intézkedés az elindított eseményre
 but no parity check was in progress when array stopped=de a tömb leállásakor nem volt folyamatban paritásellenőrzés
@@ -188,7 +184,6 @@ created cron entry for monitoring disk temperatures=cron bejegyzés létrehozva 
 Detected that array has not yet been started=Észlelve, hogy a tömb még nem indult el
 Detected that array has just been started=Észlelve, hogy a tömb éppen elindult
 detected that mdcmd had been called from %s with command %s=észlelve, hogy az mdcmd meghívásra került a következőből: %s a következő parancsol: %s
-ERROR=HIBA
 hot=forró
 Loading progress file %s=Folyamatfájl betöltése: %s
 No action specified=Nincs művelet megadva
@@ -263,9 +258,9 @@ updated cron settings are in %s=a frissített cron beállítások itt találhat�
 :end
 
 :parity_tune_automatic_plug:
-> Ha az Unraid rendszer nem szabályosan lett leállítva, a tömb következő indításakor az Unraid automatikusan elindít egy nem javító paritásellenőrzést (vagy olvasási ellenőrzést, ha nincs paritáslemez). Ez számos okból megtörténhet, az áramkimaradástól kezdve a hardveres és szoftveres problémákig. Az automatikus ellenőrzés azért fut le, mert ha paritáshibák vannak, az veszélyeztetheti egy későbbi lemezmeghibásodásból való helyreállítást, így a cél a érvényes paritás mielőbbi visszaállítása.
+> Ha az Unraid rendszer nem állt le szabályosan, a tömb következő indításakor az Unraid automatikusan elindít egy nem javító paritásellenőrzést (vagy olvasási ellenőrzést, ha nincs paritáslemez). Ez számos okból megtörténhet, az áramkimaradástól kezdve a hardveres és szoftveres problémákig. Az automatikus ellenőrzés azért fut le, mert ha paritáshibák vannak, az veszélyeztetheti egy későbbi lemezmeghibásodásból való helyreállítást, így a cél a érvényes paritás mielőbbi visszaállítása.
 >
-> Ha ez az opció be van kapcsolva, az ellenőrzés futhat néhány percig (mivel a nem szabályos leállítás utáni hibák leggyakrabban a lemezek elején találhatók, mert nem lettek szabályosan lecsatolva), majd a rendszer automatikusan szünetelteti az ellenőrzést (ha a részletek futtatására megadott időn kívül van), és az ellenőrzés fennmaradó részét a részletek futtatására kijelölt idősávok szerint hajtsa végre.
+> Ha ez az opció be van kapcsolva, az ellenőrzés futhat néhány percig (mivel a nem szabályos leállítás utáni hibák leggyakrabban a lemezek elején találhatók, mert nem csatolódtak le szabályosan), majd a rendszer automatikusan szünetelteti az ellenőrzést (ha a részletek futtatására megadott időn kívül van), és az ellenőrzés fennmaradó részét a részletek futtatására kijelölt idősávok szerint hajtja végre.
 :end
 
 :parity_tune_resume_plug:
@@ -273,7 +268,7 @@ updated cron settings are in %s=a frissített cron beállítások itt találhat�
 >
 > Jellemzően ezt az időpontot az éjszakai inaktív időszak kezdetére érdemes beállítani. Megfelelő érték lehet például ugyanaz az időpont, amelyet az ütemezett paritásellenőrzés indításához adtál meg.
 >
-> Ha a részletidőszak **Egyedi** értékre lett állítva, az óra/perc mezők rejtve maradnak, és helyette <a href="https://en.wikipedia.org/wiki/Cron#Overview" target="_blank">crontab</a> formátumban adhatod meg az időpontot.
+> Ha a részletidőszak értéke **Egyedi**, az óra/perc mezők rejtve maradnak, és helyette <a href="https://en.wikipedia.org/wiki/Cron#Overview" target="_blank">crontab</a> formátumban adhatod meg az időpontot.
 :end
 
 :parity_tune_pause_plug:
@@ -282,7 +277,7 @@ updated cron settings are in %s=a frissített cron beállítások itt találhat�
 >
 > Általában érdemes gondoskodni arról, hogy ez az időpont a rendszeres paritásellenőrzések ütemezett kezdési ideje után legyen. Az első részlet így a rendszeres paritásellenőrzés ütemezett kezdetétől a részlet befejezéseként megadott időpontig fog futni.
 >
-> Ha a részletidőszak **Egyedi** értékre lett állítva, az óra/perc mezők rejtve maradnak, és helyette <a href="https://en.wikipedia.org/wiki/Cron#Overview" target="_blank">crontab</a> formátumban adhatod meg az időpontot.
+> Ha a részletidőszak értéke **Egyedi**, az óra/perc mezők rejtve maradnak, és helyette <a href="https://en.wikipedia.org/wiki/Cron#Overview" target="_blank">crontab</a> formátumban adhatod meg az időpontot.
 >
 > Azt is érdemes biztosítani, hogy a részletek futtatására lefoglalt idő elegendő legyen ahhoz, hogy a paritásellenőrzés befejeződjön a következő ellenőrzés ütemezett kezdete előtt. Mivel a legtöbben ritkán ütemeznek paritásellenőrzést (pl. havonta vagy negyedévente), ez ritkán jelent problémát, de érdemes figyelembe venni.
 :end
@@ -311,14 +306,14 @@ updated cron settings are in %s=a frissített cron beállítások itt találhat�
 :parity_tune_restart_plug:
 > Az Unraid általában megszakítja a paritásellenőrzést, ha a rendszert leállítják, újraindítják vagy a tömböt leállítják (az egyetlen lehetőség a paritásellenőrzés újrakezdése az elejéről).
 > Ezen opció bekapcsolása lehetővé teszi, hogy ez a plugin újraindítsa a paritásellenőrzéseket attól a ponttól, ahol tartottak, amennyiben teljesülnek a következő feltételek:
-> * A tömb szabályosan lett leállítva
+> * A tömb szabályosan állt le
 > * A felhasználó nem módosította a tömb konfigurációját.
 >
 > Amíg ezek a feltételek teljesülnek, a tömb következő indításakor a művelet a korábban elért ponttól folytatódik.
 >
 > **MEGJEGYZÉSEK:**
 > * Ha a tömbművelet az ütemezett részlet futására beállított időtartamon belül volt, a tömbművelet újraindításakor szüneteltetésre kerül, ha most a részletek futtatására beállított időn kívül van.
-> * Ha a tömbművelet manuálisan lett szüneteltetve, az újraindított tömbművelet is szüneteltetve marad.
+> * Ha a tömbműveletet manuálisan szüneteltették, az újraindított tömbművelet is szüneteltetve marad.
 > * Ha úgy szeretnéd használni ezt a funkciót, hogy egyszerűen leállítod a tömböt az **Újraindítás** vagy **Kikapcsolás** gombok azonnali használata nélkül, először manuálisan **szüneteltetned** kell a tömbműveletet a **Leállítás** gomb használata előtt. Ha ezt megteszed és sikeresen leállítod a tömböt, a tömbművelet most folytatódik, ha egyszerűen újra **elindítod** a tömböt, valamint az **Újraindítás** vagy **Kikapcsolás** utáni következő tömbindításkor is.
 :end
 
@@ -333,7 +328,7 @@ updated cron settings are in %s=a frissített cron beállítások itt találhat�
 :end
 
 :parity_tune_warn_plug:
-> Ez az érték jelzi, hogy a lemez hőmérséklete mennyire közelítheti meg a figyelmeztető lemez-hőmérsékleti küszöbértéket, mielőtt a futó tömbművelet **szüneteltetése** aktiválódik. Ha egy adott meghajtóhoz külön küszöbérték lett meghatározva, akkor ez az érték kerül felhasználásra. Ha nem, a globális beállítás lép életbe.
+> Ez az érték jelzi, hogy a lemez hőmérséklete mennyire közelítheti meg a figyelmeztető lemez-hőmérsékleti küszöbértéket, mielőtt a futó tömbművelet **szüneteltetése** aktiválódik. Ha egy adott meghajtóhoz külön küszöbértéket határoztál meg, akkor ez az érték kerül felhasználásra. Ha nem, a globális beállítás lép életbe.
 >
 > Általában egy kis pozitív értéket érdemes megadni, hogy a szüneteltetés azelőtt aktiválódjon, hogy az Unraid értesítést küldene a lemez figyelmeztető hőmérsékleti küszöbértékének eléréséről.
 >
@@ -360,7 +355,7 @@ updated cron settings are in %s=a frissített cron beállítások itt találhat�
 
 :parity_tune_shutdown_plug:
 > Ha **Igen** értékre állítod, a szerver automatikusan elindít egy szabályos leállítást, ha a tömbben vagy a gyorsítótár-poolban lévő bármely lemez eléri a megadott hőmérsékleti küszöbértéket.
-> A hőmérsékleteket a **Kritikus** lemez-hőmérsékleti szintekre beállított küszöbértékekhez képest ellenőrzi a rendszer. Ha egy adott meghajtóhoz külön kritikus hőmérséklet lett meghatározva (amelyet a meghajtóra kattintva érhetsz el a Főoldalon), akkor ez az érték kerül felhasználásra. Ha nem, a globális beállítás (*<a href="Settings/DisplaySettings">Beállítások -> Kijelző beállítások</a>*) lép életbe.
+> A hőmérsékleteket a **Kritikus** lemez-hőmérsékleti szintekre beállított küszöbértékekhez képest ellenőrzi a rendszer. Ha egy adott meghajtóhoz külön kritikus hőmérsékletet határoztál meg (amelyet a meghajtóra kattintva érhetsz el a Főoldalon), akkor ez az érték kerül felhasználásra. Ha nem, a globális beállítás (*<a href="Settings/DisplaySettings">Beállítások -> Kijelző beállítások</a>*) lép életbe.
 >
 > Ez az opció akkor aktiválódik, ha valamilyen okból a rendszer hűtése nem elegendő, vagy valamilyen módon meghibásodott. A cél az, hogy a lemezek súlyos túlmelegedés miatti károsodása előtt szabályos leállítás történjen. A kiváltott leállítás funkcionálisan megegyezik az Unraid webes felületének Főoldalán található Kikapcsolás gomb megnyomásával. Ha az értesítések engedélyezve vannak, a rendszer értesítést küld ennek megtörténtéről.
 >
@@ -373,7 +368,7 @@ updated cron settings are in %s=a frissített cron beállítások itt találhat�
 > Ez az érték jelzi, hogy a lemez hőmérséklete mennyire közelítheti meg a kritikus lemez-hőmérsékleti küszöbértéket, mielőtt a szerver leállítása aktiválódik.
 > Kisebb pozitív értéket érdemes megadni, hogy a leállítás azelőtt aktiválódjon, hogy az Unraid értesítést küldene a lemez kritikus hőmérsékleti küszöbértékének eléréséről.
 >
-> Ha egy adott meghajtóhoz külön küszöbérték lett meghatározva, akkor ez az érték kerül felhasználásra. Ha nem, a globális beállítás lép életbe.
+> Ha egy adott meghajtóhoz külön küszöbértéket határoztál meg, akkor ez az érték kerül felhasználásra. Ha nem, a globális beállítás lép életbe.
 :end
 
 :parity_tune_logging_plug:
@@ -426,11 +421,11 @@ updated cron settings are in %s=a frissített cron beállítások itt találhat�
 
 :parityProblems_check_plug:
 > Amikor az **Ellenőrzés indítása** opcióra kattintasz, egy részleges ellenőrzés indul el, amely
-> lefedik a megadott kezdő- és végpontokat. Ez egy javító ellenőrzés lesz,
+> lefedi a megadott kezdő- és végpontokat. Ez egy javító ellenőrzés lesz,
 > ha a **Javítások írása** opció **Igen** értékre van állítva, egyébként pedig olvasási ellenőrzés.
 :end
 
 :parityProblems_sectors_plug:
 > Amikor a **Szektorszámok megjelenítése** opcióra kattintasz, egy párbeszédablak jelenik meg,
-> amely kinyeri a rendszernaplóból azokat a bejegyzéseket, amelyek megmutatják azokat a szektorokat, amelyekre vonatkozóan bármelyik paritásszektor megjelenítésre kerül, valamint azt, hogy javítás alatt állt-e vagy paritáshiba.
+> amely megjeleníti a rendszernaplóból kinyert bejegyzéseket minden olyan szektorhoz, ahol paritásproblémát naplóztak, és jelzi, hogy az egyes hibák javítva vannak-e, vagy még mindig fennállnak.
 :end
