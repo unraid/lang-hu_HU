@@ -437,7 +437,7 @@ Bármit megadhatsz, legfeljebb 256 karakterig.
 Ez a beállítás határozza meg, hogyan választja ki az Unraid OS a használandó lemezt új fájl vagy könyvtár létrehozásakor:
 
 **Magasvíz-szint (High-water)**
-A legalacsonyabb sorszámú lemezt választja, amelynek szabad területe még a jelenlegi *magasvíz-szint* szintje felett van. A *magasvíz-szint* a legnagyobb adatlemez méretének felével inicializálódik. Ha egyetlen lemezen sincs szabad hely a jelenlegi *magasvíz-szint* felett, elosztja a *magasvíz-szint* értékét 2-vel, és újra választ.
+A legalacsonyabb sorszámú lemezt választja, amelynek szabad területe még a jelenlegi *magasvíz-szint* felett van. A *magasvíz-szint* a legnagyobb adatlemez méretének felével inicializálódik. Ha egyetlen lemezen sincs szabad hely a jelenlegi *magasvíz-szint* felett, elosztja a *magasvíz-szint* értékét 2-vel, és újra választ.
 
 A **Magasvíz-szint** célja, hogy a lehető legtöbb adatot írja az egyes lemezekre (a felpörgetések minimalizálása érdekében), miközben azonos mennyiségű szabad helyet próbál tartani mindegyiken (egyenletes eloszlás a tömbön).
 
@@ -1446,7 +1446,7 @@ Automatikus IP-hozzárendelés használatakor szürke. Ellenkező esetben itt ad
 :end
 
 :eth_ipv4_dns_server_assignment_help:
-Ha *Automatikus* értékre van állítva, a szerver a helyi automatikus hozzárendelés által visszaadott IPv4 DNS-szerverek)et fogja használni.<br>
+Ha *Automatikus* értékre van állítva, a szerver a helyi automatikus hozzárendelés által visszaadott IPv4 DNS-szervereket fogja használni.<br>
 Ha *Statikus* értékre van állítva, megadhatod a saját listádat.
 
 Ez hasznos Active Directory konfigurációkban, ahol az első DNS-szerver bejegyzést az AD tartományi szervered IP-címére kell állítanod.
@@ -1487,7 +1487,7 @@ Engedélyezd vagy tiltsd le egy véletlenszerű IPv6 interfész-azonosító gene
 :end
 
 :eth_ipv6_dns_server_assignment_help:
-Ha *Automatikus* értékre van állítva, a szerver a helyi automatikus hozzárendelés által visszaadott IPv6 DNS-szerverek)et fogja használni.<br>
+Ha *Automatikus* értékre van állítva, a szerver a helyi automatikus hozzárendelés által visszaadott IPv6 DNS-szervereket fogja használni.<br>
 Ha *Statikus* értékre van állítva, megadhatod a saját listádat.
 :end
 
@@ -1792,11 +1792,11 @@ Egy plugin letöltéséhez és telepítéséhez add meg a plg fájl URL-jét, é
 :end
 
 :plugin_error_help:
-Ezek a pluginok valamilyen telepítési hiba miatt nem sikerült telepíteni őket. Törölnöd kell ezeket a pluginokat, majd **újra kell indítanod** a szerveredet.*
+Ezeket a pluginokat telepítési hiba miatt nem sikerült telepíteni. Törölnöd kell ezeket a pluginokat, majd **újra kell indítanod** a szerveredet.*
 :end
 
 :plugin_stale_help:
-Ezek a pluginok telepítése elmaradt, mert újabb kód már létezik. Biztonságos egyszerűen törölni ezeket.
+Ezeknek a pluginoknak a telepítése elmaradt, mert újabb kód már létezik. Biztonságos egyszerűen törölni ezeket.
 :end
 
 :docker_client_general_help:
@@ -1980,7 +1980,7 @@ Konfiguráld a megfelelő port-átirányítást a routereden (az alapértelmezet
 A regisztrált tartománynévvel rendelkező felhasználók használhatják ezt a mezőt annak megadására, hogyan ismert a szerverük az interneten. Pl. www.myserver.mydomain.<br>
 Ismét győződj meg arról, hogy a routered megfelelően van beállítva.
 
-Megjegyzés a Cloudflare felhasználóknak: a Cloudflare proxy-t HTTP forgalomra tervezték, nem képes VPN-forgalmat proxyzni. Letiltod a Cloudflare proxy-t a VPN-tartományoddal való használatához.
+Megjegyzés a Cloudflare felhasználóknak: a Cloudflare proxy-t HTTP forgalomra tervezték, nem képes VPN-forgalmat proxyzni. Tiltsd le a Cloudflare proxy-t a VPN-tartományoddal való használatához.
 :end
 
 :wg_local_endpoint_X_help:
@@ -1991,7 +1991,7 @@ Konfiguráld a megfelelő port-átirányítást a routereden (az alapértelmezet
 A regisztrált tartománynévvel rendelkező felhasználók használhatják ezt a mezőt annak megadására, hogyan ismert a szerverük az interneten. Pl. www.myserver.mydomain.<br>
 Ismét győződj meg arról, hogy a routered megfelelően van beállítva.
 
-Megjegyzés a Cloudflare felhasználóknak: a Cloudflare proxy-t HTTP forgalomra tervezték, nem képes VPN-forgalmat proxyzni. Letiltod a Cloudflare proxy-t a VPN-tartományoddal való használatához.
+Megjegyzés a Cloudflare felhasználóknak: a Cloudflare proxy-t HTTP forgalomra tervezték, nem képes VPN-forgalmat proxyzni. Tiltsd le a Cloudflare proxy-t a VPN-tartományoddal való használatához.
 :end
 
 :wg_local_server_uses_nat_help:
