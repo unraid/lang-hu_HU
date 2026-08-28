@@ -258,9 +258,9 @@ updated cron settings are in %s=a frissített cron beállítások itt találhat�
 :end
 
 :parity_tune_automatic_plug:
-> Ha az Unraid rendszer nem állt le szabályosan, a tömb következő indításakor az Unraid automatikusan elindít egy nem javító paritásellenőrzést (vagy olvasási ellenőrzést, ha nincs paritáslemez). Ez számos okból megtörténhet, az áramkimaradástól kezdve a hardveres és szoftveres problémákig. Az automatikus ellenőrzés azért fut le, mert ha paritáshibák vannak, az veszélyeztetheti egy későbbi lemezmeghibásodásból való helyreállítást, így a cél a érvényes paritás mielőbbi visszaállítása.
+> Ha az Unraid rendszer nem állt le szabályosan, a tömb következő indításakor az Unraid automatikusan elindít egy nem javító paritásellenőrzést (vagy olvasási ellenőrzést, ha nincs paritáslemez). Ez számos okból megtörténhet, az áramkimaradástól kezdve a hardveres és szoftveres problémákig. Az automatikus ellenőrzés azért fut le, mert ha paritáshibák vannak, az veszélyeztetheti egy későbbi lemezmeghibásodásból való helyreállítást, így a cél az érvényes paritás mielőbbi visszaállítása.
 >
-> Ha ez az opció be van kapcsolva, az ellenőrzés futhat néhány percig (mivel a nem szabályos leállítás utáni hibák leggyakrabban a lemezek elején találhatók, mert nem csatolódtak le szabályosan), majd a rendszer automatikusan szünetelteti az ellenőrzést (ha a részletek futtatására megadott időn kívül van), és az ellenőrzés fennmaradó részét a részletek futtatására kijelölt idősávok szerint hajtja végre.
+> Ha ez az opció be van kapcsolva, az ellenőrzés futhat néhány percig (mivel a nem szabályos leállítás utáni hibák leggyakrabban a lemezek elején találhatók, mert a lemezek nem csatolódtak le szabályosan), majd a rendszer automatikusan szünetelteti az ellenőrzést (ha a részletek futtatására megadott időn kívül van), és az ellenőrzés fennmaradó részét a részletek futtatására kijelölt idősávok szerint hajtja végre.
 :end
 
 :parity_tune_resume_plug:
