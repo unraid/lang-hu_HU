@@ -60,10 +60,10 @@
 :end
 
 :ud_settings_smb_security_plug:
-> Állítsd be az SMB biztonság felhasználói szintjét.
+> Állítsd be az SMB-biztonság felhasználói szintjét.
 >
-> + Állítsd **Igen** értékre az SMB biztonság engedélyezéséhez az SMB megosztásokon. Állítsd be a hozzáférést felhasználónként a hozzáférés engedélyezéséhez, és annak meghatározásához, hogy a felhasználó írhatja-e a megosztást.
-> + Állítsd **Rejtett** értékre az SMB biztonság engedélyezéséhez azokon az SMB megosztásokon, amelyek nem lesznek láthatók. Állítsd be a hozzáférést felhasználónként a hozzáférés engedélyezéséhez, és annak meghatározásához, hogy a felhasználó írhatja-e a megosztást.
+> + Állítsd **Igen** értékre az SMB-biztonság engedélyezéséhez az SMB-megosztásokon. Állítsd be a hozzáférést felhasználónként a hozzáférés engedélyezéséhez, és annak meghatározásához, hogy a felhasználó írhatja-e a megosztást.
+> + Állítsd **Rejtett** értékre az SMB-biztonság engedélyezéséhez azokon az SMB-megosztásokon, amelyek nem lesznek láthatók. Állítsd be a hozzáférést felhasználónként a hozzáférés engedélyezéséhez, és annak meghatározásához, hogy a felhasználó írhatja-e a megosztást.
 > + Állítsd **Nem** értékre az eszközök, SMB/NFS és ISO csatolások nyilvános megosztásához, írási és olvasási hozzáféréssel.
 :end
 
@@ -78,7 +78,7 @@
 :end
 
 :ud_time_machine_plug:
-> Állítsd **Igen** értékre a Time Machine beállítások engedélyezéséhez az SMB megosztásokon.
+> Állítsd **Igen** értékre a Time Machine beállítások engedélyezéséhez az SMB-megosztásokon.
 :end
 
 :ud_time_machine_vol_size_plug:
@@ -86,7 +86,7 @@
 :end
 
 :ud_settings_force_user_plug:
-> Előfordulhatnak olyan esetek, amikor az SMB megosztások jogosultságai nem a várt módon kerülnek kezelésre. Ennek a funkciónak a bekapcsolása segíthet az ilyen jogosultsági problémákon.
+> Előfordulhatnak olyan esetek, amikor az SMB-megosztások jogosultságai nem a várt módon kerülnek kezelésre. Ennek a funkciónak a bekapcsolása segíthet az ilyen jogosultsági problémákon.
 > Ez a Hozzá nem rendelt eszközök segítségével felcsatolt összes eszközre érvényes.
 > Hátránya, hogy felülírja a Linux csoportjogosultságokat. Ha nem vagy biztos benne, hogy ez szükséges-e, hagyd engedélyezve.
 :end
@@ -104,7 +104,7 @@
 :end
 
 :ud_settings_change_uuid_plug:
-> Válaszd ki azt a lemezt, amelynek meg szeretnéd változtatni az UUID-ját. Ez akkor hasznos, ha egy XFS-formázott lemez el lett távolítva a tömbből, és ugyanaz az UUID-ja, mint egy tömblemeznek. A meghajtót le kell csatolni az UUID megváltoztatásához.
+> Válaszd ki azt a lemezt, amelynek meg szeretnéd változtatni az UUID-ját. Ez akkor hasznos, ha egy XFS-formázott lemez el volt távolítva a tömbből, és ugyanaz az UUID-ja, mint egy tömblemeznek. A meghajtót le kell csatolni az UUID megváltoztatásához.
 >
 > **Megjegyzés:** Ne változtasd meg egy poolban lévő lemez UUID-ját.
 :end
@@ -137,24 +137,23 @@ Auto Mount USB Devices=USB-eszközök automatikus csatolása
 Case-sensitive names=Kis- és nagybetűérzékeny nevek
 Change Disk UUID=Lemez UUID módosítása
 Change UUID=UUID módosítása
-Change Disk UUID=Lemez UUID módosítása
 Command times=Parancsidők
 Common Script=Közös szkript
 Common Settings=Közös beállítások
 Destructive Mode=Romboló mód
 Disabled=Letiltva
 Disk spin down is managed by Unraid=A lemezek leállítását az Unraid kezeli
-Enable NFS export=NFS exportálás engedélyezése
-Enable SMB Security=SMB biztonság engedélyezése
+Enable NFS export=NFS-exportálás engedélyezése
+Enable SMB Security=SMB-biztonság engedélyezése
 Enable Time Machine=Time Machine engedélyezése
 Enter Disk Password=Add meg a lemez jelszavát
 Enter the Remote Server name or IP address and the results from the Remote Server Test will show in the Result text area=Add meg a távoli szerver nevét vagy IP-címét, és a Távoli szerver tesztjének eredményei az **Eredmény** szövegmezőben jelennek meg
 Enter Pool Mount Point=Add meg a pool csatlakozási pontját
 Legacy Mount Point Compatibility=Régi csatlakozási pont kompatibilitás
 Mount SSDs with discard option=SSD-k csatolása discard opcióval
-NFS Security=NFS biztonság
-NFS Settings=NFS beállítások
-NFS must be enabled in Settings->NFS to enable NFS Export=Az NFS exportálás engedélyezéséhez az NFS-t engedélyezni kell a Beállítások -> NFS menüpontban
+NFS Security=NFS-biztonság
+NFS Settings=NFS-beállítások
+NFS must be enabled in Settings->NFS to enable NFS Export=Az NFS-exportálás engedélyezéséhez az NFS-t engedélyezni kell a Beállítások -> NFS menüpontban
 NFS Version to use when Mounting Remote Shares=Távoli megosztások csatolásakor használandó NFS-verzió
 Public=Nyilvános
 Private=Magán
@@ -163,28 +162,28 @@ Refresh and Update=Újrabetöltés és aktualizálás
 Remote Share Mount Wait Time=Távoli megosztások csatolási várakozási ideje
 Rule=Szabály
 Select Disk=Válassz lemezt
-See Help=Lásd a Súgót
+See Help=Lásd a súgót
 Set Encrypted Disk Password=Titkosított lemez jelszavának beállítása
 Set Password=Jelszó beállítása
 Set Pool Mount Point=Pool csatlakozási pontjának beállítása
 Set the Pool Mount Point for this disk=Állítsd be a pool csatlakozási pontját ehhez a lemezhez
 Set the disk Password=Állítsd be a lemez jelszavát
-SMB Settings=SMB beállítások
-SMB Sharing=SMB megosztás
+SMB Settings=SMB-beállítások
+SMB Sharing=SMB-megosztás
 Specify SMB Version when Mounting Remote Shares=SMB-verzió megadása távoli megosztások csatolásakor
 Spin down disks=Lemezek leállítása
 Test=Teszt
 Testing=Tesztelés...
 Test the Remote Server=Távoli szerver tesztelése
 The Unassigned Devices Plus plugin must be installed to enable Destructive Mode=A Romboló mód engedélyezéséhez az Unassigned Devices Plus plugin telepítése szükséges
-This is a tool to help troubleshoot Remote Servers ability to serve SMB and NFS shares=Ez egy eszköz a távoli szerverek SMB és NFS megosztási képességének hibaelhárításához
-Time Machine volume size limit=Time Machine kötetméret korlátja
-to SMB share config=az SMB megosztás konfigurációjához
+This is a tool to help troubleshoot Remote Servers ability to serve SMB and NFS shares=Ez egy eszköz a távoli szerverek SMB- és NFS-megosztási képességének hibaelhárításához
+Time Machine volume size limit=Time Machine kötet méretkorlátja
+to SMB share config=az SMB-megosztás konfigurációjához
 Udev and Hotplug=Udev és forrócsatlakozás
 Unassigned Devices=Hozzá nem rendelt eszközök
 Unraid 6.10 or later is required for NFSv4 support=Az NFSv4 támogatásához Unraid 6.10 vagy újabb verzió szükséges
 Upgrade ZFS Pool=ZFS pool frissítése
 Use only when directed for support because the messages can flood the log=Csak akkor használd, ha a támogatás kérte, mert az üzenetek eláraszthatják a naplót
 Warning=Figyelmeztetés
-Windows may require a valid User to be defined even for Public shares=A Windows megkövetelheti egy érvényes felhasználó meghatározását még a nyilvános megosztásoknál is
+Windows may require a valid User to be defined even for Public shares=A Windows érvényes felhasználó megadását igényelheti még nyilvános megosztásokhoz is
 Working=Folyamatban...
