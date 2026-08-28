@@ -76,7 +76,7 @@ Ha a [Felhasználói megosztások](/Settings/ShareSettings) engedélyezve vannak
 :end
 
 :boot_device_help:
-A tömb létfontosságú konfigurációja az USB Flash eszközön található; emiatt annak folyamatosan bedugva kell maradnia a szerverbe. Kattints a [Flash](/Main/Flash?name=flash) lehetőségre a GUID és a regisztrációs információk megtekintéséhez, valamint az exportálási beállítások konfigurálásához. Mivel az USB Flash eszköz FAT fájlrendszerrel van megformázva, csak SMB protokollal exportálható.
+A tömb létfontosságú konfigurációja az USB Flash eszközön található; emiatt annak folyamatosan bedugva kell maradnia a szerverbe. Kattints a [Flash](/Main/Flash?name=flash) lehetőségre a GUID és a regisztrációs információk megtekintéséhez, valamint az exportálási beállítások konfigurálásához. Mivel az USB Flash eszköz FAT fájlrendszerrel van megformázva, csak SMB-protokollal exportálható.
 :end
 
 :array_status_help:
@@ -96,13 +96,13 @@ A tömb létfontosságú konfigurációja az USB Flash eszközön található; e
 
 Egy Unraid lemeztömb egyetlen paritáslemezből és tetszőleges számú adatlemezből áll. Az adatlemezek kizárólag felhasználói adatok tárolására szolgálnak, a paritáslemez pedig biztosítja az egyetlen lemez meghibásodásából való helyreállításhoz szükséges redundanciát.
 
-Vedd figyelembe, hogy gondosan a *lemez* kifejezést használjuk, amikor egy tömb tárolóeszközére hivatkozunk. A *merevlemez* (vagy néha csak *meghajtó*) kifejezést akkor használjuk, amikor egy tényleges merevlemez-meghajtóra (HDD) hivatkozunk. Ez azért van, mert egy RAID rendszerben lehetséges egy olyan tömblemez olvasása/írása, amelynek megfelelő merevlemeze le van tiltva vagy akár hiányzik! Emellett hasznos megkérdezni: "melyik eszköz van kijelölve paritáslemeznek?"; vagy "melyik eszköz felel meg a disk2-nek?".
+Vedd figyelembe, hogy gondosan a *lemez* kifejezést használjuk, amikor egy tömb tárolóeszközére hivatkozunk. A *merevlemez* (vagy néha csak *meghajtó*) kifejezést akkor használjuk, amikor egy tényleges merevlemez-meghajtóra (HDD) hivatkozunk. Ez azért van, mert egy RAID-rendszerben lehetséges egy olyan tömblemez olvasása/írása, amelynek megfelelő merevlemeze le van tiltva vagy akár hiányzik! Emellett hasznos megkérdezni: "melyik eszköz van kijelölve paritáslemeznek?"; vagy "melyik eszköz felel meg a disk2-nek?".
 
 Ezért szükségünk van egy módra a merevlemezek tömblemezekhez való hozzárendelésére. Ez itt, a Főoldalon végezhető el, amikor a tömb le van állítva. Minden tömblemezhez tartozik egy gördülőmenü, amely felsorolja az összes hozzá nem rendelt eszközt. Egy eszköz hozzárendeléséhez egyszerűen válaszd ki azt a listából. Minden alkalommal, amikor egy eszközhozzárendelés megtörténik, a rendszer frissíti a konfigurációs fájlt a hozzárendelés rögzítéséhez.
 
 #### Követelmények
 
-A hagyományos RAID rendszerekkel ellentétben, amelyek az adatokat az összes tömbbeli eszközön csíkozzák (stripe), az Unraid szerver az egyes merevlemezeken tárolja a fájlokat. Ennek következtében minden fájlírási műveletben érintett lesz mind az az adatlemez, amelyre a fájlt írják, mind a paritáslemez. Ezen okok miatt:
+A hagyományos RAID-rendszerekkel ellentétben, amelyek az adatokat az összes tömbbeli eszközön csíkozzák (stripe), az Unraid szerver az egyes merevlemezeken tárolja a fájlokat. Ennek következtében minden fájlírási műveletben érintett lesz mind az az adatlemez, amelyre a fájlt írják, mind a paritáslemez. Ezen okok miatt:
 
 * a paritáslemez méretének akkorának vagy nagyobbnak kell lennie, mint bármelyik adatlemezé,
 
@@ -254,27 +254,27 @@ A **Mégse** gomb megszakítja a folyamatban lévő ellenőrzési műveletet.
 :info_smart_notifications_help:
 A SMART értesítések vagy az attribútum NYERS (RAW) értékének növekedésekor, vagy a NORMÁLIZÁLT (NORMALIZED) érték csökkenésekor keletkeznek, amikor az eléri a gyártó által meghatározott küszöbértéket.
 
-Minden lemez rendelkezhet saját specifikus beállítással, amely felülírja az 'alapértelmezett' beállítást (lásd a globális SMART beállításokat a Lemezbeállítások alatt).
+Minden lemez rendelkezhet saját specifikus beállítással, amely felülírja az 'alapértelmezett' beállítást (lásd a globális SMART-beállításokat a Lemezbeállítások alatt).
 :end
 
 :info_tolerance_level_help:
 Egy toleranciaszint adható meg annak megakadályozására, hogy a kis változások értesítést eredményezzenek. A túl magas toleranciaszint beállítása a kritikus változások értesítés nélküli bekövetkezését eredményezheti.
 
-Minden lemez rendelkezhet saját specifikus beállítással, amely felülírja az 'alapértelmezett' beállítást (lásd a globális SMART beállításokat a Lemezbeállítások alatt).
+Minden lemez rendelkezhet saját specifikus beállítással, amely felülírja az 'alapértelmezett' beállítást (lásd a globális SMART-beállításokat a Lemezbeállítások alatt).
 :end
 
 :info_controller_type_help:
 Alapértelmezés szerint a vezérlő automatikus kiválasztását a smartctl végzi a SMART információk kiolvasásához. Bizonyos vezérlőknek azonban specifikus beállításokra van szükségük a smartctl működéséhez.
 Használd ezt a beállítást a vezérlőtípus kiválasztásához, és töltsd ki a lemezindexet és az eszköznevet a saját helyzetednek megfelelően. Használd a gyártó dokumentációját a releváns információk megtalálásához.
 
-Minden lemez rendelkezhet saját specifikus beállítással, amely felülírja az 'alapértelmezett' beállítást (lásd a globális SMART beállításokat a Lemezbeállítások alatt).
+Minden lemez rendelkezhet saját specifikus beállítással, amely felülírja az 'alapértelmezett' beállítást (lásd a globális SMART-beállításokat a Lemezbeállítások alatt).
 :end
 
 :info_attribute_notifications_help:
-A felhasználó engedélyezheti vagy letilthatja a megadott SMART attribútumok értesítéseit. Ajánlott az alapértelmezett beállítást megtartani, amely az ÖSSZES kiválasztott attribútum; ha bizonyos attribútumok nincsenek jelen a merevlemezen, vagy nem adnak helyes információt, ezek kizárhatók.
-Ezenkívül egyedi SMART attribútumok is megadhatók az értesítések generálásához. Légy óvatos a kiválasztáskor, mert nem megfelelő SMART attribútumok kiválasztása esetén értesítési lavinát okozhat.
+A felhasználó engedélyezheti vagy letilthatja a megadott SMART-attribútumok értesítéseit. Ajánlott az alapértelmezett beállítást megtartani, amely az ÖSSZES kiválasztott attribútum; ha bizonyos attribútumok nincsenek jelen a merevlemezen, vagy nem adnak helyes információt, ezek kizárhatók.
+Ezenkívül egyedi SMART-attribútumok is megadhatók az értesítések generálásához. Légy óvatos a kiválasztáskor, mert nem megfelelő SMART-attribútumok kiválasztása esetén értesítési lavinát okozhat.
 
-Minden lemez rendelkezhet saját specifikus beállítással, amely felülírja az 'alapértelmezett' beállítást (lásd a globális SMART beállításokat a Lemezbeállítások alatt).
+Minden lemez rendelkezhet saját specifikus beállítással, amely felülírja az 'alapértelmezett' beállítást (lásd a globális SMART-beállításokat a Lemezbeállítások alatt).
 :end
 
 :selftest_history_help:
@@ -308,7 +308,7 @@ Ellenkező esetben a futó teszthez egy előrehaladási jelző (százalékos ér
 :end
 
 :smart_attributes_help:
-Ez a lista a lemez által támogatott SMART attribútumokat mutatja. Az egyes SMART attribútumokról szóló további információkért ajánlott az interneten keresni.
+Ez a lista a lemez által támogatott SMART-attribútumokat mutatja. Az egyes SMART-attribútumokról szóló további információkért ajánlott az interneten keresni.
 
 A *narancssárga* színű attribútumok figyelmet igényelhetnek. Ezek **nyers értéke** (raw value) nagyobb, mint nulla, és a lemez közeledő meghibásodását jelezhetik.
 
@@ -316,13 +316,13 @@ Különös figyelmet igényel, ha egy adott attribútum nyers értéke idővel n
 :end
 
 :smart_capabilities_help:
-Ez a lista a lemez által támogatott SMART képességeket mutatja.
+Ez a lista a lemez által támogatott SMART-képességeket mutatja.
 
 Itt látható a SMART rövid és kibővített önellenőrzések becsült időtartama.
 :end
 
 :smart_identity_help:
-Ez a lista a lemez SMART azonosító információit mutatja.
+Ez a lista a lemez SMART-azonosító információit mutatja.
 :end
 
 :open_devices_help:
@@ -382,7 +382,7 @@ Utótag hiányában 1024 bájtos blokkok száma tételeződik fel.
 
 **Speciális módok:**
 
-+ A *dőlt betűvel* megjelenített SMB biztonsági mód az exportált rejtett felhasználói megosztásokat jelzi.
++ A *dőlt betűvel* megjelenített SMB-biztonsági mód az exportált rejtett felhasználói megosztásokat jelzi.
 + Az NFS nem rendelkezik speciális módokkal a felhasználói megosztásokhoz.
 :end
 
@@ -402,7 +402,7 @@ Utótag hiányában 1024 bájtos blokkok száma tételeződik fel.
 
 **Speciális módok:**
 
-+ A *dőlt betűvel* megjelenített SMB biztonsági mód az exportált rejtett lemezmegosztásokat jelzi.
++ A *dőlt betűvel* megjelenített SMB-biztonsági mód az exportált rejtett lemezmegosztásokat jelzi.
 + Az NFS nem rendelkezik speciális módokkal a lemezmegosztásokhoz.
 :end
 
@@ -436,10 +436,10 @@ Bármit megadhatsz, legfeljebb 256 karakterig.
 :share_edit_allocation_method_help:
 Ez a beállítás határozza meg, hogyan választja ki az Unraid OS a használandó lemezt új fájl vagy könyvtár létrehozásakor:
 
-**Magas vízállás (High-water)**
-A legalacsonyabb sorszámú lemezt választja, amelynek szabad területe még a jelenlegi *magas vízállás* szintje felett van. A *magas vízállás* a legnagyobb adatlemez méretének felével inicializálódik. Ha egyetlen lemezen sincs szabad hely a jelenlegi *magas vízállás* felett, elosztja a *magas vízállás* értékét 2-vel, és újra választ.
+**Magasvíz-szint (High-water)**
+A legalacsonyabb sorszámú lemezt választja, amelynek szabad területe még a jelenlegi *magasvíz-szint* szintje felett van. A *magasvíz-szint* a legnagyobb adatlemez méretének felével inicializálódik. Ha egyetlen lemezen sincs szabad hely a jelenlegi *magasvíz-szint* felett, elosztja a *magasvíz-szint* értékét 2-vel, és újra választ.
 
-A **Magas vízállás** célja, hogy a lehető legtöbb adatot írja az egyes lemezekre (a felpörgetések minimalizálása érdekében), miközben azonos mennyiségű szabad helyet próbál tartani mindegyiken (egyenletes eloszlás a tömbön).
+A **Magasvíz-szint** célja, hogy a lehető legtöbb adatot írja az egyes lemezekre (a felpörgetések minimalizálása érdekében), miközben azonos mennyiségű szabad helyet próbál tartani mindegyiken (egyenletes eloszlás a tömbön).
 
 **Feltöltés (Fill-up)**
 A legalacsonyabb sorszámú lemezt választja, amelynek még van szabad helye a jelenlegi **Minimális szabad hely** beállítás felett.
@@ -508,13 +508,13 @@ A megosztás *nem* törölhető, amíg adatokat tartalmaz. Vedd figyelembe, hogy
 :end
 
 :smb_security_help:
-A *Beállítások beolvasása innen* opció a jelenleg kiválasztott megosztás SMB biztonsági beállításainak előzetes beállítására szolgál egy meglévő megosztás beállításaival.
+A *Beállítások beolvasása innen* opció a jelenleg kiválasztott megosztás SMB-biztonsági beállításainak előzetes beállítására szolgál egy meglévő megosztás beállításaival.
 
-Válaszd ki a kívánt megosztásnevet, és nyomd meg a **Beolvasás** gombot az SMB biztonsági beállítások másolásához a kiválasztott forrásból.
+Válaszd ki a kívánt megosztásnevet, és nyomd meg a **Beolvasás** gombot az SMB-biztonsági beállítások másolásához a kiválasztott forrásból.
 
-A *Beállítások írása ide* opció az aktuális kiválasztott megosztás SMB biztonsági beállításainak másolására szolgál egy vagy több más meglévő megosztásra.
+A *Beállítások írása ide* opció az aktuális kiválasztott megosztás SMB-biztonsági beállításainak másolására szolgál egy vagy több más meglévő megosztásra.
 
-Válaszd ki a kívánt célpontokat, és nyomd meg az **Írás** gombot az SMB biztonsági beállítások másolásához a kiválasztott megosztásokra.
+Válaszd ki a kívánt célpontokat, és nyomd meg az **Írás** gombot az SMB-biztonsági beállítások másolásához a kiválasztott megosztásokra.
 :end
 
 :smb_export_help:
@@ -547,33 +547,33 @@ A biztonsági módok összefoglalása:
 :end
 
 :smb_secure_access_help:
-A *Beállítások beolvasása innen* opció a jelenleg kiválasztott megosztás SMB felhasználói hozzáférési beállításainak előzetes beállítására szolgál egy meglévő megosztás beállításaival.
+A *Beállítások beolvasása innen* opció a jelenleg kiválasztott megosztás SMB-felhasználói hozzáférési beállításainak előzetes beállítására szolgál egy meglévő megosztás beállításaival.
 
-Válaszd ki a kívánt megosztásnevet, és nyomd meg a **Beolvasás** gombot az SMB biztonsági beállítások másolásához a kiválasztott forrásból.
+Válaszd ki a kívánt megosztásnevet, és nyomd meg a **Beolvasás** gombot az SMB-biztonsági beállítások másolásához a kiválasztott forrásból.
 
-A *Beállítások írása ide* opció az aktuális megosztás SMB felhasználói hozzáférési beállításainak másolására szolgál egy vagy több más meglévő megosztásra.
+A *Beállítások írása ide* opció az aktuális megosztás SMB-felhasználói hozzáférési beállításainak másolására szolgál egy vagy több más meglévő megosztásra.
 
-Válaszd ki a kívánt célpontokat, és nyomd meg az **Írás** gombot az SMB felhasználói hozzáférési beállítások másolásához a kiválasztott megosztásokra.
+Válaszd ki a kívánt célpontokat, és nyomd meg az **Írás** gombot az SMB-felhasználói hozzáférési beállítások másolásához a kiválasztott megosztásokra.
 :end
 
 :smb_private_access_help:
-A *Beállítások beolvasása innen* opció a jelenleg kiválasztott megosztás SMB felhasználói hozzáférési beállításainak előzetes beállítására szolgál egy meglévő megosztás beállításaival.
+A *Beállítások beolvasása innen* opció a jelenleg kiválasztott megosztás SMB-felhasználói hozzáférési beállításainak előzetes beállítására szolgál egy meglévő megosztás beállításaival.
 
-Válaszd ki a kívánt megosztásnevet, és nyomd meg a **Beolvasás** gombot az SMB biztonsági beállítások másolásához a kiválasztott forrásból.
+Válaszd ki a kívánt megosztásnevet, és nyomd meg a **Beolvasás** gombot az SMB-biztonsági beállítások másolásához a kiválasztott forrásból.
 
-A *Beállítások írása ide* opció az aktuális megosztás SMB felhasználói hozzáférési beállításainak másolására szolgál egy vagy több más meglévő megosztásra.
+A *Beállítások írása ide* opció az aktuális megosztás SMB-felhasználói hozzáférési beállításainak másolására szolgál egy vagy több más meglévő megosztásra.
 
-Válaszd ki a kívánt célpontokat, és nyomd meg az **Írás** gombot az SMB felhasználói hozzáférési beállítások másolásához a kiválasztott megosztásokra.
+Válaszd ki a kívánt célpontokat, és nyomd meg az **Írás** gombot az SMB-felhasználói hozzáférési beállítások másolásához a kiválasztott megosztásokra.
 :end
 
 :nfs_security_help:
-A *Beállítások beolvasása innen* opció a jelenleg kiválasztott megosztás NFS biztonsági beállításainak előzetes beállítására szolgál egy meglévő megosztás beállításaival.
+A *Beállítások beolvasása innen* opció a jelenleg kiválasztott megosztás NFS-biztonsági beállításainak előzetes beállítására szolgál egy meglévő megosztás beállításaival.
 
-Válaszd ki a kívánt megosztásnevet, és nyomd meg a **Beolvasás** gombot az NFS biztonsági beállítások másolásához a kiválasztott forrásból.
+Válaszd ki a kívánt megosztásnevet, és nyomd meg a **Beolvasás** gombot az NFS-biztonsági beállítások másolásához a kiválasztott forrásból.
 
-A *Beállítások írása ide* opció az aktuális kiválasztott megosztás NFS biztonsági beállításainak másolására szolgál egy vagy több más meglévő megosztásra.
+A *Beállítások írása ide* opció az aktuális kiválasztott megosztás NFS-biztonsági beállításainak másolására szolgál egy vagy több más meglévő megosztásra.
 
-Válaszd ki a kívánt célpontokat, és nyomd meg az **Írás** gombot az NFS biztonsági beállítások másolásához a kiválasztott megosztásokra.
+Válaszd ki a kívánt célpontokat, és nyomd meg az **Írás** gombot az NFS-biztonsági beállítások másolásához a kiválasztott megosztásokra.
 :end
 
 :user_add_username_help:
@@ -649,19 +649,19 @@ Megjegyzés: ha `pool.ntp.org` időszervereket használsz, kérjük, olvasd el [
 :end
 
 :ntp_server1_help:
-Ez a használandó elsődleges NTP szerver. Adj meg egy FQDN-t vagy egy IP-címet.
+Ez a használandó elsődleges NTP-szerver. Adj meg egy FQDN-t vagy egy IP-címet.
 :end
 
 :ntp_server2_help:
-Ez a másodlagos NTP szerver, ha az 1. NTP szerver nem érhető el.
+Ez a másodlagos NTP-szerver, ha az 1. NTP-szerver nem érhető el.
 :end
 
 :ntp_server3_help:
-Ez a harmadlagos NTP szerver, ha az 1. és 2. NTP szerver sem érhető el.
+Ez a harmadlagos NTP-szerver, ha az 1. és 2. NTP-szerver sem érhető el.
 :end
 
 :ntp_server4_help:
-Ez a negyedleges NTP szerver, ha az 1., 2. és 3. NTP szerver sem érhető el.
+Ez a negyedleges NTP-szerver, ha az 1., 2. és 3. NTP-szerver sem érhető el.
 :end
 
 :current_time_help:
@@ -702,7 +702,7 @@ A szerver leállításakor ez határozza meg a másodpercben megadott várakozá
 :end
 
 :disk_tunable_poll_attributes_help:
-Ez határozza meg a lemez SMART lekérdezési intervallumát másodpercben. A 0 érték letiltja a SMART lekérdezést (nem ajánlott).
+Ez határozza meg a lemez SMART-lekérdezési intervallumát másodpercben. A 0 érték letiltja a SMART-lekérdezést (nem ajánlott).
 :end
 
 :disk_tunable_enable_ncq_help:
@@ -799,8 +799,8 @@ Ez a szakasz az összes lemez globális beállításainak megadására szolgál.
 :end
 
 :disk_default_smart_attribute_help:
-A felhasználó engedélyezheti vagy letilthatja a megadott SMART attribútumok értesítéseit. Ajánlott az alapértelmezett beállítást megtartani, amely az ÖSSZES kiválasztott attribútum; ha bizonyos attribútumok nincsenek jelen a merevlemezen, vagy nem adnak helyes információt, ezek kizárhatók.
-Ezenkívül egyedi SMART attribútumok is megadhatók az értesítések generálásához. Légy óvatos a kiválasztáskor, mert nem megfelelő SMART attribútumok kiválasztása esetén értesítési lavinát okozhat.
+A felhasználó engedélyezheti vagy letilthatja a megadott SMART-attribútumok értesítéseit. Ajánlott az alapértelmezett beállítást megtartani, amely az ÖSSZES kiválasztott attribútum; ha bizonyos attribútumok nincsenek jelen a merevlemezen, vagy nem adnak helyes információt, ezek kizárhatók.
+Ezenkívül egyedi SMART-attribútumok is megadhatók az értesítések generálásához. Légy óvatos a kiválasztáskor, mert nem megfelelő SMART-attribútumok kiválasztása esetén értesítési lavinát okozhat.
 
 Ez a szakasz az összes lemez globális beállításainak megadására szolgál. Az egyes lemezek beállításait külön is lehet módosítani.
 :end
@@ -831,7 +831,7 @@ Ez lehet egy adott méretű képfájl vagy egy dedikált mappa.
 :docker_vdisk_size_help:
 Ha a rendszernek új Docker képfájlt kell létrehoznia, ez az alapértelmezett méret GB-ban megadva.
 
-Egy meglévő képfájl átméretezéséhez adja meg itt az új méretet. A Docker szolgáltatás következő indításakor a fájl (és a fájlrendszer) az új méretre növekszik (de soha nem csökken).
+Egy meglévő képfájl átméretezéséhez add meg itt az új méretet. A Docker szolgáltatás következő indításakor a fájl (és a fájlrendszer) az új méretre növekszik (de soha nem csökken).
 
 FIGYELMEZTETÉS: a Docker képfájl átméretezése kiüríti annak tartalmát. A Docker-konténereket utána újra kell telepíteni.
 :end
@@ -841,13 +841,13 @@ Meg kell adnod egy képfájlt a Docker számára. A rendszer automatikusan létr
 
 A képfájl nevének .img kiterjesztésűnek kell lennie. Ha nem, a bevitelt nem fogadja el a rendszer, és pirossal jelöli.
 
-Javasolt ezt a képfájlt a tömbön kívül létrehozni, pl. a Gyorsítótár-poolon. A legjobb teljesítmény érdekében az SSD eszközök előnyben részesítendők.
+Javasolt ezt a képfájlt a tömbön kívül létrehozni, pl. a Gyorsítótár-poolon. A legjobb teljesítmény érdekében az SSD-eszközök előnyben részesítendők.
 :end
 
 :docker_vdisk_directory_help:
 Meg kell adnod egy mappát a Docker számára. A rendszer automatikusan létrehozza ezt a mappát a Docker szolgáltatás első indításakor.
 
-Javasolt ezt a mappát egy olyan megosztás alatt létrehozni, amely a Gyorsítótár-poolon található (beállítás: cache=Only). A legjobb teljesítmény érdekében az SSD eszközök előnyben részesítendők.
+Javasolt ezt a mappát egy olyan megosztás alatt létrehozni, amely a Gyorsítótár-poolon található (beállítás: cache=Only). A legjobb teljesítmény érdekében az SSD-eszközök előnyben részesítendők.
 :end
 
 :docker_appdata_location_help:
@@ -855,7 +855,7 @@ Megadhatsz egy mappát, amely automatikusan létrehozza és tárolja az egyes Do
 
 A mappa útvonalának záró perjel (/) karakterrel kell végződnie. Ha nem, a bevitelt nem fogadja el a rendszer, és pirossal jelöli.
 
-Javasolt ezt a mappát a tömbön kívül létrehozni, pl. a Gyorsítótár-poolon. A legjobb teljesítmény érdekében az SSD eszközök előnyben részesítendők.
+Javasolt ezt a mappát a tömbön kívül létrehozni, pl. a Gyorsítótár-poolon. A legjobb teljesítmény érdekében az SSD-eszközök előnyben részesítendők.
 
 Csak új Docker alkalmazások hozzáadásakor használatos. A meglévő Docker alkalmazások szerkesztését nem befolyásolja ez a beállítás.
 :end
@@ -991,13 +991,13 @@ Meghatározza, hogyan reagál a webGUI a HTTP és/vagy HTTPS protokollal törté
 
 Válaszd a **Nem** lehetőséget a HTTPS letiltásához.
 
-Válaszd az **Igen** lehetőséget a HTTPS engedélyezéséhez és a HTTP HTTPS-re történő átirányításához. Automatikusan létrejön egy önaláírt SSL tanúsítvány, ha még nem bocsátottak ki Let's Encrypt SSL tanúsítványt.
+Válaszd az **Igen** lehetőséget a HTTPS engedélyezéséhez és a HTTP HTTPS-re történő átirányításához. Automatikusan létrejön egy önaláírt SSL-tanúsítvány, ha még nem bocsátottak ki Let's Encrypt SSL-tanúsítványt.
 
-Válaszd az **Automatikus** lehetőséget, ha beszereztél egy Let's Encrypt SSL tanúsítványt. Ebben az esetben a webGUI hozzáférés kizárólag a Let's Encrypt tanúsítvánnyal ellátott HTTPS-t fogja használni. Vedd figyelembe, hogy egy DNS szervernek is elérhetőnek kell lennie.
+Válaszd az **Automatikus** lehetőséget, ha beszereztél egy Let's Encrypt SSL-tanúsítványt. Ebben az esetben a webGUI hozzáférés kizárólag a Let's Encrypt tanúsítvánnyal ellátott HTTPS-t fogja használni. Vedd figyelembe, hogy egy DNS-szervernek is elérhetőnek kell lennie.
 
-Fontos: Az **Automatikus** nem biztos, hogy kiválasztható, ha a routered vagy a felettes DNS szervered [DNS-rebind elleni védelemmel](https://en.wikipedia.org/wiki/DNS_rebinding) rendelkezik. A DNS-rebind elleni védelem megakadályozza, hogy a DNS feloldjon egy privát IP-hálózati tartományt. A DNS-rebind elleni védelem biztonsági funkcióként szolgál egy olyan helyi hálózaton, amely hibás/nem biztonságos "webes" felülettel rendelkező régi eszközöket tartalmazhat.
+Fontos: Az **Automatikus** nem biztos, hogy kiválasztható, ha a routered vagy a felettes DNS-szervered [DNS-rebind elleni védelemmel](https://en.wikipedia.org/wiki/DNS_rebinding) rendelkezik. A DNS-rebind elleni védelem megakadályozza, hogy a DNS feloldjon egy privát IP-hálózati tartományt. A DNS-rebind elleni védelem biztonsági funkcióként szolgál egy olyan helyi hálózaton, amely hibás/nem biztonságos "webes" felülettel rendelkező régi eszközöket tartalmazhat.
 
-A DNS-rebind elleni védelem egyik forrása az internetszolgáltatód DNS szervere lehet. Ebben az esetben a probléma megoldható egy másik DNS szerverre való váltással, mint például az OpenDNS, ahol a DNS-rebind elleni védelem kikapcsolható.
+A DNS-rebind elleni védelem egyik forrása az internetszolgáltatód DNS-szervere lehet. Ebben az esetben a probléma megoldható egy másik DNS-szerverre való váltással, mint például az OpenDNS, ahol a DNS-rebind elleni védelem kikapcsolható.
 
 Gyakrabban a DNS-rebind elleni védelem engedélyezve lehet a routeredben. A legtöbb lakossági router nem valósít meg DNS-rebind elleni védelmet; de ha mégis, a konfigurációs beállításoknak elérhetőnek kell lenniük a kikapcsolásához.
 
@@ -1007,7 +1007,7 @@ A magasabb kategóriájú routerek általában engedélyezik a DNS-rebind elleni
 
 `rebind-domain-ok=/unraid.net/`
 
-**pfSense:** Ha a pfSense belső DNS feloldó szolgáltatását használod, hozzáadhatod ezeket az Egyedi opciók sorokat:
+**pfSense:** Ha a pfSense belső DNS-feloldó szolgáltatását használod, hozzáadhatod ezeket az Egyedi opciók sorokat:
 
 `server:`<br>
 `private-domain: "unraid.net"`
@@ -1018,7 +1018,7 @@ A magasabb kategóriájú routerek általában engedélyezik a DNS-rebind elleni
 
 **OpenDNS:** Lépj a Beállítások -> Biztonság menüpontba, és *távolítsd el* a jelölőnégyzetet a "Gyanús válaszok - Belső IP-címek blokkolása" mellől. Ez egy mindent vagy semmit beállítás.
 
-Ha minden más meghiúsul, létrehozhatsz egy bejegyzést a PC-d *hosts* fájljában a külső DNS felülbírálására, és közvetlenül feloldhatod a szervered unraid.net FQDN-jét annak helyi IP-címére.
+Ha minden más meghiúsul, létrehozhatsz egy bejegyzést a PC-d *hosts* fájljában a külső DNS-felülbírálására, és közvetlenül feloldhatod a szervered unraid.net FQDN-jét annak helyi IP-címére.
 :end
 
 :mgmt_http_port_help:
@@ -1034,17 +1034,17 @@ Add meg a helyi legfelső szintű tartományt (Top Level Domain). Üresen hagyha
 :end
 
 :mgmt_certificate_expiration_help:
-A **Beszerzés** gomb használható egy *ingyenes* SSL tanúsítvány telepítésére a [Let's Encrypt](https://letsencrypt.org/) szolgáltatásból, ha a szerver be van jelentkezve az unraid.net oldalra.
+A **Beszerzés** gomb használható egy *ingyenes* SSL-tanúsítvány telepítésére a [Let's Encrypt](https://letsencrypt.org/) szolgáltatásból, ha a szerver be van jelentkezve az unraid.net oldalra.
 
-A Let's Encrypt SSL tanúsítvány telepítése után két háttérszolgáltatás aktiválódik, miközben a szerver be van jelentkezve az unraid.net oldalra:
+A Let's Encrypt SSL-tanúsítvány telepítése után két háttérszolgáltatás aktiválódik, miközben a szerver be van jelentkezve az unraid.net oldalra:
 
-- *updatedns* - Ez 30 másodperccel a szerver újraindításának befejeződése után indul el, és kapcsolatba lép a Lime Technology DNS szolgáltatásával a szerver helyi IP-címének regisztrálása érdekében. Ezt követően 10 percenként felébred, ha a helyi IP-cím megváltozott volna.
+- *updatedns* - Ez 30 másodperccel a szerver újraindításának befejeződése után indul el, és kapcsolatba lép a Lime Technology DNS-szolgáltatásával a szerver helyi IP-címének regisztrálása érdekében. Ezt követően 10 percenként felébred, ha a helyi IP-cím megváltozott volna.
 
-- *renewcert* - Ez 60 másodperccel a szerver újraindításának befejeződése után indul el, és kapcsolatba lép a Lime Technology tanúsítványmegújító szolgáltatásával, hogy meghatározza, szükséges-e a Let's Encrypt SSL tanúsítvány megújítása. Ezt követően 24 óránként felébred. Ha a lejárattól számított 30 napon belül van, az új tanúsítvány automatikusan beszerzésre és letöltésre kerül a szerverre.
+- *renewcert* - Ez 60 másodperccel a szerver újraindításának befejeződése után indul el, és kapcsolatba lép a Lime Technology tanúsítványmegújító szolgáltatásával, hogy meghatározza, szükséges-e a Let's Encrypt SSL-tanúsítvány megújítása. Ezt követően 24 óránként felébred. Ha a lejárattól számított 30 napon belül van, az új tanúsítvány automatikusan beszerzésre és letöltésre kerül a szerverre.
 
 A **Törlés** gomb használható a Let's Encrypt tanúsítványfájl törlésére.
 
-A **DNS frissítése** gomb használható a szerver FQDN DNS A-rekordjának manuális frissítésére az unraid.net oldalon, feltételezve, hogy a szerver be van jelentkezve. Vedd figyelembe, hogy a világszintű DNS terjedés 1 perctől több óráig is eltarthat (a TTL-t 60 másodpercre állítjuk). Emiatt javasoljuk egy statikus IP-cím hozzárendelését is a szerverhez a helyi hálózaton.
+A **DNS frissítése** gomb használható a szerver FQDN DNS A-rekordjának manuális frissítésére az unraid.net oldalon, feltételezve, hogy a szerver be van jelentkezve. Vedd figyelembe, hogy a világszintű DNS-terjedés 1 perctől több óráig is eltarthat (a TTL-t 60 másodpercre állítjuk). Emiatt javasoljuk egy statikus IP-cím hozzárendelését is a szerverhez a helyi hálózaton.
 
 **nginx tanúsítványkezelés részletei**
 
@@ -1054,7 +1054,7 @@ Az nginx két tanúsítványfájlt használ, amelyek az USB flash indítóeszkö
 
 - egy Let's Encrypt tanúsítvány: `config/ssl/certs/certificate_bundle.pem`
 
-Az önaláírt SSL tanúsítványfájl automatikusan létrejön az nginx indításakor; és újra létrejön, ha a szerver gazdagépneve vagy a helyi TLD megváltozik.
+Az önaláírt SSL-tanúsítványfájl automatikusan létrejön az nginx indításakor; és újra létrejön, ha a szerver gazdagépneve vagy a helyi TLD megváltozik.
 
 **nginx stapplási támogatás**
 
@@ -1064,7 +1064,7 @@ Az, hogy az nginx engedélyezi-e az OCSP Stapinget, attól függ, hogy melyik ta
 :end
 
 :ftp_server_help:
-Engedélyezd vagy tiltsd le az FTP szerver démont. Alapértelmezés szerint az FTP szerver engedélyezve van.
+Engedélyezd vagy tiltsd le az FTP-szerver démont. Alapértelmezés szerint az FTP-szerver engedélyezve van.
 Ez a beállítás nem mentődik, azaz a rendszer újraindításakor visszatér az alapértelmezett beállításra.
 :end
 
@@ -1077,7 +1077,7 @@ Add meg azokat a felhasználóneveket (szóközökkel elválasztva), amelyek sz�
 :ftp_overview_help:
 ### Áttekintés
 
-A Unraid tartalmazza a népszerű `vsftpd` FTP szervert. A `vsftpd` konfigurációja jelenleg nagyon egyszerű: A fent megadott **összes** felhasználónév számára engedélyezett a szerver elérése FTP-n keresztül, és *teljes olvasási/írási/törlési hozzáféréssel* rendelkeznek a teljes szerverhez, ezért óvatosan használd.
+A Unraid tartalmazza a népszerű `vsftpd` FTP-szervert. A `vsftpd` konfigurációja jelenleg nagyon egyszerű: A fent megadott **összes** felhasználónév számára engedélyezett a szerver elérése FTP-n keresztül, és *teljes olvasási/írási/törlési hozzáféréssel* rendelkeznek a teljes szerverhez, ezért óvatosan használd.
 :end
 
 :smb_enable_help:
@@ -1093,7 +1093,7 @@ Ha 'Nem' értékre van állítva, a ponttal kezdődő fájlok ugyanúgy megjelen
 :end
 
 :smb_enhanced_macos_help:
-Ha 'Igen' értékre van állítva, fokozott kompatibilitást biztosít az Apple SMB kliensekkel, ami például gyorsabb Finder böngészést és a Time Machine megosztások exportálásának képességét eredményezi. Ez azonban okozhat némi problémát a Windows klienseknél.
+Ha 'Igen' értékre van állítva, fokozott kompatibilitást biztosít az Apple SMB-kliensekkel, ami például gyorsabb Finder böngészést és a Time Machine megosztások exportálásának képességét eredményezi. Ez azonban okozhat némi problémát a Windows klienseknél.
 Kérjük, olvasd el a [VFS_FRUIT MAN PAGE](https://www.mankier.com/8/vfs_fruit) leírást is.
 :end
 
@@ -1126,13 +1126,13 @@ Ha 'Igen' értékre van állítva, a szerver teljes mértékben részt vesz a ta
 :end
 
 :nfs_enable_help:
-Válaszd az 'Igen' lehetőséget az NFS protokoll engedélyezéséhez.
+Válaszd az 'Igen' lehetőséget az NFS-protokoll engedélyezéséhez.
 :end
 
 :nfs_tunable_fuse_remember_help:
-Ha az NFS engedélyezve van, ez a finomhangolási opció használható az NFS klienssel tapasztalt "NFS Stale File Handles" (elavult fájlkezelők) előfordulásának enyhítésére vagy megoldására.
+Ha az NFS engedélyezve van, ez a finomhangolási opció használható az NFS-klienssel tapasztalt "NFS Stale File Handles" (elavult fájlkezelők) előfordulásának enyhítésére vagy megoldására.
 
-Lényegében a (fuse_remember) megmondja egy belső alrendszernek (amelynek neve "fuse"), hogy mennyi ideig "emlékezzen" vagy "gyorsítótárazza" a felhasználói megosztásokhoz kapcsolódó fájl- és könyvtárinformációkat. Amikor egy NFS kliens megpróbál hozzáférni egy fájlhoz (vagy könyvtárhoz) a szerveren, és az a fájl- (vagy könyvtár-) név nincs gyorsítótárazva, "elavult fájlkezelő" hibát tapasztalhatsz.
+Lényegében a (fuse_remember) megmondja egy belső alrendszernek (amelynek neve "fuse"), hogy mennyi ideig "emlékezzen" vagy "gyorsítótárazza" a felhasználói megosztásokhoz kapcsolódó fájl- és könyvtárinformációkat. Amikor egy NFS-kliens megpróbál hozzáférni egy fájlhoz (vagy könyvtárhoz) a szerveren, és az a fájl- (vagy könyvtár-) név nincs gyorsítótárazva, "elavult fájlkezelő" hibát tapasztalhatsz.
 
 Ennek a beállításnak a számértéke a fájl/könyvtár névbejegyzések gyorsítótárazásának másodpercben mért ideje, ahol a 330-as alapértelmezett érték 5 és fél percet jelent. Két speciális értéket is beállíthatsz:
 
@@ -1293,7 +1293,7 @@ Ez a libvirt kötet.
 
 :vms_libvirt_vdisk_size_help:
 Ha a rendszernek új libvirt képfájlt kell létrehoznia, ez az alapértelmezett méret GB-ban megadva.
-Egy meglévő képfájl átméretezéséhez adja meg itt az új méretet. A Libvirt szolgáltatás következő indításakor a fájl (és a fájlrendszer) az új méretre növekszik (de soha nem csökken).
+Egy meglévő képfájl átméretezéséhez add meg itt az új méretet. A Libvirt szolgáltatás következő indításakor a fájl (és a fájlrendszer) az új méretre növekszik (de soha nem csökken).
 :end
 
 :vms_libvirt_location_help:
@@ -1446,24 +1446,24 @@ Automatikus IP-hozzárendelés használatakor szürke. Ellenkező esetben itt ad
 :end
 
 :eth_ipv4_dns_server_assignment_help:
-Ha *Automatikus* értékre van állítva, a szerver a helyi automatikus hozzárendelés által visszaadott IPv4 DNS szerverek)et fogja használni.<br>
+Ha *Automatikus* értékre van állítva, a szerver a helyi automatikus hozzárendelés által visszaadott IPv4 DNS-szerverek)et fogja használni.<br>
 Ha *Statikus* értékre van állítva, megadhatod a saját listádat.
 
-Ez hasznos Active Directory konfigurációkban, ahol az első DNS szerver bejegyzést az AD tartományi szervered IP-címére kell állítanod.
+Ez hasznos Active Directory konfigurációkban, ahol az első DNS-szerver bejegyzést az AD tartományi szervered IP-címére kell állítanod.
 :end
 
 :eth_ipv4_dns_server_help:
-Ez a használandó elsődleges IPv4 DNS szerver. Adj meg egy IPv4-címet.
+Ez a használandó elsődleges IPv4 DNS-szerver. Adj meg egy IPv4-címet.
 
 Megjegyzés: *Active Directory* esetén **biztosítanod kell**, hogy ez az AD tartományi szervered IP-címére legyen állítva.
 :end
 
 :eth_ipv4_dns_server2_help:
-Ez a használandó IPv4 DNS szerver, ha az 1. IPv4 DNS szerver nem érhető el.
+Ez a használandó IPv4 DNS-szerver, ha az 1. IPv4 DNS-szerver nem érhető el.
 :end
 
 :eth_ipv4_dns_server3_help:
-Ez a használandó IPv4 DNS szerver, ha az 1. és 2. IPv4 DNS szerver sem érhető el.
+Ez a használandó IPv4 DNS-szerver, ha az 1. és 2. IPv4 DNS-szerver sem érhető el.
 :end
 
 :eth_ipv6_address_assignment_help:
@@ -1487,20 +1487,20 @@ Engedélyezd vagy tiltsd le egy véletlenszerű IPv6 interfész-azonosító gene
 :end
 
 :eth_ipv6_dns_server_assignment_help:
-Ha *Automatikus* értékre van állítva, a szerver a helyi automatikus hozzárendelés által visszaadott IPv6 DNS szerverek)et fogja használni.<br>
+Ha *Automatikus* értékre van állítva, a szerver a helyi automatikus hozzárendelés által visszaadott IPv6 DNS-szerverek)et fogja használni.<br>
 Ha *Statikus* értékre van állítva, megadhatod a saját listádat.
 :end
 
 :eth_ipv6_dns_server_help:
-Ez a használandó elsődleges IPv6 DNS szerver. Adj meg egy IPv6-címet.
+Ez a használandó elsődleges IPv6 DNS-szerver. Adj meg egy IPv6-címet.
 :end
 
 :eth_ipv6_dns_server2_help:
-Ez a használandó IPv6 DNS szerver, ha az 1. IPv6 DNS szerver nem érhető el.
+Ez a használandó IPv6 DNS-szerver, ha az 1. IPv6 DNS-szerver nem érhető el.
 :end
 
 :eth_ipv6_dns_server3_help:
-Ez a használandó IPv6 DNS szerver, ha az 1. és 2. IPv6 DNS szerver sem érhető el.
+Ez a használandó IPv6 DNS-szerver, ha az 1. és 2. IPv6 DNS-szerver sem érhető el.
 :end
 
 :eth_desired_mtu_help:
@@ -1549,7 +1549,7 @@ Meghatározza a szünetmentes tápegységet (UPS) a számítógépeddel összek�
 :end
 
 :apc_ups_custom_cable_help:
-Adj meg egy speciális kábelt modellszám alapján, csak akkor alkalmazható, ha a *UPS kábel* beállítása Custom.
+Adj meg egy speciális kábelt modellszám alapján, csak akkor alkalmazható, ha a *UPS-kábel* beállítása Custom.
 
 + 940-0119A, 940-0127A, 940-0128A, 940-0020B
 + 940-0020C, 940-0023A, 940-0024B, 940-0024C
@@ -1558,25 +1558,25 @@ Adj meg egy speciális kábelt modellszám alapján, csak akkor alkalmazható, h
 :end
 
 :apc_ups_type_help:
-Határozz meg egy *UPS típust*, amely megfelel a meglévő szünetmentes tápegységed típusának (lásd a leírást a további részletekért).
+Határozz meg egy *UPS-típust*, amely megfelel a meglévő szünetmentes tápegységed típusának (lásd a leírást a további részletekért).
 
 + **USB** - a legtöbb új UPS USB-s
 + **APCsmart** - újabb soros karakteres eszköz, soros kábelt (nem USB) használó SmartUPS modellekhez megfelelő
 + **Net** - hálózati hivatkozás egy fő apcupsd-hez az apcupsd Network Information Serverén keresztül. Ez akkor használható, ha a számítógépedet tápláló UPS egy másik számítógéphez van csatlakoztatva felügyelet céljából
-+ **SNMP** - SNMP hálózati hivatkozás egy SNMP-vel engedélyezett UPS eszközhöz
++ **SNMP** - SNMP hálózati hivatkozás egy SNMP-vel engedélyezett UPS-eszközhöz
 + **Dumb** - régi soros karakteres eszköz az egyszerű jelzésű (simple-signaling) UPS-ekhez
 + **PCnet** - PowerChute Network Shutdown protokoll, amely az SNMP alternatívájaként használható az AP9617 okoskártya-családdal
 + **ModBus** - soros eszköz a MODBUS protokollt támogató legújabb SmartUPS modellekhez
 :end
 
 :apc_ups_device_help:
-Add meg a helyzetednek megfelelő *eszközt*, csak akkor alkalmazható, ha a *UPS típus* nem USB-re van állítva.
+Add meg a helyzetednek megfelelő *eszközt*, csak akkor alkalmazható, ha a *UPS-típus* nem USB-re van állítva.
 
 + **apcsmart** - /dev/tty**
 + **net** - gazdagépnév:port. A gazdagépnév a NIS szerver IP-címe. Az alapértelmezett port a 3551
 + **snmp** - gazdagépnév:port:gyártó:közösség. A gazdagépnév a UPS IP-címe vagy gazdagépneve a hálózaton. A gyártó lehet "APC" vagy "APC_NOTRAP". Az "APC_NOTRAP" letiltja az SNMP trap elkapását; általában az "APC"-t szeretnéd. A port általában 161. A közösség általában "private"
 + **dumb** - /dev/tty**
-+ **pcnet** - ipcím:felhasználónév:jelmondat:port. Az ipcím a UPS felügyeleti kártyájának IP-címe. A felhasználónév és a jelmondat a kártya konfigurált hitelesítési adatai. A port az a portszám, amelyen a UPS-től érkező üzeneteket hallgatja, normál esetben 3052. Ha ez a paraméter üres vagy hiányzik, a 3052 alapértelmezett érték kerül felhasználásra
++ **pcnet** - ipcím:felhasználónév:jelmondat:port. Az ipcím a UPS-felügyeleti kártyájának IP-címe. A felhasználónév és a jelmondat a kártya konfigurált hitelesítési adatai. A port az a portszám, amelyen a UPS-től érkező üzeneteket hallgatja, normál esetben 3052. Ha ez a paraméter üres vagy hiányzik, a 3052 alapértelmezett érték kerül felhasználásra
 + **modbus** - /dev/tty**
 :end
 
@@ -1589,7 +1589,7 @@ Ha áramkimaradás során a fennmaradó futásidő percekben (a UPS által bels�
 :end
 
 :apc_battery_time_help:
-Ha áramkimaradás során a UPS akkumulátorról fut *időtúllépés* ennyi másodpercig vagy tovább; az apcupsd elindítja a rendszer leállítását. A nulla érték letiltja ezt az időzítőt.
+Ha áramkimaradás során a UPS-akkumulátorról fut *időtúllépés* ennyi másodpercig vagy tovább; az apcupsd elindítja a rendszer leállítását. A nulla érték letiltja ezt az időzítőt.
 
 Ha Smart UPS-ed van, legvalószínűbb, hogy le szeretnéd tiltani ezt az időzítőt nullára állítva.
 Így a UPS addig folytatja akkumulátorról, amíg a fennmaradó töltöttség %-a le nem csökken az *Akkumulátor szint* értékére vagy az alá, vagy a fennmaradó akkumulátor-futásidő le nem csökken a *percek* értékére vagy az alá.
@@ -1603,7 +1603,7 @@ Ha régebbi "dumb" (egyszerű) UPS-ed van, ezt kevesebb időre érdemes állíta
 :end
 
 :apc_killups_help:
-Állítsd *Igen* értékre a UPS tápellátásának kikapcsolásához a leállítás után.
+Állítsd *Igen* értékre a UPS-tápellátásának kikapcsolásához a leállítás után.
 :end
 
 :parity_check_scheduled_help:
@@ -1692,7 +1692,7 @@ Válaszd ki az értesítések képernyőn való megjelenésének helyét. Több 
 :end
 
 :notifications_store_flash_help:
-Alapértelmezés szerint az értesítések a RAM lemezen tárolódnak, amelyek a rendszer újraindításakor elvesznek.
+Alapértelmezés szerint az értesítések a RAM-lemezen tárolódnak, amelyek a rendszer újraindításakor elvesznek.
 Az értesítések tartósan tárolhatók a flash meghajtón a '/boot/config/plugins/dynamix' mappa alatt helyette.
 :end
 
@@ -1768,7 +1768,7 @@ Meghatározza, hogy használsz-e SSL/TLS-t az SMTP szerverrel való kommunikáci
 :end
 
 :smtp_use_starttls_help:
-Meghatározza, hogy használsz-e STARTTLS-t az SSL egyeztetés megkezdése előtt - Lásd RFC 2487.
+Meghatározza, hogy használsz-e STARTTLS-t az SSL-egyeztetés megkezdése előtt - Lásd RFC 2487.
 :end
 
 :smtp_define_tls_cert_help:
@@ -1792,11 +1792,11 @@ Egy plugin letöltéséhez és telepítéséhez add meg a plg fájl URL-jét, é
 :end
 
 :plugin_error_help:
-Ezek a pluginok valamilyen telepítési hiba miatt nem lettek telepítve. Törölnöd kell ezeket a pluginokat, majd **újra kell indítanod** a szerveredet.*
+Ezek a pluginok valamilyen telepítési hiba miatt nem sikerült telepíteni őket. Törölnöd kell ezeket a pluginokat, majd **újra kell indítanod** a szerveredet.*
 :end
 
 :plugin_stale_help:
-Ezek a pluginok nem lettek telepítve, mert újabb kód már létezik. Biztonságos egyszerűen törölni ezeket.
+Ezek a pluginok telepítése elmaradt, mert újabb kód már létezik. Biztonságos egyszerűen törölni ezeket.
 :end
 
 :docker_client_general_help:
@@ -1902,7 +1902,7 @@ A kiválasztott eszközök az indításkor a vfio-pci illesztőprogramhoz kötő
 :end
 
 :sysdevs_thread_pairings_help:
-Ez megjeleníti a CPU szálpárosítások listáját.
+Ez megjeleníti a CPU-szálpárosítások listáját.
 :end
 
 :sysdevs_usb_devices_help:
@@ -1916,7 +1916,7 @@ Vedd figyelembe, hogy a Linux az ATA, SATA és SAS eszközöket a valódi SCSI e
 :end
 
 :unraidnet_wanpanel_help:
-A WAN Port a routeren beállított külső TCP portszám az internetről érkező forgalom NAT/port-átirányításához erre az Unraid szerver SSL portra a biztonságos webes forgalom érdekében.
+A WAN Port a routeren beállított külső TCP portszám az internetről érkező forgalom NAT/port-átirányításához erre az Unraid szerver SSL-portra a biztonságos webes forgalom érdekében.
 :end
 
 :unraidnet_inactivespanel_help:
@@ -1974,24 +1974,24 @@ Ez a mező automatikusan kitöltésre kerül egy helyi alagút hálózati pool l
 
 :wg_local_endpoint_help:
 Ez a mező automatikusan kitöltésre kerül a publikus felügyeleti tartománynévvel *www.&lt;hash&gt;.unraid.net* vagy a szerver publikus címével.<br>
-Ez lehetővé teszi VPN alagutak kiépítését a külső társaktól a szerverhez.<br>
+Ez lehetővé teszi VPN-alagutak kiépítését a külső társaktól a szerverhez.<br>
 Konfiguráld a megfelelő port-átirányítást a routereden (az alapértelmezett port <?=$netport['wg0']?>, de ez módosítható) annak érdekében, hogy bármely bejövő kapcsolat elérhesse a szervert.
 
 A regisztrált tartománynévvel rendelkező felhasználók használhatják ezt a mezőt annak megadására, hogyan ismert a szerverük az interneten. Pl. www.myserver.mydomain.<br>
 Ismét győződj meg arról, hogy a routered megfelelően van beállítva.
 
-Megjegyzés a Cloudflare felhasználóknak: a Cloudflare proxy-t HTTP forgalomra tervezték, nem képes VPN forgalmat proxyzni. Letiltod a Cloudflare proxy-t a VPN tartományoddal való használatához.
+Megjegyzés a Cloudflare felhasználóknak: a Cloudflare proxy-t HTTP forgalomra tervezték, nem képes VPN-forgalmat proxyzni. Letiltod a Cloudflare proxy-t a VPN-tartományoddal való használatához.
 :end
 
 :wg_local_endpoint_X_help:
 Ez a mező automatikusan kitöltésre kerül a publikus felügyeleti tartománynévvel *www.&lt;hash&gt;.unraid.net* vagy a szerver publikus címével.<br>
-Ez lehetővé teszi VPN alagutak kiépítését a külső társaktól a szerverhez.<br>
+Ez lehetővé teszi VPN-alagutak kiépítését a külső társaktól a szerverhez.<br>
 Konfiguráld a megfelelő port-átirányítást a routereden (az alapértelmezett port <?=$netport['wgX']?>, de ez módosítható) annak érdekében, hogy bármely bejövő kapcsolat elérhesse a szervert.
 
 A regisztrált tartománynévvel rendelkező felhasználók használhatják ezt a mezőt annak megadására, hogyan ismert a szerverük az interneten. Pl. www.myserver.mydomain.<br>
 Ismét győződj meg arról, hogy a routered megfelelően van beállítva.
 
-Megjegyzés a Cloudflare felhasználóknak: a Cloudflare proxy-t HTTP forgalomra tervezték, nem képes VPN forgalmat proxyzni. Letiltod a Cloudflare proxy-t a VPN tartományoddal való használatához.
+Megjegyzés a Cloudflare felhasználóknak: a Cloudflare proxy-t HTTP forgalomra tervezték, nem képes VPN-forgalmat proxyzni. Letiltod a Cloudflare proxy-t a VPN-tartományoddal való használatához.
 :end
 
 :wg_local_server_uses_nat_help:
@@ -2053,7 +2053,7 @@ Ha a társ egy másik szerver vagy router további hálózatokkal, akkor azok al
 :end
 
 :wg_peer_dns_server_help:
-Használd ezt a bejegyzést a Társ jelenlegi DNS szerver hozzárendelésének felülírására.
+Használd ezt a bejegyzést a Társ jelenlegi DNS-szerver hozzárendelésének felülírására.
 :end
 
 :wg_persistent_keepalive_help:
@@ -2075,7 +2075,7 @@ Ez meglehetősen szélsőséges a Helyi hozzáféréshez, és a legtöbb esetben
 :end
 
 :smb_multi_channel_help:
-Ha 'Igen' értékre van állítva, engedélyezi az SMB többcsatornás (Multi Channel) támogatást a szerveren. A [microsoft](https://docs.microsoft.com/en-us/azure-stack/hci/manage/manage-smb-multichannel) leírása szerint:
+Ha 'Igen' értékre van állítva, engedélyezi az SMB-többcsatornás (Multi Channel) támogatást a szerveren. A [microsoft](https://docs.microsoft.com/en-us/azure-stack/hci/manage/manage-smb-multichannel) leírása szerint:
 "Az SMB Multichannel lehetővé teszi a fájlszerverek számára, hogy egyszerre több hálózati kapcsolatot használjanak."
 :end
 
@@ -2118,7 +2118,7 @@ Mielőtt Libvirt hálózatot használnál, lépj a Beállítások -> Hálózati 
 :end
 
 :share_edit_exclusive_access_help:
-Ha "igen" értékre van állítva, azt jelzi, hogy a megosztáshoz közvetlenül egy poolhoz tartozó bind-mount lett beállítva a /mnt/user fában, feltéve, hogy a következő feltételek teljesülnek:
+Ha "igen" értékre van állítva, azt jelzi, hogy a megosztáshoz közvetlenül egy poolhoz tartozó bind-mount van beállítva a /mnt/user fában, feltéve, hogy a következő feltételek teljesülnek:
 
 - Az elsődleges tároló egy pool.
 - A másodlagos tároló **nincs** értékre van állítva.
@@ -2157,7 +2157,7 @@ A *kizárólagos* megosztások előnye, hogy az átvitelek megkerülik a FUSE r�
 :eth_network_extra_include_help:
 Adj meg egy vagy több interfésznevet vagy IP-címet, amelyek bekerülnek a helyi rendszerszolgáltatások figyelő interfészeinek listájába.
 
-Ez különösen hasznos, ha egyedi interfészeket hoztál létre (pl. Tailscale VPN alagút), amelyeket a helyi rendszerszolgáltatások elérésére használsz.
+Ez különösen hasznos, ha egyedi interfészeket hoztál létre (pl. Tailscale VPN-alagút), amelyeket a helyi rendszerszolgáltatások elérésére használsz.
 :end
 
 :eth_network_extra_exclude_help:
@@ -2204,25 +2204,25 @@ Válaszd ki a helyi konzol (nem a webes Terminál) alapértelmezett billentyűze
 :console_bash_help:
 Ha 'Igen' értékre van állítva, a bash előzmények megőrződnek az újraindítások során, állítsd 'Nem' értékre a letiltáshoz.
 
-**FIGYELEM:** A bash előzmények az USB indítóeszközre íródnak, így ez nagyobb elhasználódást okoz!
+**FIGYELEM:** A bash előzmények az USB-indítóeszközre íródnak, így ez nagyobb elhasználódást okoz!
 
 **Megjegyzés:** A letiltás és engedélyezés eltávolítja a teljes bash előzményt.
 :end
 
 :ssd_default_warning_temperature_help:
-A *Figyelmeztető SSD hőmérséklet* beállítja az alapértelmezett figyelmeztetési küszöbértéket az összes SSD eszköz hőmérsékletére. Ennek a küszöbértéknek a túllépése figyelmeztető értesítést eredményez.
+A *Figyelmeztető SSD-hőmérséklet* beállítja az alapértelmezett figyelmeztetési küszöbértéket az összes SSD-eszköz hőmérsékletére. Ennek a küszöbértéknek a túllépése figyelmeztető értesítést eredményez.
 
 A nulla érték letiltja a figyelmeztetési küszöbértéket (beleértve az értesítéseket is).
 :end
 
 :ssd_default_critical_temperature_help:
-A *Kritikus lemezhőmérséklet* beállítja az alapértelmezett kritikus küszöbértéket az összes SSD eszköz hőmérsékletére. Ennek a küszöbértéknek a túllépése riasztási értesítést eredményez.
+A *Kritikus lemezhőmérséklet* beállítja az alapértelmezett kritikus küszöbértéket az összes SSD-eszköz hőmérsékletére. Ennek a küszöbértéknek a túllépése riasztási értesítést eredményez.
 
 A nulla érték letiltja a kritikus küszöbértéket (beleértve az értesítéseket is).
 :end
 
 :syslog_shutdown_flash_help:
-Ez a beállítás alapértelmezés szerint IGEN, és lehetővé teszi a rendszer számára, hogy leállításkor vagy újraindításkor másolja a rendszernapló-fájlt az USB eszközre.
+Ez a beállítás alapértelmezés szerint IGEN, és lehetővé teszi a rendszer számára, hogy leállításkor vagy újraindításkor másolja a rendszernapló-fájlt az USB-eszközre.
 
 Az újraindítás után az erről a futásról származó rendszernapló látható lesz az Eszközök > Rendszernapló > syslog-previous útvonalon; diagnosztikába is bekerül logs/syslog-previous.txt néven.
 :end
@@ -2272,7 +2272,7 @@ Ha Igen értékre van állítva, a hálózati ébresztési csomagok fogadásakor
 :info_zfs_scrub_help:
 A **Tisztítás** (Scrub) futtatja a *zfs scrub* programot, amely elolvassa az összes adat- és metaadatblokkot az összes eszközről, és ellenőrzi az ellenőrzőösszegeket.
 
-Kattints a **Pool frissítése** gombra a ZFS pool frissítéséhez a legújabb ZFS funkciók engedélyezéséhez.
+Kattints a **Pool frissítése** gombra a ZFS pool frissítéséhez a legújabb ZFS-funkciók engedélyezéséhez.
 :end
 
 :docker_pid_limit_help:
@@ -2305,7 +2305,7 @@ Válaszd ki a távoli rendszer azonosítóját (a naplófájl nevében használa
 
 * "IP-cím" a küldő rendszer IP-címét (IPv4 vagy IPv6) használja.
 * "Gazdagépnév (a rendszernapló üzenetből)" az egyes rendszernapló üzenetekben szereplő gazdagépnevet használja.
-* "Gazdagépnév (DNS fordított keresésből)" DNS fordított keresést végez a küldő IP-re, és az eredményt használja.
+* "Gazdagépnév (DNS-fordított keresésből)" DNS-fordított keresést végez a küldő IP-re, és az eredményt használja.
 :end
 
 :display_favorites_enabled_help:
@@ -2313,7 +2313,7 @@ Engedélyezi a kedvencek támogatását. Ha Nem értékre van állítva, leáll�
 :end
 
 :vms_rdpopt_help:
-Hozzáadja az opciót a menühöz az RDP elindításához. Az RDP fájl letöltődik. Be kell állítanod a böngészőt, hogy megnyissa, amikor készen áll.
+Hozzáadja az opciót a menühöz az RDP elindításához. Az RDP-fájl letöltődik. Be kell állítanod a böngészőt, hogy megnyissa, amikor készen áll.
 :end
 
 :vms_usage_help:
@@ -2325,7 +2325,7 @@ A metrikák frissítési idejének beállítása másodpercben.
 :end
 
 :apc_ups_override_ups_capacity_help:
-Ha az eszközöd nem jelenti natívan a Névleges teljesítményt ('NOMPOWER') az 'apcupsd'-ből, de jelenti a Terhelési százalékot ('LOADPCT'), manuálisan meghatározhatod a UPS kapacitásértékét Wattban (W) (ez a valódi teljesítményérték Wattban (W), nem a látszólagos teljesítmény Volt-Amperben (VA), és szerepelnie kell a UPS kézikönyvében vagy terméklistáján), és a plugin dinamikusan kiszámít egy virtuális Névleges teljesítmény becslést ('≈') az Felülbírált UPS Kapacitás (W) és a jelenlegi Terhelési százalék összehasonlításával. Ez csak egy becslés, mivel nem veszi figyelembe az olyan dolgokat, mint a UPS hatásfoka.
+Ha az eszközöd nem jelenti natívan a Névleges teljesítményt ('NOMPOWER') az 'apcupsd'-ből, de jelenti a Terhelési százalékot ('LOADPCT'), manuálisan meghatározhatod a UPS-kapacitásértékét Wattban (W) (ez a valódi teljesítményérték Wattban (W), nem a látszólagos teljesítmény Volt-Amperben (VA), és szerepelnie kell a UPS-kézikönyvében vagy terméklistáján), és a plugin dinamikusan kiszámít egy virtuális Névleges teljesítmény becslést ('≈') az Felülbírált UPS Kapacitás (W) és a jelenlegi Terhelési százalék összehasonlításával. Ez csak egy becslés, mivel nem veszi figyelembe az olyan dolgokat, mint a UPS-hatásfoka.
 :end
 
 :docker_container_network_help:
@@ -2342,7 +2342,7 @@ További információért lásd a <a href="https://tailscale.com/kb/1153/enablin
 :end
 
 :docker_tailscale_be_exitnode_help:
-Engedélyezd ezt, ha a Tailneteden lévő más gépeknek ezen a konténeren keresztül kell átirányítaniuk az internetes forgalmukat, ez a leghasznosabb a kereskedelmi VPN szolgáltatásokhoz csatlakozó konténerek esetében.
+Engedélyezd ezt, ha a Tailneteden lévő más gépeknek ezen a konténeren keresztül kell átirányítaniuk az internetes forgalmukat, ez a leghasznosabb a kereskedelmi VPN-szolgáltatásokhoz csatlakozó konténerek esetében.
 Feltétlenül engedélyezd ezt a Kijárati csomópontot (Exit Node) a <a href="https://login.tailscale.com/admin/machines" target="_blank">Tailscale Gépek Kezelőpaneljén</a>.
 Részletesebb információkért lásd a Tailscale dokumentációját a <a href="https://tailscale.com/kb/1103/exit-nodes" target="_blank">Kijárati csomópontokról</a>.
 :end
@@ -2401,6 +2401,13 @@ Részletesebb információkért lásd a <a href="https://tailscale.com/kb/1242/t
 
 :docker_tailscale_show_advanced_help:
 Itt sárkányok laknak! (Csak saját felelősségre)
+:end
+
+:docker_tailscale_serve_target_help:
+Ha nincs megadva, ez az érték alapértelmezés szerint http://localhost. Átadásra kerül a serve vagy funnel szolgáltatást indító parancs '<serve_target>' részének:<br>
+'tailscale [serve|funnel] --bg --<protocol><protocol_port><path> <serve_target>:<serve_port><local_path>'<br>
+Részletesebb információkért lásd a <a href="https://tailscale.com/kb/1242/tailscale-serve" target="_blank">Tailscale Serve Parancssor</a> dokumentációt.<br>
+Vedd figyelembe, hogy csak a 'localhost' vagy a '127.0.0.1' támogatott.
 :end
 
 :docker_tailscale_serve_local_path_help:
@@ -2471,13 +2478,13 @@ Ha Igen értékre van állítva, a hálózati ébresztési csomagok fogadásakor
 Tedd az egyes IP-címek szabályait külön sorba, és fejezd be a szabályt egy új sor karakterrel.
 Nem adhatsz meg szabályt IP1,IP2(...) formátumban. Az Unraid nem abban a formátumban formázza az exports fájlt.
 
-Minden NFS szabály alapértelmezett szabálya: - async és no_subtree_check.
+Minden NFS-szabály alapértelmezett szabálya: - async és no_subtree_check.
 
 **Megjegyzés:** A használt Nyilvános szabály: '*(rw,sec=sys,insecure,anongid=100,anonuid=99,no_root_squash)'.
 :end
 
 :nfs_server_max_protocol_help:
-Válaszd ki a maximális NFS protokollverziót, amelyet támogatni szeretnél az Unraid szervereden.
+Válaszd ki a maximális NFS-protokollverziót, amelyet támogatni szeretnél az Unraid szervereden.
 :end
 
 :nfs_threads_help:
@@ -2491,5 +2498,5 @@ Ha nincs elegendő szál, az NFS valószínűleg összeomlik.
 :end
 
 :nfs_client_max_protocol_help:
-Válaszd ki a távoli megosztások felcsatolásához használni kívánt maximális NFS protokollverziót.
+Válaszd ki a távoli megosztások felcsatolásához használni kívánt maximális NFS-protokollverziót.
 :end
