@@ -14,8 +14,8 @@ Browse Remote SMB=Távoli SMB tallózása
 Check the syslog for details=Ellenőrizd a rendszernaplót a részletekért
 Choose File System Format=Válassz fájlrendszer-formátumot
 Choose ISO File=Válassz ISO fájlt
-Choose NFS Server=Válassz NFS szervert
-Choose SMB Server=Válassz SMB szervert
+Choose NFS Server=Válassz NFS-szervert
+Choose SMB Server=Válassz SMB-szervert
 Choose Share=Válassz megosztást
 Click on Icon to Choose Protocol=Kattints az ikonra a protokoll kiválasztásához
 Change Disk Mount Point=Lemez csatlakozási pontjának módosítása
@@ -61,16 +61,15 @@ Historical=Előzmények
 Historical Unassigned Devices=Előzményekben szereplő hozzá nem rendelt eszközök
 Historical Device is=Előzményekben szereplő eszköz:
 Identification=Azonosítás
-If SMB shares do not show, check your credentials=Ha az SMB megosztások nem jelennek meg, ellenőrizd a hitelesítési adataidat
+If SMB shares do not show, check your credentials=Ha az SMB-megosztások nem jelennek meg, ellenőrizd a hitelesítési adataidat
 If the IP address of the server shows in the list after searching, your DNS server is not resolving the name=Ha a keresés után a szerver IP-címe jelenik meg a listában, a DNS-szerver nem oldja fel a nevet
-If this disk was pre-cleared, you will remove the pre-clear signature=Ha ez a lemez előzetesen tisztítva volt, eltávolítod az előtisztítási aláírást
-If you add the disk to the array and the pre-clear signature is removed, Unraid will go through the lengthy process of clearing the disk again=Ha hozzáadod a lemezt a tömbhöz, és az előtisztítási aláírás el lett távolítva, az Unraid újra végigmegy a lemez tisztításának hosszas folyamatán
+If this disk was pre-cleared, you will remove the pre-clear signature=Ha ez a lemez elő volt törölve, eltávolítod az előtörlési aláírást
+If you add the disk to the array and the pre-clear signature is removed, Unraid will go through the lengthy process of clearing the disk again=Ha hozzáadod a lemezt a tömbhöz, és az előtörlési aláírást eltávolították, az Unraid újra végigmegy a lemez törlésének hosszas folyamatán
 Invalid Configuration - Remove and Re-add=Érvénytelen konfiguráció - Távolítsd el és add hozzá újra
 is offline=offline
 ISO File is=ISO fájl:
 ISO File Shares=ISO fájlmegosztások
 If using a disk password be sure to enter the password for this disk in UD Settings so it can be mounted=Ha lemezjelszót használsz, feltétlenül add meg ezen lemez jelszavát a UD beállításaiban, hogy felcsatolható legyen
-Device=Eszköz
 Leave blank to use the array passwordpassphrase=Hagyd üresen a tömb jelszavának/jelmondatának használatához
 Load Shares=Megosztások betöltése
 Loading=Betöltés...
@@ -79,11 +78,11 @@ Mount=Csatolás
 Mount Point=Csatlakozási pont
 Mounting=Csatolás...
 Next=Tovább
-NFS Mount Point=NFS csatlakozási pont
-NFS or ISO File Shares configured=Konfigurált NFS vagy ISO fájlmegosztások
-NFS Script=NFS szkript
-NFS Share=NFS megosztás
-NFS Shares=NFS megosztások
+NFS Mount Point=NFS-csatlakozási pont
+NFS or ISO File Shares configured=Konfigurált NFS- vagy ISO-fájlmegosztások
+NFS Script=NFS-szkript
+NFS Share=NFS-megosztás
+NFS Shares=NFS-megosztások
 No Remote SMB=Nincs távoli SMB
 No script file to execute=Nincs végrehajtható szkriptfájl
 No Unassigned Disks available=Nincsenek elérhető hozzá nem rendelt lemezek
@@ -93,8 +92,8 @@ Note=Megjegyzés
 offline=offline
 User Shares=Felhasználói megosztások
 User Shares without Pools=Felhasználói megosztások poolok nélkül
-You must enable NFS in Settings->NFS to mount NFS shares=Az NFS megosztások csatolásához engedélyezned kell az NFS-t a Beállítások -> NFS menüpontban
-You must enable SMB in Settings->SMB to mount SMB shares=Az SMB megosztások csatolásához engedélyezned kell az SMB-t a Beállítások -> SMB menüpontban
+You must enable NFS in Settings->NFS to mount NFS shares=Az NFS-megosztások csatolásához engedélyezned kell az NFS-t a Beállítások -> NFS menüpontban
+You must enable SMB in Settings->SMB to mount SMB shares=Az SMB-megosztások csatolásához engedélyezned kell az SMB-t a Beállítások -> SMB menüpontban
 Open=Megnyitás
 Partition=Partíció
 Partition and Format Disk=Lemez particionálása és formázása
@@ -102,7 +101,7 @@ Passed=Sikeres
 Passed Through=Átadva
 Password=Jelszó
 Pool=Pool
-Preclear=Előtisztítás
+Preclear=Előtörlés
 Read only=Csak olvasható
 Reboot=Újraindítás
 Refresh Disks and Configuration=Lemezek és konfiguráció frissítése
@@ -131,9 +130,9 @@ Share Type=Megosztás típusa
 share for=megosztás ehhez:
 Show/Hide Historical Unassigned Devices=Előzményekben szereplő hozzá nem rendelt eszközök megjelenítése/elrejtése
 Show/Hide SMB/NFS/ISO Shares=SMB/NFS/ISO megosztások megjelenítése/elrejtése
-Show/Hide Unassiged Disk Devices=Hozzá nem rendelt lemezes eszközök megjelenítése/elrejtése
+Show/Hide Unassigned Disk Devices=Hozzá nem rendelt lemezes eszközök megjelenítése/elrejtése
 Simple=Egyszerű
-SMB Shares=SMB megosztások
+SMB Shares=SMB-megosztások
 Source=Forrás
 SSD cannot be spun down=Az SSD nem állítható le
 Success=Siker
@@ -144,7 +143,6 @@ This is a way to gather Unraid shares into one Root Share=Ez egy módja annak, h
 This will remove the ISO file share for=Ez eltávolítja az ISO fájlmegosztást ehhez:
 This will remove the=Ez eltávolítja a következőt:
 This will remove the saved configuration of=Ez eltávolítja a mentett konfigurációját a következőnek:
-This will remove the=Ez eltávolítja a következőt:
 Timeout: Failed to get unassigned devices information - check the syslog=Időtúllépés: Nem sikerült lekérni a hozzá nem rendelt eszközök információit - ellenőrizd a rendszernaplót
 to confirm=a megerősítéshez
 to format=a formázáshoz
@@ -155,26 +153,22 @@ Unmount=Lecsatolás
 Unmounting=Lecsatolás...
 Use caution when gathering shares into one Root Share=Légy óvatos, amikor a megosztásokat egyetlen gyökérmegosztásba gyűjtöd össze
 Used=Használt
-User Shares=Felhasználói megosztások
-User Shares without Pools=Felhasználói megosztások poolok nélkül
 User Shares - allow access to User Shares, including Cache and Pool files=Felhasználói megosztások - hozzáférést biztosít a felhasználói megosztásokhoz, beleértve a gyorsítótár és a pool fájljait
 User Shares without Pools - allow access to User Shares, but the Root Share will not include Cache and Pool files=Felhasználói megosztások poolok nélkül - hozzáférést biztosít a felhasználói megosztásokhoz, de a gyökérmegosztás nem tartalmazza a gyorsítótár és a pool fájljait
 Username=Felhasználónév
 View Device Script Log=Eszközszkript naplójának megtekintése
 View ISO File Script Log=ISO fájlszkript naplójának megtekintése
-View NFS Script Log=NFS szkript naplójának megtekintése
-View SMB Script Log=SMB szkript naplójának megtekintése
+View NFS Script Log=NFS-szkript naplójának megtekintése
+View SMB Script Log=SMB-szkript naplójának megtekintése
 WARNING=FIGYELMEZTETÉS
 When you copy files between shares in the Root Share, the files may not end up on the expected disks=Amikor fájlokat másolsz a gyökérmegosztáson belüli megosztások között, előfordulhat, hogy a fájlok nem a várt lemezekre kerülnek
 Working=Folyamatban...
 You can also subject yourself to security issues like ransomware by exposing all your shares in one Root Share=Biztonsági kockázatoknak, például zsarolóvírusoknak is kiteszed magad, ha az összes megosztásodat egyetlen gyökérmegosztásban teszed közzé
 You may need to enter credentials to list the shares=Előfordulhat, hogy meg kell adnod a hitelesítési adatokat a megosztások listázásához
-You must enable NFS in Settings->NFS to mount NFS shares=Az NFS megosztások csatolásához engedélyezned kell az NFS-t a Beállítások -> NFS menüpontban
-You must enable SMB in Settings->SMB to mount SMB shares=Az SMB megosztások csatolásához engedélyezned kell az SMB-t a Beállítások -> SMB menüpontban
 You must enable the Destructive Mode in UD Settings before you can Format this disk=A lemez formázása előtt engedélyezned kell a Romboló módot a UD beállításaiban
 You WILL have problems if you do=Problémáid FOGNAK adódni, ha ezt teszed
 ZFS Pool Name=ZFS pool neve
-ZFS Volume=ZFS kötet
+ZFS Volume=ZFS-kötet
 
 :unassgned_devices_switches_plug:
 > Kapcsold be a **Lemezek** kapcsolót a weboldal lemezes eszközök megjelenítésére való átállításához. Kapcsold ki a **Lemezek** kapcsolót a lemezes eszközök elrejtéséhez.
@@ -201,7 +195,7 @@ ZFS Volume=ZFS kötet
 >
 > Kattints a <i class="fa fa-align-left"></i> ikonra az eszközszkript naplójának megjelenítéséhez. Ez a kifejezetten az eszközszkripthez tartozó napló.
 >
-> Kattints a <i class="fa fa-check"></i> ikonra a fájlrendszer-ellenőrzés elvégzéséhez. A BTRFS és ZFS fájlrendszereket fel kell csatolni a fájlellenőrzés elvégzéséhez. A BTRFS és ZFS fájlrendszereken végzett fájlellenőrzés egy tisztítás (scrub).
+> Kattints a <i class="fa fa-check"></i> ikonra a fájlrendszer-ellenőrzés elvégzéséhez. A BTRFS- és ZFS-fájlrendszereket fel kell csatolni a fájlellenőrzés elvégzéséhez. A BTRFS- és ZFS-fájlrendszereken végzett fájlellenőrzés egy tisztítás (scrub).
 >
 > Kattints a <i class="fa fa-flash"></i> ikonra az eszközszkript futtatásához, mintha forrón csatlakoztatták volna. Ez csak lemezes eszközökre érvényes.
 :end
@@ -228,14 +222,14 @@ ZFS Volume=ZFS kötet
 >
 > + A romboló módnak engedélyezve kell lennie.
 > + A lemez összes partícióját el kell távolítani. Csatold le a lemezt, kattints a <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> ikonra, majd kattints az összes <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> ikonra a partíciók törléséhez.
-> + Ha a lemezt előtisztították és egy szürke 'Formázás' gomb látható, kattints a <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> ikonra, majd kattints a <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> ikonra az előtisztítási állapotfájl törléséhez.
+> + Ha a lemezt előtörölték és egy szürke 'Formázás' gomb látható, kattints a <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> ikonra, majd kattints a <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> ikonra az előtörlési állapotfájl törléséhez.
 >
 > **Megjegyzés: A UD-ban particionált lemez kompatibilis a tömb lemezparticionálásával, és hozzáadható a tömbhöz. A támogatott fájlrendszer-formátumok: XFS, titkosított XFS, BTRFS és titkosított BTRFS.**
 >
 > **Titkosított lemezek:**
 >
 > + Bármely UD-ban formázott titkosított lemez a tömb jelszavát/jelmondatát használja, és beépíthető a tömbbe. Vagy beállíthatsz egy egyedi jelszót is a formázásakor. Ha jelszót állítasz be a lemezen a formázásakor, meg kell adnod a lemez jelszavát a Hozzá nem rendelt eszközök -> Beállítások menüpontban ahhoz a lemezhez.
-> + Bármely lemez, amely nem a tömb jelszavával/jelmondatával lett titkosítva, csatolható a Hozzá nem rendelt eszközök -> Beállítások menüpontban lemezenként beállított jelszó megadásával.
+> + Bármely lemez, amelyet nem a tömb jelszavával/jelmondatával titkosítottak, csatolható a Hozzá nem rendelt eszközök -> Beállítások menüpontban lemezenként beállított jelszó megadásával.
 >
 > **Hozzá nem rendelt eszközök szkriptje:**
 >
