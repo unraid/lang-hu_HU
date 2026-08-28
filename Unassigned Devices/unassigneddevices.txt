@@ -64,7 +64,7 @@ Identification=Azonosítás
 If SMB shares do not show, check your credentials=Ha az SMB-megosztások nem jelennek meg, ellenőrizd a hitelesítési adataidat
 If the IP address of the server shows in the list after searching, your DNS server is not resolving the name=Ha a keresés után a szerver IP-címe jelenik meg a listában, a DNS-szerver nem oldja fel a nevet
 If this disk was pre-cleared, you will remove the pre-clear signature=Ha ez a lemez elő volt törölve, eltávolítod az előtörlési aláírást
-If you add the disk to the array and the pre-clear signature is removed, Unraid will go through the lengthy process of clearing the disk again=Ha hozzáadod a lemezt a tömbhöz, és az előtörlési aláírást eltávolították, az Unraid újra végigmegy a lemez törlésének hosszas folyamatán
+If you add the disk to the array and the pre-clear signature is removed, Unraid will go through the lengthy process of clearing the disk again=Ha hozzáadod a lemezt a tömbhöz, és az Unraid eltávolítja az előtörlési aláírást, újra végigmegy a lemez törlésének hosszas folyamatán
 Invalid Configuration - Remove and Re-add=Érvénytelen konfiguráció - Távolítsd el és add hozzá újra
 is offline=offline
 ISO File is=ISO fájl:
@@ -222,7 +222,7 @@ ZFS Volume=ZFS-kötet
 >
 > + A romboló módnak engedélyezve kell lennie.
 > + A lemez összes partícióját el kell távolítani. Csatold le a lemezt, kattints a <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> ikonra, majd kattints az összes <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> ikonra a partíciók törléséhez.
-> + Ha a lemezt előtörölték és egy szürke 'Formázás' gomb látható, kattints a <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> ikonra, majd kattints a <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> ikonra az előtörlési állapotfájl törléséhez.
+> + Ha a lemez elő volt törölve és egy szürke 'Formázás' gomb látható, kattints a <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> ikonra, majd kattints a <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> ikonra az előtörlési állapotfájl törléséhez.
 >
 > **Megjegyzés: A UD-ban particionált lemez kompatibilis a tömb lemezparticionálásával, és hozzáadható a tömbhöz. A támogatott fájlrendszer-formátumok: XFS, titkosított XFS, BTRFS és titkosított BTRFS.**
 >
