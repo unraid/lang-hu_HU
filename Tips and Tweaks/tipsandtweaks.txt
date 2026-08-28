@@ -27,7 +27,7 @@ If you are experiencing OOM errors, try adjusting the Disk Cache settings on the
 If you configure VLANs on Unraid, you should make Unraid the Master Browser=Ha VLAN-okat konfigurálsz az Unraidben, érdemes az Unraidet megtenni Master Browsernek
 If you dont Unraid may not detect the Master Browser for all network interfaces correctly=Ha nem teszed meg, előfordulhat, hogy az Unraid nem érzékeli megfelelően a Master Browsert az összes hálózati interfészen
 If you have an Intel Processor, it may appear that all CPUs are constantly running at full speed=Ha Intel processzorod van, úgy tűnhet, mintha az összes CPU-mag folyamatosan teljes sebességen futna
-If you set the 'Power Save' CPU Governor, you may see your processors stuck at 800 MHz=Ha az 'Energiatakarékos' CPU skálázási módot állítod be, előfordulhat, hogy a processzorok 800 MHz-en ragadnak
+If you set the Power Save CPU Governor, you may see your processors stuck at 800 MHz=Ha az 'Energiatakarékos' CPU-skálázási módot állítod be, előfordulhat, hogy a processzorok 800 MHz-en ragadnak
 Install the Fix Common Problems plugin and resolve any Unraid configuration problems=Telepítsd a Fix Common Problems plugint, és szüntesd meg az Unraid konfigurációs problémáit
 Intel TurboAMD Performance Boost=Intel Turbo / AMD Performance Boost
 It is recommended that you update Unraid to the latest stable version to get the latest features, bug fixes, and security updates=Javasolt az Unraid frissítése a legújabb stabil verzióra a legújabb funkciók, hibajavítások és biztonsági frissítések eléréséhez
@@ -36,19 +36,19 @@ It is recommended you use the 'Performance' Governor for best performance and po
 Make changes slowly=Lassan, fokozatosan végezz módosításokat
 Make one change at a time and verify if it improves your situation=Egyszerre csak egy módosítást végezz, és ellenőrizd, hogy javít-e a helyzeten
 Making changes here can briefly interrupt your network operation=Az itt végrehajtott módosítások rövid időre megszakíthatják a hálózati működést
-Many plugins are no longer compatible with older Unraid versons=Sok plugin már nem kompatibilis a régebbi Unraid verziókkal
-Max SMB Open Files=Max SMB nyitott fájlok
+Many plugins are no longer compatible with older Unraid versions=Sok plugin már nem kompatibilis a régebbi Unraid verziókkal
+Max SMB Open Files=Max SMB-nyitott fájlok
 Max User Instances=Max felhasználói példányok
 Max User Watches=Max felhasználói figyelések
 NIC Offload=Hálózati kártya tehermentesítés
 NIC Rx Buffer=Hálózati kártya Rx puffer
 NIC Tx Buffer=Hálózati kártya Tx puffer
-Normal CPU Scaling Governor=Normál CPU skálázási mód
+Normal CPU Scaling Governor=Normál CPU-skálázási mód
 Note=Megjegyzés
 Number of syslogs to Archive=Archiválandó rendszernaplók száma
 post=bejegyzés
 Power Saving Settings=Energiatakarékossági beállítások
-Power Saving CPU Scaling Governor=Energiatakarékos CPU skálázási mód
+Power Saving CPU Scaling Governor=Energiatakarékos CPU-skálázási mód
 Processes to kill before Array is Stopped=A tömb leállítása előtt kényszerítetten leállítandó folyamatok
 Put the IP address of your server in the Remote syslog server field=Írd be a szervered IP-címét a Távoli rendszernapló-szerver mezőbe
 Read this=Olvasd el ezt
@@ -66,8 +66,8 @@ There is a very cool feature in Unraid 6 and up that can be used to capture your
 This will identify potential problems to be solved before you upgrade the Unraid OS=Ez azonosítja a lehetséges problémákat, amelyeket meg kell oldani az Unraid OS frissítése előtt
 This will log all your server log enries to the Syslog Server and save the log to an array share=Ez az összes szervernapló-bejegyzést a rendszernapló-szerverre naplózza, és elmenti a naplót egy tömbmegosztásra
 This seems to be occurring more now because of the large amounts of memory being installed in Unraid and the default Disk Cache settings too high=Ez mostanában gyakrabban fordul elő az Unraidbe beszerelt nagy mennyiségű memória és a túl magas alapértelmezett lemez-gyorsítótár beállítások miatt
-Time to set Normal CPU Scaling=Normál CPU skálázás beállításának ideje
-Time to set Power Saving CPU Scaling=Energiatakarékos CPU skálázás beállításának ideje
+Time to set Normal CPU Scaling=Normál CPU-skálázás beállításának ideje
+Time to set Power Saving CPU Scaling=Energiatakarékos CPU-skálázás beállításának ideje
 Time to set TurboPerformance Boost Off=Turbo / Performance Boost kikapcsolásának ideje
 Time to set TurboPerformance Boost On=Turbo / Performance Boost bekapcsolásának ideje
 Tips=Tippek
@@ -86,7 +86,7 @@ You may actually cause more problems than you solve if there are problems with y
 >
 > + A statikus IP-cím használata bizonyos esetekben segíthet. Az NFS-megosztások IP-cím alapján vannak hivatkozva. Ügyelj arra, hogy foglald le az IP-címet a routeren, vagy állíts be egy nagyon magas IP-címet az ütközések elkerülése érdekében.
 > + A Jumbo Frames használata nem javasolt. A Jumbo Frames ismert módon problémákat okozhat egyes Docker-konténereknél.
-> + Ne állítsd a vm.dirty.ratio értéket 20% fölé, hacsak nincs szünetmentes tápegységed (UPS) az Unraidhez. Áramkimaradás esetén elveszítheted azokat az adatokat, amelyek még nem lettek kiírva a lemezre.
+> + Ne állítsd a vm.dirty.ratio értéket 20% fölé, hacsak nincs szünetmentes tápegységed (UPS) az Unraidhez. Áramkimaradás esetén elveszítheted azokat az adatokat, amelyek még nincsenek kiírva a lemezre.
 > + A vm.dirty_background_ratio értéke nem javasolt, hogy meghaladja a vm.dirty_ratio felét, kivéve, ha mindkét értéknél egyjegyű számokat használsz.
 :end
 
@@ -123,12 +123,12 @@ You may actually cause more problems than you solve if there are problems with y
 > Ha nagy mennyiségű RAM-mal rendelkezel, a kisebb érték a jobb.
 > Figyelem: Ne növeld ezeket az értékeket az alapértelmezett beállításokon túlra, hacsak nincs olyan szünetmentes tápegységed (UPS), amely megbízhatóan leállítja az Unraidet.
 >
-> Állítsd be a 'vm.dirty_background_ratio' értékét a teljes RAM memória százalékában.
+> Állítsd be a 'vm.dirty_background_ratio' értékét a teljes RAM százalékában.
 > A legtöbb esetben a 10%-os alapértelmezett beállítás javasolt. Média-streaming vagy játékra használt virtuális gép esetén használj 2%-os értéket. Ha OOM (memóriahiány) hibákat tapasztalsz, javasolt ezt 1%-ra állítani.
 :end
 
 :tips_tweaks_dirty_ratio_plug:
-> Állítsd be a 'vm.dirty_ratio' értékét a teljes RAM memória százalékában.
+> Állítsd be a 'vm.dirty_ratio' értékét a teljes RAM százalékában.
 > Ennek a túl magasra állítása ahhoz vezethet, hogy a Linux leállít egyes folyamatokat, hogy több memóriát nyerjen. A legtöbb esetben a 20%-os alapértelmezett beállítás javasolt. Média-streaming vagy játékra használt virtuális gép esetén használj 3%-os értéket. Ha OOM (memóriahiány) hibákat tapasztalsz, javasolt ezt 2%-ra állítani.
 :end
 
@@ -153,7 +153,7 @@ You may actually cause more problems than you solve if there are problems with y
 :end
 
 :tips_tweaks_max_files_plug:
-> Ezt az értéket a Samba használja a nyitott fájlok maximális számának beállítására az SMB megosztásokban.
+> Ezt az értéket a Samba használja a nyitott fájlok maximális számának beállítására az SMB-megosztásokban.
 >
 > Az alapértelmezett érték 40960, az engedélyezett tartomány pedig 40960 és 65535 között van.
 :end
@@ -171,7 +171,7 @@ You may actually cause more problems than you solve if there are problems with y
 :end
 
 :tips_tweaks_cpu_governor_plug:
-> Válaszd ki a használni kívánt CPU skálázási módot.
+> Válaszd ki a használni kívánt CPU-skálázási módot.
 >
 > + "Power Save" - Alapértelmezett az Intel Pstate illesztőprogramhoz. A CPU frekvenciáját a terhelés alapján skálázza.
 > + "On Demand" - Alapértelmezett az ACPI CPU Freq illesztőprogramhoz. A CPU frekvenciáját a terhelés alapján skálázza. A frekvenciaváltás agresszív.
@@ -180,22 +180,18 @@ You may actually cause more problems than you solve if there are problems with y
 > + "Schedutil" - Az összes CPU frekvenciaskálázását schedutil módra állítja. Ez a CPU frekvenciáját a Linux ütemező alapján állítja be. Megjegyzés: Ez még fejlesztés alatt áll.
 > + "Scheduled" - A kezdési időpontban "Performance" módba állítja a skálázót. A leállítási időpontban "Powersave" vagy "On Demand" módba állítja a használt illesztőprogramtól függően.
 >
-> A CPU skálázási módot mostantól az rc.tweaks szkripttel is beállíthatod. Használd a következő parancsot:
+> A CPU-skálázási módot mostantól az rc.tweaks szkripttel is beállíthatod. Használd a következő parancsot:
 > /usr/local/sbin/rc.tweaks set_governor 'governor'
 > A 'governor' opciók: 'ondemand', 'performance', 'powersave', 'conservative' és 'schedutil'.
 :end
 
 :tips_tweaks_power_save_cpu_governor_plug:
-> Válaszd ki a használni kívánt energiatakarékos CPU skálázási módot.
+> Válaszd ki a használni kívánt energiatakarékos CPU-skálázási módot.
 >
 > + "Power Save" - A CPU frekvenciáját a terhelés alapján skálázza.
 > + "On Demand" - Alapértelmezett az ACPI CPU Freq illesztőprogramhoz. A CPU frekvenciáját a terhelés alapján skálázza. A frekvenciaváltás agresszív.
 > + "Conservative" - A CPU frekvenciáját a terhelés alapján skálázza. A frekvenciaváltás finomabb. Némi késleltetést okozhat.
 > + "Schedutil" - Az összes CPU frekvenciaskálázását schedutil módra állítja. Ez a CPU frekvenciáját a Linux ütemező alapján állítja be. Megjegyzés: Ez még fejlesztés alatt áll.
-:end
-
-:tips_tweak_turbo_plug:
-> Állítsd 'Igen' értékre az Intel Turbo vagy AMD Performance Boost mód engedélyezéséhez.
 :end
 
 :tips_tweaks_scheduled_plug:
