@@ -1,14 +1,14 @@
 ;
 ; Help
 ;
-:file_activity_loggging_plug:
+:file_activity_logging_plug:
 > Fájlaktivitás-figyelés:
 >
 > A tömbön futó fájlmegnyitási, -olvasási, -írási és -módosítási tevékenységeket az inotify segítségével figyeli és naplózza a rendszer, majd megjeleníti lemezek, megosztások, hozzá nem rendelt eszközök és a gyorsítótár szerint.
 > A lemezaktivitás naplózásához el kell indítanod a fájlaktivitás-figyelést.
 > A fájlaktivitás-figyelőt rövid idejű használatra tervezték, hogy ellenőrizhesd a lemezek terhelését.
 > A nagy fájlforgalmú szerverek gyorsan megtölthetik a naplótárhelyet.
-> Az 'appdata' és 'Syslogs' könyvtárak automatikusan ki vannak zárva.
+> Az 'appdata', 'docker', 'syslogs' és 'system' könyvtárak (kis- és nagybetűre nem érzékenyen) automatikusan ki vannak zárva.
 >
 > Megjegyzés: A fájlaktivitás-figyelés leáll, ha a tömböt leállítod, és a tömb elindításakor automatikusan újraindul, ha engedélyezve van.
 :end
@@ -22,7 +22,7 @@
 :end
 
 :file_activity_enable_cache_plug:
-> Állítsd **Igen** értékre a fájlaktivitás-figyelés engedélyezéséhez a gyorsítótár- és pool-lemezeknél. A pool-lemezek támogatása az Unraid 6.9-es verziójától érvényes.
+> Állítsd **Igen** értékre a fájlaktivitás-figyelés engedélyezéséhez a gyorsítótár- és pool-lemezeknél.
 :end
 
 :file_activity_display_events_plug:
