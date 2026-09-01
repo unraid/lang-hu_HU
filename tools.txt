@@ -7,7 +7,7 @@ Anonymize diagnostics=Diagnosztika névtelenítése
 Anytime=Bármikor
 Archived Notifications=Archivált értesítések
 Are you sure=Biztos vagy benne?
-Array has been Reset=A tömb **alaphelyzetbe lett állítva**
+Array has been Reset=**Alaphelyzetbe állítottuk** a tömböt
 Array must be Started to change permissions=A tömbnek **Elindítva** állapotban kell lennie a jogosultságok módosításához
 Array must be Stopped to change=A tömbnek **Leállítva** állapotban kell lennie a módosításhoz
 Array slots=Tömb-helyek
@@ -23,7 +23,7 @@ Check for Updates=Frissítések keresése
 click Install Key=kattints a <i>Kulcs telepítése</i> gombra
 collecting diagnostic information this may take several minutes=diagnosztikai információk gyűjtése (ez több percig is eltarthat)
 Component=Komponens
-Credits=Közreműködők
+Credits=Készítők
 Data slots=Adatlemez-helyek
 Delete all notifications=Összes értesítés törlése
 Delete notification=Értesítés törlése
@@ -82,7 +82,7 @@ Registered GUID=Regisztrált GUID
 Registered on=Regisztrálva ekkor:
 Registered to=Regisztrálva a következő számára:
 registering USB Flash GUID=USB Flash GUID regisztrálása
-Release has been withdrawn=A kiadás vissza lett vonva
+Release has been withdrawn=Visszavontuk a kiadást
 Remove the installed language=A telepített nyelv eltávolítása
 Replaceable=Cserélhető
 Request Extension=Hosszabbítás kérése
@@ -98,13 +98,13 @@ Subject=Tárgy
 System Devices=Rendszereszközök
 System Update Check=Rendszerfrissítés ellenőrzése
 Text=Szöveg
-Thank you for choosing Unraid OS=Köszönjük, hogy az Unraid OS-t választottad
+Thank you for choosing Unraid OS=Köszönjük, hogy az Unraid OS-t választottad!
 Thank you for registering USB Flash GUID=Köszönjük, hogy regisztráltad az USB Flash GUID-odat
 Thank you for trying Unraid OS=Köszönjük, hogy kipróbáltad az Unraid OS-t
 The registered GUID does not match the USB Flash boot device GUID=A regisztrált GUID nem egyezik az USB Flash indítóeszköz GUID-jával
-There is a physical problem accessing your USB Flash boot device=Fizikai probléma lépett fel az USB Flash indítóeszköz elérésekor
+There is a physical problem accessing your USB Flash boot device=Fizikai probléma lépett fel az USB Flash indítóeszközöd elérésekor
 this may take several minutes=ez több percig is eltarthat
-This release has been withdrawn for use with Trial keys=Ez a kiadás vissza lett vonva a Próba (Trial) kulcsokkal való használatra
+This release has been withdrawn for use with Trial keys=Visszavontuk ezt a kiadást a Próba (Trial) kulcsokkal való használatra
 This server has %s attached storage device=Ehhez a szerverhez %s csatlakoztatott tárolóeszköz tartozik
 This server has %s attached storage devices=Ehhez a szerverhez %s csatlakoztatott tárolóeszköz tartozik
 This utility is used for troubleshooting purposes=Ez a segédprogram hibaelhárítási célokra szolgál
@@ -114,7 +114,7 @@ Time=Idő
 To install a registration key, paste the key file URL in the box below and click Install Key=Regisztrációs kulcs telepítéséhez illeszd be a kulcsfájl URL-jét az alábbi mezőbe, majd kattints a **Kulcs telepítése** gombra
 to select your language=a nyelv kiválasztásához
 Trial key expires on=A Próbakulcs lejárati ideje:
-Trial=Próba
+Trial=Próba (Trial)
 Update OS=Operációs rendszer frissítése
 Upgrade Key=Kulcs frissítése
 Uploaded=Feltöltve
@@ -132,15 +132,15 @@ webGUI=webGUI
 When received, please paste the URL into the Key file URL box and=Amikor megkaptad, illeszd be az URL-t a Kulcsfájl URL-címe mezőbe, és
 Wrong File Extension=Hibás fájlkiterjesztés
 You havent sent Limetech your hardware profile yet=Még nem küldted el a Limetechnek a hardverprofilodat
-Your hardware profile was last submitted on=A hardverprofilod utoljára ekkor lett elküldve:
+Your hardware profile was last submitted on=A hardverprofilodat utoljára ekkor küldted el:
 Your Trial key has expired=A Próbakulcsod lejárt
-Your Trial key requires an internet connection=A Próbakulcsodhoz internetkapcsolat szükséges
+Your Trial key requires an internet connection=A Próbakulcsodhoz (Trial) internetkapcsolat szükséges
 
 ; Sysdevs text - added May 18, 2020
 A reboot is required to apply changes=A változások alkalmazásához újraindítás szükséges
 ALERT=RIASZTÁS
 Bind selected to VFIO at Boot=Kiválasztottak kötése a VFIO-hoz indításkor
-CPU Thread Pairings=CPU szálpárosítások
+CPU Thread Pairings=CPU-szálpárosítások
 Changes saved=Módosítások elmentve
 Function Level Reset FLR supported=Funkciószintű visszaállítás (FLR) támogatott
 In use by Unraid=Az Unraid használatában
@@ -291,7 +291,7 @@ Ha le szeretnéd cserélni a Regisztrációs kulcsodat egy új, ehhez az USB Fla
 :registration_9_plug:
 Ez az USB Flash indítóeszköz *feketelistára került*. Ez akkor fordulhat elő, ha a Regisztrációs kulcsodat átviszed egy csere USB Flash eszközre, és jelenleg a régi USB Flash eszközről indítottad el a rendszert.
 
-Egy USB Flash eszköz akkor is *feketelistára kerülhet*, ha nincs sorozatszáma, vagy ha azt tapasztaljuk, hogy a sorozatszám nem egyedi (ez gyakori az USB kártyaolvasóknál).
+Egy USB Flash eszköz akkor is *feketelistára kerülhet*, ha nincs sorozatszáma, vagy ha azt tapasztaljuk, hogy a sorozatszám nem egyedi (ez gyakori az USB-kártyaolvasóknál).
 
 További információért fordulj a [Támogatáshoz](https://lime-technology.com/contact).
 :end
@@ -300,7 +300,7 @@ Alert Message=Riasztási üzenet
 Alerts=Riasztások
 All Categories=Összes kategória
 Clear Log=Napló törlése
-Creating Flash backup=Flash biztonsági mentés létrehozása...
+Creating Flash backup=Flash biztonsági mentés készítése...
 Creation error=Létrehozási hiba
 Delete Modprobe config=Modprobe konfiguráció törlése
 Deprecated Only=Csak elavultak
